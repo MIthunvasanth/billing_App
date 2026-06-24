@@ -15,14 +15,15 @@ class ContextManager:
     Call initialize() before use and close() on shutdown.
     """
 
-    def __init__(self, settings: Settings) -> None:
+    def __init__(self, settings: Settings, connection_string: str | None = None) -> None:
         self._settings = settings
+        self._connection_string = connection_string or settings.POSTGRES_CONNECTION_STRING
         self._postgres: PostgresProvider | None = None
 
     async def initialize(self) -> None:
         """Create the database engine and session factory. Call once at startup."""
         self._postgres = PostgresProvider(
-            connection_string=self._settings.POSTGRES_CONNECTION_STRING,
+            connection_string=self._connection_string,
             connection_settings={
                 "pool_size": 5,
                 "max_overflow": 10,

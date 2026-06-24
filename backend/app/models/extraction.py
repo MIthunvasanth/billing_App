@@ -104,3 +104,10 @@ class FlaggedRecord(BaseModel):
     severity: Severity = Field(
         description='Severity: "low", "medium", or "high" — see docs/domain.md flagging rules.',
     )
+
+
+class ExtractionOutput(BaseModel):
+    """Structured output returned by the extraction agent."""
+
+    records: list[BillingRecord] = []
+    flagged: list[FlaggedRecord] = []

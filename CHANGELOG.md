@@ -4,6 +4,42 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-24] — Implement extraction pipeline (PDF parsing, agent, tools, service)
+
+### Added
+- `backend/pyproject.toml` — added `pdfplumber>=0.11.0`
+- `backend/app/ai/prompts/templates/extraction/system.j2` — detailed system prompt: document types (ledger, imaging, pharmacy), extraction rules (CPT/HCPCS codes, provider vs custodian, insurers vs third_parties, TP Paid / PT Paid columns, null vs 0.0), flagging rules (severity tiers, over-flagging note), workflow instructions
+- `backend/app/ai/prompts/templates/extraction/user.j2` — user prompt template; renders doc_id, page count, per-page 300-char previews; instructs agent to call get_document_info() then read_page() on relevant pages
+- `backend/app/ai/agents/extraction/executor.py` — `ExtractionAgentExecutor`: renders user.j2, calls `Runner.run` with max_turns=25, returns `(ExtractionOutput, usage)`
+
+### Changed
+- `backend/app/ai/tools.py` — added `read_page(ctx, page_num)` (1-indexed, validates range, returns page text or error string) and `get_document_info(ctx)` (page count + 150-char previews of all pages)
+- `backend/app/models/extraction.py` — added `ExtractionOutput(records: list[BillingRecord], flagged: list[FlaggedRecord])`
+- `backend/app/ai/agents/factory.py` — added `build_extraction_agent()`: model=gpt-4o-mini, output_type=ExtractionOutput, tools=[read_page, get_document_info], instructions from extraction/system.j2
+- `backend/app/service/extraction_service.py` — full `process_job(job_id, user_id)` implementation: fetches job with SET LOCAL identity, parses PDF with pdfplumber, builds RunContext, runs ExtractionAgentExecutor, computes token_usage + cost_usd (gpt-4o-mini pricing) + processing_duration_seconds, writes completed/failed status; never raises — inner except writes failure to job row
+
+Files touched: `backend/pyproject.toml`, `backend/app/ai/prompts/templates/extraction/system.j2`, `backend/app/ai/prompts/templates/extraction/user.j2`, `backend/app/ai/tools.py`, `backend/app/models/extraction.py`, `backend/app/ai/agents/factory.py`, `backend/app/ai/agents/extraction/executor.py`, `backend/app/service/extraction_service.py`, `CHANGELOG.md`
+
+---
+
+## [2026-06-24] — Implement worker loop with dual-connection RLS architecture
+
+### Added / Changed
+- `backend/app/config/settings.py` — added `APP_DB_CONNECTION_STRING: str = ""` (billing_app role, RLS-subject; falls back to admin conn if empty)
+- `backend/app/core/context_manager.py` — added optional `connection_string` param to `__init__`; `initialize()` now uses `self._connection_string` instead of hardcoded `settings.POSTGRES_CONNECTION_STRING`; defaults to admin conn if param is None or empty
+- `backend/app/worker/loop.py` — full implementation replacing stubbed sleep loop:
+  - Two `ContextManager` instances: `admin_cm` (billing role, bypasses RLS) and `app_cm` (billing_app role, subject to RLS)
+  - `JobDAO(admin_cm)` for `claim_next_job` and `recover_stalled` — these must see all users' jobs
+  - `ExtractionService(app_cm)` for result writes — uses SET LOCAL identity per job owner
+  - Stall recovery on startup (`iteration == 0`) and every 12 iterations (~60s at 5s poll); logs count when > 0
+  - Claim loop: admin session → `claim_next_job` → if claimed, `extraction_service.process_job(job_id, user_id)`; if empty, sleep
+  - Outer `except Exception` catches all errors, logs `worker_loop_error`, sleeps before retrying
+- `backend/app/service/extraction_service.py` — updated `process_job` signature to `(self, job_id: str, user_id: str) -> None`; added docstring explaining SET LOCAL requirement for RLS isolation
+
+Files touched: `backend/app/config/settings.py`, `backend/app/core/context_manager.py`, `backend/app/worker/loop.py`, `backend/app/service/extraction_service.py`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-24] — Implement /jobs API routes (all stubs → real endpoints)
 
 ### Changed

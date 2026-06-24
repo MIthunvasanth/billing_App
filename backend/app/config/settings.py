@@ -8,6 +8,7 @@ class Settings(BaseSettings):
 
     # Postgres
     POSTGRES_CONNECTION_STRING: str
+    APP_DB_CONNECTION_STRING: str = ""  # billing_app role, subject to RLS; falls back to admin conn if empty
 
     # App
     PDF_MOUNT_PATH: str = "/app/pdfs"

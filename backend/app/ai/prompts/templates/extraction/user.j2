@@ -1,0 +1,16 @@
+Document ID: {{ doc_id }}
+Total pages: {{ total_pages }}
+
+Page previews (first 300 characters per page):
+{% for p in page_summaries %}
+--- Page {{ p.page_num }} ---
+{{ p.preview }}
+{% endfor %}
+
+---
+
+Instructions:
+1. Call get_document_info() to confirm page count and identify which pages contain billing tables, ledgers, or pharmacy records.
+2. Call read_page(page_num) for each page that looks like a summary page, billing ledger, or pharmacy record. Prefer summary pages over itemized detail pages.
+3. Extract all billing records following the system instructions.
+4. Return your final structured output with records[] and flagged[].
