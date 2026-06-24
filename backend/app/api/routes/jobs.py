@@ -1,4 +1,6 @@
-from fastapi import APIRouter, Depends, UploadFile, File
+import hashlib
+
+from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, Request, UploadFile
 
 from app.api.dependencies.container import get_container
 from app.api.schema import SuccessResponse
@@ -6,67 +8,88 @@ from app.service.container import ServiceContainer
 
 router = APIRouter()
 
+_VALID_STATUSES = frozenset({"pending", "processing", "completed", "failed", "cancelled"})
 
-@router.post("/")
+
+# TODO: replace with real Better Auth JWT/session validation (M1).
+# For now reads X-User-Id header directly — no signature verification.
+# Every route that requires auth depends on this function.
+async def get_current_user_id(request: Request) -> str:
+    user_id = request.headers.get("X-User-Id")
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Missing X-User-Id header")
+    return user_id
+
+
+@router.post("/", status_code=201)
 async def create_job(
     file: UploadFile = File(...),
+    bypass_cache: bool = Form(False),
+    user_id: str = Depends(get_current_user_id),
     container: ServiceContainer = Depends(get_container),
 ) -> SuccessResponse:
-    """Upload a PDF and create a new extraction job.
-
-    Saves the uploaded PDF to the configured mount volume and enqueues
-    a job for the worker. Returns the created job including job_id and
-    initial status.
-    """
-    raise NotImplementedError
+    """Upload a PDF and create a new extraction job."""
+    pdf_bytes = await file.read()
+    # When bypass_cache=True pass content_hash=None so the service skips cache lookup.
+    # TODO (M3): wire bypass_cache through to the cache check in JobService.create_job.
+    content_hash = None if bypass_cache else hashlib.sha256(pdf_bytes).hexdigest()
+    job = await container.job_service.create_job(
+        user_id=user_id,
+        pdf_filename=file.filename or "upload.pdf",
+        pdf_bytes=pdf_bytes,
+        content_hash=content_hash,
+    )
+    return SuccessResponse(message="Job created", data=job)
 
 
 @router.get("/")
 async def list_jobs(
-    status: str | None = None,
+    status: str | None = Query(None),
+    user_id: str = Depends(get_current_user_id),
     container: ServiceContainer = Depends(get_container),
 ) -> SuccessResponse:
-    """List all jobs, optionally filtered by status.
+    """List the caller's jobs, optionally filtered by status."""
+    if status is not None and status not in _VALID_STATUSES:
+        raise HTTPException(
+            status_code=422,
+            detail=f"Invalid status '{status}'. Must be one of: {sorted(_VALID_STATUSES)}",
+        )
+    jobs = await container.job_service.list_jobs(user_id=user_id, status=status)
+    return SuccessResponse(message="Jobs retrieved", data=jobs)
 
-    Valid status values: pending, processing, completed, failed, cancelled.
-    Returns jobs ordered by created_at descending.
-    """
-    raise NotImplementedError
 
-
+# NOTE: /active must be defined before /{job_id} so FastAPI matches the literal
+# path before the parameterised one.
 @router.get("/active")
-async def get_active_job(
+async def get_active_jobs(
+    user_id: str = Depends(get_current_user_id),
     container: ServiceContainer = Depends(get_container),
 ) -> SuccessResponse:
-    """Return the job currently being processed by the worker.
-
-    Returns null if no job is currently processing.
-    Must reflect live state on every call — do not cache.
-    """
-    raise NotImplementedError
+    """Return all jobs currently being processed. Never cached."""
+    jobs = await container.job_service.get_active_jobs(user_id=user_id)
+    return SuccessResponse(message="Active jobs retrieved", data=jobs)
 
 
 @router.get("/{job_id}")
 async def get_job(
     job_id: str,
+    user_id: str = Depends(get_current_user_id),
     container: ServiceContainer = Depends(get_container),
 ) -> SuccessResponse:
-    """Return full detail for a single job.
+    """Return full detail for a single job owned by the caller.
 
-    Includes extraction result if completed, error detail if failed.
-    Returns 404 if the job does not exist.
+    A job owned by another user is indistinguishable from a non-existent job (404).
     """
-    raise NotImplementedError
+    job = await container.job_service.get_job(user_id=user_id, job_id=job_id)
+    return SuccessResponse(message="Job retrieved", data=job)
 
 
 @router.delete("/{job_id}")
 async def cancel_job(
     job_id: str,
+    user_id: str = Depends(get_current_user_id),
     container: ServiceContainer = Depends(get_container),
 ) -> SuccessResponse:
-    """Cancel a pending job before it is picked up by the worker.
-
-    Returns 409 if the job is already processing, completed, or failed.
-    Returns 404 if the job does not exist.
-    """
-    raise NotImplementedError
+    """Cancel a pending job. Returns 409 if already processing/completed/failed."""
+    job = await container.job_service.cancel_job(user_id=user_id, job_id=job_id)
+    return SuccessResponse(message="Job cancelled", data=job)

@@ -4,6 +4,37 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-24] — Implement /jobs API routes (all stubs → real endpoints)
+
+### Changed
+- `backend/app/api/routes/jobs.py` — replaced all `NotImplementedError` stubs:
+  - `get_current_user_id(request)` — placeholder auth dependency; reads `X-User-Id` header, raises 401 if missing; TODO comment marks M1 replacement point
+  - `POST /jobs` (201): reads `UploadFile` bytes, computes SHA-256; passes `content_hash=None` when `bypass_cache=True`; delegates to `job_service.create_job`
+  - `GET /jobs`: optional `?status=` query param; validates against `_VALID_STATUSES` frozenset, raises 422 on invalid; delegates to `job_service.list_jobs`
+  - `GET /jobs/active`: defined before `/{job_id}` so FastAPI matches literal path first; delegates to `job_service.get_active_jobs`
+  - `GET /jobs/{job_id}`: delegates to `job_service.get_job`; `JobNotFoundException` propagates to main.py handler → 404
+  - `DELETE /jobs/{job_id}`: delegates to `job_service.cancel_job`; `JobNotFoundException` → 404, `JobNotCancellableException` → 409 via main.py handler
+
+Files touched: `backend/app/api/routes/jobs.py`, `CHANGELOG.md`
+
+---
+
+## [2026-06-24] — Implement JobService (all stubs → real async code)
+
+### Changed
+- `backend/app/service/job_service.py` — replaced all `NotImplementedError` stubs:
+  - `__init__`: added `get_settings()` call to access `PDF_MOUNT_PATH`
+  - `_set_user_identity(session, user_id)`: new helper; runs `SET LOCAL app.current_user_id = :uid` before every DAO call so RLS policies fire correctly
+  - `create_job(user_id, pdf_filename, pdf_bytes, content_hash)`: generates uuid4 filename, writes PDF to `PDF_MOUNT_PATH` via `asyncio.to_thread` (outside DB transaction), then inserts job row; TODO comment marks M3 cache-check location
+  - `get_job(user_id, job_id)`: sets identity, calls DAO get, raises `JobNotFoundException` if None (RLS makes another user's job indistinguishable from not-found)
+  - `list_jobs(user_id, status)`: sets identity, delegates to DAO list; RLS scopes result automatically
+  - `get_active_jobs(user_id)`: sets identity, delegates to DAO get_active
+  - `cancel_job(user_id, job_id)`: sets identity, calls DAO cancel; if None, re-fetches within same session to distinguish 404 (not found) vs 409 (wrong status); raises `JobNotFoundException` or `JobNotCancellableException` accordingly
+
+Files touched: `backend/app/service/job_service.py`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-24] — Implement JobDAO (all stubs → real SQLAlchemy 2.0 async code)
 
 ### Changed
