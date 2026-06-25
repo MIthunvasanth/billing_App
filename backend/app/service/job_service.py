@@ -27,7 +27,7 @@ class JobService(BaseService):
     async def _set_user_identity(self, session: AsyncSession, user_id: str) -> None:
         """Propagate caller identity into the DB session so RLS policies can act on it."""
         await session.execute(
-            text("SET LOCAL app.current_user_id = :uid"),
+            text("SELECT set_config('app.current_user_id', :uid, true)"),
             {"uid": str(user_id)},
         )
 

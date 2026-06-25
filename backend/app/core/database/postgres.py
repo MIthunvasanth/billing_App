@@ -25,6 +25,7 @@ class PostgresProvider(BaseDatabaseProvider):
         if self._engine is None:
             self._engine = create_async_engine(
                 self.connection_string,
+                connect_args={"server_settings": {"search_path": "public"}},
                 **self.connection_settings,
             )
             self._sessionmaker = async_sessionmaker(

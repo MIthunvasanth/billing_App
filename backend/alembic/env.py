@@ -3,7 +3,9 @@ import os
 from logging.config import fileConfig
 
 from alembic import context
+from sqlalchemy import Connection
 from sqlalchemy.ext.asyncio import create_async_engine
+from sqlalchemy.pool import NullPool
 
 from app.dao.models.base import Base
 from app.dao.models.job import Job  # noqa: F401 — ensures Job is registered on Base.metadata
@@ -37,20 +39,18 @@ def run_migrations_offline() -> None:
         context.run_migrations()
 
 
+def _do_run_migrations(connection: Connection) -> None:
+    context.configure(connection=connection, target_metadata=target_metadata)
+    with context.begin_transaction():
+        context.run_migrations()
+
+
 async def run_migrations_online() -> None:
     """Run migrations against a live database connection."""
-    connectable = create_async_engine(get_url())
+    connectable = create_async_engine(get_url(), poolclass=NullPool)
 
     async with connectable.connect() as connection:
-        await connection.run_sync(
-            lambda sync_conn: context.configure(
-                connection=sync_conn,
-                target_metadata=target_metadata,
-            )
-        )
-        await connection.run_sync(
-            lambda sync_conn: context.run_migrations()
-        )
+        await connection.run_sync(_do_run_migrations)
 
     await connectable.dispose()
 

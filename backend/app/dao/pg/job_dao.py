@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import uuid
 from decimal import Decimal
 from typing import Any
@@ -5,7 +7,6 @@ from typing import Any
 import sqlalchemy as sa
 from sqlalchemy import select, text, update
 from sqlalchemy.ext.asyncio import AsyncSession
-from __future__ import annotations
 
 from app.core.context_manager import ContextManager
 from app.dao.base_pg_dao import BasePgDAO

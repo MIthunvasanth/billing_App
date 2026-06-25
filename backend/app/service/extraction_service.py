@@ -44,7 +44,7 @@ class ExtractionService(BaseService):
         # Fetch job to get pdf_path — set identity so RLS allows the read
         async with self.context_manager.session() as session:
             await session.execute(
-                text("SET LOCAL app.current_user_id = :uid"), {"uid": user_id}
+                text("SELECT set_config('app.current_user_id', :uid, true)"), {"uid": user_id}
             )
             job = await self.job_dao.get(session, job_id)
 
@@ -85,7 +85,7 @@ class ExtractionService(BaseService):
 
             async with self.context_manager.session() as session:
                 await session.execute(
-                    text("SET LOCAL app.current_user_id = :uid"), {"uid": user_id}
+                    text("SELECT set_config('app.current_user_id', :uid, true)"), {"uid": user_id}
                 )
                 await self.job_dao.update_status(
                     session,
@@ -112,7 +112,7 @@ class ExtractionService(BaseService):
             try:
                 async with self.context_manager.session() as session:
                     await session.execute(
-                        text("SET LOCAL app.current_user_id = :uid"), {"uid": user_id}
+                        text("SELECT set_config('app.current_user_id', :uid, true)"), {"uid": user_id}
                     )
                     await self.job_dao.update_status(
                         session,
