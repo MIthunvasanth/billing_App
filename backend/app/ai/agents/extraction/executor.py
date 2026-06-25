@@ -32,7 +32,7 @@ class ExtractionAgentExecutor:
         Returns:
             Tuple of structured extraction output and SDK usage object.
         """
-        user_text = await ctx.prompt_loader.render(
+        user_text =  ctx.prompt_loader.render(
             "extraction/user.j2",
             {
                 "doc_id": ctx.document.doc_id,

@@ -1,7 +1,8 @@
 import hashlib
 
-from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, Request, UploadFile
+from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile
 
+from app.api.dependencies.auth import get_current_user_id
 from app.api.dependencies.container import get_container
 from app.api.schema import SuccessResponse
 from app.service.container import ServiceContainer
@@ -9,16 +10,6 @@ from app.service.container import ServiceContainer
 router = APIRouter()
 
 _VALID_STATUSES = frozenset({"pending", "processing", "completed", "failed", "cancelled"})
-
-
-# TODO: replace with real Better Auth JWT/session validation (M1).
-# For now reads X-User-Id header directly — no signature verification.
-# Every route that requires auth depends on this function.
-async def get_current_user_id(request: Request) -> str:
-    user_id = request.headers.get("X-User-Id")
-    if not user_id:
-        raise HTTPException(status_code=401, detail="Missing X-User-Id header")
-    return user_id
 
 
 @router.post("/", status_code=201)
