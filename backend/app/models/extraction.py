@@ -111,3 +111,21 @@ class ExtractionOutput(BaseModel):
 
     records: list[BillingRecord] = []
     flagged: list[FlaggedRecord] = []
+
+
+class PageClassification(BaseModel):
+    """Output of the page classifier — identifies which pages are summary ledgers."""
+
+    has_summary: bool = Field(
+        description=(
+            "True if at least one page appears to be a summary billing ledger "
+            "listing multiple records in a table. False if all pages are detail/itemized."
+        )
+    )
+    summary_pages: list[int] = Field(
+        default_factory=list,
+        description=(
+            "1-indexed page numbers that are summary/ledger pages. "
+            "Empty list if has_summary is False."
+        ),
+    )

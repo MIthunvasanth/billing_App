@@ -66,9 +66,9 @@ Flagging behavior:
 
 ## WORKFLOW
 
-1. Call `get_document_info()` first to see page count and previews.
-2. Identify pages that look like summary ledgers, billing tables, or pharmacy records.
-3. Call `read_page(page_num)` for each relevant page to get its full text.
+1. Read all pages provided in the user message.
+2. Identify pages containing billing tables, ledgers, pharmacy records, or summary pages.
+3. Prefer summary pages over itemized detail pages when both exist.
 4. Extract all billing records following the rules above.
 5. Return structured output with `records` and `flagged` arrays.
 

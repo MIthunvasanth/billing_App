@@ -30,7 +30,7 @@ class PromptLoader:
             keep_trailing_newline=True,
         )
 
-    async def render(self, key: str, variables: dict) -> str:
+    def render(self, key: str, variables: dict) -> str:
         """Render a template by key with the given variables.
 
         Args:

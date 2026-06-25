@@ -43,7 +43,7 @@ class EchoAgentExecutor:
         Returns:
             Fully rendered user prompt string.
         """
-        return await ctx.prompt_loader.render(
+        return ctx.prompt_loader.render(
             ECHO_AGENT_CONFIG.input_key,
             {
                 "doc_id": ctx.document.doc_id,

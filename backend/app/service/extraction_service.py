@@ -64,7 +64,7 @@ class ExtractionService(BaseService):
             ctx = RunContext(document=doc, prompt_loader=PromptLoader())
 
             agent = AgentFactory.build_extraction_agent()
-            executor = ExtractionAgentExecutor(agent, max_turns=25)
+            executor = ExtractionAgentExecutor(agent, max_turns=100)
             extraction_output, usage = await executor.run(ctx)
 
             duration = time.monotonic() - start
