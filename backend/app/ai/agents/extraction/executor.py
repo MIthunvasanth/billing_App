@@ -9,7 +9,7 @@ from app.ai.agents.factory import AgentFactory
 from app.ai.context import RunContext
 from app.ai.types import Page
 from app.core.common.logger import get_logger
-from app.models.extraction import ExtractionOutput, FlaggedRecord, PageClassification
+from app.models.extraction import BillingRecord, ExtractionOutput, FlaggedRecord, PageClassification
 
 _CHARS_PER_TOKEN = 4
 _TARGET_TOKENS_PER_CHUNK = 60_000
@@ -17,6 +17,40 @@ _TARGET_CHARS_PER_CHUNK = _TARGET_TOKENS_PER_CHUNK * _CHARS_PER_TOKEN
 
 # Characters of each page sent to the classifier (enough to judge row density)
 _CLASSIFIER_PREVIEW_CHARS = 800
+
+
+def _fix_payments_balance(record: BillingRecord) -> BillingRecord:
+    """Deterministically correct the payments/balance column swap.
+
+    Medical billing ledgers commonly have one patient-amount column that
+    models map to `payments`, but which is actually the remaining balance.
+    Rule: if total_charges - ins_paid - adjustment == payments (within 2 cents)
+    and balance is 0.0, the column is the balance, not a received payment.
+    Also normalises explicit 0.0 payments to null (empty column artefact).
+    """
+    tc = record.total_charges
+    ip = record.ins_paid
+    adj = record.adjustment
+
+    if tc is None or ip is None or adj is None:
+        return record
+
+    expected = round(tc - ip - adj, 2)
+
+    # payments holds the balance value → swap
+    if (
+        record.payments is not None
+        and record.balance is not None
+        and abs(record.payments - expected) < 0.02
+        and abs(record.balance) < 0.02
+    ):
+        return record.model_copy(update={"balance": record.payments, "payments": None})
+
+    # payments is explicit 0.0 but expected balance is also ~0.0 → null (empty column)
+    if record.payments == 0.0 and abs(expected) < 0.02:
+        return record.model_copy(update={"payments": None})
+
+    return record
 
 
 def _build_chunks(pages: list[Page]) -> list[list[Page]]:
@@ -182,7 +216,7 @@ class ExtractionAgentExecutor:
                 if flag.row is not None:
                     flag = flag.model_copy(update={"row": flag.row + record_offset})
                 all_flagged.append(flag)
-            all_records.extend(chunk_output.records)
+            all_records.extend(_fix_payments_balance(r) for r in chunk_output.records)
             total_input += inp
             total_output += out
 

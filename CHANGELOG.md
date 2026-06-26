@@ -4,11 +4,20 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
-## [2026-06-26] — Fix treatment_date range + payments/balance math rule
+## [2026-06-26] — Add extraction pipeline documentation
+
+### Added
+- `docs/extraction-pipeline.md` — end-to-end walkthrough of extraction pipeline: upload → worker claim → PDF parse → page classification → parallel chunked extraction → post-processing → DB write → client poll. Covers each step's purpose and design rationale. Includes Step 3b: cross-page record handling — documents the chunk boundary split risk, current mitigation (240k char budget keeps most docs in one chunk), and the future 1-page overlap + dedup fix.
+
+Files touched: `docs/extraction-pipeline.md`, `CHANGELOG.md`
+
+---
+
+## [2026-06-26] — Fix treatment_date range + deterministic payments/balance correction
 
 ### Fixed
 - `backend/app/ai/prompts/templates/extraction/system.j2` — `treatment_date`: medical billing ledgers now extract start date only (not full range). Imaging/pharmacy records still use full range format.
-- `backend/app/ai/prompts/templates/extraction/system.j2` — `payments`/`balance` disambiguation: added 4-step explicit rule — compute `expected = total_charges - ins_paid - adjustment`; if any column matches, it's `balance`; only use `payments` for a separate confirmed received-payment column; default is `balance = computed`, `payments = null`.
+- `backend/app/ai/agents/extraction/executor.py` — Added `_fix_payments_balance()` post-processor applied after chunk merge. Computes `expected = total_charges - ins_paid - adjustment`; if `payments ≈ expected` and `balance ≈ 0.0`, swaps them (`balance = payments`, `payments = null`). Also normalises explicit `payments = 0.0` to `null` when expected balance is ~0.0 (empty column artefact). Deterministic — no model involvement.
 
 Files touched: `backend/app/ai/prompts/templates/extraction/system.j2`, `CHANGELOG.md`
 
