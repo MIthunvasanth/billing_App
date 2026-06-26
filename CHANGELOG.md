@@ -4,6 +4,87 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-26] — Fix treatment_date range + payments/balance math rule
+
+### Fixed
+- `backend/app/ai/prompts/templates/extraction/system.j2` — `treatment_date`: medical billing ledgers now extract start date only (not full range). Imaging/pharmacy records still use full range format.
+- `backend/app/ai/prompts/templates/extraction/system.j2` — `payments`/`balance` disambiguation: added 4-step explicit rule — compute `expected = total_charges - ins_paid - adjustment`; if any column matches, it's `balance`; only use `payments` for a separate confirmed received-payment column; default is `balance = computed`, `payments = null`.
+
+Files touched: `backend/app/ai/prompts/templates/extraction/system.j2`, `CHANGELOG.md`
+
+---
+
+## [2026-06-25] — Fix payments/balance swap, duplicate CPT codes, classifier accuracy
+
+### Fixed
+- `backend/app/ai/prompts/templates/extraction/system.j2` — `payments`/`balance` column disambiguation: added explicit rule that "PT Paid" columns showing `total_charges - ins_paid - adjustment` are `balance` (patient still owes), not `payments` (already received). `payments` = null unless a separate payment transaction is explicitly recorded.
+- `backend/app/ai/prompts/templates/extraction/system.j2` — CPT code deduplication bug: added rule to preserve duplicate codes when same code billed twice as separate line items.
+- `backend/app/ai/agents/factory.py` — Classifier prompt tuned to prefer compact high-density pages (10+ rows). Detail pages (1–3 records/page with narrative) now correctly ranked lower than summary pages.
+- `backend/app/ai/agents/extraction/executor.py` — Classifier preview increased from 500 → 800 chars so enough rows are visible to judge page density.
+
+Files touched: `backend/app/ai/prompts/templates/extraction/system.j2`, `backend/app/ai/agents/factory.py`, `backend/app/ai/agents/extraction/executor.py`, `CHANGELOG.md`
+
+---
+
+## [2026-06-25] — Two-phase extraction: dynamic summary page detection + parallel chunking
+
+### Fixed
+### Changed
+- `backend/app/models/extraction.py` — Added `PageClassification` pydantic model (`has_summary: bool`, `summary_pages: list[int]`).
+- `backend/app/ai/agents/factory.py` — Added `build_page_classifier_agent()` using `gpt-4.1-mini` + `PageClassification` output type. Classifier receives 500-char page previews and identifies summary/ledger pages by document structure, not position.
+- `backend/app/ai/agents/extraction/executor.py` — Two-phase extraction: Phase 1 classifies pages (cheap, fast), Phase 2 extracts only summary pages in parallel chunks. Fallback to all pages if no summary detected. Summary page can be anywhere in the document.
+- `backend/app/ai/prompts/templates/extraction/user.j2` — Renders pages inline (`=== PAGE N ===` blocks); no tool calls.
+- `backend/app/ai/agents/factory.py` — Removed `read_page`/`get_document_info` tools; upgraded model to `gpt-4.1`.
+- `backend/app/ai/prompts/templates/extraction/system.j2` — Removed tool-calling workflow; reflects prompt-embedded page strategy.
+
+Files touched: `backend/app/ai/agents/extraction/executor.py`, `backend/app/ai/prompts/templates/extraction/user.j2`, `backend/app/ai/agents/factory.py`, `backend/app/ai/prompts/templates/extraction/system.j2`, `CHANGELOG.md`
+
+---
+
+## [2026-06-25] — Fix Job.id NULL identity key on INSERT
+
+### Fixed
+- `backend/app/dao/models/job.py` — `id: Mapped[str] = mapped_column(String, primary_key=True)` had no `server_default`, so SQLAlchemy didn't know the DB generates the UUID. After INSERT, `id` stayed `None` → `FlushError: Instance has a NULL identity key`. Fixed by adding `server_default=text("gen_random_uuid()::text")`, which tells SQLAlchemy to emit `RETURNING id` and populate the ORM object post-INSERT.
+
+Files touched: `backend/app/dao/models/job.py`, `CHANGELOG.md`
+
+---
+
+## [2026-06-25] — Fix SET LOCAL bind-parameter syntax error + Alembic async migration never committing DDL
+
+### Fixed
+- `backend/app/service/job_service.py` + `backend/app/service/extraction_service.py` — `SET LOCAL app.current_user_id = $1` fails with PostgresSyntaxError because PostgreSQL `SET` commands do not accept bind parameters. Replaced with `SELECT set_config('app.current_user_id', :uid, true)` — `set_config` is a function and accepts parameterized values; the `true` third argument makes it transaction-local (equivalent to `SET LOCAL`).
+
+Files touched: `backend/app/service/job_service.py`, `backend/app/service/extraction_service.py`, `CHANGELOG.md`
+
+---
+
+## [2026-06-25] — Fix Alembic async migration never committing DDL
+
+### Fixed
+- `backend/alembic/env.py` — `run_migrations_online()` called `context.configure()` and `context.run_migrations()` in two separate `run_sync` callbacks without `context.begin_transaction()`. SQLAlchemy 2.0 `async with engine.connect()` does NOT auto-commit; the implicit transaction was rolled back on `AsyncConnection.close()`, so all DDL executed but nothing persisted. Fixed by: (1) combining configure + run_migrations in a single `_do_run_migrations(connection)` callback, (2) wrapping with `context.begin_transaction()` so Alembic commits the transaction, (3) using `NullPool` on the migration engine (recommended for one-shot migration scripts).
+
+Files touched: `backend/alembic/env.py`, `CHANGELOG.md`
+
+---
+
+## [2026-06-24] — Backend auth (register/login, session validation, dual-CM lifespan)
+
+### Added
+- `backend/alembic/versions/c3d5e7f9a1b2_add_auth_tables_and_default_privileges.py` — migration chaining off b9c4f2a1e835: creates `user`, `account`, `session` tables (Better Auth-compatible, camelCase columns); grants billing_app access; sets ALTER DEFAULT PRIVILEGES so future tables automatically grant to billing_app; downgrade reverses in correct order
+- `backend/app/api/routes/auth.py` — `POST /auth/register` (email uniqueness check, bcrypt hash, user+account+session rows, returns token + user); `POST /auth/login` (lookup user by email, bcrypt verify, new session, returns token + user); both use `request.app.state.admin_cm` for raw SQL
+- `backend/app/api/dependencies/auth.py` — `get_current_user_id(request)`: reads `Authorization: Bearer <token>`, queries `session` table via admin_cm, raises 401 on missing/expired token, returns userId
+
+### Changed
+- `backend/pyproject.toml` — added `bcrypt>=4.0.0`
+- `backend/app/api/main.py` — lifespan now creates two ContextManagers: `admin_cm` (billing role, stored on `app.state.admin_cm`) and `app_cm` (billing_app, RLS-subject, used for ServiceContainer); added CORS middleware for `http://localhost:3000`; added auth router at `/auth`; closes both CMs on shutdown
+- `backend/app/api/routes/jobs.py` — removed placeholder `get_current_user_id`; now imports real `get_current_user_id` from `app.api.dependencies.auth`; no other logic changes
+- `backend/app/api/routes/health.py` — uses `request.app.state.admin_cm` instead of removed `context_manager`
+
+Files touched: `backend/alembic/versions/c3d5e7f9a1b2_add_auth_tables_and_default_privileges.py`, `backend/app/api/routes/auth.py`, `backend/app/api/dependencies/auth.py`, `backend/pyproject.toml`, `backend/app/api/main.py`, `backend/app/api/routes/jobs.py`, `backend/app/api/routes/health.py`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-24] — Implement extraction pipeline (PDF parsing, agent, tools, service)
 
 ### Added

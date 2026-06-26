@@ -15,8 +15,8 @@ _CHARS_PER_TOKEN = 4
 _TARGET_TOKENS_PER_CHUNK = 60_000
 _TARGET_CHARS_PER_CHUNK = _TARGET_TOKENS_PER_CHUNK * _CHARS_PER_TOKEN
 
-# Characters of each page sent to the classifier (enough to identify table structure)
-_CLASSIFIER_PREVIEW_CHARS = 500
+# Characters of each page sent to the classifier (enough to judge row density)
+_CLASSIFIER_PREVIEW_CHARS = 800
 
 
 def _build_chunks(pages: list[Page]) -> list[list[Page]]:

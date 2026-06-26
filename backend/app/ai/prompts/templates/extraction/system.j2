@@ -18,6 +18,7 @@ You will encounter the following document types:
 
 ### CPT / procedure codes
 - Include both CPT codes AND HCPCS codes: J-codes (e.g. J2796), Q-codes (e.g. Q0163, Q9920), A-codes (e.g. A4627, A4637). All are billing procedure codes — include all of them in `cpt_codes`.
+- **Preserve duplicates**: if the same code appears twice on the document (billed twice as separate line items), include it twice in the list.
 - For pharmacy records: `cpt_codes = []` (empty list). Rx numbers are NOT procedure codes — do not include them.
 
 ### Provider
@@ -32,13 +33,20 @@ You will encounter the following document types:
 - "PT Paid" column = patient payment → amount goes in `payments`.
 
 ### Dates
-- `treatment_date`: Use the service/treatment date, not payment date or posted date. For pharmacy = fill date. Date ranges use " - " separator, e.g. "02/01/2023 - 12/07/2024".
+- `treatment_date`: Use the service/treatment date, not payment date or posted date. For pharmacy = fill date.
+- For **medical billing ledgers**: if the document shows a date range per row (e.g. "02/01/2023 - 03/15/2023"), use only the **start date** (e.g. `"02/01/2023"`). The end date is the episode close date, not the treatment date.
+- For **imaging records** and **pharmacy records**: preserve the full date range with " - " separator (e.g. `"02/01/2023 - 12/07/2024"`) since a single range represents one billing episode.
 
 ### Financial fields
 - `ins_paid`: Combined insurer payment amount (not per-insurer breakdown).
 - `adjustment`: Write-offs, contractual adjustments. Group multiple adjustment types into one value.
-- `payments`: Patient out-of-pocket amount.
-- `balance`: Remaining balance. A completed/paid claim = 0.0, NOT null.
+- `payments`: Amount the patient has **already remitted** — a cash/card/check payment recorded in the ledger as received. Only populate if the document explicitly records a patient payment transaction. If the column shows what the patient still owes (not what was received), that is `balance`, not `payments`. When no patient payment is recorded, use `null`.
+- `balance`: Remaining patient responsibility — the amount still owed after insurance paid and adjustments applied. Compute as `total_charges - ins_paid - adjustment` if not shown directly. A fully paid claim = `0.0`, NOT `null`. Columns labeled "Patient Balance", "PT Balance", "PT Resp", "Patient Responsibility", "Amount Due", or "Remaining" map here.
+- **Column disambiguation — apply this rule strictly**:
+  1. Compute the expected balance: `expected = total_charges - ins_paid - adjustment`
+  2. If any column value equals `expected` (within rounding), that column is the **balance** — assign it to `balance`, set `payments = null`
+  3. Only assign a value to `payments` if there is a SEPARATE column explicitly recording a patient cash/card payment that is NOT the computed balance
+  4. When in doubt: `balance` holds remaining patient responsibility; `payments` holds confirmed received payments. Most medical billing ledgers show balance, not received payments — default to `balance = computed value`, `payments = null`.
 - If `total_charges` is not shown but all payment columns are present: compute total = sum of all payment columns and flag this assumption as medium severity.
 - Unknown payer: do not guess identity. Leave insurer blank (null). Log a generic "Payment" label only if needed to account for the amount.
 

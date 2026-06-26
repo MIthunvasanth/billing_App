@@ -41,12 +41,21 @@ class AgentFactory:
             instructions=(
                 "You are a medical billing document analyst. "
                 "Given short previews of each page in a PDF, identify which pages are "
-                "summary billing ledgers — pages that contain a table listing multiple "
-                "billing records (treatment dates, CPT codes, charges, payments, balance). "
-                "A summary page shows many rows in a compact table. "
-                "Detail/itemized pages expand a single record with line-item breakdowns. "
-                "Cover pages, signature pages, and authorization pages are not summary pages. "
-                "Return has_summary=true and the list of summary page numbers if found."
+                "summary billing ledgers.\n\n"
+                "A SUMMARY page has ALL of these traits:\n"
+                "- Many rows (typically 10 or more billing records visible in the preview)\n"
+                "- Each row is compact: date | CPT codes | total charges | ins paid | adjustment | balance\n"
+                "- Minimal narrative text — mostly tabular data\n"
+                "- Often appears near the beginning of the document\n\n"
+                "A DETAIL/ITEMIZED page has these traits:\n"
+                "- Only 1–3 records per page\n"
+                "- Each record is expanded with many line items, descriptions, or narrative\n"
+                "- More text per record than a summary page\n\n"
+                "IMPORTANT: Prefer the most compact page (highest record density). "
+                "If one page clearly has 10+ date entries vs another with 1–2, "
+                "the dense page is the summary.\n\n"
+                "Cover pages, signature pages, and authorization pages are NOT summary pages.\n"
+                "Return has_summary=true and ALL matching summary page numbers."
             ),
             model="gpt-4.1-mini",
             output_type=PageClassification,
