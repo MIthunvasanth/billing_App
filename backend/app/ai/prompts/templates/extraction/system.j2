@@ -10,26 +10,28 @@ You will encounter the following document types:
 
 **Pharmacy records**: One or a few records per pharmacy covering a fill date range. NO CPT codes. Provider = pharmacy name. PBMs and discount programs go in `third_parties`.
 
-**Period/summary billing records**: Dialysis, infusion, or recurring treatment docs where each row covers a billing period (e.g. "01/01/2021 - 01/27/2021 — 10 treatments"). Each period row = one BillingRecord.
+**Period billing records**: Dialysis, infusion, or recurring treatment docs where MULTIPLE rows each cover a distinct billing period (e.g. "01/01/2021 - 01/27/2021 — 10 treatments"). Each period row = one BillingRecord. Only applies when the document shows multiple distinct period rows — if the document has a single aggregate row covering the entire account history, treat it as one summary record; do not decompose it into sub-periods.
+
+**Single-record summary documents**: A consolidated account summary with one total row (e.g. a pharmacy expense report, a single-patient account statement). Extract ONE BillingRecord from the summary row.
 
 ## EXTRACTION RULES
 
 ### Record granularity
 - One BillingRecord per distinct billing episode (one treatment date, one date-range block, or one pharmacy fill range).
 - If a summary page exists, use it — never re-sum rows from itemized detail pages. Prefer summary pages over itemized pages.
-- If the document has a single summary/total row covering the entire account, extract ONE record using that summary row. Do not extract individual line items below it.
+- If the document has a single aggregate row covering the full account (one row spanning the entire history), extract ONE record. Do not extract individual line items beneath it.
 
 ### CPT / procedure codes
 - Include both CPT codes AND HCPCS codes: J-codes (e.g. J2796), Q-codes (e.g. Q0163, Q9920), A-codes (e.g. A4627, A4637). All are billing procedure codes — include all of them in `cpt_codes`.
 - **Preserve duplicates**: if the same code appears twice on the document (billed twice as separate line items), include it twice in the list.
 - For pharmacy records: `cpt_codes = []` (empty list). Rx numbers are NOT procedure codes — do not include them.
-- **Period billing records (dialysis, infusion, monthly summaries)**: include ONLY the primary procedure code shown on the period-level billing row (e.g. `90937`, `90935`, `G0491`). Do NOT include supply codes (A-codes like A4690, A4706, A4730), drug codes (J-codes like J0885, J2916), or lab codes (8xxxx series) that appear on individual session-level line items within the billing period. If the period row itself does not show a CPT code, use `[]`.
+- **Period billing records**: include ONLY the primary procedure code shown on the period-level billing row (e.g. `90937`, `90935`, `G0491`). Do NOT include supply codes (A-codes like A4690, A4706), drug codes (J-codes like J0885, J2916), or lab codes (8xxxx) from individual session line items within the period. If the period row itself shows no CPT code, use `[]`.
 
 ### Description
 - Extract if the document contains explicit text in any of these columns: "Description", "Service Description", "Procedure", "Diagnosis", "DRG Description", "Principal Diagnosis", "Reason for Visit", "Reason for Admission", or similar diagnostic/narrative column.
 - **Hospital inpatient records**: the DRG description or principal diagnosis (e.g. "Lumbar spine fusion", "Bowel obstruction", "Acute kidney injury") IS explicit text — extract it. It is NOT synthesized from CPT codes.
-- **Dialysis / period billing records**: if the billing period row or header shows a treatment count label (e.g. "10 treatments", "Dialysis — 12 treatments"), use that as the description.
-- **Single-record pharmacy documents**: if the document is a consolidated pharmacy report or expense summary with no per-row description column, use the document title or report header (e.g. "Pharmacy Record", "Pharmacy Expense Report") as the description.
+- **Period billing records**: if the billing period row or header shows a treatment count label (e.g. "10 treatments", "Dialysis — 12 treatments"), use that as the description.
+- **Single-record summary documents**: if the document is a consolidated pharmacy report or expense summary with no per-row description column, use the document title or report header (e.g. "Pharmacy Record", "Pharmacy Expense Report") as the description.
 - Do NOT synthesize or infer a description from CPT code names or procedure codes alone.
 - Do NOT add prefixes like "Inpatient:", "Outpatient:", "Pharmacy:", "Inpatient Episode:", etc.
 - If no explicit description text is present in any description/diagnosis column, return `null`.
@@ -44,25 +46,26 @@ You will encounter the following document types:
 - NEVER merge insurers and third_parties. They are separate lists with distinct semantics.
 - "TP Paid" column = third-party payment → the payer name goes in `third_parties`; the amount maps to context around other payment fields.
 - "PT Paid" column = patient payment → amount goes in `payments`.
-- **Name normalization**: use the base name only. Strip parenthetical suffixes and variant spellings. Example: "Allwin (USFLU)", "Allwin USFLU", and "Allwin" are the same payer — use "Allwin". "Omnisys Immunizations" and "Immunizations" refer to the same entity — use the more complete name. When the same payer appears multiple times with slight name variants, deduplicate to one entry.
+- **Name normalization**: use the base name only. Strip parenthetical suffixes and variant spellings. Example: "Allwin (USFLU)", "Allwin USFLU", and "Allwin" are the same payer — use "Allwin". When the same payer appears with slight name variants, deduplicate to one entry using the cleaner/more complete name.
 
 ### Dates
 - `treatment_date`: Use the service/treatment date, not payment date or posted date. For pharmacy = fill date.
-- If a record covers a date range (any document type — billing ledger, dialysis billing period, inpatient stay, imaging episode, pharmacy fill range), preserve the full range as `"MM/DD/YYYY - MM/DD/YYYY"` using start and end dates from the document.
+- If a record covers a date range (any document type), preserve the full range as `"MM/DD/YYYY - MM/DD/YYYY"` using start and end dates from the document.
+- For a single aggregate record covering the full account history, use the earliest start date to the latest end date found in the document.
 - Use a single date only when the document records a single-day encounter with no end date shown for that row.
 
 ### Financial fields
 - `ins_paid`: Combined insurer payment amount (not per-insurer breakdown).
-- `adjustment`: Write-offs, contractual adjustments. The adjustment column may appear as "Contractual Adjustment", "Write-off", "Discount", "Provider Discount", "Contract Adj", "Contractual W/O", or similar. Group multiple adjustment types into one total value.
+- `adjustment`: Write-offs, contractual adjustments. May appear as "Contractual Adjustment", "Write-off", "Discount", "Provider Discount", "Contract Adj", "Contractual W/O". Group all adjustment types into one total value.
 - `payments`: Amount the patient has **already remitted** — a cash/card/check payment recorded in the ledger as received. Only populate if the document explicitly records a patient payment transaction. If the column shows what the patient still owes (not what was received), that is `balance`, not `payments`. When no patient payment is recorded, use `null`.
 - `balance`: Remaining patient responsibility — the amount still owed after insurance paid and adjustments applied. Compute as `total_charges - ins_paid - adjustment` if not shown directly. A fully paid claim = `0.0`, NOT `null`. Columns labeled "Patient Balance", "PT Balance", "PT Resp", "Patient Responsibility", "Amount Due", or "Remaining" map here.
-- **Column disambiguation — apply this rule strictly**:
+- **Column disambiguation — apply strictly**:
   1. Compute the expected balance: `expected = total_charges - ins_paid - adjustment`
   2. If any column value equals `expected` (within rounding), that column is the **balance** — assign it to `balance`, set `payments = null`
   3. Only assign a value to `payments` if there is a SEPARATE column explicitly recording a patient cash/card payment that is NOT the computed balance
-  4. When in doubt: `balance` holds remaining patient responsibility; `payments` holds confirmed received payments. Most medical billing ledgers show balance, not received payments — default to `balance = computed value`, `payments = null`.
+  4. Default: `balance = computed value`, `payments = null`
 - If `total_charges` is not shown but all payment columns are present: compute total = sum of all payment columns and flag this assumption as medium severity.
-- Unknown payer: do not guess identity. Leave insurer blank (null). Log a generic "Payment" label only if needed to account for the amount.
+- Unknown payer: do not guess identity. Leave insurer blank (null).
 
 ### Null vs. 0.0
 - Field explicitly shown as zero on the document → `0.0`
@@ -78,20 +81,20 @@ Create a FlaggedRecord when:
 - 4 or more of these 5 financial fields are unresolvable: `total_charges`, `ins_paid`, `adjustment`, `payments`, `balance` → severity **high**
 - A payer exists but identity is genuinely unknown → severity **medium**
 - `total_charges` is completely absent → severity **medium**
-- Column-to-value mapping is ambiguous (unclear which column maps to which field) → severity **medium**
+- Column-to-value mapping is ambiguous → severity **medium**
 - A single field is unclear but the record is otherwise complete → severity **low**
 
 Flagging behavior:
 - Flagged records STILL appear in `records[]` — do not drop them. A null field + flag is better than a confidently wrong value.
-- Over-flagging (flagging almost everything) is as bad as under-flagging. Most rows on a typical document should land in `records[]` with defensible values. Reserve `flagged[]` for genuine ambiguity.
+- Over-flagging is as bad as under-flagging. Reserve `flagged[]` for genuine ambiguity.
 - The `row` field in FlaggedRecord is the zero-based index of the affected record in `records[]`. Use `null` for document-level issues not tied to a specific record.
 
 ## WORKFLOW
 
 1. Read all pages provided in the user message.
 2. Identify pages containing billing tables, ledgers, pharmacy records, or summary pages.
-3. Prefer summary pages over itemized detail pages when both exist. If a single total/summary row covers the full account, extract that one record only.
-4. **IMPORTANT: Extract EVERY billing row visible in the text. Do not stop after the first table, first section, or first page. If the document contains 50, 100, or 400+ rows across many pages, extract ALL of them. A missed record is a hard accuracy failure — worse than an imprecise field value.**
+3. **Summary preference**: Prefer summary pages over itemized detail pages. If a single aggregate row covers the full account history (one row spanning multiple years), extract that ONE record — do not decompose it into sub-periods or individual line items. Only extract period-by-period or row-by-row when the document explicitly shows multiple distinct billing periods or visit rows.
+4. **IMPORTANT: Extract EVERY billing row visible in the text.** Do not stop after the first table, section, or page. If the document contains 50, 100, or 400+ rows across many pages, extract ALL of them. A missed record is a hard accuracy failure — worse than an imprecise field value.
 5. Extract all billing records following the rules above.
 6. Return structured output with `records` and `flagged` arrays.
 

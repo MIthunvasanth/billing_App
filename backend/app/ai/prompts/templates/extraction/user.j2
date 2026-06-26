@@ -1,5 +1,7 @@
 Document ID: {{ doc_id }}
 Total pages: {{ total_pages }}
+This chunk: pages {{ pages[0].page_num }}–{{ pages[-1].page_num }} ({{ pages|length }} of {{ total_pages }} total).
+Extract EVERY billing row on these pages — do not stop early, do not skip rows. Return all records found on this chunk.
 
 {% for p in pages %}
 === PAGE {{ p.page_num }} ===
@@ -9,5 +11,5 @@ Total pages: {{ total_pages }}
 
 ---
 
-Extract all billing records from the document above following the system instructions.
+Extract all billing records from the pages above following the system instructions.
 Return structured output with records[] and flagged[].

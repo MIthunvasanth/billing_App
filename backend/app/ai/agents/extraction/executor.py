@@ -12,7 +12,7 @@ from app.core.common.logger import get_logger
 from app.models.extraction import BillingRecord, ExtractionOutput, FlaggedRecord, PageClassification
 
 _CHARS_PER_TOKEN = 4
-_TARGET_TOKENS_PER_CHUNK = 60_000
+_TARGET_TOKENS_PER_CHUNK = 20_000
 _TARGET_CHARS_PER_CHUNK = _TARGET_TOKENS_PER_CHUNK * _CHARS_PER_TOKEN
 
 # Characters of each page sent to the classifier (enough to judge row density)

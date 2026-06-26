@@ -4,6 +4,15 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-26] — Reduce chunk size 60k→20k tokens to fix under-extraction on dense docs
+
+### Changed
+- `backend/app/ai/agents/extraction/executor.py` — `_TARGET_TOKENS_PER_CHUNK` 60_000 → 20_000, `_TARGET_CHARS_PER_CHUNK` 240_000 → 80_000. Doc_007 (153 pages, 400 GT records) now splits into ~7-8 chunks of ~18 pages each instead of 2 chunks of 73 pages. Smaller chunks mean the model returns all rows in each batch rather than hitting output token ceiling at ~20 records/chunk.
+
+Files touched: `backend/app/ai/agents/extraction/executor.py`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-26] — Fix date range matching in eval + relax _fix_payments_balance guard
 
 ### Fixed
