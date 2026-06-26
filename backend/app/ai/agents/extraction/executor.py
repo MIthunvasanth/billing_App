@@ -18,6 +18,9 @@ _TARGET_CHARS_PER_CHUNK = _TARGET_TOKENS_PER_CHUNK * _CHARS_PER_TOKEN
 # Characters of each page sent to the classifier (enough to judge row density)
 _CLASSIFIER_PREVIEW_CHARS = 800
 
+# Max concurrent OpenAI API calls — prevents 429s on large documents
+_MAX_CONCURRENT_CHUNKS = 4
+
 
 def _fix_payments_balance(record: BillingRecord) -> BillingRecord:
     """Deterministically correct the payments/balance column swap.
@@ -90,14 +93,16 @@ class ExtractionAgentExecutor:
         self,
         agent: Agent[RunContext] | None = None,
         max_turns: int = 5,
+        max_concurrent_chunks: int = _MAX_CONCURRENT_CHUNKS,
     ) -> None:
         self.agent = agent if agent is not None else AgentFactory.build_extraction_agent()
         self.classifier = AgentFactory.build_page_classifier_agent()
         self.max_turns = max(1, max_turns)
+        self._semaphore = asyncio.Semaphore(max_concurrent_chunks)
         self.logger = get_logger(__name__)
 
-    async def _classify_pages(self, ctx: RunContext) -> list[Page]:
-        """Phase 1: identify summary pages. Returns pages to extract from."""
+    async def _classify_pages(self, ctx: RunContext) -> tuple[list[Page], int, int]:
+        """Phase 1: identify summary pages. Returns (pages, input_tokens, output_tokens)."""
         previews = "\n\n".join(
             f"=== Page {p.page_num} ===\n{p.page_content[:_CLASSIFIER_PREVIEW_CHARS]}"
             for p in ctx.document.pages
@@ -114,6 +119,10 @@ class ExtractionAgentExecutor:
             max_turns=3,
         )
 
+        u = result.context_wrapper.usage
+        inp = getattr(u, "input_tokens", 0) or 0
+        out = getattr(u, "output_tokens", 0) or 0
+
         classification: PageClassification = result.final_output
 
         self.logger.info(
@@ -121,20 +130,22 @@ class ExtractionAgentExecutor:
             doc_id=ctx.document.doc_id,
             has_summary=classification.has_summary,
             summary_pages=classification.summary_pages,
+            classifier_input_tokens=inp,
+            classifier_output_tokens=out,
         )
 
         if classification.has_summary and classification.summary_pages:
             summary_set = set(classification.summary_pages)
             selected = [p for p in ctx.document.pages if p.page_num in summary_set]
             if selected:
-                return selected
+                return selected, inp, out
 
         # Fallback: extract from all pages
         self.logger.info(
             "no_summary_found_using_all_pages",
             doc_id=ctx.document.doc_id,
         )
-        return ctx.document.pages
+        return ctx.document.pages, inp, out
 
     async def _run_chunk(
         self,
@@ -156,12 +167,13 @@ class ExtractionAgentExecutor:
             },
         )
 
-        result = await Runner.run(
-            self.agent,
-            user_text,
-            context=ctx,
-            max_turns=self.max_turns,
-        )
+        async with self._semaphore:
+            result = await Runner.run(
+                self.agent,
+                user_text,
+                context=ctx,
+                max_turns=self.max_turns,
+            )
 
         u = result.context_wrapper.usage
         inp = getattr(u, "input_tokens", 0) or 0
@@ -186,8 +198,8 @@ class ExtractionAgentExecutor:
             num_pages=ctx.document.num_pages,
         )
 
-        # Phase 1: classify
-        pages_to_extract = await self._classify_pages(ctx)
+        # Phase 1: classify (tokens counted toward totals below)
+        pages_to_extract, cls_inp, cls_out = await self._classify_pages(ctx)
         chunks = _build_chunks(pages_to_extract)
 
         self.logger.info(
@@ -207,8 +219,8 @@ class ExtractionAgentExecutor:
 
         all_records = []
         all_flagged: list[FlaggedRecord] = []
-        total_input = 0
-        total_output = 0
+        total_input = cls_inp
+        total_output = cls_out
 
         for chunk_output, inp, out in chunk_results:
             record_offset = len(all_records)

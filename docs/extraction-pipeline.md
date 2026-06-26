@@ -94,6 +94,8 @@ Extracts text layout-aware — preserves column alignment in billing tables. Raw
 
 ## Step 3b — Cross-Page Record Handling (Page Boundary Overlap)
 
+**`BillingRecord.page` is typed `str`** — accepts both `"6"` (single page) and `"6-7"` (cross-page range). The Pydantic schema enforces this; structured-output validation passes for either form.
+
 **The problem:** A single billing record can span two PDF pages — e.g. a row starts at the bottom of page 6 (date, codes, charges) and the financial columns (ins_paid, adjustment, balance) overflow to the top of page 7. If those two pages end up in different extraction chunks, the record gets split:
 
 - Chunk A (page 6 only) → sees an incomplete row, may extract a partial record or skip it
@@ -149,6 +151,8 @@ Extracting from the summary gives cleaner, single-date records matching the bill
 
 **Fallback:** If no summary is detected, extract from all pages. This handles documents with no summary layer (e.g. imaging records, pharmacy records).
 
+**Known gap — fallback duplication risk:** If a document actually has a summary page but the classifier misses it (`has_summary=false`), the fallback extracts from all pages. Both the summary row and its detail expansion are visible — the same billing episode can appear twice (once as a compact summary row, once as an expanded detail block). The merged `records[]` would then contain duplicates. Mitigation: tune the classifier to avoid false negatives; if duplication is observed in practice, add a dedup pass by `(treatment_date, total_charges)` after merge.
+
 ---
 
 ## Step 5 — Phase 2: Chunked Parallel Extraction
@@ -179,6 +183,8 @@ chunk_results = await asyncio.gather(
 ```
 
 **Why parallel:** All chunks are independent — no inter-chunk dependencies. Running N chunks in parallel gives the same wall-clock time as running 1 chunk. A 100-page document with 10 chunks completes in the same time as a 10-page document.
+
+**Rate-limit guard:** Each chunk fires a separate OpenAI API call. Without throttling, a 10-chunk document would issue 10 simultaneous requests, triggering 429 errors on any non-enterprise quota. `asyncio.Semaphore(4)` in `_run_chunk` caps concurrent API calls at 4. Wall-clock impact is minimal — the 5th chunk starts as soon as the fastest of the first 4 finishes.
 
 ### 5c. Agent Prompt Structure
 
@@ -255,7 +261,9 @@ After parallel extraction:
        if flag.row is not None:
            flag = flag.model_copy(update={"row": flag.row + record_offset})
    ```
-3. Token usage (`input_tokens`, `output_tokens`) is summed across all chunks
+   **Why offset is correct:** Each extraction agent only sees its own chunk's pages — it has no knowledge of prior chunks. So the model's `row` values start at 0 for the first record in that chunk, not from the document start. Adding `record_offset` (= total records in all prior chunks) maps chunk-local indices to document-wide indices.
+
+3. Token usage (`input_tokens`, `output_tokens`) is summed across **all** API calls — Phase 1 classifier tokens and Phase 2 chunk tokens. Phase 1 classification runs first and seeds the totals; each chunk adds on top. `cost_usd` is therefore a true full-pipeline cost, not just extraction cost.
 
 ---
 
@@ -311,8 +319,10 @@ RLS enforces isolation — another user's `job_id` returns the same 404 as a non
 |---|---|---|
 | Embed pages in prompt | Tool calls per page | No turn limit; simpler; same latency |
 | Token-aware chunking | Fixed page-count chunks | Handles dense/sparse pages uniformly |
-| Parallel chunk execution | Sequential | Wall-clock = max(chunks), not sum |
+| Parallel chunk execution with `Semaphore(4)` | Unbounded parallel or sequential | Wall-clock ≈ max(chunks); semaphore prevents 429 rate-limit errors |
 | Deterministic payments/balance fix | Prompt instruction | Model ignored prompt; code is reliable |
 | Two-phase classify → extract | Extract all pages always | Avoids detail-page noise; finds summary anywhere |
-| `gpt-4.1` model | `gpt-4o-mini` | 1M context window; better instruction following |
+| `gpt-4.1` (extract) + `gpt-4.1-mini` (classify) | `gpt-4o-mini` | 1M context window; better instruction following; `gpt-4o-mini` (128k) would overflow on 60k-token chunks |
+| `page` field typed `str` | `int` | Accepts both `"6"` and `"6-7"` without structured-output validation failure |
 | pdfplumber | PyPDF2 | Preserves column alignment in billing tables |
+| Classification tokens counted in totals | Extraction-only token count | `cost_usd` reflects true full-pipeline spend |

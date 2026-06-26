@@ -4,6 +4,26 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-26] — Audit and update extraction-pipeline.md; fix executor bugs
+
+### Fixed
+- `docs/extraction-pipeline.md` — Bug audit pass: documented all 10 reported issues with verified status (fixed / not-a-bug / known gap). Updated Step 3b to clarify `page` is `str` not `int`. Updated Step 5b to document `Semaphore(4)` rate-limit guard. Updated Step 8 to explain row offset correctness and that classification tokens are included in totals. Updated fallback section to document duplication risk when classifier misses summary. Updated Key Design Decisions table with semaphore, model names (gpt-4.1 + gpt-4.1-mini), page type, token accounting rows.
+
+Files touched: `docs/extraction-pipeline.md`, `CHANGELOG.md`
+
+---
+
+## [2026-06-26] — Fix extraction bugs: semaphore, classification token accounting
+
+### Fixed
+- `backend/app/ai/agents/extraction/executor.py` — Added `asyncio.Semaphore(4)` around all chunk API calls. Without this, large documents fire all chunks simultaneously, triggering 429 rate-limit errors.
+- `backend/app/ai/agents/extraction/executor.py` — Classification tokens (Phase 1 classifier call) now included in `total_input`/`total_output`. Previously the classifier's API cost was invisible in `token_usage` and `cost_usd` was understated.
+- `backend/app/ai/agents/extraction/executor.py` — `_classify_pages()` return type changed to `tuple[list[Page], int, int]` to return token counts alongside selected pages.
+
+Files touched: `backend/app/ai/agents/extraction/executor.py`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-26] — Add extraction pipeline documentation
 
 ### Added
