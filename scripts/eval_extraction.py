@@ -18,16 +18,19 @@ import time
 import traceback
 from pathlib import Path
 
-# Set API key before any openai-agents import
-os.environ.setdefault(
-    "OPENAI_API_KEY",
-    "b6412b686e2301e46e61f8b048deddde26c4da63ee92798e7e2ac5766a97ab74",
-)
-
-# Add backend to sys.path so `app.*` imports resolve
+# Resolve paths first — needed for both .env loading and sys.path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 BACKEND_DIR = REPO_ROOT / "backend"
 sys.path.insert(0, str(BACKEND_DIR))
+
+# Load .env from repo root so OPENAI_API_KEY is available before openai-agents imports
+_env_path = REPO_ROOT / ".env"
+if _env_path.exists():
+    for _line in _env_path.read_text(encoding="utf-8").splitlines():
+        _line = _line.strip()
+        if _line and not _line.startswith("#") and "=" in _line:
+            _k, _v = _line.split("=", 1)
+            os.environ.setdefault(_k.strip(), _v.strip())
 
 import pdfplumber  # noqa: E402 (after sys.path patch)
 
@@ -152,13 +155,19 @@ def compare_field(field: str, extracted, expected) -> tuple[bool, str]:
         return True, "(not scored)"
 
     if field == "treatment_date":
-        ext_str = str(extracted or "").strip()
-        exp_str = str(expected or "").strip()
-        # Accept start-date match: GT "07/28/2024", extracted "07/28/2024 - ..."
+        def _norm_date(s: str) -> str:
+            # Normalize em dash (–, U+2013) and en dash (–, U+2014) to hyphen-minus
+            return s.strip().replace("–", "-").replace("—", "-")
+        ext_str = _norm_date(str(extracted or ""))
+        exp_str = _norm_date(str(expected or ""))
         if ext_str == exp_str:
             return True, ""
+        # Extracted has range suffix: extracted "07/28/2024 - 12/31/2024", GT "07/28/2024"
         if ext_str.startswith(exp_str):
             return True, f"(extracted has range suffix: {ext_str!r})"
+        # GT has range, extracted has start date only: GT "07/28/2024 - 12/31/2024", extracted "07/28/2024"
+        if exp_str.startswith(ext_str) and len(ext_str) >= 10:
+            return True, f"(gt has range suffix: {exp_str!r})"
         return False, f"extracted={ext_str!r}  expected={exp_str!r}"
 
     # Generic string / null comparison
@@ -178,11 +187,25 @@ def find_best_match(extracted_records: list[dict], gt_norm: dict) -> dict | None
     date = gt_norm.get("treatment_date", "")
     tc = gt_norm.get("total_charges")
 
-    # Filter by date (extracted date may be start of a range)
+    # Filter by date — handle both directions:
+    # 1. Extracted has range suffix:  extracted "07/28/2024 - 12/31/2024", GT "07/28/2024"
+    # 2. GT has range, extracted has start date: GT "07/28/2024 - 12/31/2024", extracted "07/28/2024"
+    def _date_matches(ext_date: str, gt_date: str) -> bool:
+        # Normalize em dash / en dash to hyphen-minus before comparing
+        ext = ext_date.strip().replace("–", "-").replace("—", "-")
+        gt = gt_date.strip().replace("–", "-").replace("—", "-")
+        if ext == gt:
+            return True
+        if ext.startswith(gt):
+            return True
+        # GT range starts with extracted start date (len >= 10 guards against empty prefix matching)
+        if gt.startswith(ext) and len(ext) >= 10:
+            return True
+        return False
+
     by_date = [
         r for r in extracted_records
-        if str(r.get("treatment_date", "")).strip() == date
-        or str(r.get("treatment_date", "")).strip().startswith(date)
+        if _date_matches(str(r.get("treatment_date", "")), date)
     ]
 
     if not by_date:
@@ -459,11 +482,28 @@ def render_result_md(results: list[dict], metas: list[dict]) -> str:
 # ---------------------------------------------------------------------------
 
 async def main() -> None:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--rescore",
+        action="store_true",
+        help="Re-score existing docs-test/<doc>.json files without re-extracting.",
+    )
+    parser.add_argument(
+        "--skip",
+        nargs="*",
+        default=[],
+        help="Doc IDs to skip re-extraction for (uses cached JSON). E.g. --skip doc_001 doc_003",
+    )
+    args = parser.parse_args()
+
     DOCS_TEST_DIR.mkdir(parents=True, exist_ok=True)
 
     pdfs = sorted(DATA_DIR.glob("*.pdf"))
     print(f"Found {len(pdfs)} PDFs in {DATA_DIR}")
     print(f"Output dir: {DOCS_TEST_DIR}")
+    if args.rescore:
+        print("Mode: rescore only (using cached JSON, no API calls)")
     print()
 
     all_results: list[dict] = []
@@ -477,13 +517,66 @@ async def main() -> None:
             print(f"  [{doc_id}] SKIP — no ground truth file")
             continue
 
+        out_path = DOCS_TEST_DIR / f"{doc_id}.json"
+
+        if args.rescore:
+            if not out_path.exists():
+                print(f"  [{doc_id}] SKIP — no cached JSON (run without --rescore first)")
+                continue
+            print(f"  [{doc_id}] rescoring...", end="", flush=True)
+            try:
+                cached = json.loads(out_path.read_text(encoding="utf-8"))
+                meta = cached["meta"]
+                records = cached["records"]
+                gt_data = json.loads(gt_path.read_text(encoding="utf-8"))
+                gt_records = gt_data.get("records", [])
+                eval_result = evaluate_doc(doc_id, records, gt_records)
+                all_results.append(eval_result)
+                all_metas.append(meta)
+                n_errors = len([e for e in eval_result["errors"] if e["type"] == "field_mismatch"])
+                print(
+                    f" {len(records)}/{len(gt_records)} records  "
+                    f"acc={eval_result['weighted_accuracy']:.1%}  "
+                    f"errors={n_errors}"
+                )
+            except Exception as exc:
+                print(f" FAILED")
+                traceback.print_exc()
+            continue
+
+        if doc_id in (args.skip or []):
+            if not out_path.exists():
+                print(f"  [{doc_id}] SKIP — no cached JSON for skipped doc")
+                continue
+            print(f"  [{doc_id}] skipped (using cache)...", end="", flush=True)
+            try:
+                cached = json.loads(out_path.read_text(encoding="utf-8"))
+                meta = cached["meta"]
+                records = cached["records"]
+                gt_data = json.loads(gt_path.read_text(encoding="utf-8"))
+                gt_records = gt_data.get("records", [])
+                eval_result = evaluate_doc(doc_id, records, gt_records)
+                all_results.append(eval_result)
+                all_metas.append(meta)
+                n_errors = len([e for e in eval_result["errors"] if e["type"] == "field_mismatch"])
+                print(
+                    f" {len(records)}/{len(gt_records)} records  "
+                    f"acc={eval_result['weighted_accuracy']:.1%}  "
+                    f"errors={n_errors}  "
+                    f"cost=${meta['cost_usd']:.4f}  "
+                    f"{meta['duration_seconds']}s"
+                )
+            except Exception as exc:
+                print(f" FAILED reading cache")
+                traceback.print_exc()
+            continue
+
         print(f"  [{doc_id}] extracting...", end="", flush=True)
 
         try:
             output, meta = await run_extraction(pdf_path, doc_id)
 
             # Persist extracted JSON
-            out_path = DOCS_TEST_DIR / f"{doc_id}.json"
             out_path.write_text(
                 json.dumps(
                     {

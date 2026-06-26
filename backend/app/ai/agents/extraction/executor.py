@@ -25,22 +25,39 @@ _MAX_CONCURRENT_CHUNKS = 4
 def _fix_payments_balance(record: BillingRecord) -> BillingRecord:
     """Deterministically correct the payments/balance column swap.
 
-    Medical billing ledgers commonly have one patient-amount column that
-    models map to `payments`, but which is actually the remaining balance.
-    Rule: if total_charges - ins_paid - adjustment == payments (within 2 cents)
-    and balance is 0.0, the column is the balance, not a received payment.
-    Also normalises explicit 0.0 payments to null (empty column artefact).
+    Three cases handled in order:
+
+    1. payments=None, balance=X where X ≈ expected:
+       Model put the patient payment in balance instead of payments.
+       Move balance → payments, set balance = 0.0.
+
+    2. payments=X where X ≈ expected, balance ≈ 0:
+       Model put the remaining balance amount in payments instead of balance.
+       Move payments → balance, null payments.
+
+    3. payments=0.0, expected ≈ 0:
+       Empty column artefact. Null the 0.0 payment.
     """
     tc = record.total_charges
     ip = record.ins_paid
     adj = record.adjustment
 
-    if tc is None or ip is None or adj is None:
+    if tc is None or ip is None:
         return record
 
-    expected = round(tc - ip - adj, 2)
+    # adj=None treated as 0.0 — common in pharmacy records where no adjustment column exists
+    expected = round(tc - ip - (adj or 0.0), 2)
 
-    # payments holds the balance value → swap
+    # Case 1: payments missing but balance holds the patient payment amount
+    if (
+        record.payments is None
+        and record.balance is not None
+        and abs(record.balance - expected) < 0.02
+        and expected > 0.02
+    ):
+        return record.model_copy(update={"payments": record.balance, "balance": 0.0})
+
+    # Case 2: payments holds the balance value → swap
     if (
         record.payments is not None
         and record.balance is not None
@@ -49,7 +66,7 @@ def _fix_payments_balance(record: BillingRecord) -> BillingRecord:
     ):
         return record.model_copy(update={"balance": record.payments, "payments": None})
 
-    # payments is explicit 0.0 but expected balance is also ~0.0 → null (empty column)
+    # Case 3: payments is explicit 0.0 but expected balance is also ~0.0 → null
     if record.payments == 0.0 and abs(expected) < 0.02:
         return record.model_copy(update={"payments": None})
 
@@ -200,6 +217,22 @@ class ExtractionAgentExecutor:
 
         # Phase 1: classify (tokens counted toward totals below)
         pages_to_extract, cls_inp, cls_out = await self._classify_pages(ctx)
+
+        # Safety: if classifier selected < 30% of pages on a 3+ page doc, it
+        # was too selective (found one summary page and missed everything else).
+        # Fall back to all pages so large multi-record docs get full coverage.
+        all_pages = ctx.document.pages
+        min_threshold = max(1, len(all_pages) * 0.3)
+        if len(all_pages) >= 3 and len(pages_to_extract) < min_threshold:
+            self.logger.info(
+                "classifier_fallback_to_all_pages",
+                doc_id=ctx.document.doc_id,
+                selected=len(pages_to_extract),
+                total=len(all_pages),
+                threshold=min_threshold,
+            )
+            pages_to_extract = all_pages
+
         chunks = _build_chunks(pages_to_extract)
 
         self.logger.info(
@@ -231,6 +264,30 @@ class ExtractionAgentExecutor:
             all_records.extend(_fix_payments_balance(r) for r in chunk_output.records)
             total_input += inp
             total_output += out
+
+        total_pages = len(ctx.document.pages)
+        records_per_page = len(all_records) / max(1, total_pages)
+        if records_per_page > 20:
+            all_flagged.append(
+                FlaggedRecord(
+                    row=None,
+                    fields=["treatment_date"],
+                    reason=(
+                        f"Possible over-extraction: {len(all_records)} records from {total_pages} pages "
+                        f"({records_per_page:.0f}/page). Document may have been extracted at line-item "
+                        f"level instead of summary level."
+                    ),
+                    page="1",
+                    severity="high",
+                )
+            )
+            self.logger.warning(
+                "over_extraction_detected",
+                doc_id=ctx.document.doc_id,
+                records=len(all_records),
+                total_pages=total_pages,
+                records_per_page=records_per_page,
+            )
 
         self.logger.info(
             "extraction_agent_completed",
