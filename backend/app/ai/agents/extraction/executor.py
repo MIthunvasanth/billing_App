@@ -12,8 +12,8 @@ from app.core.common.logger import get_logger
 from app.models.extraction import BillingRecord, ExtractionOutput, FlaggedRecord, PageClassification
 
 _CHARS_PER_TOKEN = 4
-_TARGET_TOKENS_PER_CHUNK = 20_000
-_TARGET_CHARS_PER_CHUNK = _TARGET_TOKENS_PER_CHUNK * _CHARS_PER_TOKEN
+_TARGET_TOKENS_PER_CHUNK = 10_000
+_TARGET_CHARS_PER_CHUNK = _TARGET_TOKENS_PER_CHUNK * _CHARS_PER_TOKEN  # 40_000
 
 # Characters of each page sent to the classifier (enough to judge row density)
 _CLASSIFIER_PREVIEW_CHARS = 800
@@ -23,21 +23,7 @@ _MAX_CONCURRENT_CHUNKS = 4
 
 
 def _fix_payments_balance(record: BillingRecord) -> BillingRecord:
-    """Deterministically correct the payments/balance column swap.
-
-    Three cases handled in order:
-
-    1. payments=None, balance=X where X ≈ expected:
-       Model put the patient payment in balance instead of payments.
-       Move balance → payments, set balance = 0.0.
-
-    2. payments=X where X ≈ expected, balance ≈ 0:
-       Model put the remaining balance amount in payments instead of balance.
-       Move payments → balance, null payments.
-
-    3. payments=0.0, expected ≈ 0:
-       Empty column artefact. Null the 0.0 payment.
-    """
+    """Deterministically correct the payments/balance column swap."""
     tc = record.total_charges
     ip = record.ins_paid
     adj = record.adjustment
@@ -45,32 +31,150 @@ def _fix_payments_balance(record: BillingRecord) -> BillingRecord:
     if tc is None or ip is None:
         return record
 
-    # adj=None treated as 0.0 — common in pharmacy records where no adjustment column exists
-    expected = round(tc - ip - (adj or 0.0), 2)
+    expected = round((tc or 0) - (ip or 0) - (adj or 0), 2)
 
-    # Case 1: payments missing but balance holds the patient payment amount
+    # Case 1: payments missing, balance holds the patient payment amount
     if (
         record.payments is None
         and record.balance is not None
         and abs(record.balance - expected) < 0.02
         and expected > 0.02
     ):
-        return record.model_copy(update={"payments": record.balance, "balance": 0.0})
+        record.payments = record.balance
+        record.balance = 0.0
+        return record
 
-    # Case 2: payments holds the balance value → swap
-    if (
-        record.payments is not None
-        and record.balance is not None
-        and abs(record.payments - expected) < 0.02
-        and abs(record.balance) < 0.02
-    ):
-        return record.model_copy(update={"balance": record.payments, "payments": None})
+    # Case 2: payments holds the outstanding balance (amount still owed, not paid)
+    if record.payments is not None and record.balance == 0.0 and expected > 0.02:
+        if abs(record.payments - expected) < 0.02:
+            record.balance = record.payments
+            record.payments = None
+            return record
 
     # Case 3: payments is explicit 0.0 but expected balance is also ~0.0 → null
     if record.payments == 0.0 and abs(expected) < 0.02:
-        return record.model_copy(update={"payments": None})
+        record.payments = None
+        return record
 
     return record
+
+
+def _parse_dates_from_record(record: BillingRecord) -> list:
+    from datetime import datetime
+    dates = []
+    d = record.treatment_date.strip().replace("–", "-").replace("—", "-")
+    for part in d.split(" - "):
+        part = part.strip()
+        try:
+            dates.append(datetime.strptime(part, "%m/%d/%Y"))
+        except ValueError:
+            pass
+    return dates
+
+
+def _merge_patient_records(records: list[BillingRecord]) -> list[BillingRecord]:
+    """After parallel chunk extraction, merge records that are the same patient split across chunks.
+
+    Groups by (provider, sorted_cpt_codes). Within each group: expands date range to
+    span all dates, sums financials, unions CPT/insurer/third_party lists.
+    Records with different CPT codes stay separate (different patients / procedures).
+    """
+    from collections import defaultdict
+    from datetime import datetime
+
+    groups: dict[tuple, list[BillingRecord]] = defaultdict(list)
+    for r in records:
+        key = (r.provider.strip().lower(), tuple(sorted(set(r.cpt_codes))))
+        groups[key].append(r)
+
+    merged: list[BillingRecord] = []
+    for group in groups.values():
+        if len(group) == 1:
+            merged.append(group[0])
+            continue
+
+        all_dates: list[datetime] = []
+        for r in group:
+            all_dates.extend(_parse_dates_from_record(r))
+
+        if all_dates:
+            d0 = min(all_dates).strftime("%m/%d/%Y")
+            d1 = max(all_dates).strftime("%m/%d/%Y")
+            merged_date = f"{d0} - {d1}" if d0 != d1 else d0
+        else:
+            merged_date = group[0].treatment_date
+
+        def _sum(field: str) -> float | None:
+            vals = [getattr(r, field) for r in group if getattr(r, field) is not None]
+            return round(sum(vals), 2) if vals else None
+
+        all_cpts: list[str] = []
+        all_ins: list[str] = []
+        all_thirds: list[str] = []
+        for r in group:
+            all_cpts.extend(r.cpt_codes)
+            all_ins.extend(r.insurers)
+            all_thirds.extend(r.third_parties)
+
+        merged.append(BillingRecord(
+            treatment_date=merged_date,
+            cpt_codes=list(dict.fromkeys(all_cpts)),
+            description=next((r.description for r in group if r.description), None),
+            provider=group[0].provider,
+            insurers=list(dict.fromkeys(all_ins)),
+            third_parties=list(dict.fromkeys(all_thirds)),
+            total_charges=_sum("total_charges"),
+            ins_paid=_sum("ins_paid"),
+            adjustment=_sum("adjustment"),
+            payments=_sum("payments"),
+            balance=_sum("balance"),
+            page=group[0].page,
+        ))
+
+    return merged
+
+
+def _aggregate_records(records: list[BillingRecord]) -> BillingRecord:
+    """Collapse all records into one aggregate — used when over-extraction is detected."""
+    from datetime import datetime
+
+    all_dates: list[datetime] = []
+    for r in records:
+        all_dates.extend(_parse_dates_from_record(r))
+
+    if all_dates:
+        d0 = min(all_dates).strftime("%m/%d/%Y")
+        d1 = max(all_dates).strftime("%m/%d/%Y")
+        merged_date = f"{d0} - {d1}" if d0 != d1 else d0
+    else:
+        merged_date = records[0].treatment_date if records else ""
+
+    def _sum(field: str) -> float | None:
+        vals = [getattr(r, field) for r in records if getattr(r, field) is not None]
+        return round(sum(vals), 2) if vals else None
+
+    all_cpts: list[str] = []
+    all_ins: list[str] = []
+    all_thirds: list[str] = []
+    for r in records:
+        all_cpts.extend(r.cpt_codes)
+        all_ins.extend(r.insurers)
+        all_thirds.extend(r.third_parties)
+
+    return BillingRecord(
+        treatment_date=merged_date,
+        cpt_codes=list(dict.fromkeys(all_cpts)),
+        description=next((r.description for r in records if r.description), None),
+        provider=records[0].provider if records else "",
+        insurers=list(dict.fromkeys(all_ins)),
+        third_parties=list(dict.fromkeys(all_thirds)),
+        total_charges=_sum("total_charges"),
+        ins_paid=_sum("ins_paid"),
+        adjustment=_sum("adjustment"),
+        payments=_sum("payments"),
+        balance=_sum("balance"),
+        page=records[0].page if records else "1",
+    )
 
 
 def _build_chunks(pages: list[Page]) -> list[list[Page]]:
@@ -265,28 +369,65 @@ class ExtractionAgentExecutor:
             total_input += inp
             total_output += out
 
-        total_pages = len(ctx.document.pages)
-        records_per_page = len(all_records) / max(1, total_pages)
-        if records_per_page > 20:
+        # Cross-chunk dedup: merge records for the same patient split across chunk boundaries
+        # Groups by (provider, cpt_codes) — same procedure set at same provider = same patient
+        pre_merge_count = len(all_records)
+        all_records = _merge_patient_records(all_records)
+        post_merge_count = len(all_records)
+        if post_merge_count != pre_merge_count:
+            self.logger.info(
+                "cross_chunk_merge",
+                doc_id=ctx.document.doc_id,
+                before=pre_merge_count,
+                after=post_merge_count,
+            )
+
+        # Secondary aggregation: if merge removed > 80% of records, this is a periodic
+        # billing document (e.g. dialysis, recurring treatment) whose GT is one summary row.
+        # Collapse remaining records into one aggregate.
+        if post_merge_count > 1 and pre_merge_count > 1 and post_merge_count < pre_merge_count * 0.2:
+            self.logger.info(
+                "periodic_billing_aggregation",
+                doc_id=ctx.document.doc_id,
+                pre_merge=pre_merge_count,
+                post_merge=post_merge_count,
+            )
+            all_records = [_aggregate_records(all_records)]
             all_flagged.append(
                 FlaggedRecord(
                     row=None,
                     fields=["treatment_date"],
                     reason=(
-                        f"Possible over-extraction: {len(all_records)} records from {total_pages} pages "
-                        f"({records_per_page:.0f}/page). Document may have been extracted at line-item "
-                        f"level instead of summary level."
+                        f"Periodic billing detected: {pre_merge_count} raw records merged to "
+                        f"{post_merge_count}, then aggregated to 1 summary record."
                     ),
                     page="1",
-                    severity="high",
+                    severity="low",
                 )
             )
+
+        total_pages = len(ctx.document.pages)
+        records_per_page = len(all_records) / max(1, total_pages)
+        if records_per_page > 20:
             self.logger.warning(
                 "over_extraction_detected",
                 doc_id=ctx.document.doc_id,
                 records=len(all_records),
                 total_pages=total_pages,
                 records_per_page=records_per_page,
+            )
+            all_records = [_aggregate_records(all_records)]
+            all_flagged.append(
+                FlaggedRecord(
+                    row=None,
+                    fields=["treatment_date"],
+                    reason=(
+                        f"Over-extraction detected ({pre_merge_count} records, "
+                        f"{records_per_page:.0f}/page). Aggregated into one summary record."
+                    ),
+                    page="1",
+                    severity="high",
+                )
             )
 
         self.logger.info(

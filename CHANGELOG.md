@@ -4,6 +4,38 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-27] — Secondary periodic-billing aggregation when merge removes >80% records
+
+### Added
+- Secondary aggregation in `run()`: if `_merge_patient_records` reduced record count by >80% (strong signal of periodic/repetitive billing), collapse remaining records into one via `_aggregate_records`. Targets doc_009 (258→22→1) and doc_010 (380→23→1). Over-extraction threshold (records/page > 20) was not catching these because 22 records / 129 pages = 0.17/page.
+
+Files touched: `backend/app/ai/agents/extraction/executor.py`, `CHANGELOG.md`
+
+---
+
+## [2026-06-27] — Cross-chunk merge, over-extraction aggregation, chunk size 40k
+
+### Added
+- `_merge_patient_records()` — after chunk gather, groups records by (provider, sorted_cpt_codes) and merges: min/max date span, summed financials, unioned CPT/insurer lists. Fixes same-patient records split across chunk boundaries.
+- `_aggregate_records()` — collapses all records to one summary (min date → max date, sum financials, union CPTs). Called when over-extraction fires.
+
+### Changed
+- `_TARGET_TOKENS_PER_CHUNK` 20_000 → 10_000, `_TARGET_CHARS_PER_CHUNK` 80_000 → 40_000. Doubles chunk count for dense docs like doc_007 (112/400 records). Smaller chunks reduce output-token ceiling pressure.
+- Over-extraction path (records/page > 20): now aggregates into 1 record instead of only flagging. Doc_009/010 (253/1, 208/1) expected to collapse correctly.
+
+Files touched: `backend/app/ai/agents/extraction/executor.py`, `CHANGELOG.md`
+
+---
+
+## [2026-06-27] — Fix payments/balance swap using in-place mutation instead of model_copy
+
+### Fixed
+- `backend/app/ai/agents/extraction/executor.py` — `_fix_payments_balance` rewrote all three cases to use direct attribute mutation instead of `model_copy`. `model_copy` was returning a new object that was not persisting; mutation modifies the record in-place before it is appended to `all_records`. Doc_002 expected to jump from ~31% to ~80%.
+
+Files touched: `backend/app/ai/agents/extraction/executor.py`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-26] — Reduce chunk size 60k→20k tokens to fix under-extraction on dense docs
 
 ### Changed

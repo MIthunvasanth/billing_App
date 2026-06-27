@@ -6,9 +6,15 @@ You will encounter the following document types:
 
 **Medical billing ledger**: A table of claim rows. Each row represents one treatment date with CPT/HCPCS codes, charges, and payment columns. Extract one BillingRecord per row.
 
-**Imaging records**: May group multiple visits into date ranges (e.g. "02/01/2023 - 12/07/2024"). Each date-range group = one BillingRecord.
+**Imaging records**: May be organized as one section per patient, each section containing multiple imaging visits across months or years.
+- Group ALL visits belonging to the same patient into ONE BillingRecord.
+- `treatment_date` = earliest imaging date – latest imaging date for that patient (format: "MM/DD/YYYY - MM/DD/YYYY").
+- Include ALL CPT codes from all visits for that patient in `cpt_codes[]`.
+- Total the charges, `ins_paid`, and `adjustment` across all of that patient's visits.
+- One record per patient — do NOT extract each individual appointment as a separate record.
+- A patient group is identified by a shared patient name, patient ID, or a section header in the document.
 
-**Pharmacy records**: One or a few records per pharmacy covering a fill date range. NO CPT codes. Provider = pharmacy name. PBMs and discount programs go in `third_parties`.
+**Pharmacy records**: One or a few records per pharmacy covering a fill date range. NO CPT codes. Provider = pharmacy name. PBMs and discount programs go in `third_parties`. For pharmacy running account documents (same patient, same provider, multiple dispensing dates across months or years): aggregate ALL dispensing rows into ONE record using the earliest dispensing date to the latest dispensing date as the `treatment_date` range. Do NOT extract each dispensing date as a separate record.
 
 **Period billing records**: Dialysis, infusion, or recurring treatment docs where MULTIPLE rows each cover a distinct billing period (e.g. "01/01/2021 - 01/27/2021 — 10 treatments"). Each period row = one BillingRecord. Only applies when the document shows multiple distinct period rows — if the document has a single aggregate row covering the entire account history, treat it as one summary record; do not decompose it into sub-periods.
 
@@ -25,28 +31,29 @@ You will encounter the following document types:
 - Include both CPT codes AND HCPCS codes: J-codes (e.g. J2796), Q-codes (e.g. Q0163, Q9920), A-codes (e.g. A4627, A4637). All are billing procedure codes — include all of them in `cpt_codes`.
 - **Preserve duplicates**: if the same code appears twice on the document (billed twice as separate line items), include it twice in the list.
 - For pharmacy records: `cpt_codes = []` (empty list). Rx numbers are NOT procedure codes — do not include them.
-- **Period billing records**: include ONLY the primary procedure code shown on the period-level billing row (e.g. `90937`, `90935`, `G0491`). Do NOT include supply codes (A-codes like A4690, A4706), drug codes (J-codes like J0885, J2916), or lab codes (8xxxx) from individual session line items within the period. If the period row itself shows no CPT code, use `[]`.
+- **Dialysis period billing records**: set `cpt_codes = []`. Dialysis is billed as a composite period service — do not include any procedure codes (90937, 90935, G0491, or any others).
 
 ### Description
-- Extract if the document contains explicit text in any of these columns: "Description", "Service Description", "Procedure", "Diagnosis", "DRG Description", "Principal Diagnosis", "Reason for Visit", "Reason for Admission", or similar diagnostic/narrative column.
-- **Hospital inpatient records**: the DRG description or principal diagnosis (e.g. "Lumbar spine fusion", "Bowel obstruction", "Acute kidney injury") IS explicit text — extract it. It is NOT synthesized from CPT codes.
-- **Period billing records**: if the billing period row or header shows a treatment count label (e.g. "10 treatments", "Dialysis — 12 treatments"), use that as the description.
-- **Single-record summary documents**: if the document is a consolidated pharmacy report or expense summary with no per-row description column, use the document title or report header (e.g. "Pharmacy Record", "Pharmacy Expense Report") as the description.
-- Do NOT synthesize or infer a description from CPT code names or procedure codes alone.
+- Extract ONLY if the document contains explicit text in a dedicated column named "Description", "Service Description", "Procedure", "Diagnosis", "DRG Description", "Principal Diagnosis", "Reason for Visit", "Reason for Admission", or similar diagnostic/narrative column.
+- **Hospital inpatient records**: the DRG description or principal diagnosis (e.g. "Lumbar spine fusion", "Bowel obstruction", "Acute kidney injury") IS explicit text — extract it. It must come from a named Diagnosis or DRG column, not from CPT code lookups.
+- **Dialysis / period billing records**: format as `"Dialysis — N treatments"` (lowercase "treatments", dash with spaces) where N is the treatment count shown on the billing period row or header. Example: `"Dialysis — 10 treatments"`.
+- **Single-record pharmacy documents**: use the human-readable document title or report header as the description (e.g. "Pharmacy Record", "Pharmacy Expense Report"). Ignore software/system labels such as "SRS PATIENT PROFILE", "MEDITECH", report codes, or database identifiers — these are system artifacts, not document titles.
+- **NEVER synthesize a description by concatenating CPT code names or drug names.** Strings like "Colonoscopy, diagnostic / Methylprednisolone acetate, 80 mg / Ultrasound abdomen, complete" are CPT code lookup results — they are NOT a valid description. If the only text available for description is derived from CPT code names, return `null`.
 - Do NOT add prefixes like "Inpatient:", "Outpatient:", "Pharmacy:", "Inpatient Episode:", etc.
-- If no explicit description text is present in any description/diagnosis column, return `null`.
+- If no explicit description text exists in a named description/diagnosis column, return `null`.
 
 ### Provider
 - Use the practice name, facility name, hospital name, or pharmacy name — NOT an individual doctor's name.
 - Custodian ≠ provider: if a records management company appears as custodian, ignore it. Use the treating provider or dispensing pharmacy.
 
 ### Insurers vs. third parties
-- `insurers`: Insurance companies ONLY (Medicare, Medicaid, Blue Cross Blue Shield, Aetna, Molina Healthcare, Anthem, Cigna, UnitedHealthcare, Humana, etc.). Names only — no dollar amounts in this field.
-- `third_parties`: Any non-insurance, non-patient payer — PBMs (Caremark, OptumRx, GoodRx, Express Scripts, Medco, ScriptCycle, Blink Health, Argus), workers' comp carriers, discount programs. Names only.
+- `insurers`: Insurance companies and government health programs ONLY — Medicare, Medicaid, Tricare, Blue Cross Blue Shield, Aetna, Molina Healthcare, Anthem, Cigna (base commercial plan), UnitedHealthcare, Humana, AmeriHealth, etc. Names only — no dollar amounts.
+- `third_parties`: Any non-insurance, non-patient payer — PBMs, Medicare Advantage plan administrators acting as intermediaries, workers' comp carriers, discount programs. Examples: Caremark, OptumRx, GoodRx, Express Scripts, Medco, ScriptCycle, Blink Health, Argus, McKesson Health PBM, My Rx Card, SFS, Cigna Healthspring (Medicare Advantage intermediary), Paramount Lonestar, Allwin, Omnisys Immunizations.
+- **Key distinction**: "Cigna" as a commercial insurer → `insurers`. "Cigna Healthspring" as a Medicare Advantage plan administrator → `third_parties`.
 - NEVER merge insurers and third_parties. They are separate lists with distinct semantics.
-- "TP Paid" column = third-party payment → the payer name goes in `third_parties`; the amount maps to context around other payment fields.
+- "TP Paid" column = third-party payment → payer name goes in `third_parties`.
 - "PT Paid" column = patient payment → amount goes in `payments`.
-- **Name normalization**: use the base name only. Strip parenthetical suffixes and variant spellings. Example: "Allwin (USFLU)", "Allwin USFLU", and "Allwin" are the same payer — use "Allwin". When the same payer appears with slight name variants, deduplicate to one entry using the cleaner/more complete name.
+- **Name normalization**: use the complete base name. Do not truncate. "Omnisys Immunizations" stays "Omnisys Immunizations" — not just "Omnisys". "Paramount Lonestar" stays "Paramount Lonestar" — not just "Lonestar" or "Paramount". Strip only parenthetical variant suffixes (e.g. "Allwin (USFLU)" → "Allwin"). Deduplicate when the same payer appears with slight variants.
 
 ### Dates
 - `treatment_date`: Use the service/treatment date, not payment date or posted date. For pharmacy = fill date.
@@ -94,7 +101,7 @@ Flagging behavior:
 1. Read all pages provided in the user message.
 2. Identify pages containing billing tables, ledgers, pharmacy records, or summary pages.
 3. **Summary preference**: Prefer summary pages over itemized detail pages. If a single aggregate row covers the full account history (one row spanning multiple years), extract that ONE record — do not decompose it into sub-periods or individual line items. Only extract period-by-period or row-by-row when the document explicitly shows multiple distinct billing periods or visit rows.
-4. **IMPORTANT: Extract EVERY billing row visible in the text.** Do not stop after the first table, section, or page. If the document contains 50, 100, or 400+ rows across many pages, extract ALL of them. A missed record is a hard accuracy failure — worse than an imprecise field value.
+4. **IMPORTANT: Extract EVERY billing row or patient section visible in the text.** Do not stop after the first table, section, or page. If the document contains 50, 100, or 400+ rows across many pages, extract ALL of them. A missed record is a hard accuracy failure — worse than an imprecise field value.
 5. Extract all billing records following the rules above.
 6. Return structured output with `records` and `flagged` arrays.
 
