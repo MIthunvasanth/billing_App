@@ -193,7 +193,12 @@ A `processing` job cannot be directly cancelled — it must either complete, fai
 
 Currently no bounded retry within a single job attempt. If extraction fails, the job goes to `failed` immediately. This is M3 scope; the stall-recovery mechanism does effectively retry a crashed job by resetting it to `pending`, but transient API errors (429, 5xx from OpenAI) are not retried.
 
-What I would add with more time: wrap the OpenAI API calls in a retry with exponential backoff (start at 1s, cap at 60s, max 3 attempts). Retryable errors: `429 RateLimitError`, `500/503 APIError`, `asyncio.TimeoutError`. Non-retryable: `400 BadRequestError` (prompt issue), `401 AuthenticationError`, `404`.
+**Intended design (not yet implemented):** wrap the OpenAI API calls in exponential backoff — start at 1s, multiply 2×, cap at 60s, max 3 attempts. After 3 failures: `status=failed`, error detail written to job row, worker loop continues.
+
+Retryable: `RateLimitError` (429), `APIError` (5xx), `asyncio.TimeoutError`.
+Non-retryable: `BadRequestError` (400 — prompt issue), `AuthenticationError` (401), `ValidationError` (Pydantic).
+
+Stall recovery provides a coarser outer retry: a worker crash leaves the job in `processing`; `recover_stalled` resets it to `pending` after 5 minutes. This is orthogonal — fine-grained retries handle transient API errors within one attempt; stall recovery handles worker process death.
 
 ### 4.5 Cost and Latency Tracking
 
@@ -203,9 +208,9 @@ What I would add with more time: wrap the OpenAI API calls in a retry with expon
 
 `cost_usd` is estimated as:
 ```python
-cost_usd = (input_tokens * 0.00000015) + (output_tokens * 0.0000006)
+cost_usd = (input_tokens * 0.000002) + (output_tokens * 0.000008)
 ```
-Models used: `gpt-5.4-mini` (classifier) and `gpt-5.4` (extraction). Rates in `extraction_service.py` are set to $2/1M input and $8/1M output as a blended estimate. These should be verified against current OpenAI pricing at submission time — the exact rates for gpt-5.4 family are on OpenAI's June 2026 pricing page.
+Models used: `gpt-5.4-mini` (classifier) and `gpt-5.4` (extraction). Blended estimate: $2/1M input, $8/1M output. These should be verified against current OpenAI pricing at submission time — the exact rates for gpt-5.4 family are on OpenAI's June 2026 pricing page.
 
 ### 4.6 Result Caching
 
@@ -256,26 +261,36 @@ Decisions I'd change with more time:
 
 ## 7. Accuracy and Failure Analysis
 
-Evaluated against `data/doc_001–doc_012` ground truth. Results are field-level accuracy (weighted: high-weight fields count more than description).
+Evaluated against `data/doc_001–doc_012` ground truth via `scripts/eval_extraction.py`. Weighted field accuracy: high-weight fields (treatment_date, cpt_codes, total_charges, ins_paid, adjustment, payments, balance) count 3×; provider/insurers/third_parties 2×; description 1×.
 
-| Doc | Score | Record count (extracted/GT) | Main issue |
+**Overall average: 50.9%** across 12 documents (run 2026-06-27).
+
+| Doc | Score | Extracted/GT | Main issue |
 |---|---|---|---|
-| doc_001 | ~92% | ~40/40 | Minor date formatting |
-| doc_002 | ~42% | 40/40 | Date range extraction |
-| doc_003 | ~80% | matches | Good |
-| doc_004 | ~75% | matches | |
-| doc_005 | ~85% | matches | |
-| doc_006 | ~78% | matches | |
-| doc_007 | ~90% | 405/400 | Slight over-extraction |
-| doc_008 | ~5% | ~83/9 | Per-patient date range |
-| doc_009 | ~29% | 1/1 | Financial aggregation |
-| doc_010 | ~43% | 1/1 | Financial aggregation |
-| doc_011 | ~70% | 201/150 | Over-extraction |
-| doc_012 | ~80% | matches | |
+| doc_001 | 88.4% | 49/50 | Minor date/financial mismatches |
+| doc_002 | 69.3% | 40/40 | Date range format — per-visit vs per-patient |
+| doc_003 | 0.0% | 2/1 | GT=1 consolidated; model extracts 2 |
+| doc_004 | 0.0% | 2/1 | Same as doc_003 |
+| doc_005 | 85.7% | 77/80 | 3 records missed |
+| doc_006 | 99.0% | 33/33 | Near-perfect |
+| doc_007 | 79.5% | 402/400 | Slight over-extraction, field errors on large doc |
+| doc_008 | 31.9% | 1474/100 | Model hallucinates ~35 records/page; GT fields matched via scorer |
+| doc_009 | 0.0% | 53/1 | GT=1 aggregate; model extracts per-encounter (129-page doc) |
+| doc_010 | 0.0% | 28/1 | Same as doc_009 (151-page doc) |
+| doc_011 | 57.7% | 149/150 | Record count correct; field accuracy limited on 194-page doc |
+| doc_012 | 99.0% | 122/120 | Near-perfect |
 
-**doc_002/doc_008** are the hardest case. Ground truth has one record per patient with a date range spanning years (`01/01/2019 - 12/31/2021`). The model extracts one record per billing period (monthly or quarterly). The cross-chunk merge (`_merge_patient_records`) partially helps by collapsing same-CPT-code records from different chunks, but it can't fully reconstruct the per-patient date spans from monthly entries without knowing which monthly records belong to the same patient. The fix would be a prompt rule: "if the same provider+CPT combination appears multiple times with sequential dates, summarize as one record with the earliest–latest date range."
+**Key failure modes:**
 
-**doc_009/010** are dialysis billing: one patient, one CPT code, one record per session. The GT expects one aggregated record. After the 80%-reduction trigger in `_merge_patient_records`, these collapse to one record. The financial fields (total_charges, ins_paid, balance) are the sum of all sessions, which matches GT intent but the exact sums can be off if the model missed or double-counted a session.
+**doc_002** (69.3%): GT has per-patient date ranges spanning years. Model extracts per-visit rows with individual dates. Record count matches but 68 field mismatches because the date format doesn't match GT's range format. Fix: prompt rule to consolidate sequential same-provider+CPT rows into a date range.
+
+**doc_008** (31.9%, 1474 extracted vs 100 GT): Model hallucinates sub-records within what are single billing rows. 1474 records from 42 pages = 35/page. The eval scorer still finds GT record matches by date+charges, yielding 31.9%. Root cause: the page content for this document has dense numerical tables the model fragments. A post-processing pass that deduplicates by (date, total_charges) within a window would help.
+
+**doc_003/004** (0%): GT says 1 consolidated record; model outputs 2. The scorer treats count mismatch as 0 on every field for the missing record. The extracted record is likely correct — the 0% reflects record count, not field accuracy.
+
+**doc_009/010** (0%): 129 and 151-page documents where GT=1 consolidated summary. Model correctly extracts per-encounter rows (53 and 28 respectively). Without runtime knowledge of GT count, collapsing to 1 would require prompt-level instruction to aggregate when no summary page is found.
+
+**What improved (2026-06-27):** Changed `_merge_patient_records` grouping key from `(provider, cpt_codes)` to `(provider, cpt_codes, treatment_date)`. Prior grouping merged all recurring-treatment records regardless of date, then `periodic_billing_aggregation` collapsed to 1. This was silently destroying doc_005/006/011/012. Removing the collapse heuristics lifted those from 0% to 85–99%. Average went from 19.8% → 50.9%.
 
 **doc_011** over-extraction is a model tendency to split combined records. The `records_per_page > 20` threshold doesn't fire at 201/129 pages (~1.5/page). Adding a per-section count threshold would help.
 

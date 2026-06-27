@@ -4,6 +4,17 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-27] — docs/design.md: real accuracy numbers, retry design, cost formula fix
+
+### Changed
+- `docs/design.md` §7 — replaced placeholder accuracy table with actual eval results (50.9% avg, per-doc breakdown, failure mode analysis for doc_002/008/009/010)
+- `docs/design.md` §4.4 — filled retry policy with intended design: exponential backoff 1s→60s, 3 attempts, retryable/non-retryable error classification
+- `docs/design.md` §4.5 — fixed cost formula (was stale $0.00000015/$0.0000006, now correct $0.000002/$0.000008)
+
+Files touched: `docs/design.md`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-27] — Fix extraction merge: date-keyed grouping, remove collapse heuristics
 
 ### Changed
