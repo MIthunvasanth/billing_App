@@ -4,6 +4,15 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-27] — Implement retry with exponential backoff in extraction pipeline
+
+### Added
+- `backend/app/ai/agents/extraction/executor.py` — `_run_with_retry` async helper: exponential backoff starting 1s, 2× multiplier, 60s cap, max 3 attempts. Wraps both `Runner.run` call sites (classifier and each extraction chunk). Retryable: `RateLimitError` (429), `InternalServerError` (5xx), `APIConnectionError`, `APITimeoutError`, `asyncio.TimeoutError`. Non-retryable: `BadRequestError` (400), `AuthenticationError` (401), other 4xx. Logs each retry with attempt number, delay, and error.
+
+Files touched: `backend/app/ai/agents/extraction/executor.py`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-27] — docs/design.md: real accuracy numbers, retry design, cost formula fix
 
 ### Changed

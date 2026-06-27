@@ -21,6 +21,60 @@ _CLASSIFIER_PREVIEW_CHARS = 800
 # Max concurrent OpenAI API calls — prevents 429s on large documents
 _MAX_CONCURRENT_CHUNKS = 4
 
+# Retry config for transient OpenAI API errors
+_MAX_RETRIES = 3
+_RETRY_BASE_SECONDS = 1.0
+_RETRY_MAX_SECONDS = 60.0
+
+
+async def _run_with_retry(coro_fn, *, label: str = "", logger=None):
+    """Run coro_fn() with exponential backoff on transient OpenAI API errors.
+
+    Retryable: RateLimitError (429), InternalServerError (5xx), APIConnectionError,
+               APITimeoutError, asyncio.TimeoutError.
+    Non-retryable: BadRequestError (400), AuthenticationError (401), other 4xx,
+                   ValidationError (Pydantic — prompt issue).
+    After _MAX_RETRIES failures, re-raises the last exception.
+    """
+    from openai import (
+        APIConnectionError,
+        APIStatusError,
+        APITimeoutError,
+        AuthenticationError,
+        BadRequestError,
+        RateLimitError,
+    )
+
+    last_exc: BaseException | None = None
+    for attempt in range(_MAX_RETRIES):
+        try:
+            return await coro_fn()
+        except (BadRequestError, AuthenticationError):
+            raise  # prompt or auth issue — not transient
+        except RateLimitError as exc:
+            last_exc = exc
+        except APIStatusError as exc:
+            if exc.status_code < 500:
+                raise  # other 4xx — not transient
+            last_exc = exc
+        except (APIConnectionError, APITimeoutError, asyncio.TimeoutError) as exc:
+            last_exc = exc
+
+        if attempt < _MAX_RETRIES - 1:
+            delay = min(_RETRY_BASE_SECONDS * (2 ** attempt), _RETRY_MAX_SECONDS)
+            if logger:
+                logger.warning(
+                    "openai_retry",
+                    label=label,
+                    attempt=attempt + 1,
+                    max_retries=_MAX_RETRIES,
+                    delay_seconds=delay,
+                    error=str(last_exc),
+                )
+            await asyncio.sleep(delay)
+
+    raise last_exc  # type: ignore[misc]
+
 
 def _fix_payments_balance(record: BillingRecord) -> BillingRecord:
     """Deterministically correct the payments/balance column swap."""
@@ -195,11 +249,10 @@ class ExtractionAgentExecutor:
             f"Identify which pages are summary billing ledgers.\n\n{previews}"
         )
 
-        result = await Runner.run(
-            self.classifier,
-            prompt,
-            context=ctx,
-            max_turns=3,
+        result = await _run_with_retry(
+            lambda: Runner.run(self.classifier, prompt, context=ctx, max_turns=3),
+            label=f"classifier:{ctx.document.doc_id}",
+            logger=self.logger,
         )
 
         u = result.context_wrapper.usage
@@ -251,11 +304,10 @@ class ExtractionAgentExecutor:
         )
 
         async with self._semaphore:
-            result = await Runner.run(
-                self.agent,
-                user_text,
-                context=ctx,
-                max_turns=self.max_turns,
+            result = await _run_with_retry(
+                lambda: Runner.run(self.agent, user_text, context=ctx, max_turns=self.max_turns),
+                label=f"chunk_{chunk_idx + 1}:{ctx.document.doc_id}",
+                logger=self.logger,
             )
 
         u = result.context_wrapper.usage
