@@ -191,14 +191,26 @@ A `processing` job cannot be directly cancelled — it must either complete, fai
 
 ### 4.4 Retry Policy
 
-Currently no bounded retry within a single job attempt. If extraction fails, the job goes to `failed` immediately. This is M3 scope; the stall-recovery mechanism does effectively retry a crashed job by resetting it to `pending`, but transient API errors (429, 5xx from OpenAI) are not retried.
+Implemented in `_run_with_retry` (`backend/app/ai/agents/extraction/executor.py`). Wraps both `Runner.run` call sites: the page classifier and each parallel extraction chunk.
 
-**Intended design (not yet implemented):** wrap the OpenAI API calls in exponential backoff — start at 1s, multiply 2×, cap at 60s, max 3 attempts. After 3 failures: `status=failed`, error detail written to job row, worker loop continues.
+**Parameters:** base delay 1s, multiplier 2×, cap 60s, max 3 attempts. Delays: 1s → 2s → 4s (then raises).
 
-Retryable: `RateLimitError` (429), `APIError` (5xx), `asyncio.TimeoutError`.
-Non-retryable: `BadRequestError` (400 — prompt issue), `AuthenticationError` (401), `ValidationError` (Pydantic).
+**Retryable:** `RateLimitError` (429), `InternalServerError` (5xx), `APIConnectionError`, `APITimeoutError`, `asyncio.TimeoutError`.
 
-Stall recovery provides a coarser outer retry: a worker crash leaves the job in `processing`; `recover_stalled` resets it to `pending` after 5 minutes. This is orthogonal — fine-grained retries handle transient API errors within one attempt; stall recovery handles worker process death.
+**Non-retryable:** `BadRequestError` (400 — prompt/schema issue), `AuthenticationError` (401), any other 4xx. These raise immediately with no retry.
+
+Each retry emits a structured `openai_retry` warning log with `attempt`, `delay_seconds`, and `error`.
+
+After 3 failures the last exception propagates to `ExtractionService.process_job`, which catches it, writes `status=failed` + error detail to the job row, and returns. The worker loop continues polling.
+
+**Two-layer retry topology:**
+
+| Layer | Mechanism | Scope |
+|---|---|---|
+| Fine-grained | `_run_with_retry` backoff | Transient API errors within one job attempt |
+| Coarse | `recover_stalled` (5-min timeout) | Worker process crash — resets job to `pending` |
+
+These are orthogonal. A 429 spike is handled without the job ever leaving `processing`. A worker OOM kill is handled at the coarse layer without needing the fine-grained layer.
 
 ### 4.5 Cost and Latency Tracking
 
