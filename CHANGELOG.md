@@ -4,6 +4,23 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-27] — Fix extraction merge: date-keyed grouping, remove collapse heuristics
+
+### Changed
+- `backend/app/ai/agents/extraction/executor.py` — `_merge_patient_records` now groups by `(provider, cpt_codes, treatment_date)` instead of `(provider, cpt_codes)`. Removed `periodic_billing_aggregation` (was collapsing valid multi-record docs to 1). Removed `over_extraction_detected` collapse. Removed unused `_aggregate_records` function.
+
+### Fixed
+- doc_005: 0% → 85.7% (77/80 records now survive merge)
+- doc_006: 0% → 99.0% (33/33 perfect count match)
+- doc_011: 0% → 57.7% (149/150 records)
+- doc_012: 0% → 99.0% (122/120)
+- doc_008: 0% → 31.9% (over-extraction still present in model output, but no longer collapsed to 1)
+- Average weighted accuracy: 19.8% → 50.9%
+
+Files touched: `backend/app/ai/agents/extraction/executor.py`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-27] — Required deliverables: AGENTS.md, README.md, docs/design.md
 
 ### Added

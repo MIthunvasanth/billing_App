@@ -73,18 +73,22 @@ def _parse_dates_from_record(record: BillingRecord) -> list:
 
 
 def _merge_patient_records(records: list[BillingRecord]) -> list[BillingRecord]:
-    """After parallel chunk extraction, merge records that are the same patient split across chunks.
+    """After parallel chunk extraction, merge records for the same encounter split across chunk boundaries.
 
-    Groups by (provider, sorted_cpt_codes). Within each group: expands date range to
-    span all dates, sums financials, unions CPT/insurer/third_party lists.
-    Records with different CPT codes stay separate (different patients / procedures).
+    Groups by (provider, sorted_cpt_codes, normalized_treatment_date). Only merges records
+    with the same date — this covers the case where one encounter spans a chunk boundary
+    and both chunks emit a partial record for the same visit. Records with different dates
+    are distinct visits and must NOT be merged.
     """
     from collections import defaultdict
     from datetime import datetime
 
+    def _norm_date(d: str) -> str:
+        return d.strip().replace("–", "-").replace("—", "-")
+
     groups: dict[tuple, list[BillingRecord]] = defaultdict(list)
     for r in records:
-        key = (r.provider.strip().lower(), tuple(sorted(set(r.cpt_codes))))
+        key = (r.provider.strip().lower(), tuple(sorted(set(r.cpt_codes))), _norm_date(r.treatment_date))
         groups[key].append(r)
 
     merged: list[BillingRecord] = []
@@ -133,48 +137,6 @@ def _merge_patient_records(records: list[BillingRecord]) -> list[BillingRecord]:
 
     return merged
 
-
-def _aggregate_records(records: list[BillingRecord]) -> BillingRecord:
-    """Collapse all records into one aggregate — used when over-extraction is detected."""
-    from datetime import datetime
-
-    all_dates: list[datetime] = []
-    for r in records:
-        all_dates.extend(_parse_dates_from_record(r))
-
-    if all_dates:
-        d0 = min(all_dates).strftime("%m/%d/%Y")
-        d1 = max(all_dates).strftime("%m/%d/%Y")
-        merged_date = f"{d0} - {d1}" if d0 != d1 else d0
-    else:
-        merged_date = records[0].treatment_date if records else ""
-
-    def _sum(field: str) -> float | None:
-        vals = [getattr(r, field) for r in records if getattr(r, field) is not None]
-        return round(sum(vals), 2) if vals else None
-
-    all_cpts: list[str] = []
-    all_ins: list[str] = []
-    all_thirds: list[str] = []
-    for r in records:
-        all_cpts.extend(r.cpt_codes)
-        all_ins.extend(r.insurers)
-        all_thirds.extend(r.third_parties)
-
-    return BillingRecord(
-        treatment_date=merged_date,
-        cpt_codes=list(dict.fromkeys(all_cpts)),
-        description=next((r.description for r in records if r.description), None),
-        provider=records[0].provider if records else "",
-        insurers=list(dict.fromkeys(all_ins)),
-        third_parties=list(dict.fromkeys(all_thirds)),
-        total_charges=_sum("total_charges"),
-        ins_paid=_sum("ins_paid"),
-        adjustment=_sum("adjustment"),
-        payments=_sum("payments"),
-        balance=_sum("balance"),
-        page=records[0].page if records else "1",
-    )
 
 
 def _build_chunks(pages: list[Page]) -> list[list[Page]]:
@@ -382,30 +344,6 @@ class ExtractionAgentExecutor:
                 after=post_merge_count,
             )
 
-        # Secondary aggregation: if merge removed > 80% of records, this is a periodic
-        # billing document (e.g. dialysis, recurring treatment) whose GT is one summary row.
-        # Collapse remaining records into one aggregate.
-        if post_merge_count > 1 and pre_merge_count > 1 and post_merge_count < pre_merge_count * 0.2:
-            self.logger.info(
-                "periodic_billing_aggregation",
-                doc_id=ctx.document.doc_id,
-                pre_merge=pre_merge_count,
-                post_merge=post_merge_count,
-            )
-            all_records = [_aggregate_records(all_records)]
-            all_flagged.append(
-                FlaggedRecord(
-                    row=None,
-                    fields=["treatment_date"],
-                    reason=(
-                        f"Periodic billing detected: {pre_merge_count} raw records merged to "
-                        f"{post_merge_count}, then aggregated to 1 summary record."
-                    ),
-                    page="1",
-                    severity="low",
-                )
-            )
-
         total_pages = len(ctx.document.pages)
         records_per_page = len(all_records) / max(1, total_pages)
         if records_per_page > 20:
@@ -415,19 +353,6 @@ class ExtractionAgentExecutor:
                 records=len(all_records),
                 total_pages=total_pages,
                 records_per_page=records_per_page,
-            )
-            all_records = [_aggregate_records(all_records)]
-            all_flagged.append(
-                FlaggedRecord(
-                    row=None,
-                    fields=["treatment_date"],
-                    reason=(
-                        f"Over-extraction detected ({pre_merge_count} records, "
-                        f"{records_per_page:.0f}/page). Aggregated into one summary record."
-                    ),
-                    page="1",
-                    severity="high",
-                )
             )
 
         self.logger.info(
