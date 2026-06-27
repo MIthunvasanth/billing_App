@@ -1,4 +1,4 @@
-.venv
+﻿.venv
 __pycache__
 *.pyc
 *.pyo
@@ -15,4 +15,3 @@ pdfs
 docs-test
 tests
 scripts
-alembic/versions/__pycache__
