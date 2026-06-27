@@ -54,8 +54,9 @@ services:
     build:
       context: ./frontend
       args:
-        # NEXT_PUBLIC_ vars are baked in at build time — pass as build args, not env
-        NEXT_PUBLIC_API_BASE_URL: http://api:8000
+        # NEXT_PUBLIC_ vars are baked in at build time — pass as build args, not env.
+        # Must be the URL the BROWSER uses (host-mapped port), not the Docker service name.
+        NEXT_PUBLIC_API_BASE_URL: http://localhost:8000
     ports:
       - "3000:3000"
     depends_on:

@@ -5,8 +5,9 @@ RUN npm ci
 
 FROM node:20-alpine AS builder
 WORKDIR /app
-# NEXT_PUBLIC_ vars are embedded at build time; default targets Docker service name
-ARG NEXT_PUBLIC_API_BASE_URL=http://api:8000
+# NEXT_PUBLIC_ vars are embedded at build time and used by the browser.
+# Default to localhost:8000 (host-mapped port). Override via docker-compose build.args.
+ARG NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
 ENV NEXT_PUBLIC_API_BASE_URL=$NEXT_PUBLIC_API_BASE_URL
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
