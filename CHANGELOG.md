@@ -4,6 +4,21 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-27] — Tests: unit tests pass; conftest --base-url renamed to avoid plugin conflict
+
+### Added
+- `backend/tests/conftest.py`: renamed `--base-url` option to `--api-base-url` to avoid conflict with `pytest-base-url` plugin (already installed globally)
+- `backend/tests/test_extraction_models.py`: 33 unit tests, all passing — `BillingRecord`, `FlaggedRecord`, `ExtractionOutput` validation
+- `backend/tests/test_job_lifecycle.py`: E2E tests (skip if server not running) — health, auth, job lifecycle, isolation, unhappy paths
+- `backend/tests/__init__.py`: empty package marker
+
+### Changed
+- `backend/pyproject.toml`: added `[project.optional-dependencies].test`, `[tool.pytest.ini_options]`
+
+Files touched: `backend/tests/conftest.py`, `backend/tests/test_extraction_models.py`, `backend/tests/test_job_lifecycle.py`, `backend/tests/__init__.py`, `backend/pyproject.toml`
+
+---
+
 ## [2026-06-27] — Secondary periodic-billing aggregation when merge removes >80% records
 
 ### Added
