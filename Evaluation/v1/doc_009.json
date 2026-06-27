@@ -1,0 +1,1808 @@
+{
+  "doc_id": "doc_009",
+  "meta": {
+    "doc_id": "doc_009",
+    "num_pages": 129,
+    "duration_seconds": 163.51,
+    "token_usage": {
+      "input": 285650,
+      "output": 12907,
+      "total": 298557
+    },
+    "cost_usd": 0.674556
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 12/07/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy patient profile for all fills",
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Caremark",
+        "Blink Health",
+        "Argus",
+        "Benefit Plan",
+        "Allwin",
+        "Medco Health",
+        "Express Scripts",
+        "OptumRx",
+        "ScriptCycle",
+        "My Rx Card",
+        "SFS",
+        "GoodRx",
+        "PBM Program",
+        "Workers Comp",
+        "Omnisys",
+        "Cigna Healthspring",
+        "Paramount",
+        "Lonestar",
+        "Discount Program"
+      ],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "3-50"
+    },
+    {
+      "treatment_date": "12/24/2020",
+      "cpt_codes": [],
+      "description": "Carvedilol 25mg",
+      "provider": "Medco Health",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 359.73,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 67.3,
+      "balance": 292.43,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/24/2020",
+      "cpt_codes": [],
+      "description": "Atorvastatin 80mg",
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 286.16,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 49.49,
+      "balance": 236.67,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/25/2020",
+      "cpt_codes": [],
+      "description": "Omeprazole 40mg",
+      "provider": "Blink Health",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 260.94,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 63.45,
+      "balance": 197.49,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/28/2020",
+      "cpt_codes": [],
+      "description": "Doxycycline 100mg",
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 468.65,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 97.35,
+      "balance": 371.3,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/29/2020",
+      "cpt_codes": [],
+      "description": "Tramadol 50mg",
+      "provider": "My Rx Card",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 326.68,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 96.0,
+      "balance": 230.68,
+      "page": "51"
+    },
+    {
+      "treatment_date": "01/03/2021",
+      "cpt_codes": [],
+      "description": "Prednisone 20mg",
+      "provider": "OptumRx",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx"
+      ],
+      "total_charges": 88.5,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 15.04,
+      "balance": 73.46,
+      "page": "51"
+    },
+    {
+      "treatment_date": "02/04/2021",
+      "cpt_codes": [],
+      "description": "Lisinopril 10mg",
+      "provider": "Benefit Plan",
+      "insurers": [],
+      "third_parties": [
+        "Benefit Plan"
+      ],
+      "total_charges": 493.75,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 155.98,
+      "balance": 337.77,
+      "page": "52"
+    },
+    {
+      "treatment_date": "02/05/2021",
+      "cpt_codes": [],
+      "description": "Metoprolol Succinate 100mg",
+      "provider": "Blink Health",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 297.97,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 56.68,
+      "balance": 241.29,
+      "page": "52"
+    },
+    {
+      "treatment_date": "02/06/2021",
+      "cpt_codes": [],
+      "description": "Quetiapine 200mg",
+      "provider": "My Rx Card",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 114.41,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 22.88,
+      "balance": 91.53,
+      "page": "52"
+    },
+    {
+      "treatment_date": "02/07/2021",
+      "cpt_codes": [],
+      "description": "Warfarin 5mg",
+      "provider": "GoodRx",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 195.39,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 66.81,
+      "balance": 128.58,
+      "page": "52"
+    },
+    {
+      "treatment_date": "11/06/2024",
+      "cpt_codes": [],
+      "description": "Alprazolam 1mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Discount Program"
+      ],
+      "total_charges": 213.57,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 47.55,
+      "balance": 166.02,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/08/2024",
+      "cpt_codes": [],
+      "description": "Levothyroxine 100mcg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 179.51,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 33.97,
+      "balance": 145.54,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/08/2024",
+      "cpt_codes": [],
+      "description": "Metoprolol Succinate 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 328.62,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 111.27,
+      "balance": 217.35,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/09/2024",
+      "cpt_codes": [],
+      "description": "Aripiprazole 10mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 350.52,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 139.02,
+      "balance": 211.5,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/09/2024",
+      "cpt_codes": [],
+      "description": "Gabapentin 600mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 280.55,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 78.72,
+      "balance": 201.83,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/09/2024",
+      "cpt_codes": [],
+      "description": "Metoprolol Succinate 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Caremark"
+      ],
+      "total_charges": 403.73,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 64.89,
+      "balance": 338.84,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": "Levothyroxine 100mcg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 37.6,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 12.92,
+      "balance": 24.68,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": "Erythropoietin 4000u/mL",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 183.48,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 49.81,
+      "balance": 133.67,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": "Sevelamer 800mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 130.56,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 17.7,
+      "balance": 112.86,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": "Lisinopril 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 132.09,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 14.56,
+      "balance": 117.53,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": "Sertraline 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 361.74,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 98.41,
+      "balance": 263.33,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/12/2024",
+      "cpt_codes": [],
+      "description": "Pregabalin 75mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 184.46,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 44.49,
+      "balance": 139.97,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/13/2024",
+      "cpt_codes": [],
+      "description": "Escitalopram 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 47.45,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 12.28,
+      "balance": 35.17,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/14/2024",
+      "cpt_codes": [],
+      "description": "Duloxetine 60mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 118.0,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 22.63,
+      "balance": 95.37,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/14/2024",
+      "cpt_codes": [],
+      "description": "Gabapentin 300mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx"
+      ],
+      "total_charges": 347.14,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 124.98,
+      "balance": 222.16,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/15/2024",
+      "cpt_codes": [],
+      "description": "Aripiprazole 10mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 474.93,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 74.78,
+      "balance": 400.15,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/16/2024",
+      "cpt_codes": [],
+      "description": "Clopidogrel 75mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "PBM Program"
+      ],
+      "total_charges": 135.99,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 39.46,
+      "balance": 96.53,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/16/2024",
+      "cpt_codes": [],
+      "description": "Bupropion XL 150mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 270.17,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 97.42,
+      "balance": 172.75,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/17/2024",
+      "cpt_codes": [],
+      "description": "Amlodipine 10mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 284.98,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 32.28,
+      "balance": 252.7,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/18/2024",
+      "cpt_codes": [],
+      "description": "Sertraline 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "PBM Program"
+      ],
+      "total_charges": 219.13,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 29.03,
+      "balance": 190.1,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/18/2024",
+      "cpt_codes": [],
+      "description": "Lisinopril 10mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 49.4,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 19.42,
+      "balance": 29.98,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/19/2024",
+      "cpt_codes": [],
+      "description": "Fluconazole 150mg",
+      "provider": "",
+      "insurers": [
+        "Paramount"
+      ],
+      "third_parties": [],
+      "total_charges": 21.5,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 2.37,
+      "balance": 19.13,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/19/2024",
+      "cpt_codes": [],
+      "description": "Escitalopram 10mg",
+      "provider": "",
+      "insurers": [
+        "Lonestar",
+        "Cigna"
+      ],
+      "third_parties": [],
+      "total_charges": 310.51,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 50.7,
+      "balance": 259.81,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/19/2024",
+      "cpt_codes": [],
+      "description": "Gabapentin 600mg",
+      "provider": "",
+      "insurers": [
+        "Healthspring"
+      ],
+      "third_parties": [],
+      "total_charges": 22.88,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 5.25,
+      "balance": 17.63,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/20/2024",
+      "cpt_codes": [],
+      "description": "Simvastatin 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 75.3,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 25.11,
+      "balance": 50.19,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/20/2024",
+      "cpt_codes": [],
+      "description": "Pregabalin 150mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 85.37,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 21.19,
+      "balance": 64.18,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/21/2024",
+      "cpt_codes": [],
+      "description": "Clopidogrel 75mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 245.95,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 30.09,
+      "balance": 215.86,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/22/2024",
+      "cpt_codes": [],
+      "description": "Losartan 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts",
+        "Omnisys"
+      ],
+      "total_charges": 55.11,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 15.27,
+      "balance": 39.84,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/22/2024",
+      "cpt_codes": [],
+      "description": "Cyclobenzaprine 10mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 295.51,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 77.33,
+      "balance": 218.18,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/23/2024",
+      "cpt_codes": [],
+      "description": "Trimethoprim-Sulfamethoxazole",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 153.93,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 43.74,
+      "balance": 110.19,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/23/2024",
+      "cpt_codes": [],
+      "description": "Amlodipine 5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 38.08,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 8.05,
+      "balance": 30.03,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/23/2024",
+      "cpt_codes": [],
+      "description": "Atorvastatin 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 442.54,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 163.13,
+      "balance": 279.41,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/23/2024",
+      "cpt_codes": [],
+      "description": "Rosuvastatin 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 351.83,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 137.62,
+      "balance": 214.21,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/24/2024",
+      "cpt_codes": [],
+      "description": "Simvastatin 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Discount Program"
+      ],
+      "total_charges": 115.44,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 44.28,
+      "balance": 71.16,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/24/2024",
+      "cpt_codes": [],
+      "description": "Rosuvastatin 10mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 222.31,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 39.48,
+      "balance": 182.83,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/24/2024",
+      "cpt_codes": [],
+      "description": "Quetiapine 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 446.12,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 114.44,
+      "balance": 331.68,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/24/2024",
+      "cpt_codes": [],
+      "description": "Sitagliptin 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Third Party Program"
+      ],
+      "total_charges": 180.3,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 55.02,
+      "balance": 125.28,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/25/2024",
+      "cpt_codes": [],
+      "description": "Omeprazole 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 359.71,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 70.22,
+      "balance": 289.49,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/26/2024",
+      "cpt_codes": [],
+      "description": "Levothyroxine 100mcg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 283.98,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 76.68,
+      "balance": 207.3,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/27/2024",
+      "cpt_codes": [],
+      "description": "Glipizide 5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Third Party"
+      ],
+      "total_charges": 178.93,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 65.08,
+      "balance": 113.85,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/28/2024",
+      "cpt_codes": [],
+      "description": "Sertraline 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Third Party Program"
+      ],
+      "total_charges": 143.67,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 30.32,
+      "balance": 113.35,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/28/2024",
+      "cpt_codes": [],
+      "description": "Amoxicillin 500mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 59.3,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 6.99,
+      "balance": 52.31,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/28/2024",
+      "cpt_codes": [],
+      "description": "Hydrochlorothiazide 25mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 316.85,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 56.07,
+      "balance": 260.78,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/29/2024",
+      "cpt_codes": [],
+      "description": "Trazodone 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 226.19,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 31.76,
+      "balance": 194.43,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/29/2024",
+      "cpt_codes": [],
+      "description": "Atorvastatin 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Benefit Plan Discount"
+      ],
+      "total_charges": 346.89,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 108.65,
+      "balance": 238.24,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/29/2024",
+      "cpt_codes": [],
+      "description": "Cinacalcet 30mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Discount Program"
+      ],
+      "total_charges": 462.33,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 89.52,
+      "balance": 372.81,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/01/2024",
+      "cpt_codes": [],
+      "description": "Rosuvastatin 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 151.0,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 26.37,
+      "balance": 124.63,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/01/2024",
+      "cpt_codes": [],
+      "description": "Amlodipine 10mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 35.65,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 5.74,
+      "balance": 29.91,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/01/2024",
+      "cpt_codes": [],
+      "description": "Sitagliptin 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 327.62,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 81.81,
+      "balance": 245.81,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/02/2024",
+      "cpt_codes": [],
+      "description": "Atorvastatin 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 353.1,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 74.39,
+      "balance": 278.71,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/02/2024",
+      "cpt_codes": [],
+      "description": "Sitagliptin 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 237.62,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 75.99,
+      "balance": 161.63,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/02/2024",
+      "cpt_codes": [],
+      "description": "Quetiapine 200mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 266.05,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 84.59,
+      "balance": 181.46,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/03/2024",
+      "cpt_codes": [],
+      "description": "Furosemide 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 175.27,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 44.73,
+      "balance": 130.54,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/03/2024",
+      "cpt_codes": [],
+      "description": "Quetiapine 50mg",
+      "provider": "",
+      "insurers": [
+        "Cigna",
+        "Healthspring"
+      ],
+      "third_parties": [],
+      "total_charges": 336.38,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 132.75,
+      "balance": 203.63,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/03/2024",
+      "cpt_codes": [],
+      "description": "Omeprazole 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 254.22,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 96.35,
+      "balance": 157.87,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/04/2024",
+      "cpt_codes": [],
+      "description": "Duloxetine 30mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 486.6,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 179.05,
+      "balance": 307.55,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/05/2024",
+      "cpt_codes": [],
+      "description": "Meloxicam 7.5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 310.43,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 106.09,
+      "balance": 204.34,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/06/2024",
+      "cpt_codes": [],
+      "description": "Calcium Acetate 667mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 267.93,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 68.45,
+      "balance": 199.48,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/08/2024",
+      "cpt_codes": [],
+      "description": "Fluconazole 150mg",
+      "provider": "",
+      "insurers": [
+        "Allwin"
+      ],
+      "third_parties": [],
+      "total_charges": 393.86,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 145.23,
+      "balance": 248.63,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/08/2024",
+      "cpt_codes": [],
+      "description": "Quetiapine 200mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 386.28,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 132.36,
+      "balance": 253.92,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/09/2024",
+      "cpt_codes": [],
+      "description": "Glipizide 5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 73.28,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 11.35,
+      "balance": 61.93,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/09/2024",
+      "cpt_codes": [],
+      "description": "Carvedilol 25mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 82.33,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 32.25,
+      "balance": 50.08,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/10/2024",
+      "cpt_codes": [],
+      "description": "Atorvastatin 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 161.23,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 58.49,
+      "balance": 102.74,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/10/2024",
+      "cpt_codes": [],
+      "description": "Trazodone 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 250.86,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 26.7,
+      "balance": 224.16,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/10/2024",
+      "cpt_codes": [],
+      "description": "Amlodipine 5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 148.98,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 32.46,
+      "balance": 116.52,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/11/2024",
+      "cpt_codes": [],
+      "description": "Carvedilol 25mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 441.88,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 167.48,
+      "balance": 274.4,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/11/2024",
+      "cpt_codes": [],
+      "description": "Alprazolam 1mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 428.16,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 46.54,
+      "balance": 381.62,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/12/2024",
+      "cpt_codes": [],
+      "description": "Escitalopram 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "PBM Program"
+      ],
+      "total_charges": 239.57,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 60.57,
+      "balance": 179.0,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/12/2024",
+      "cpt_codes": [],
+      "description": "Apixaban 5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "ScriptCycle"
+      ],
+      "total_charges": 36.0,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 10.35,
+      "balance": 25.65,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/12/2024",
+      "cpt_codes": [],
+      "description": "Losartan 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 68.94,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 17.03,
+      "balance": 51.91,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/12/2024",
+      "cpt_codes": [],
+      "description": "Clopidogrel 75mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 471.16,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 170.31,
+      "balance": 300.85,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/13/2024",
+      "cpt_codes": [],
+      "description": "Amoxicillin 500mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 227.37,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 36.82,
+      "balance": 190.55,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/13/2024",
+      "cpt_codes": [],
+      "description": "Bupropion XL 150mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 132.69,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 42.11,
+      "balance": 90.58,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/13/2024",
+      "cpt_codes": [],
+      "description": "Doxycycline 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 183.3,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 34.02,
+      "balance": 149.28,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/14/2024",
+      "cpt_codes": [],
+      "description": "Gabapentin 300mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 292.49,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 42.36,
+      "balance": 250.13,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/14/2024",
+      "cpt_codes": [],
+      "description": "Insulin Glargine 100u/mL",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health",
+        "PBM"
+      ],
+      "total_charges": 282.67,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 48.82,
+      "balance": 233.85,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/16/2024",
+      "cpt_codes": [],
+      "description": "Ondansetron 4mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 219.86,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 43.83,
+      "balance": 176.03,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/17/2024",
+      "cpt_codes": [],
+      "description": "Trazodone 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 364.25,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 118.64,
+      "balance": 245.61,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/18/2024",
+      "cpt_codes": [],
+      "description": "Furosemide 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 103.62,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 26.75,
+      "balance": 76.87,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/19/2024",
+      "cpt_codes": [],
+      "description": "Doxycycline 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Benefit Plan"
+      ],
+      "total_charges": 347.76,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 69.61,
+      "balance": 278.15,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/19/2024",
+      "cpt_codes": [],
+      "description": "Pantoprazole 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 259.65,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 58.2,
+      "balance": 201.45,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/20/2024",
+      "cpt_codes": [],
+      "description": "Pantoprazole 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 135.2,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 33.4,
+      "balance": 101.8,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/20/2024",
+      "cpt_codes": [],
+      "description": "Azithromycin 250mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 293.99,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 75.66,
+      "balance": 218.33,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/21/2024",
+      "cpt_codes": [],
+      "description": "Aripiprazole 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "SFS",
+        "Omnisys"
+      ],
+      "total_charges": 276.57,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 86.17,
+      "balance": 190.4,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/21/2024",
+      "cpt_codes": [],
+      "description": "Amoxicillin 500mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 211.88,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 55.69,
+      "balance": 156.19,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/21/2024",
+      "cpt_codes": [],
+      "description": "Prednisone 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 179.75,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 68.77,
+      "balance": 110.98,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/22/2024",
+      "cpt_codes": [],
+      "description": "Ondansetron 4mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 328.18,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 51.4,
+      "balance": 276.78,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/23/2024",
+      "cpt_codes": [],
+      "description": "Tramadol 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 313.83,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 94.46,
+      "balance": 219.37,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/23/2024",
+      "cpt_codes": [],
+      "description": "Pantoprazole 40mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health",
+        "PBM"
+      ],
+      "total_charges": 409.36,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 80.87,
+      "balance": 328.49,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/23/2024",
+      "cpt_codes": [],
+      "description": "Rivaroxaban 20mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 473.46,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 126.37,
+      "balance": 347.09,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/25/2024",
+      "cpt_codes": [],
+      "description": "Trazodone 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 472.23,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 77.23,
+      "balance": 395.0,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/30/2024",
+      "cpt_codes": [],
+      "description": "Quetiapine 50mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 71.74,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 15.93,
+      "balance": 55.81,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/30/2024",
+      "cpt_codes": [],
+      "description": "Apixaban 5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 365.35,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 110.24,
+      "balance": 255.11,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/30/2024",
+      "cpt_codes": [],
+      "description": "Quetiapine 200mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 284.87,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 86.04,
+      "balance": 198.83,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/30/2024",
+      "cpt_codes": [],
+      "description": "Alprazolam 0.5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 388.35,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 60.56,
+      "balance": 327.79,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/31/2024",
+      "cpt_codes": [],
+      "description": "Apixaban 5mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 195.59,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 67.58,
+      "balance": 128.01,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/31/2024",
+      "cpt_codes": [],
+      "description": "Metoprolol Succinate 100mg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 275.64,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 31.93,
+      "balance": 243.71,
+      "page": "99"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Summary record for extensive pharmacy ledger: amount and payment fields are not subtotaled or summed, only shown at line-item level. Document contains >1,000 individual fills, with partial payer names (PBMs, discount programs), but no episode or cumulative financial totals are presented. Manual review required if summary billing totals are needed, or if payer mapping must be verified down to the episode level.",
+      "page": "3-50",
+      "severity": "high"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 3,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 4,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 5,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 6,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "52",
+      "severity": "medium"
+    },
+    {
+      "row": 8,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "52",
+      "severity": "medium"
+    },
+    {
+      "row": 9,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "52",
+      "severity": "medium"
+    },
+    {
+      "row": 10,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance paid, adjustment, and final balance columns not explicitly present or mapped.",
+      "page": "52",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy record lacks provider and most transactions lack clearly identified insurers or provider. Patient payment vs. balance is inferred from copay column; patient responsibility not always explicit.",
+      "page": "98-99",
+      "severity": "medium"
+    }
+  ]
+}

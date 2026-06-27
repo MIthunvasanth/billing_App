@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_003",
+  "meta": {
+    "doc_id": "doc_003",
+    "num_pages": 21,
+    "duration_seconds": 8.93,
+    "token_usage": {
+      "input": 38068,
+      "output": 373,
+      "total": 38441
+    },
+    "cost_usd": 0.07912
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys",
+        "Immunizations",
+        "Blink Health",
+        "Express Scripts",
+        "Caremark",
+        "OptumRx",
+        "ScriptCycle",
+        "Medco Health",
+        "GoodRx",
+        "Health PBM",
+        "SFS",
+        "Lonestar",
+        "Argus",
+        "My Rx Card",
+        "Allwin",
+        "Paramount",
+        "McKesson"
+      ],
+      "total_charges": 126304.01,
+      "ins_paid": 95231.08,
+      "adjustment": null,
+      "payments": null,
+      "balance": 31072.93,
+      "page": "18"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "The summary record provides only total charges, insurance paid, and a balance (likely patient payment due), but no explicit adjustment or patient payments field. It's ambiguous if the 'balance' consists only of uncollected/copay portions, or if adjustments exist internally unreported.",
+      "page": "18",
+      "severity": "medium"
+    }
+  ]
+}

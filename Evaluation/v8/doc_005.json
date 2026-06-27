@@ -1,0 +1,1613 @@
+{
+  "doc_id": "doc_005",
+  "meta": {
+    "doc_id": "doc_005",
+    "num_pages": 44,
+    "duration_seconds": 15.96,
+    "token_usage": {
+      "input": 66715,
+      "output": 8664,
+      "total": 75379
+    },
+    "cost_usd": 0.202742
+  },
+  "records": [
+    {
+      "treatment_date": "12/22/2023 - 12/24/2023",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 117311.71,
+      "ins_paid": 72304.29,
+      "adjustment": 45007.42,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "05/16/2021 - 05/19/2021",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 152524.06,
+      "ins_paid": 94007.19,
+      "adjustment": 58516.87,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3-5"
+    },
+    {
+      "treatment_date": "03/23/2022 - 03/27/2022",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 106273.8,
+      "ins_paid": 65501.15,
+      "adjustment": 40772.65,
+      "payments": null,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "05/18/2021 - 05/21/2021",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 256792.69,
+      "ins_paid": 158272.47,
+      "adjustment": 98520.22,
+      "payments": null,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "09/20/2023 - 09/23/2023",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 82690.83,
+      "ins_paid": 50965.94,
+      "adjustment": 31724.89,
+      "payments": null,
+      "balance": 0.0,
+      "page": "5-6"
+    },
+    {
+      "treatment_date": "11/07/2021 - 11/08/2021",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 78467.69,
+      "ins_paid": 48363.04,
+      "adjustment": 30104.65,
+      "payments": null,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "06/29/2022 - 07/04/2022",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 150993.34,
+      "ins_paid": 93063.74,
+      "adjustment": 57929.6,
+      "payments": null,
+      "balance": 0.0,
+      "page": "6-7"
+    },
+    {
+      "treatment_date": "09/11/2022 - 09/13/2022",
+      "cpt_codes": [],
+      "description": "Acute kidney injury",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 199828.53,
+      "ins_paid": 123162.99,
+      "adjustment": 76665.54,
+      "payments": null,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "12/03/2021 - 12/04/2021",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 87496.47,
+      "ins_paid": 53927.87,
+      "adjustment": 33568.6,
+      "payments": null,
+      "balance": 0.0,
+      "page": "7-8"
+    },
+    {
+      "treatment_date": "07/14/2021 - 07/15/2021",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 64140.9,
+      "ins_paid": 39532.82,
+      "adjustment": 24608.08,
+      "payments": null,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "07/27/2021 - 07/29/2021",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 74524.5,
+      "ins_paid": 45932.68,
+      "adjustment": 28591.82,
+      "payments": null,
+      "balance": 0.0,
+      "page": "9"
+    },
+    {
+      "treatment_date": "09/14/2022 - 09/21/2022",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 162694.56,
+      "ins_paid": 100275.71,
+      "adjustment": 62418.85,
+      "payments": null,
+      "balance": 0.0,
+      "page": "9"
+    },
+    {
+      "treatment_date": "05/02/2024 - 05/07/2024",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 101237.66,
+      "ins_paid": 62397.16,
+      "adjustment": 38840.5,
+      "payments": null,
+      "balance": 0.0,
+      "page": "9-10"
+    },
+    {
+      "treatment_date": "09/18/2021 - 09/25/2021",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 173386.77,
+      "ins_paid": 106865.78,
+      "adjustment": 66520.99,
+      "payments": null,
+      "balance": 0.0,
+      "page": "10-11"
+    },
+    {
+      "treatment_date": "03/08/2023 - 03/13/2023",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 88064.82,
+      "ins_paid": 54278.17,
+      "adjustment": 33786.65,
+      "payments": null,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "05/11/2022 - 05/18/2022",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 162322.48,
+      "ins_paid": 100046.38,
+      "adjustment": 62276.1,
+      "payments": null,
+      "balance": 0.0,
+      "page": "11-12"
+    },
+    {
+      "treatment_date": "02/01/2022 - 02/04/2022",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 104425.21,
+      "ins_paid": 64361.78,
+      "adjustment": 40063.43,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "10/09/2024 - 10/13/2024",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 119090.26,
+      "ins_paid": 73400.49,
+      "adjustment": 45689.77,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "10/05/2022 - 10/06/2022",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 144707.66,
+      "ins_paid": 89189.6,
+      "adjustment": 55518.06,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12-13"
+    },
+    {
+      "treatment_date": "11/01/2021 - 11/07/2021",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 66603.39,
+      "ins_paid": 41050.56,
+      "adjustment": 25552.83,
+      "payments": null,
+      "balance": 0.0,
+      "page": "13"
+    },
+    {
+      "treatment_date": "12/19/2024 - 12/23/2024",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 125748.52,
+      "ins_paid": 77504.26,
+      "adjustment": 48244.26,
+      "payments": null,
+      "balance": 0.0,
+      "page": "13-14"
+    },
+    {
+      "treatment_date": "04/15/2022 - 04/21/2022",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 102658.53,
+      "ins_paid": 63272.9,
+      "adjustment": 39385.63,
+      "payments": null,
+      "balance": 0.0,
+      "page": "14"
+    },
+    {
+      "treatment_date": "11/23/2022 - 11/24/2022",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 126269.24,
+      "ins_paid": 77825.21,
+      "adjustment": 48444.03,
+      "payments": null,
+      "balance": 0.0,
+      "page": "14-15"
+    },
+    {
+      "treatment_date": "06/26/2022 - 07/03/2022",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 125678.9,
+      "ins_paid": 77461.36,
+      "adjustment": 48217.54,
+      "payments": null,
+      "balance": 0.0,
+      "page": "15"
+    },
+    {
+      "treatment_date": "10/06/2024 - 10/08/2024",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 68089.41,
+      "ins_paid": 41966.46,
+      "adjustment": 26122.95,
+      "payments": null,
+      "balance": 0.0,
+      "page": "15-16"
+    },
+    {
+      "treatment_date": "08/08/2023 - 08/10/2023",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 82751.35,
+      "ins_paid": 51003.24,
+      "adjustment": 31748.11,
+      "payments": null,
+      "balance": 0.0,
+      "page": "16"
+    },
+    {
+      "treatment_date": "05/09/2021 - 05/14/2021",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "16"
+    },
+    {
+      "treatment_date": "01/24/2021 - 01/29/2021",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 100331.55,
+      "ins_paid": 61838.68,
+      "adjustment": 38492.87,
+      "payments": null,
+      "balance": 0.0,
+      "page": "17"
+    },
+    {
+      "treatment_date": "07/10/2023 - 07/12/2023",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 93456.91,
+      "ins_paid": 57601.55,
+      "adjustment": 35855.36,
+      "payments": null,
+      "balance": 0.0,
+      "page": "17"
+    },
+    {
+      "treatment_date": "11/23/2024 - 11/25/2024",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 72082.07,
+      "ins_paid": 44427.3,
+      "adjustment": 27654.77,
+      "payments": null,
+      "balance": 0.0,
+      "page": "17-18"
+    },
+    {
+      "treatment_date": "10/03/2022 - 10/07/2022",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 126059.29,
+      "ins_paid": 77695.81,
+      "adjustment": 48363.48,
+      "payments": null,
+      "balance": 0.0,
+      "page": "18"
+    },
+    {
+      "treatment_date": "01/11/2021 - 01/14/2021",
+      "cpt_codes": [],
+      "description": "Acute kidney injury",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 99527.2,
+      "ins_paid": 61342.93,
+      "adjustment": 38184.27,
+      "payments": null,
+      "balance": 0.0,
+      "page": "18-19"
+    },
+    {
+      "treatment_date": "04/08/2022 - 04/14/2022",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 118554.95,
+      "ins_paid": 73070.56,
+      "adjustment": 45484.39,
+      "payments": null,
+      "balance": 0.0,
+      "page": "19"
+    },
+    {
+      "treatment_date": "08/26/2023 - 09/01/2023",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 100754.3,
+      "ins_paid": 62099.24,
+      "adjustment": 38655.06,
+      "payments": null,
+      "balance": 0.0,
+      "page": "19-20"
+    },
+    {
+      "treatment_date": "04/24/2021 - 04/29/2021",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 157811.5,
+      "ins_paid": 97266.07,
+      "adjustment": 60545.43,
+      "payments": null,
+      "balance": 0.0,
+      "page": "20"
+    },
+    {
+      "treatment_date": "08/29/2022 - 08/31/2022",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 181152.03,
+      "ins_paid": 111651.85,
+      "adjustment": 69500.18,
+      "payments": null,
+      "balance": 0.0,
+      "page": "20-21"
+    },
+    {
+      "treatment_date": "10/08/2024 - 10/15/2024",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 95543.78,
+      "ins_paid": 58887.77,
+      "adjustment": 36656.01,
+      "payments": null,
+      "balance": 0.0,
+      "page": "21"
+    },
+    {
+      "treatment_date": "06/22/2023 - 06/26/2023",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 136402.64,
+      "ins_paid": 84070.86,
+      "adjustment": 52331.78,
+      "payments": null,
+      "balance": 0.0,
+      "page": "21-22"
+    },
+    {
+      "treatment_date": "12/12/2021 - 12/19/2021",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 168076.95,
+      "ins_paid": 103593.11,
+      "adjustment": 64483.84,
+      "payments": null,
+      "balance": 0.0,
+      "page": "22"
+    },
+    {
+      "treatment_date": "10/12/2024 - 10/14/2024",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 190472.97,
+      "ins_paid": 117396.75,
+      "adjustment": 73076.22,
+      "payments": null,
+      "balance": 0.0,
+      "page": "22-23"
+    },
+    {
+      "treatment_date": "06/13/2023 - 06/18/2023",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 102176.43,
+      "ins_paid": 62975.76,
+      "adjustment": 39200.67,
+      "payments": null,
+      "balance": 0.0,
+      "page": "23"
+    },
+    {
+      "treatment_date": "06/18/2022 - 06/19/2022",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 105910.86,
+      "ins_paid": 65277.45,
+      "adjustment": 40633.41,
+      "payments": null,
+      "balance": 0.0,
+      "page": "23-24"
+    },
+    {
+      "treatment_date": "12/22/2021 - 12/25/2021",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 125908.94,
+      "ins_paid": 77603.14,
+      "adjustment": 48305.8,
+      "payments": null,
+      "balance": 0.0,
+      "page": "24"
+    },
+    {
+      "treatment_date": "06/19/2021 - 06/26/2021",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 139909.02,
+      "ins_paid": 86231.99,
+      "adjustment": 53677.03,
+      "payments": null,
+      "balance": 0.0,
+      "page": "24-25"
+    },
+    {
+      "treatment_date": "08/24/2023 - 08/28/2023",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 94848.9,
+      "ins_paid": 58459.49,
+      "adjustment": 36389.41,
+      "payments": null,
+      "balance": 0.0,
+      "page": "25"
+    },
+    {
+      "treatment_date": "07/26/2021 - 08/01/2021",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 128106.77,
+      "ins_paid": 78957.76,
+      "adjustment": 49149.01,
+      "payments": null,
+      "balance": 0.0,
+      "page": "25-26"
+    },
+    {
+      "treatment_date": "11/20/2024 - 11/26/2024",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 112626.79,
+      "ins_paid": 69416.77,
+      "adjustment": 43210.02,
+      "payments": null,
+      "balance": 0.0,
+      "page": "26"
+    },
+    {
+      "treatment_date": "01/30/2022 - 02/03/2022",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 105789.01,
+      "ins_paid": 65202.35,
+      "adjustment": 40586.66,
+      "payments": null,
+      "balance": 0.0,
+      "page": "26-27"
+    },
+    {
+      "treatment_date": "06/03/2023 - 06/07/2023",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 52853.57,
+      "ins_paid": 32575.95,
+      "adjustment": 20277.62,
+      "payments": null,
+      "balance": 0.0,
+      "page": "27"
+    },
+    {
+      "treatment_date": "08/15/2021 - 08/16/2021",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 51717.48,
+      "ins_paid": 31875.73,
+      "adjustment": 19841.75,
+      "payments": null,
+      "balance": 0.0,
+      "page": "27"
+    },
+    {
+      "treatment_date": "12/25/2021 - 12/26/2021",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 75167.77,
+      "ins_paid": 46329.16,
+      "adjustment": 28838.61,
+      "payments": null,
+      "balance": 0.0,
+      "page": "27-28"
+    },
+    {
+      "treatment_date": "11/08/2022 - 11/14/2022",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 68810.76,
+      "ins_paid": 42411.05,
+      "adjustment": 26399.71,
+      "payments": null,
+      "balance": 0.0,
+      "page": "28"
+    },
+    {
+      "treatment_date": "08/07/2023 - 08/12/2023",
+      "cpt_codes": [],
+      "description": "Type 2 diabetes mellitus with ketoacidosis",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 97470.23,
+      "ins_paid": 60075.13,
+      "adjustment": 37395.1,
+      "payments": null,
+      "balance": 0.0,
+      "page": "28"
+    },
+    {
+      "treatment_date": "07/09/2024 - 07/12/2024",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 101908.61,
+      "ins_paid": 62810.69,
+      "adjustment": 39097.92,
+      "payments": null,
+      "balance": 0.0,
+      "page": "28-29"
+    },
+    {
+      "treatment_date": "11/20/2021 - 11/25/2021",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 145321.34,
+      "ins_paid": 89567.84,
+      "adjustment": 55753.5,
+      "payments": null,
+      "balance": 0.0,
+      "page": "29"
+    },
+    {
+      "treatment_date": "07/19/2022 - 07/23/2022",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 79005.76,
+      "ins_paid": 48694.68,
+      "adjustment": 30311.08,
+      "payments": null,
+      "balance": 0.0,
+      "page": "30"
+    },
+    {
+      "treatment_date": "06/16/2024 - 06/17/2024",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 168666.15,
+      "ins_paid": 103956.26,
+      "adjustment": 64709.89,
+      "payments": null,
+      "balance": 0.0,
+      "page": "30"
+    },
+    {
+      "treatment_date": "02/16/2023 - 02/20/2023",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 104260.93,
+      "ins_paid": 64260.53,
+      "adjustment": 40000.4,
+      "payments": null,
+      "balance": 0.0,
+      "page": "30-31"
+    },
+    {
+      "treatment_date": "01/27/2023 - 01/30/2023",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 180150.55,
+      "ins_paid": 111034.59,
+      "adjustment": 69115.96,
+      "payments": null,
+      "balance": 0.0,
+      "page": "31"
+    },
+    {
+      "treatment_date": "01/25/2023 - 01/28/2023",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 109043.14,
+      "ins_paid": 67208.01,
+      "adjustment": 41835.13,
+      "payments": null,
+      "balance": 0.0,
+      "page": "31-32"
+    },
+    {
+      "treatment_date": "10/28/2022 - 11/03/2022",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 121768.36,
+      "ins_paid": 75051.12,
+      "adjustment": 46717.24,
+      "payments": null,
+      "balance": 0.0,
+      "page": "32"
+    },
+    {
+      "treatment_date": "11/20/2023 - 11/27/2023",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 61825.46,
+      "ins_paid": 38105.71,
+      "adjustment": 23719.75,
+      "payments": null,
+      "balance": 0.0,
+      "page": "32"
+    },
+    {
+      "treatment_date": "12/26/2021 - 12/27/2021",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 92110.01,
+      "ins_paid": 56771.39,
+      "adjustment": 35338.62,
+      "payments": null,
+      "balance": 0.0,
+      "page": "32-33"
+    },
+    {
+      "treatment_date": "06/16/2023 - 06/23/2023",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 145282.34,
+      "ins_paid": 89543.81,
+      "adjustment": 55738.53,
+      "payments": null,
+      "balance": 0.0,
+      "page": "33"
+    },
+    {
+      "treatment_date": "08/02/2023 - 08/06/2023",
+      "cpt_codes": [],
+      "description": "Type 2 diabetes mellitus with ketoacidosis",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 143293.47,
+      "ins_paid": 88317.98,
+      "adjustment": 54975.49,
+      "payments": null,
+      "balance": 0.0,
+      "page": "33-34"
+    },
+    {
+      "treatment_date": "08/28/2024 - 09/04/2024",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 99037.33,
+      "ins_paid": 61041.0,
+      "adjustment": 37996.33,
+      "payments": null,
+      "balance": 0.0,
+      "page": "34"
+    },
+    {
+      "treatment_date": "07/26/2022 - 07/30/2022",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 143781.79,
+      "ins_paid": 88618.95,
+      "adjustment": 55162.84,
+      "payments": null,
+      "balance": 0.0,
+      "page": "34-35"
+    },
+    {
+      "treatment_date": "10/28/2024 - 11/01/2024",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 113640.22,
+      "ins_paid": 70041.39,
+      "adjustment": 43598.83,
+      "payments": null,
+      "balance": 0.0,
+      "page": "35"
+    },
+    {
+      "treatment_date": "02/21/2022 - 02/27/2022",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 78544.41,
+      "ins_paid": 48410.33,
+      "adjustment": 30134.08,
+      "payments": null,
+      "balance": 0.0,
+      "page": "35-36"
+    },
+    {
+      "treatment_date": "10/25/2024 - 10/27/2024",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 84357.3,
+      "ins_paid": 51993.06,
+      "adjustment": 32364.24,
+      "payments": null,
+      "balance": 0.0,
+      "page": "36"
+    },
+    {
+      "treatment_date": "11/17/2022 - 11/21/2022",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 144778.51,
+      "ins_paid": 89233.27,
+      "adjustment": 55545.24,
+      "payments": null,
+      "balance": 0.0,
+      "page": "36-37"
+    },
+    {
+      "treatment_date": "11/29/2021 - 11/30/2021",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 90477.6,
+      "ins_paid": 55765.27,
+      "adjustment": 34712.33,
+      "payments": null,
+      "balance": 0.0,
+      "page": "37"
+    },
+    {
+      "treatment_date": "07/25/2023 - 07/29/2023",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 151523.36,
+      "ins_paid": 93390.42,
+      "adjustment": 58132.94,
+      "payments": null,
+      "balance": 0.0,
+      "page": "37-38"
+    },
+    {
+      "treatment_date": "03/20/2022 - 03/27/2022",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 107127.88,
+      "ins_paid": 66027.56,
+      "adjustment": 41100.32,
+      "payments": null,
+      "balance": 0.0,
+      "page": "38"
+    },
+    {
+      "treatment_date": "02/13/2022 - 02/16/2022",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 194573.86,
+      "ins_paid": 119924.31,
+      "adjustment": 74649.55,
+      "payments": null,
+      "balance": 0.0,
+      "page": "38-39"
+    },
+    {
+      "treatment_date": "06/16/2022 - 06/19/2022",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 92299.11,
+      "ins_paid": 56887.94,
+      "adjustment": 35411.17,
+      "payments": null,
+      "balance": 0.0,
+      "page": "39"
+    },
+    {
+      "treatment_date": "09/03/2021 - 09/07/2021",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 115285.36,
+      "ins_paid": 71055.37,
+      "adjustment": 44229.99,
+      "payments": null,
+      "balance": 0.0,
+      "page": "39"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 27,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Admission beginning 05/09/2021 continues beyond page 16 in this chunk; payment summary and financial totals are not visible, leaving all financial fields unresolved.",
+      "page": "16",
+      "severity": "high"
+    },
+    {
+      "row": 28,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "17",
+      "severity": "medium"
+    },
+    {
+      "row": 29,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "17",
+      "severity": "medium"
+    },
+    {
+      "row": 30,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "17-18",
+      "severity": "medium"
+    },
+    {
+      "row": 31,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "18",
+      "severity": "medium"
+    },
+    {
+      "row": 32,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "18-19",
+      "severity": "medium"
+    },
+    {
+      "row": 33,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "19",
+      "severity": "medium"
+    },
+    {
+      "row": 34,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "19-20",
+      "severity": "medium"
+    },
+    {
+      "row": 35,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "20",
+      "severity": "medium"
+    },
+    {
+      "row": 36,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "20-21",
+      "severity": "medium"
+    },
+    {
+      "row": 37,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "21",
+      "severity": "medium"
+    },
+    {
+      "row": 38,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "21-22",
+      "severity": "medium"
+    },
+    {
+      "row": 39,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "22",
+      "severity": "medium"
+    },
+    {
+      "row": 40,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "22-23",
+      "severity": "medium"
+    },
+    {
+      "row": 41,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "23",
+      "severity": "medium"
+    },
+    {
+      "row": 42,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "23-24",
+      "severity": "medium"
+    },
+    {
+      "row": 43,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "24",
+      "severity": "medium"
+    },
+    {
+      "row": 44,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "24-25",
+      "severity": "medium"
+    },
+    {
+      "row": 45,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "25",
+      "severity": "medium"
+    },
+    {
+      "row": 46,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "25-26",
+      "severity": "medium"
+    },
+    {
+      "row": 47,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "26",
+      "severity": "medium"
+    },
+    {
+      "row": 48,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "26-27",
+      "severity": "medium"
+    },
+    {
+      "row": 49,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "27",
+      "severity": "medium"
+    },
+    {
+      "row": 50,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "27",
+      "severity": "medium"
+    },
+    {
+      "row": 51,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "27-28",
+      "severity": "medium"
+    },
+    {
+      "row": 52,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "28",
+      "severity": "medium"
+    },
+    {
+      "row": 53,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "28",
+      "severity": "medium"
+    },
+    {
+      "row": 54,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "28-29",
+      "severity": "medium"
+    },
+    {
+      "row": 55,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on this page chunk.",
+      "page": "29",
+      "severity": "medium"
+    },
+    {
+      "row": 56,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "30",
+      "severity": "low"
+    },
+    {
+      "row": 57,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "30",
+      "severity": "low"
+    },
+    {
+      "row": 58,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "30-31",
+      "severity": "low"
+    },
+    {
+      "row": 59,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "31",
+      "severity": "low"
+    },
+    {
+      "row": 60,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "31-32",
+      "severity": "low"
+    },
+    {
+      "row": 61,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "32",
+      "severity": "low"
+    },
+    {
+      "row": 62,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "32",
+      "severity": "low"
+    },
+    {
+      "row": 63,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "32-33",
+      "severity": "low"
+    },
+    {
+      "row": 64,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "33",
+      "severity": "low"
+    },
+    {
+      "row": 65,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "33-34",
+      "severity": "low"
+    },
+    {
+      "row": 66,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "34",
+      "severity": "low"
+    },
+    {
+      "row": 67,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "34-35",
+      "severity": "low"
+    },
+    {
+      "row": 68,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "35",
+      "severity": "low"
+    },
+    {
+      "row": 69,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "35-36",
+      "severity": "low"
+    },
+    {
+      "row": 70,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "36",
+      "severity": "low"
+    },
+    {
+      "row": 71,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "36-37",
+      "severity": "low"
+    },
+    {
+      "row": 72,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "37",
+      "severity": "low"
+    },
+    {
+      "row": 73,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "37-38",
+      "severity": "low"
+    },
+    {
+      "row": 74,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "38",
+      "severity": "low"
+    },
+    {
+      "row": 75,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "38-39",
+      "severity": "low"
+    },
+    {
+      "row": 76,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "39",
+      "severity": "low"
+    },
+    {
+      "row": 77,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on the provided pages.",
+      "page": "39",
+      "severity": "low"
+    }
+  ]
+}

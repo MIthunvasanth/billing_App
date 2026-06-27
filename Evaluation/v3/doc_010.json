@@ -1,0 +1,388 @@
+{
+  "doc_id": "doc_010",
+  "meta": {
+    "doc_id": "doc_010",
+    "num_pages": 151,
+    "duration_seconds": 24.54,
+    "token_usage": {
+      "input": 255381,
+      "output": 2904,
+      "total": 258285
+    },
+    "cost_usd": 0.533994
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Paramount"
+      ],
+      "third_parties": [
+        "Lonestar"
+      ],
+      "total_charges": 138.37,
+      "ins_paid": 101.28,
+      "adjustment": null,
+      "payments": 37.09,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/02/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "SFS"
+      ],
+      "third_parties": [],
+      "total_charges": 322.0,
+      "ins_paid": 281.99,
+      "adjustment": null,
+      "payments": 40.01,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/02/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 140.71,
+      "ins_paid": 120.64,
+      "adjustment": null,
+      "payments": 20.07,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/02/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 324.85,
+      "ins_paid": 291.61,
+      "adjustment": null,
+      "payments": 33.24,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/04/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 435.27,
+      "ins_paid": 312.5,
+      "adjustment": null,
+      "payments": 122.77,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/06/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 78.5,
+      "ins_paid": 66.95,
+      "adjustment": null,
+      "payments": 11.55,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/06/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 63.85,
+      "ins_paid": 44.89,
+      "adjustment": null,
+      "payments": 18.96,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/07/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "ScriptCycle"
+      ],
+      "total_charges": 310.97,
+      "ins_paid": 232.57,
+      "adjustment": null,
+      "payments": 78.4,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "04/24/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 423.96,
+      "ins_paid": 306.34,
+      "adjustment": null,
+      "payments": 117.62,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/25/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 327.24,
+      "ins_paid": 289.95,
+      "adjustment": null,
+      "payments": 37.29,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/25/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card (BIN 019158)"
+      ],
+      "total_charges": 316.61,
+      "ins_paid": 248.73,
+      "adjustment": null,
+      "payments": 67.88,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/25/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card (BIN 019158)"
+      ],
+      "total_charges": 291.75,
+      "ins_paid": 250.32,
+      "adjustment": null,
+      "payments": 41.43,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/28/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Allwin (USFLU) (BIN 609402)"
+      ],
+      "total_charges": 354.49,
+      "ins_paid": 283.02,
+      "adjustment": null,
+      "payments": 71.47,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/28/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx (BIN 610591)"
+      ],
+      "total_charges": 197.56,
+      "ins_paid": 135.81,
+      "adjustment": null,
+      "payments": 61.75,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/28/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 95.49,
+      "ins_paid": 76.21,
+      "adjustment": null,
+      "payments": 19.28,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/29/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 349.12,
+      "ins_paid": 252.94,
+      "adjustment": null,
+      "payments": 96.18,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/29/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health (BIN 600428)"
+      ],
+      "total_charges": 398.88,
+      "ins_paid": 260.66,
+      "adjustment": null,
+      "payments": 138.22,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/29/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx (BIN 610591)"
+      ],
+      "total_charges": 219.59,
+      "ins_paid": 166.34,
+      "adjustment": null,
+      "payments": 53.25,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/29/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health PBM (BIN 610415)"
+      ],
+      "total_charges": 455.44,
+      "ins_paid": 384.42,
+      "adjustment": null,
+      "payments": 71.02,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/30/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys Immunizations (BIN 600099)"
+      ],
+      "total_charges": 455.79,
+      "ins_paid": 289.51,
+      "adjustment": null,
+      "payments": 166.28,
+      "balance": 0.0,
+      "page": "72"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "third_parties"
+      ],
+      "reason": "Paramount is an insurer but Lonestar is a PBM/3rd party; extracted based on BIN field, but flagging for review of payer split and PBM routing.",
+      "page": "3",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "third_parties"
+      ],
+      "reason": "SFS payer has only BIN indication and may be a PBM not medical insurer. Flag for review of correct classification.",
+      "page": "3",
+      "severity": "medium"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "third_parties",
+        "insurers"
+      ],
+      "reason": "Blink Health is a 3rd party discount/PBM; no insurer listed for this row. Confirm PBM-only transaction and split is correct.",
+      "page": "3",
+      "severity": "medium"
+    },
+    {
+      "row": 4,
+      "fields": [
+        "third_parties"
+      ],
+      "reason": "My Rx Card is a PBM/discount program; confirm payer split; no insurers indicated.",
+      "page": "3",
+      "severity": "medium"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "third_parties"
+      ],
+      "reason": "ScriptCycle is a PBM observed via BIN; no traditional insurer. Please review correct assignment.",
+      "page": "3",
+      "severity": "medium"
+    },
+    {
+      "row": 8,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) is not explicitly stated on this page.",
+      "page": "72",
+      "severity": "medium"
+    },
+    {
+      "row": 8,
+      "fields": [],
+      "reason": "Possible ambiguity in mapping third-party PBM/discount program and payer fields, document mixes insurance with 3rd party bins.",
+      "page": "72",
+      "severity": "medium"
+    }
+  ]
+}

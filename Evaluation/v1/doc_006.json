@@ -1,0 +1,107 @@
+{
+  "doc_id": "doc_006",
+  "meta": {
+    "doc_id": "doc_006",
+    "num_pages": 33,
+    "duration_seconds": 7.4,
+    "token_usage": {
+      "input": 14731,
+      "output": 669,
+      "total": 15400
+    },
+    "cost_usd": 0.034814
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2021 - 01/27/2021",
+      "cpt_codes": [
+        "J0885",
+        "84295",
+        "93975",
+        "84100",
+        "A4706",
+        "99213",
+        "G0491",
+        "J2916",
+        "82565",
+        "A4690",
+        "84132",
+        "90937"
+      ],
+      "description": "Dialysis, labs & associated procedures (10 treatments)",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 7595.36,
+      "ins_paid": 5697.6,
+      "adjustment": 1897.76,
+      "payments": null,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "05/02/2022 - 05/28/2022",
+      "cpt_codes": [
+        "84295",
+        "90935",
+        "90940",
+        "J0885",
+        "36831",
+        "99213",
+        "90937",
+        "A4860",
+        "A4920",
+        "A4750",
+        "86000",
+        "82310",
+        "J3370"
+      ],
+      "description": "Dialysis, labs & associated procedures (10 treatments)",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 6571.49,
+      "ins_paid": 4929.55,
+      "adjustment": 1641.94,
+      "payments": null,
+      "balance": 0.0,
+      "page": "17"
+    },
+    {
+      "treatment_date": "08/31/2023 - 09/30/2023",
+      "cpt_codes": [
+        "99213",
+        "G0491",
+        "A4706",
+        "J0885",
+        "36831",
+        "86000",
+        "A4706",
+        "82728",
+        "A4802",
+        "84132",
+        "85025",
+        "85025",
+        "93975",
+        "J2916"
+      ],
+      "description": "Dialysis, labs & associated procedures (13 treatments)",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 8329.5,
+      "ins_paid": 6248.31,
+      "adjustment": 2081.19,
+      "payments": null,
+      "balance": 0.0,
+      "page": "26"
+    }
+  ],
+  "flagged": []
+}

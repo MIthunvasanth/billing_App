@@ -1,0 +1,336 @@
+{
+  "doc_id": "doc_003",
+  "meta": {
+    "doc_id": "doc_003",
+    "num_pages": 21,
+    "duration_seconds": 18.61,
+    "token_usage": {
+      "input": 38661,
+      "output": 2611,
+      "total": 41272
+    },
+    "cost_usd": 0.09821
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023",
+      "cpt_codes": [],
+      "description": "Aripiprazole 10mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "Immunizations",
+        "Omnisys"
+      ],
+      "total_charges": 285.79,
+      "ins_paid": 251.64,
+      "adjustment": null,
+      "payments": null,
+      "balance": 34.15,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/07/2023",
+      "cpt_codes": [],
+      "description": "Trazodone 50mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 428.58,
+      "ins_paid": 259.94,
+      "adjustment": null,
+      "payments": null,
+      "balance": 168.64,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/09/2023",
+      "cpt_codes": [],
+      "description": "Simvastatin 40mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "Health PBM",
+        "McKesson"
+      ],
+      "total_charges": 425.07,
+      "ins_paid": 349.03,
+      "adjustment": null,
+      "payments": null,
+      "balance": 76.04,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/10/2023",
+      "cpt_codes": [],
+      "description": "Amoxicillin 500mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "SFS",
+        "LANDRY"
+      ],
+      "total_charges": 399.4,
+      "ins_paid": 305.33,
+      "adjustment": null,
+      "payments": null,
+      "balance": 94.07,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/12/2023",
+      "cpt_codes": [],
+      "description": "Pantoprazole 40mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 396.15,
+      "ins_paid": 274.27,
+      "adjustment": null,
+      "payments": null,
+      "balance": 121.88,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/12/2023",
+      "cpt_codes": [],
+      "description": "Metoprolol Succinate 100mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 362.06,
+      "ins_paid": 270.1,
+      "adjustment": null,
+      "payments": null,
+      "balance": 91.96,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/17/2023",
+      "cpt_codes": [],
+      "description": "Prednisone 10mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 8.58,
+      "ins_paid": 7.53,
+      "adjustment": null,
+      "payments": null,
+      "balance": 1.05,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/20/2023",
+      "cpt_codes": [],
+      "description": "Duloxetine 60mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 163.74,
+      "ins_paid": 101.36,
+      "adjustment": null,
+      "payments": null,
+      "balance": 62.38,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/20/2023",
+      "cpt_codes": [],
+      "description": "Alprazolam 1mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 490.0,
+      "ins_paid": 368.76,
+      "adjustment": null,
+      "payments": null,
+      "balance": 121.24,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/20/2023",
+      "cpt_codes": [],
+      "description": "Apixaban 5mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [
+        "Cigna"
+      ],
+      "third_parties": [],
+      "total_charges": 110.41,
+      "ins_paid": 98.11,
+      "adjustment": null,
+      "payments": null,
+      "balance": 12.3,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/21/2023",
+      "cpt_codes": [],
+      "description": "Quetiapine 200mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [
+        "Cigna Healthspring"
+      ],
+      "third_parties": [],
+      "total_charges": 434.35,
+      "ins_paid": 386.11,
+      "adjustment": null,
+      "payments": null,
+      "balance": 48.24,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/22/2023",
+      "cpt_codes": [],
+      "description": "Albuterol 90mcg Inhaler",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 370.27,
+      "ins_paid": 306.28,
+      "adjustment": null,
+      "payments": null,
+      "balance": 63.99,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/24/2023",
+      "cpt_codes": [],
+      "description": "Omeprazole 20mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 340.15,
+      "ins_paid": 301.81,
+      "adjustment": null,
+      "payments": null,
+      "balance": 38.34,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/24/2023",
+      "cpt_codes": [],
+      "description": "Sitagliptin 100mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [
+        "Paramount Lonestar"
+      ],
+      "third_parties": [],
+      "total_charges": 453.89,
+      "ins_paid": 404.98,
+      "adjustment": null,
+      "payments": null,
+      "balance": 48.91,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/25/2023",
+      "cpt_codes": [],
+      "description": "Trimethoprim-Sulfamethoxazole DS",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 400.78,
+      "ins_paid": 360.58,
+      "adjustment": null,
+      "payments": null,
+      "balance": 40.2,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/27/2023",
+      "cpt_codes": [],
+      "description": "Aripiprazole 20mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 56.44,
+      "ins_paid": 44.33,
+      "adjustment": null,
+      "payments": null,
+      "balance": 12.11,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/27/2023",
+      "cpt_codes": [],
+      "description": "Albuterol 90mcg Inhaler",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "ScriptCycle"
+      ],
+      "total_charges": 475.78,
+      "ins_paid": 392.72,
+      "adjustment": null,
+      "payments": null,
+      "balance": 83.06,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/28/2023",
+      "cpt_codes": [],
+      "description": "Escitalopram 10mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 326.62,
+      "ins_paid": 238.67,
+      "adjustment": null,
+      "payments": null,
+      "balance": 87.95,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/29/2023",
+      "cpt_codes": [],
+      "description": "Carvedilol 12.5mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 245.26,
+      "ins_paid": 220.09,
+      "adjustment": null,
+      "payments": null,
+      "balance": 25.17,
+      "page": "3"
+    },
+    {
+      "treatment_date": "02/01/2023",
+      "cpt_codes": [],
+      "description": "Tamsulosin 0.4mg",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 314.48,
+      "ins_paid": 255.84,
+      "adjustment": null,
+      "payments": null,
+      "balance": 58.64,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/04/2023 \u2013 12/31/2024",
+      "cpt_codes": [],
+      "description": "SRS PATIENT PROFILE",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 126304.01,
+      "ins_paid": 95231.08,
+      "adjustment": null,
+      "payments": null,
+      "balance": 31072.93,
+      "page": "18"
+    }
+  ],
+  "flagged": []
+}

@@ -1,0 +1,62 @@
+{
+  "doc_id": "doc_003",
+  "meta": {
+    "doc_id": "doc_003",
+    "num_pages": 21,
+    "duration_seconds": 29.24,
+    "token_usage": {
+      "input": 38767,
+      "output": 369,
+      "total": 39136
+    },
+    "cost_usd": 0.080486
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": "SRS PATIENT PROFILE",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [
+        "Cigna",
+        "Paramount",
+        "Allwin"
+      ],
+      "third_parties": [
+        "Omnisys",
+        "AMANDA SFS",
+        "Blink Health",
+        "Express Scripts",
+        "McKesson Health PBM",
+        "ScriptCycle",
+        "Health PBM",
+        "Caremark",
+        "Lonestar",
+        "OptumRx",
+        "Medco Health",
+        "GoodRx",
+        "Argus",
+        "My Rx Card",
+        "SFS"
+      ],
+      "total_charges": 126304.01,
+      "ins_paid": 95231.08,
+      "adjustment": null,
+      "payments": 31072.93,
+      "balance": null,
+      "page": "3-18"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "adjustment",
+        "balance"
+      ],
+      "reason": "No explicit adjustment or final balance columns shown on the summary row; the document only reports total charges, 'INS PD', and 'COPAY' as payments.",
+      "page": "18",
+      "severity": "medium"
+    }
+  ]
+}

@@ -1,0 +1,1874 @@
+{
+  "doc_id": "doc_009",
+  "meta": {
+    "doc_id": "doc_009",
+    "num_pages": 129,
+    "duration_seconds": 22.0,
+    "token_usage": {
+      "input": 336078,
+      "output": 9824,
+      "total": 345902
+    },
+    "cost_usd": 0.750748
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 07/21/2017",
+      "cpt_codes": [],
+      "description": "PHARMACY PATIENT PROFILE",
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Allwin",
+        "SFS",
+        "Caremark",
+        "Benefit Plan",
+        "My Rx Card",
+        "Blink Health",
+        "Argus",
+        "GoodRx",
+        "Medco Health",
+        "ScriptCycle",
+        "Express Scripts",
+        "OptumRx",
+        "McKesson Health PBM",
+        "Omnisys Immunizations",
+        "Paramount Lonestar",
+        "PBM Program",
+        "Third Party Program",
+        "Discount Program",
+        "Cigna Healthspring",
+        "Supplemental Coverage"
+      ],
+      "total_charges": 58335.63,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 16050.86,
+      "balance": null,
+      "page": "3-9"
+    },
+    {
+      "treatment_date": "07/22/2017 - 03/04/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts",
+        "Benefit Plan",
+        "ScriptCycle",
+        "Omnisys Immunizations",
+        "SFS",
+        "Paramount Lonestar",
+        "Discount Program",
+        "Cigna Healthspring",
+        "Third Party Program",
+        "Caremark",
+        "GoodRx",
+        "My Rx Card",
+        "Medco Health",
+        "Supplemental Coverage",
+        "Argus",
+        "Blink Health",
+        "Allwin",
+        "OptumRx",
+        "McKesson Health PBM",
+        "PBM Program"
+      ],
+      "total_charges": 67670.29,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 22222.09,
+      "balance": null,
+      "page": "10-16"
+    },
+    {
+      "treatment_date": "03/05/2018 - 10/03/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health PBM",
+        "Benefit Plan",
+        "Third Party Program",
+        "Paramount Lonestar",
+        "Medco Health",
+        "ScriptCycle",
+        "OptumRx",
+        "GoodRx",
+        "PBM Program",
+        "Express Scripts",
+        "Cigna Healthspring",
+        "Allwin",
+        "SFS",
+        "Argus",
+        "Blink Health",
+        "My Rx Card",
+        "Omnisys Immunizations",
+        "Supplemental Coverage",
+        "Caremark",
+        "Discount Program"
+      ],
+      "total_charges": 19258.18,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 2737.12,
+      "page": "17-23"
+    },
+    {
+      "treatment_date": "03/06/2018 - 09/29/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health PBM",
+        "Third Party Program",
+        "Paramount Lonestar",
+        "GoodRx",
+        "PBM Program",
+        "Express Scripts",
+        "Cigna Healthspring",
+        "Allwin",
+        "OptumRx",
+        "Blink Health",
+        "My Rx Card",
+        "Omnisys Immunizations",
+        "Supplemental Coverage",
+        "SFS",
+        "Discount Program",
+        "ScriptCycle",
+        "Benefit Plan",
+        "Argus",
+        "Medco Health",
+        "Caremark"
+      ],
+      "total_charges": 19992.08,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 5200.5,
+      "page": "17-23"
+    },
+    {
+      "treatment_date": "03/07/2018 - 10/03/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARTINEZ MARY",
+      "insurers": [],
+      "third_parties": [
+        "Benefit Plan",
+        "McKesson Health PBM",
+        "Third Party Program",
+        "GoodRx",
+        "PBM Program",
+        "Allwin",
+        "SFS",
+        "Blink Health",
+        "Supplemental Coverage",
+        "OptumRx",
+        "Caremark",
+        "Argus",
+        "Discount Program",
+        "ScriptCycle",
+        "Medco Health",
+        "My Rx Card",
+        "Cigna Healthspring",
+        "Paramount Lonestar"
+      ],
+      "total_charges": 21860.52,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 5532.25,
+      "page": "17-23"
+    },
+    {
+      "treatment_date": "03/07/2018 - 09/29/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "ONEILL WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health PBM",
+        "ScriptCycle",
+        "Benefit Plan",
+        "GoodRx",
+        "Express Scripts",
+        "Allwin",
+        "OptumRx",
+        "PBM Program",
+        "Omnisys Immunizations",
+        "SFS",
+        "Supplemental Coverage",
+        "Medco Health",
+        "Blink Health",
+        "Argus",
+        "Caremark",
+        "Cigna Healthspring",
+        "Discount Program",
+        "My Rx Card",
+        "Third Party Program"
+      ],
+      "total_charges": 22467.02,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 5841.84,
+      "page": "17-23"
+    },
+    {
+      "treatment_date": "03/09/2018 - 10/03/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "ADAMS DEBORAH",
+      "insurers": [],
+      "third_parties": [
+        "Paramount Lonestar",
+        "Medco Health",
+        "SFS",
+        "PBM Program",
+        "GoodRx",
+        "Discount Program",
+        "Argus",
+        "Benefit Plan",
+        "Supplemental Coverage",
+        "McKesson Health PBM",
+        "Allwin",
+        "Caremark",
+        "Blink Health",
+        "OptumRx",
+        "My Rx Card",
+        "Omnisys Immunizations",
+        "Express Scripts",
+        "Third Party Program"
+      ],
+      "total_charges": 25136.35,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 6007.12,
+      "page": "17-23"
+    },
+    {
+      "treatment_date": "10/03/2018 - 06/03/2019",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [
+        "Express Scripts"
+      ],
+      "third_parties": [
+        "GoodRx",
+        "OptumRx",
+        "Omnisys Immunizations",
+        "Caremark",
+        "Blink Health",
+        "ScriptCycle",
+        "Medco Health",
+        "Allwin",
+        "McKesson Health PBM",
+        "Argus",
+        "My Rx Card",
+        "Cigna Healthspring",
+        "PBM Program",
+        "Benefit Plan",
+        "Paramount Lonestar",
+        "SFS"
+      ],
+      "total_charges": 61873.93,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 15113.77,
+      "balance": null,
+      "page": "24-31"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "McKesson Health",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health PBM"
+      ],
+      "total_charges": 43886.98,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 5404.67,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "PBM",
+      "insurers": [],
+      "third_parties": [
+        "PBM Program",
+        "Benefit Plan",
+        "Supplemental Coverage",
+        "Third Party Program",
+        "Discount Program"
+      ],
+      "total_charges": 24880.58,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 5439.42,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Express Scripts",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 7668.24,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 1703.77,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "ScriptCycle",
+      "insurers": [],
+      "third_parties": [
+        "ScriptCycle"
+      ],
+      "total_charges": 1984.47,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 445.11,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Caremark",
+      "insurers": [],
+      "third_parties": [
+        "Caremark"
+      ],
+      "total_charges": 2858.04,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 661.96,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Paramount Lonestar",
+      "insurers": [],
+      "third_parties": [
+        "Paramount Lonestar"
+      ],
+      "total_charges": 1895.17,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 266.43,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "My Rx Card",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 855.78,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 105.42,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Allwin",
+      "insurers": [],
+      "third_parties": [
+        "Allwin"
+      ],
+      "total_charges": 1712.17,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 344.42,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "GoodRx",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 2239.02,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 511.49,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Medco Health",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 1780.17,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 408.02,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "SFS",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 2877.92,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 485.28,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Cigna Healthspring",
+      "insurers": [],
+      "third_parties": [
+        "Cigna Healthspring"
+      ],
+      "total_charges": 2334.24,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 514.42,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Blink Health",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 2867.1,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 531.93,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 3294.44,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 759.45,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "OptumRx",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx"
+      ],
+      "total_charges": 2844.35,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 571.98,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "06/05/2019 - 02/05/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Omnisys Immunizations",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys Immunizations"
+      ],
+      "total_charges": 1843.66,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 381.1,
+      "page": "32-39"
+    },
+    {
+      "treatment_date": "02/05/2020 - 09/26/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Allwin",
+        "Omnisys Immunizations",
+        "Paramount Lonestar",
+        "Express Scripts",
+        "McKesson Health PBM",
+        "SFS",
+        "OptumRx",
+        "ScriptCycle",
+        "GoodRx",
+        "My Rx Card",
+        "Argus",
+        "Blink Health",
+        "Cigna Healthspring",
+        "PBM Program",
+        "Medco Health",
+        "Caremark",
+        "Benefit Plan",
+        "Discount Program",
+        "Supplemental Coverage",
+        "Third Party Program"
+      ],
+      "total_charges": 62867.29,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 18068.33,
+      "page": "40-47"
+    },
+    {
+      "treatment_date": "09/26/2020 - 05/15/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Cigna Healthspring",
+      "insurers": [],
+      "third_parties": [
+        "Cigna Healthspring"
+      ],
+      "total_charges": 2408.96,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 2408.96,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "09/27/2020 - 05/15/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Blink Health",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 4867.83,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 4867.83,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "09/28/2020 - 05/05/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "McKesson Health PBM",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health PBM"
+      ],
+      "total_charges": 4919.2,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 4919.2,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "09/29/2020 - 05/13/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Third Party Program",
+      "insurers": [],
+      "third_parties": [
+        "Third Party Program"
+      ],
+      "total_charges": 8502.42,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 8502.42,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/02/2020 - 05/15/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Medco Health",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 3197.94,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 3197.94,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/02/2020 - 04/06/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Benefit Plan",
+      "insurers": [],
+      "third_parties": [
+        "Benefit Plan"
+      ],
+      "total_charges": 2635.24,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 2635.24,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/03/2020 - 05/10/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Caremark",
+      "insurers": [],
+      "third_parties": [
+        "Caremark"
+      ],
+      "total_charges": 2911.12,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 2911.12,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/04/2020 - 05/03/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "ScriptCycle",
+      "insurers": [],
+      "third_parties": [
+        "ScriptCycle"
+      ],
+      "total_charges": 2312.25,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 2312.25,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/06/2020 - 05/13/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 3320.02,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 3320.02,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/06/2020 - 05/03/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Paramount Lonestar",
+      "insurers": [],
+      "third_parties": [
+        "Paramount Lonestar"
+      ],
+      "total_charges": 2979.44,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 2979.44,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/06/2020 - 05/03/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "My Rx Card",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 4850.38,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 4850.38,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/14/2020 - 04/24/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "OptumRx",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx"
+      ],
+      "total_charges": 4752.1,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 4752.1,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/14/2020 - 05/04/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "GoodRx",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 4236.74,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 4236.74,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/19/2020 - 03/16/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Supplemental Coverage",
+      "insurers": [],
+      "third_parties": [
+        "Supplemental Coverage"
+      ],
+      "total_charges": 1714.74,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 1714.74,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/21/2020 - 04/10/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Express Scripts",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 2698.5,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 2698.5,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/22/2020 - 05/05/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Allwin",
+      "insurers": [],
+      "third_parties": [
+        "Allwin"
+      ],
+      "total_charges": 3140.28,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 3140.28,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "11/19/2020 - 05/01/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "PBM Program",
+      "insurers": [],
+      "third_parties": [
+        "PBM Program"
+      ],
+      "total_charges": 3342.18,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 3342.18,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "11/13/2020 - 03/22/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys Immunizations",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys Immunizations"
+      ],
+      "total_charges": 1002.32,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 1002.32,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "10/05/2020 - 04/28/2021",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 34653.07,
+      "ins_paid": 0.0,
+      "adjustment": 0.0,
+      "payments": 34653.07,
+      "balance": 0.0,
+      "page": "48-55"
+    },
+    {
+      "treatment_date": "05/15/2021 - 12/08/2021",
+      "cpt_codes": [],
+      "description": "Rx # Date Drug NDC 3rd Party Prescriber Qty Days Charge Copay",
+      "provider": "Paramount HURST",
+      "insurers": [],
+      "third_parties": [
+        "Lonestar",
+        "My Rx Card",
+        "ScriptCycle",
+        "Supplemental Coverage",
+        "Blink Health",
+        "SFS",
+        "GoodRx",
+        "PBM Program Discount",
+        "OptumRx",
+        "Medco Health",
+        "Omnisys Immunizations",
+        "Third Party Program",
+        "Caremark",
+        "McKesson Health PBM",
+        "Benefit Plan",
+        "Cigna Healthspring",
+        "Argus",
+        "Express Scripts",
+        "Allwin"
+      ],
+      "total_charges": 57007.74,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 10827.52,
+      "balance": null,
+      "page": "56-62"
+    },
+    {
+      "treatment_date": "12/10/2021 - 07/16/2022",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card",
+        "McKesson Health PBM",
+        "OptumRx",
+        "Blink Health",
+        "Caremark",
+        "Benefit Plan",
+        "Omnisys Immunizations",
+        "SFS",
+        "Argus",
+        "Medco Health",
+        "Allwin",
+        "PBM Program",
+        "ScriptCycle",
+        "Discount Program",
+        "Supplemental Coverage",
+        "Third Party Program",
+        "GoodRx",
+        "Paramount Lonestar",
+        "Cigna Healthspring",
+        "Express Scripts"
+      ],
+      "total_charges": 48190.27,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 9508.78,
+      "page": "63-69"
+    },
+    {
+      "treatment_date": "07/17/2022 - 02/16/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health",
+        "Omnisys Immunizations",
+        "SFS",
+        "Argus",
+        "My Rx Card",
+        "Paramount Lonestar",
+        "McKesson Health PBM",
+        "Discount Program",
+        "Medco Health",
+        "Caremark",
+        "Express Scripts",
+        "Cigna Healthspring",
+        "Third Party Program",
+        "Supplemental Coverage",
+        "ScriptCycle",
+        "Benefit Plan",
+        "GoodRx",
+        "OptumRx",
+        "PBM Program",
+        "Allwin"
+      ],
+      "total_charges": 66883.14,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 22155.87,
+      "balance": null,
+      "page": "70-76"
+    },
+    {
+      "treatment_date": "02/16/2023 - 09/24/2023",
+      "cpt_codes": [],
+      "description": "Rx Profile",
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health",
+        "McKesson Health PBM",
+        "Paramount Lonestar",
+        "Medco Health",
+        "SFS",
+        "GoodRx",
+        "OptumRx",
+        "Caremark",
+        "ScriptCycle",
+        "Allwin",
+        "Argus",
+        "Express Scripts",
+        "Omnisys Immunizations",
+        "Benefit Plan",
+        "My Rx Card",
+        "Cigna Healthspring"
+      ],
+      "total_charges": 51968.01,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 12655.2,
+      "page": "77-83"
+    },
+    {
+      "treatment_date": "09/24/2023 - 04/20/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Discount Program",
+        "McKesson Health PBM",
+        "Benefit Plan",
+        "My Rx Card",
+        "Omnisys Immunizations",
+        "Allwin",
+        "Caremark",
+        "Paramount Lonestar",
+        "Argus",
+        "OptumRx",
+        "Blink Health",
+        "Cigna Healthspring",
+        "GoodRx",
+        "Medco Health",
+        "PBM Program",
+        "SFS",
+        "Express Scripts",
+        "ScriptCycle",
+        "Supplemental Coverage",
+        "Third Party Program"
+      ],
+      "total_charges": 53192.92,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 12022.61,
+      "page": "84-90"
+    },
+    {
+      "treatment_date": "04/21/2024 - 12/02/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Allwin",
+        "PBM Program",
+        "Argus",
+        "Blink Health",
+        "McKesson Health PBM",
+        "ScriptCycle",
+        "GoodRx",
+        "Paramount Lonestar",
+        "SFS",
+        "Cigna Healthspring",
+        "Benefit Plan",
+        "Omnisys Immunizations",
+        "My Rx Card",
+        "Express Scripts",
+        "Caremark",
+        "OptumRx",
+        "Medco Health",
+        "Discount Program",
+        "Third Party Program",
+        "Supplemental Coverage"
+      ],
+      "total_charges": 68714.95,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 20056.86,
+      "balance": null,
+      "page": "91-98"
+    },
+    {
+      "treatment_date": "12/03/2024 - 12/31/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST CHRISTOPHER",
+      "insurers": [
+        "Cigna"
+      ],
+      "third_parties": [
+        "Express Scripts",
+        "Allwin",
+        "Medco Health",
+        "My Rx Card",
+        "SFS",
+        "PBM Program",
+        "ScriptCycle",
+        "McKesson Health PBM",
+        "GoodRx",
+        "Argus",
+        "Omnisys Immunizations"
+      ],
+      "total_charges": 1262450.18,
+      "ins_paid": 948201.11,
+      "adjustment": null,
+      "payments": 314249.07,
+      "balance": 0.0,
+      "page": "99"
+    },
+    {
+      "treatment_date": "03/10/2026 - 05/01/2026",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Radiology",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "100-101"
+    },
+    {
+      "treatment_date": "03/15/2026 - 04/29/2026",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Radiology",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "103,105-107,112,116-120,122,124-125,129"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy patient profile provides Charge and Copay by fill but no clear insurer-paid, adjustment, or balance columns. Record aggregated from running account; copay total captured as patient payments may instead represent patient responsibility at point of sale.",
+      "page": "3-9",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy name is not shown on these pages; using generic provider label requires manual review.",
+      "page": "10-16",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "payments",
+        "balance"
+      ],
+      "reason": "Only Charge and Copay columns are shown on these pharmacy pages. Copay may represent patient responsibility at sale, but no explicit patient payment/remaining balance fields are present, so mapping needs manual review.",
+      "page": "10-16",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "Insurance payment and adjustment amounts are not shown on these pages.",
+      "page": "10-16",
+      "severity": "low"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy running-account rows show only Charge and Copay; insurer/third-party paid amounts and adjustments are not itemized. Record aggregated by patient/provider section header HURST.",
+      "page": "17-23",
+      "severity": "medium"
+    },
+    {
+      "row": 3,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy running-account rows show only Charge and Copay; insurer/third-party paid amounts and adjustments are not itemized. Record aggregated by patient/provider section header CHRISTOPHER.",
+      "page": "17-23",
+      "severity": "medium"
+    },
+    {
+      "row": 4,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy running-account rows show only Charge and Copay; insurer/third-party paid amounts and adjustments are not itemized. Provider interpreted from repeated prescriber/patient name MARTINEZ MARY due to document structure ambiguity.",
+      "page": "17-23",
+      "severity": "medium"
+    },
+    {
+      "row": 5,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy running-account rows show only Charge and Copay; insurer/third-party paid amounts and adjustments are not itemized. Provider interpreted from repeated prescriber/patient name ONEILL WILLIAM due to document structure ambiguity.",
+      "page": "17-23",
+      "severity": "medium"
+    },
+    {
+      "row": 6,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy running-account rows show only Charge and Copay; insurer/third-party paid amounts and adjustments are not itemized. Provider interpreted from repeated prescriber/patient name ADAMS DEBORAH due to document structure ambiguity.",
+      "page": "17-23",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Document appears to be a pharmacy profile/running account with rows for multiple names and wrapped text; patient/provider role is ambiguous in the OCR text for many rows.",
+      "page": "17-23",
+      "severity": "high"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name is not explicitly shown on these pages; record appears to be a pharmacy running account but pharmacy/facility name is absent in this chunk.",
+      "page": "24-31",
+      "severity": "medium"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger pages show Charge and Copay only; insurer/third-party paid amounts, adjustments, and remaining balance are not provided and cannot be resolved from this chunk.",
+      "page": "24-31",
+      "severity": "medium"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "payments"
+      ],
+      "reason": "Using Copay total as patient payments for the aggregated pharmacy record; this assumes copay amounts were actually remitted at fill and should be reviewed.",
+      "page": "24-31",
+      "severity": "low"
+    },
+    {
+      "row": 8,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy running-account pages list Charge and Copay but no explicit insurer-paid, adjustment, or patient payment received columns. Record aggregated by payer/provider across all visible pages as a summary assumption.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 9,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "provider",
+        "third_parties"
+      ],
+      "reason": "Multiple generic third-party labels (PBM Program, Benefit Plan, Supplemental Coverage, Third Party Program, Discount Program) appear as payer names/intermediaries rather than a dispensing pharmacy. Aggregation by visible payer label required manual interpretation.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 10,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 11,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 12,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 13,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Paramount and Lonestar appear split across lines and were normalized to Paramount Lonestar as a third party; insurer-paid and adjustments not shown.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 14,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 15,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 16,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 17,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 18,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 19,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Cigna Healthspring treated as third party per rules; insurer-paid and adjustment amounts are not shown on the document.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 20,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 21,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 22,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Only Charge and Copay are shown; insurer-paid and adjustments are not provided, and copay appears to be patient responsibility rather than payment received.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 23,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Omnisys Immunizations treated as third party per rules; insurer-paid and adjustment amounts are not shown on the document.",
+      "page": "32-39",
+      "severity": "medium"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy name is not shown in this page chunk; using generic provider label pending review against other pages.",
+      "page": "40-47",
+      "severity": "medium"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Running pharmacy account pages show Charge and Copay only. Insurer/third-party paid amounts and adjustments are not itemized; balance reported here is aggregated copay/out-of-pocket amount, not a true account balance.",
+      "page": "40-47",
+      "severity": "medium"
+    },
+    {
+      "row": 43,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Many pharmacy rows show no explicit third-party/pharmacy identifier; document excerpt does not clearly state the dispensing pharmacy name for those cash/self-pay or unlabeled rows, so they were aggregated under an unknown provider.",
+      "page": "48-55",
+      "severity": "high"
+    },
+    {
+      "row": 25,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 26,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 27,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 28,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 29,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 30,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 31,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 32,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 33,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 34,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 35,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 36,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 37,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 38,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 39,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 40,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 41,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 42,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 43,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger provides only Charge and Copay columns. Insurer/third-party paid amount and adjustments are not shown; balance inferred as charge total without offset detail.",
+      "page": "48-55",
+      "severity": "medium"
+    },
+    {
+      "row": 44,
+      "fields": [
+        "provider",
+        "description",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy running account pages list many individual dispensing rows and patient/prescriber names, but no clear pharmacy/provider name or summary row is shown in this chunk. Copay is present, but insurer/third-party paid amounts and adjustments are not shown, so financial mapping is incomplete. Provider and description are also ambiguous from the available pages.",
+      "page": "56-62",
+      "severity": "high"
+    },
+    {
+      "row": 45,
+      "fields": [
+        "total_charges"
+      ],
+      "reason": "Pharmacy running account aggregated across pages 63-69; total charges summed from itemized dispensing rows because no summary row is present in this chunk.",
+      "page": "63-69",
+      "severity": "medium"
+    },
+    {
+      "row": 45,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Document provides Charge and Copay columns only; insurer/third-party paid amounts, adjustments, and true remaining balance are not shown for the aggregated pharmacy account. Copay was placed in balance as patient responsibility for manual review.",
+      "page": "63-69",
+      "severity": "high"
+    },
+    {
+      "row": 46,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/pharmacy name is not visible in this chunk; record appears to be a pharmacy running account and was aggregated across pages 70-76.",
+      "page": "70-76",
+      "severity": "medium"
+    },
+    {
+      "row": 46,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledger shows only Charge and Copay columns. Copay may reflect patient responsibility rather than confirmed patient payment, and insurer/third-party paid amounts and balance are not shown.",
+      "page": "70-76",
+      "severity": "high"
+    },
+    {
+      "row": 47,
+      "fields": [
+        "description",
+        "provider",
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "Pharmacy running account aggregated across pages, but document chunk does not clearly show pharmacy name or report title; only charge and copay columns are present, so insurer/third-party paid and adjustment amounts are not available.",
+      "page": "77-83",
+      "severity": "medium"
+    },
+    {
+      "row": 48,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/pharmacy name is not visible on these pages; record aggregated as pharmacy running account but dispensing pharmacy identity is unknown from this chunk.",
+      "page": "84-90",
+      "severity": "medium"
+    },
+    {
+      "row": 48,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy pages show Charge and Copay only; insurer/third-party paid amounts, adjustments, and true account balance are not explicitly provided. Reported balance was derived as total charges minus copays, which may actually reflect patient responsibility rather than remaining balance.",
+      "page": "84-90",
+      "severity": "high"
+    },
+    {
+      "row": 49,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy name is not shown on these pages; provider assigned generically as pharmacy/source not explicitly identified.",
+      "page": "91-98",
+      "severity": "medium"
+    },
+    {
+      "row": 49,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Document shows only charge and copay columns for pharmacy fills; insurer-paid amount, adjustments, and true remaining balance are not provided. Copay may reflect patient responsibility rather than confirmed payment received.",
+      "page": "91-98",
+      "severity": "high"
+    },
+    {
+      "row": 50,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy page appears to be a running patient profile; provider/pharmacy name is not explicitly shown and 'HURST CHRISTOPHER' may be patient name text rather than pharmacy name.",
+      "page": "99",
+      "severity": "medium"
+    },
+    {
+      "row": 50,
+      "fields": [
+        "adjustment"
+      ],
+      "reason": "Summary totals show charges, paid, and copay/balance, but no explicit adjustment total is shown.",
+      "page": "99",
+      "severity": "low"
+    },
+    {
+      "row": 51,
+      "fields": [
+        "provider",
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Imaging reports list exams for Michael Warren but contain no billing amounts, CPT codes, or facility/provider organization name; grouped per imaging-record rule across visible pages 100-101.",
+      "page": "100-101",
+      "severity": "high"
+    },
+    {
+      "row": 52,
+      "fields": [
+        "provider",
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Imaging reports list exams for Michael Warren but contain no billing amounts, CPT codes, or facility/provider organization name; grouped per imaging-record rule across remaining visible imaging pages.",
+      "page": "103,105-107,112,116-120,122,124-125,129",
+      "severity": "high"
+    }
+  ]
+}

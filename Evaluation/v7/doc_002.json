@@ -1,0 +1,1074 @@
+{
+  "doc_id": "doc_002",
+  "meta": {
+    "doc_id": "doc_002",
+    "num_pages": 18,
+    "duration_seconds": 37.12,
+    "token_usage": {
+      "input": 24393,
+      "output": 6962,
+      "total": 31355
+    },
+    "cost_usd": 0.104482
+  },
+  "records": [
+    {
+      "treatment_date": "01/05/2024 - 12/07/2024",
+      "cpt_codes": [
+        "73562",
+        "73100",
+        "72158",
+        "73110",
+        "76700",
+        "73100",
+        "74177",
+        "72148",
+        "72100",
+        "71048",
+        "72148",
+        "72110"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 6181.07,
+      "ins_paid": 3968.12,
+      "adjustment": 2129.5,
+      "payments": 83.45,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "06/26/2023 - 12/11/2024",
+      "cpt_codes": [
+        "73100",
+        "76705",
+        "76700",
+        "73564",
+        "72158",
+        "76830"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3437.65,
+      "ins_paid": 2260.95,
+      "adjustment": 1022.61,
+      "payments": 154.09,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "03/30/2023 - 07/18/2024",
+      "cpt_codes": [
+        "77067",
+        "72100",
+        "74178",
+        "72100",
+        "72158"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 2794.79,
+      "ins_paid": 1797.88,
+      "adjustment": 961.77,
+      "payments": 35.14,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "02/16/2023 - 10/01/2024",
+      "cpt_codes": [
+        "72148",
+        "73110",
+        "73100",
+        "J3010",
+        "73562",
+        "73100"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3288.56,
+      "ins_paid": 2033.35,
+      "adjustment": 1189.45,
+      "payments": 65.76,
+      "balance": 0.0,
+      "page": "3-4"
+    },
+    {
+      "treatment_date": "11/17/2023 - 12/02/2024",
+      "cpt_codes": [
+        "77067",
+        "74177",
+        "74178",
+        "73562",
+        "76830"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 2393.77,
+      "ins_paid": 1498.99,
+      "adjustment": 851.41,
+      "payments": 43.37,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "03/17/2023 - 12/14/2023",
+      "cpt_codes": [
+        "72148",
+        "74178",
+        "Q9920",
+        "76705",
+        "73030",
+        "76705",
+        "73100",
+        "71048",
+        "74177",
+        "72110",
+        "77067",
+        "74177"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 5037.55,
+      "ins_paid": 3066.57,
+      "adjustment": 1946.62,
+      "payments": 24.36,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "03/05/2023 - 12/18/2024",
+      "cpt_codes": [
+        "76700",
+        "73562",
+        "73562",
+        "73110",
+        "74178",
+        "71046",
+        "73060",
+        "73030",
+        "72148",
+        "73562"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 5535.97,
+      "ins_paid": 3510.0,
+      "adjustment": 1916.8,
+      "payments": 109.17,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "02/09/2024 - 11/23/2024",
+      "cpt_codes": [
+        "73100",
+        "73110",
+        "73030",
+        "73100",
+        "73564"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 4406.32,
+      "ins_paid": 2815.28,
+      "adjustment": 1559.75,
+      "payments": 31.29,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "02/07/2023 - 10/24/2024",
+      "cpt_codes": [
+        "76705",
+        "71048",
+        "71048",
+        "74177",
+        "71048",
+        "73110",
+        "76830"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3914.57,
+      "ins_paid": 2182.6,
+      "adjustment": 1636.25,
+      "payments": 95.72,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "03/25/2023 - 12/21/2024",
+      "cpt_codes": [
+        "73100",
+        "73030",
+        "73562",
+        "76705",
+        "76700",
+        "71046",
+        "A4245",
+        "73110",
+        "73060",
+        "73564",
+        "73030"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 6045.81,
+      "ins_paid": 3809.89,
+      "adjustment": 2147.41,
+      "payments": 88.51,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "03/05/2023 - 08/20/2024",
+      "cpt_codes": [
+        "77067",
+        "73562",
+        "76705",
+        "74178",
+        "71046",
+        "72100"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 2797.08,
+      "ins_paid": 1652.22,
+      "adjustment": 1128.4,
+      "payments": 16.46,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "08/17/2023 - 04/28/2024",
+      "cpt_codes": [
+        "71048",
+        "74178",
+        "74177",
+        "72110",
+        "71046",
+        "74178"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 2366.71,
+      "ins_paid": 1640.03,
+      "adjustment": 716.29,
+      "payments": 10.39,
+      "balance": 0.0,
+      "page": "5-6"
+    },
+    {
+      "treatment_date": "03/10/2023 - 11/07/2024",
+      "cpt_codes": [
+        "73030",
+        "74178",
+        "A4656",
+        "73060",
+        "71048",
+        "73562",
+        "76830"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3760.38,
+      "ins_paid": 2488.64,
+      "adjustment": 1186.46,
+      "payments": 85.28,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "02/02/2024 - 10/20/2024",
+      "cpt_codes": [
+        "74178",
+        "A4550",
+        "73110",
+        "73110",
+        "77067",
+        "73060",
+        "73564"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3368.63,
+      "ins_paid": 1954.19,
+      "adjustment": 1414.44,
+      "payments": null,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "01/16/2023 - 11/20/2024",
+      "cpt_codes": [
+        "71048",
+        "73030",
+        "73030",
+        "73060",
+        "77067",
+        "73564",
+        "73562",
+        "J2720",
+        "73060",
+        "73060",
+        "76705"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 6725.94,
+      "ins_paid": 4200.17,
+      "adjustment": 2394.48,
+      "payments": 131.29,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "07/03/2023 - 09/26/2024",
+      "cpt_codes": [
+        "72148",
+        "71048",
+        "71048",
+        "72148",
+        "76705",
+        "71046",
+        "71046",
+        "J0180",
+        "76830",
+        "76705"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 4945.14,
+      "ins_paid": 3134.22,
+      "adjustment": 1670.96,
+      "payments": 139.96,
+      "balance": 0.0,
+      "page": "6-7"
+    },
+    {
+      "treatment_date": "02/27/2023 - 12/09/2024",
+      "cpt_codes": [
+        "71048",
+        "71046",
+        "72110",
+        "76705",
+        "77067",
+        "72148"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3222.4,
+      "ins_paid": 2031.72,
+      "adjustment": 1070.01,
+      "payments": 120.67,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "02/03/2023 - 08/22/2024",
+      "cpt_codes": [
+        "73060",
+        "73562",
+        "76830",
+        "72100",
+        "71046",
+        "73564",
+        "74177",
+        "73100",
+        "73562"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3959.51,
+      "ins_paid": 2548.94,
+      "adjustment": 1271.59,
+      "payments": 138.98,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "03/20/2023 - 09/03/2024",
+      "cpt_codes": [
+        "72148",
+        "74178",
+        "73562",
+        "77067",
+        "74177",
+        "72100",
+        "73564",
+        "73030",
+        "73562"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3977.92,
+      "ins_paid": 2355.13,
+      "adjustment": 1550.1,
+      "payments": 72.69,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "02/15/2024 - 12/26/2024",
+      "cpt_codes": [
+        "72148",
+        "73562",
+        "76705",
+        "74177",
+        "72158",
+        "73030",
+        "76705",
+        "74178",
+        "77067",
+        "71048",
+        "72100"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 7330.4,
+      "ins_paid": 4627.88,
+      "adjustment": 2492.88,
+      "payments": 209.64,
+      "balance": 0.0,
+      "page": "7-8"
+    },
+    {
+      "treatment_date": "05/09/2024 - 12/18/2023",
+      "cpt_codes": [
+        "72110",
+        "73564",
+        "73564",
+        "72100",
+        "72110"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 2148.71,
+      "ins_paid": 1339.5,
+      "adjustment": 761.47,
+      "payments": 47.74,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "05/25/2023 - 11/20/2024",
+      "cpt_codes": [
+        "73562",
+        "72158",
+        "73030",
+        "73030",
+        "72158",
+        "76705",
+        "74177",
+        "A4263",
+        "72110",
+        "76830",
+        "72158",
+        "77067",
+        "71048"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 6115.56,
+      "ins_paid": 3952.55,
+      "adjustment": 1994.62,
+      "payments": 168.39,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "05/01/2023 - 12/28/2024",
+      "cpt_codes": [
+        "76830",
+        "76700",
+        "73110",
+        "76705",
+        "73564",
+        "74178",
+        "76700",
+        "73060",
+        "74178",
+        "71048",
+        "73562"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 4745.12,
+      "ins_paid": 2870.46,
+      "adjustment": 1809.93,
+      "payments": 64.73,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "03/02/2023 - 12/29/2024",
+      "cpt_codes": [
+        "72110",
+        "73100",
+        "73562",
+        "72148",
+        "72100",
+        "73100",
+        "73562",
+        "J0130",
+        "73030",
+        "72148",
+        "71048",
+        "76700",
+        "72148"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 7391.5,
+      "ins_paid": 4803.04,
+      "adjustment": 2377.39,
+      "payments": 211.07,
+      "balance": 0.0,
+      "page": "9"
+    },
+    {
+      "treatment_date": "01/05/2024 - 08/20/2023",
+      "cpt_codes": [
+        "A4627",
+        "74177",
+        "72110",
+        "76830",
+        "74178",
+        "72110",
+        "72148",
+        "71046",
+        "72148",
+        "72100",
+        "73564",
+        "72100",
+        "71046",
+        "76830",
+        "76705"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 7810.84,
+      "ins_paid": 4726.47,
+      "adjustment": 3028.59,
+      "payments": 55.78,
+      "balance": 0.0,
+      "page": "9"
+    },
+    {
+      "treatment_date": "01/13/2023 - 10/20/2024",
+      "cpt_codes": [
+        "73564",
+        "77067",
+        "72100",
+        "76830",
+        "72100",
+        "A4630",
+        "74177",
+        "72100",
+        "72100",
+        "73110",
+        "72148",
+        "72158",
+        "71046"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 6525.92,
+      "ins_paid": 4014.9,
+      "adjustment": 2138.88,
+      "payments": 372.14,
+      "balance": 0.0,
+      "page": "9"
+    },
+    {
+      "treatment_date": "01/13/2023 - 10/04/2024",
+      "cpt_codes": [
+        "72100",
+        "72158",
+        "72110",
+        "73060",
+        "77067",
+        "73562",
+        "73564",
+        "76830",
+        "73110",
+        "71046",
+        "76700",
+        "73060",
+        "73564",
+        "71046"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 6477.25,
+      "ins_paid": 4224.52,
+      "adjustment": 2144.09,
+      "payments": 108.64,
+      "balance": 0.0,
+      "page": "10"
+    },
+    {
+      "treatment_date": "03/05/2023 - 07/30/2023",
+      "cpt_codes": [
+        "76830",
+        "73100",
+        "73564",
+        "72148",
+        "74178",
+        "74177"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3427.99,
+      "ins_paid": 2136.63,
+      "adjustment": 1142.99,
+      "payments": 148.37,
+      "balance": 0.0,
+      "page": "10"
+    },
+    {
+      "treatment_date": "02/19/2023 - 12/03/2024",
+      "cpt_codes": [
+        "73030",
+        "72158",
+        "73030",
+        "73110",
+        "72148",
+        "71048",
+        "76700",
+        "72148"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3447.82,
+      "ins_paid": 2116.72,
+      "adjustment": 1255.56,
+      "payments": 75.54,
+      "balance": 0.0,
+      "page": "10"
+    },
+    {
+      "treatment_date": "01/17/2024 - 08/02/2024",
+      "cpt_codes": [
+        "J2796",
+        "73030",
+        "72110",
+        "74178",
+        "74178",
+        "76700",
+        "A4640",
+        "73100",
+        "73060"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 5675.51,
+      "ins_paid": 3468.18,
+      "adjustment": 2087.77,
+      "payments": 119.56,
+      "balance": 0.0,
+      "page": "10-11"
+    },
+    {
+      "treatment_date": "01/31/2023 - 12/18/2024",
+      "cpt_codes": [
+        "73100",
+        "J1040",
+        "77067",
+        "74177",
+        "73562",
+        "73564",
+        "J2730",
+        "73060"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 4880.97,
+      "ins_paid": 3029.26,
+      "adjustment": 1786.43,
+      "payments": 65.28,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "03/02/2023 - 12/31/2024",
+      "cpt_codes": [
+        "72148",
+        "71046",
+        "76830",
+        "74177",
+        "74178",
+        "A4244",
+        "72158",
+        "71046",
+        "71048",
+        "72110",
+        "73564",
+        "73562",
+        "73564",
+        "76700"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 8027.81,
+      "ins_paid": 5203.32,
+      "adjustment": 2578.57,
+      "payments": 245.92,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "07/13/2024 - 10/29/2024",
+      "cpt_codes": [
+        "74177",
+        "73060",
+        "73100",
+        "72158",
+        "76705",
+        "J3480",
+        "74178",
+        "73110",
+        "76705",
+        "76705"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 4325.76,
+      "ins_paid": 2524.45,
+      "adjustment": 1721.5,
+      "payments": 79.81,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "04/29/2024 - 08/26/2024",
+      "cpt_codes": [
+        "72110",
+        "73100",
+        "73564",
+        "73060",
+        "72110",
+        "73060"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 2249.97,
+      "ins_paid": 1422.91,
+      "adjustment": 777.17,
+      "payments": 49.89,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "03/10/2023 - 11/01/2024",
+      "cpt_codes": [
+        "73060",
+        "J3010",
+        "76700",
+        "J9000",
+        "72148",
+        "72100",
+        "76830",
+        "74178",
+        "72110",
+        "77067",
+        "76705",
+        "72148",
+        "73562",
+        "73564",
+        "76705"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 8084.15,
+      "ins_paid": 5171.48,
+      "adjustment": 2604.97,
+      "payments": 307.7,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "03/01/2023 - 12/06/2024",
+      "cpt_codes": [
+        "73100",
+        "73030",
+        "73564",
+        "76830",
+        "71046",
+        "73100",
+        "71046",
+        "77067",
+        "72100",
+        "73030",
+        "74178"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 5751.17,
+      "ins_paid": 3663.75,
+      "adjustment": 1979.62,
+      "payments": 107.8,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "04/15/2023 - 10/24/2024",
+      "cpt_codes": [
+        "72158",
+        "73100",
+        "73030",
+        "71046",
+        "73562",
+        "73110",
+        "73562",
+        "76830"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 3381.19,
+      "ins_paid": 1990.71,
+      "adjustment": 1303.52,
+      "payments": 86.96,
+      "balance": 0.0,
+      "page": "12-13"
+    },
+    {
+      "treatment_date": "06/22/2023 - 12/10/2023",
+      "cpt_codes": [
+        "73562",
+        "J2250",
+        "73030",
+        "76705",
+        "77067",
+        "77067",
+        "72100",
+        "73564",
+        "72100",
+        "74177",
+        "73562",
+        "72158",
+        "73562",
+        "72158"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 7462.78,
+      "ins_paid": 4534.09,
+      "adjustment": 2798.14,
+      "payments": 130.55,
+      "balance": 0.0,
+      "page": "13"
+    },
+    {
+      "treatment_date": "02/08/2023 - 10/10/2024",
+      "cpt_codes": [
+        "74178",
+        "77067",
+        "76830",
+        "73060",
+        "76830",
+        "76700",
+        "72148",
+        "72158",
+        "73060",
+        "76830",
+        "74177"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 5793.56,
+      "ins_paid": 3624.19,
+      "adjustment": 2123.81,
+      "payments": 45.56,
+      "balance": 0.0,
+      "page": "13"
+    },
+    {
+      "treatment_date": "02/19/2023 - 11/08/2024",
+      "cpt_codes": [
+        "72110",
+        "76700",
+        "73030",
+        "72110",
+        "74178",
+        "73110",
+        "73100",
+        "73562",
+        "76705",
+        "73100",
+        "73562",
+        "72110"
+      ],
+      "description": null,
+      "provider": "Pierce Imaging Associates, Inc.",
+      "insurers": [
+        "Anthem"
+      ],
+      "third_parties": [],
+      "total_charges": 7206.83,
+      "ins_paid": 4330.09,
+      "adjustment": 2676.78,
+      "payments": 199.96,
+      "balance": 0.0,
+      "page": "13-14"
+    }
+  ],
+  "flagged": []
+}

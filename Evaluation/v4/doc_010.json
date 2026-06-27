@@ -1,0 +1,523 @@
+{
+  "doc_id": "doc_010",
+  "meta": {
+    "doc_id": "doc_010",
+    "num_pages": 151,
+    "duration_seconds": 29.99,
+    "token_usage": {
+      "input": 256437,
+      "output": 3887,
+      "total": 260324
+    },
+    "cost_usd": 0.54397
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Paramount"
+      ],
+      "third_parties": [
+        "Lonestar"
+      ],
+      "total_charges": 138.37,
+      "ins_paid": 101.28,
+      "adjustment": null,
+      "payments": 37.09,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/02/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "SFS"
+      ],
+      "third_parties": [],
+      "total_charges": 322.0,
+      "ins_paid": 281.99,
+      "adjustment": null,
+      "payments": 40.01,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/02/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Blink Health"
+      ],
+      "third_parties": [],
+      "total_charges": 140.71,
+      "ins_paid": 120.64,
+      "adjustment": null,
+      "payments": 20.07,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/02/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 324.85,
+      "ins_paid": 291.61,
+      "adjustment": null,
+      "payments": 33.24,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/04/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "My Rx Card"
+      ],
+      "third_parties": [],
+      "total_charges": 435.27,
+      "ins_paid": 312.5,
+      "adjustment": null,
+      "payments": 122.77,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/06/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 78.5,
+      "ins_paid": 66.95,
+      "adjustment": null,
+      "payments": 11.55,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/06/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 63.85,
+      "ins_paid": 44.89,
+      "adjustment": null,
+      "payments": 18.96,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/07/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "ScriptCycle"
+      ],
+      "third_parties": [],
+      "total_charges": 310.97,
+      "ins_paid": 232.57,
+      "adjustment": null,
+      "payments": 78.4,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/09/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 370.04,
+      "ins_paid": 254.81,
+      "adjustment": null,
+      "payments": 115.23,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/09/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 263.42,
+      "ins_paid": 192.07,
+      "adjustment": null,
+      "payments": 71.35,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/09/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Omnisys"
+      ],
+      "third_parties": [],
+      "total_charges": 348.03,
+      "ins_paid": 304.57,
+      "adjustment": null,
+      "payments": 43.46,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/09/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "GoodRx"
+      ],
+      "third_parties": [],
+      "total_charges": 295.29,
+      "ins_paid": 257.84,
+      "adjustment": null,
+      "payments": 37.45,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/11/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Medco Health"
+      ],
+      "third_parties": [],
+      "total_charges": 404.01,
+      "ins_paid": 300.95,
+      "adjustment": null,
+      "payments": 103.06,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/11/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "OptumRx"
+      ],
+      "third_parties": [],
+      "total_charges": 262.34,
+      "ins_paid": 190.07,
+      "adjustment": null,
+      "payments": 72.27,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/12/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Cigna"
+      ],
+      "third_parties": [],
+      "total_charges": 190.15,
+      "ins_paid": 133.69,
+      "adjustment": null,
+      "payments": 56.46,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/13/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Cigna"
+      ],
+      "third_parties": [],
+      "total_charges": 178.61,
+      "ins_paid": 128.07,
+      "adjustment": null,
+      "payments": 50.54,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/13/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Express Scripts"
+      ],
+      "third_parties": [],
+      "total_charges": 140.17,
+      "ins_paid": 104.33,
+      "adjustment": null,
+      "payments": 35.84,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/13/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "ScriptCycle"
+      ],
+      "third_parties": [],
+      "total_charges": 454.72,
+      "ins_paid": 304.93,
+      "adjustment": null,
+      "payments": 149.79,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/13/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 114.67,
+      "ins_paid": 69.71,
+      "adjustment": null,
+      "payments": 44.96,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/14/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 64.07,
+      "ins_paid": 48.1,
+      "adjustment": null,
+      "payments": 15.97,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "04/24/2021",
+      "cpt_codes": [],
+      "description": "Azithromycin 250mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 423.96,
+      "ins_paid": 306.34,
+      "adjustment": null,
+      "payments": 117.62,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/25/2021",
+      "cpt_codes": [],
+      "description": "Quetiapine 200mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 327.24,
+      "ins_paid": 289.95,
+      "adjustment": null,
+      "payments": 37.29,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/25/2021",
+      "cpt_codes": [],
+      "description": "Atorvastatin 80mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 316.61,
+      "ins_paid": 248.73,
+      "adjustment": null,
+      "payments": 67.88,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/25/2021",
+      "cpt_codes": [],
+      "description": "Amoxicillin 500mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 291.75,
+      "ins_paid": 250.32,
+      "adjustment": null,
+      "payments": 41.43,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/28/2021",
+      "cpt_codes": [],
+      "description": "Fluconazole 150mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Allwin"
+      ],
+      "total_charges": 354.49,
+      "ins_paid": 283.02,
+      "adjustment": null,
+      "payments": 71.47,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/28/2021",
+      "cpt_codes": [],
+      "description": "Pantoprazole 40mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx"
+      ],
+      "total_charges": 197.56,
+      "ins_paid": 135.81,
+      "adjustment": null,
+      "payments": 61.75,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/28/2021",
+      "cpt_codes": [],
+      "description": "Quetiapine 50mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 95.49,
+      "ins_paid": 76.21,
+      "adjustment": null,
+      "payments": 19.28,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/29/2021",
+      "cpt_codes": [],
+      "description": "Nitrofurantoin 100mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 349.12,
+      "ins_paid": 252.94,
+      "adjustment": null,
+      "payments": 96.18,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/29/2021",
+      "cpt_codes": [],
+      "description": "Gabapentin 600mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 398.88,
+      "ins_paid": 260.66,
+      "adjustment": null,
+      "payments": 138.22,
+      "balance": 0.0,
+      "page": "72"
+    },
+    {
+      "treatment_date": "04/29/2021",
+      "cpt_codes": [],
+      "description": "Clindamycin 300mg",
+      "provider": "Unknown Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx"
+      ],
+      "total_charges": 219.59,
+      "ins_paid": 166.34,
+      "adjustment": null,
+      "payments": 53.25,
+      "balance": 0.0,
+      "page": "72"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 20,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider (pharmacy) name is not explicitly shown for this row, only filler text or ambiguous. Manual review needed.",
+      "page": "72",
+      "severity": "medium"
+    },
+    {
+      "row": 21,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider (pharmacy) name is not explicitly shown for this row, only filler text or ambiguous. Manual review needed.",
+      "page": "72",
+      "severity": "medium"
+    },
+    {
+      "row": 22,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider (pharmacy) name is not explicitly shown for this row, only filler text or ambiguous. Manual review needed.",
+      "page": "72",
+      "severity": "medium"
+    },
+    {
+      "row": 23,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider (pharmacy) name is not explicitly shown for this row, only filler text or ambiguous. Manual review needed.",
+      "page": "72",
+      "severity": "medium"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider (pharmacy) name is not explicitly shown for this row, only filler text or ambiguous. Manual review needed.",
+      "page": "72",
+      "severity": "medium"
+    }
+  ]
+}

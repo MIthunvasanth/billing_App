@@ -1,0 +1,560 @@
+{
+  "doc_id": "doc_011",
+  "meta": {
+    "doc_id": "doc_011",
+    "num_pages": 194,
+    "duration_seconds": 33.98,
+    "token_usage": {
+      "input": 261428,
+      "output": 4494,
+      "total": 265922
+    },
+    "cost_usd": 0.558808
+  },
+  "records": [
+    {
+      "treatment_date": "01/25/2023 \u2013 01/26/2023",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 263355.25,
+      "ins_paid": 127031.72,
+      "adjustment": 119521.47,
+      "payments": 16802.06,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "09/13/2023 \u2013 09/19/2023",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 387540.58,
+      "ins_paid": 186933.6,
+      "adjustment": 175881.89,
+      "payments": 24725.09,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "02/27/2023 \u2013 03/05/2023",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 285745.83,
+      "ins_paid": 137832.01,
+      "adjustment": 129683.24,
+      "payments": 18230.58,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "07/21/2017 \u2013 07/28/2017",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 322417.1,
+      "ins_paid": 155520.72,
+      "adjustment": 146326.17,
+      "payments": 20570.21,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "04/18/2023 \u2013 04/22/2023",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 217034.83,
+      "ins_paid": 104688.66,
+      "adjustment": 98499.35,
+      "payments": 13846.82,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "08/08/2022 \u2013 08/11/2022",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 318322.59,
+      "ins_paid": 153545.7,
+      "adjustment": 144467.91,
+      "payments": 20308.98,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "10/12/2020 \u2013 10/13/2020",
+      "cpt_codes": [],
+      "description": "Hip fracture, right femur",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 402043.68,
+      "ins_paid": 193929.3,
+      "adjustment": 182463.99,
+      "payments": 25650.39,
+      "balance": 0.0,
+      "page": "9"
+    },
+    {
+      "treatment_date": "05/07/2022 \u2013 05/08/2022",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 300204.5,
+      "ins_paid": 144806.28,
+      "adjustment": 136245.17,
+      "payments": 19153.05,
+      "balance": 0.0,
+      "page": "10"
+    },
+    {
+      "treatment_date": "09/24/2018 - 09/24/2018",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 377828.91,
+      "ins_paid": 182249.09,
+      "adjustment": 171474.34,
+      "payments": 24105.48,
+      "balance": 0.0,
+      "page": "74-75"
+    },
+    {
+      "treatment_date": "02/26/2021 - 03/05/2021",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 295722.98,
+      "ins_paid": 142644.58,
+      "adjustment": 134211.27,
+      "payments": 18867.13,
+      "balance": 0.0,
+      "page": "75"
+    },
+    {
+      "treatment_date": "06/11/2021 - 06/17/2021",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 323144.9,
+      "ins_paid": 155871.78,
+      "adjustment": 146656.48,
+      "payments": 20616.64,
+      "balance": 0.0,
+      "page": "76"
+    },
+    {
+      "treatment_date": "04/05/2018 - 04/07/2018",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 340916.04,
+      "ins_paid": 164443.84,
+      "adjustment": 154721.76,
+      "payments": 21750.44,
+      "balance": 0.0,
+      "page": "76-77"
+    },
+    {
+      "treatment_date": "12/17/2018 - 12/23/2018",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 310303.21,
+      "ins_paid": 149677.48,
+      "adjustment": 140828.39,
+      "payments": 19797.34,
+      "balance": 0.0,
+      "page": "77-78"
+    },
+    {
+      "treatment_date": "03/12/2019 - 03/15/2019",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 338480.27,
+      "ins_paid": 163268.93,
+      "adjustment": 153616.3,
+      "payments": 21595.04,
+      "balance": 0.0,
+      "page": "78-79"
+    },
+    {
+      "treatment_date": "06/18/2020 - 06/20/2020",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 322769.48,
+      "ins_paid": 155690.69,
+      "adjustment": 146486.1,
+      "payments": 20592.69,
+      "balance": 0.0,
+      "page": "79-80"
+    },
+    {
+      "treatment_date": "03/13/2024 - 03/15/2024",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 339954.73,
+      "ins_paid": 163980.15,
+      "adjustment": 154285.47,
+      "payments": 21689.11,
+      "balance": 0.0,
+      "page": "80-81"
+    },
+    {
+      "treatment_date": "06/20/2020 - 06/27/2020",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 327266.64,
+      "ins_paid": 157859.94,
+      "adjustment": 148527.09,
+      "payments": 20879.61,
+      "balance": 0.0,
+      "page": "81-82"
+    },
+    {
+      "treatment_date": "01/12/2017 - 01/13/2017",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 340931.24,
+      "ins_paid": 164451.18,
+      "adjustment": 154728.65,
+      "payments": 21751.41,
+      "balance": 0.0,
+      "page": "82-83"
+    },
+    {
+      "treatment_date": "06/17/2020 - 06/21/2020",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 486434.34,
+      "ins_paid": 234635.87,
+      "adjustment": 220763.96,
+      "payments": 31034.51,
+      "balance": 0.0,
+      "page": "83-84"
+    },
+    {
+      "treatment_date": "02/24/2019 - 02/28/2019",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 228996.57,
+      "ins_paid": 110458.51,
+      "adjustment": 103928.08,
+      "payments": 14609.98,
+      "balance": 0.0,
+      "page": "84-85"
+    },
+    {
+      "treatment_date": "02/06/2017 - 02/11/2017",
+      "cpt_codes": [],
+      "description": "Acute kidney injury",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 292085.1,
+      "ins_paid": 140889.81,
+      "adjustment": 132560.26,
+      "payments": 18635.03,
+      "balance": 0.0,
+      "page": "85-86"
+    },
+    {
+      "treatment_date": "11/26/2021 - 11/28/2021",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 421394.55,
+      "ins_paid": 203263.36,
+      "adjustment": 191246.22,
+      "payments": 26884.97,
+      "balance": 0.0,
+      "page": "86-87"
+    },
+    {
+      "treatment_date": "12/07/2021 - 12/14/2021",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 338599.48,
+      "ins_paid": 163326.43,
+      "adjustment": 153670.4,
+      "payments": 21602.65,
+      "balance": 0.0,
+      "page": "87-88"
+    },
+    {
+      "treatment_date": "12/16/2024 - 12/17/2024",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 223300.1,
+      "ins_paid": 107710.76,
+      "adjustment": 101342.79,
+      "payments": 14246.55,
+      "balance": 0.0,
+      "page": "88-89"
+    },
+    {
+      "treatment_date": "09/16/2022 - 09/20/2022",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 180122.04,
+      "ins_paid": 86883.45,
+      "adjustment": 81746.8,
+      "payments": 11491.79,
+      "balance": 0.0,
+      "page": "89-90"
+    },
+    {
+      "treatment_date": "11/20/2022 - 11/21/2022",
+      "cpt_codes": [],
+      "description": "Hip fracture, right femur",
+      "provider": "Unknown",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 387778.03,
+      "ins_paid": 187048.14,
+      "adjustment": 175989.65,
+      "payments": 24740.24,
+      "balance": 0.0,
+      "page": "90-91"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 8,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "74-75",
+      "severity": "low"
+    },
+    {
+      "row": 9,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "75",
+      "severity": "low"
+    },
+    {
+      "row": 10,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "76",
+      "severity": "low"
+    },
+    {
+      "row": 11,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "76-77",
+      "severity": "low"
+    },
+    {
+      "row": 12,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "77-78",
+      "severity": "low"
+    },
+    {
+      "row": 13,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "78-79",
+      "severity": "low"
+    },
+    {
+      "row": 14,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "79-80",
+      "severity": "low"
+    },
+    {
+      "row": 15,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "80-81",
+      "severity": "low"
+    },
+    {
+      "row": 16,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "81-82",
+      "severity": "low"
+    },
+    {
+      "row": 17,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "82-83",
+      "severity": "low"
+    },
+    {
+      "row": 18,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "83-84",
+      "severity": "low"
+    },
+    {
+      "row": 19,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "84-85",
+      "severity": "low"
+    },
+    {
+      "row": 20,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "85-86",
+      "severity": "low"
+    },
+    {
+      "row": 21,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "86-87",
+      "severity": "low"
+    },
+    {
+      "row": 22,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "87-88",
+      "severity": "low"
+    },
+    {
+      "row": 23,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "88-89",
+      "severity": "low"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "89-90",
+      "severity": "low"
+    },
+    {
+      "row": 25,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider identity not explicitly shown in the provided episode summary.",
+      "page": "90-91",
+      "severity": "low"
+    }
+  ]
+}

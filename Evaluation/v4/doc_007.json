@@ -1,0 +1,351 @@
+{
+  "doc_id": "doc_007",
+  "meta": {
+    "doc_id": "doc_007",
+    "num_pages": 153,
+    "duration_seconds": 55.46,
+    "token_usage": {
+      "input": 196421,
+      "output": 3031,
+      "total": 199452
+    },
+    "cost_usd": 0.41709
+  },
+  "records": [
+    {
+      "treatment_date": "08/01/2023",
+      "cpt_codes": [
+        "45378",
+        "J2796",
+        "95923",
+        "76700"
+      ],
+      "description": "Colonoscopy, diagnostic / Romiplostim, 10 mcg / Autonomic nervous system testing, sudomotor / Ultrasound abdomen, complete",
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1603.26,
+      "ins_paid": 985.27,
+      "adjustment": 617.99,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "10/08/2021",
+      "cpt_codes": [
+        "J1040",
+        "97035",
+        "A4246",
+        "90960",
+        "99284",
+        "97010",
+        "A4616"
+      ],
+      "description": "Methylprednisolone acetate, 80 mg / Physical therapy \u2014 ultrasound / Betadine or phisohex, per pint / ESRD related services, per month, 1 physician / Emergency dept visit, level 4 / Physical therapy \u2014 hot or cold packs / Tubing, oxygen, per supplier",
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1747.47,
+      "ins_paid": 950.39,
+      "adjustment": 776.18,
+      "payments": null,
+      "balance": 20.9,
+      "page": "3"
+    },
+    {
+      "treatment_date": "10/13/2021",
+      "cpt_codes": [
+        "J1055",
+        "90472",
+        "99214",
+        "72100",
+        "90935",
+        "J9060"
+      ],
+      "description": "Medroxyprogesterone acetate, 150 mg / Immunization administration, each additional injection / Office/outpatient visit, established patient, level 4 / X-ray spine, lumbosacral, 2-3 views / Hemodialysis procedure, physician / Cisplatin, per 10 mg",
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1882.58,
+      "ins_paid": 844.46,
+      "adjustment": 1038.12,
+      "payments": null,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "02/04/2023",
+      "cpt_codes": [
+        "73100",
+        "99213",
+        "86592"
+      ],
+      "description": "X-ray wrist, 2 views / Office/outpatient visit, established patient, level 3 / Syphilis test, qualitative",
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 982.8,
+      "ins_paid": 622.64,
+      "adjustment": 360.16,
+      "payments": null,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "04/22/2021",
+      "cpt_codes": [
+        "97140",
+        "71048",
+        "27130",
+        "Q0163",
+        "73100",
+        "99222",
+        "43239"
+      ],
+      "description": "Manual therapy techniques / Chest X-ray, 4+ views / Total hip arthroplasty / Diphenhydramine HCl, 50 mg, oral / X-ray wrist, 2 views / Initial hospital care, level 2 / Upper GI endoscopy with biopsy",
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 2427.26,
+      "ins_paid": 1414.78,
+      "adjustment": 953.45,
+      "payments": null,
+      "balance": 59.03,
+      "page": "4-5"
+    },
+    {
+      "treatment_date": "09/29/2023",
+      "cpt_codes": [
+        "90970",
+        "73562",
+        "90960",
+        "87880",
+        "99284",
+        "90847"
+      ],
+      "description": "ESRD related services, per day / X-ray knee, 3 views / ESRD related services, per month, 1 physician / Strep A test, direct / Emergency dept visit, level 4 / Family psychotherapy with patient",
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1456.35,
+      "ins_paid": 864.52,
+      "adjustment": 546.26,
+      "payments": null,
+      "balance": 45.57,
+      "page": "5"
+    },
+    {
+      "treatment_date": "06/25/2023",
+      "cpt_codes": [
+        "99231",
+        "90967"
+      ],
+      "description": "Subsequent hospital care, level 1 / Dialysis training, patient/ caregiver, per session",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1353.66,
+      "ins_paid": 908.2,
+      "adjustment": 397.24,
+      "payments": 48.22,
+      "balance": 0.0,
+      "page": "92"
+    },
+    {
+      "treatment_date": "05/05/2021",
+      "cpt_codes": [
+        "J2405",
+        "90935",
+        "99231",
+        "97116",
+        "97530",
+        "90471"
+      ],
+      "description": "Ondansetron HCl, per 1 mg / Hemodialysis procedure, physician / Subsequent hospital care, level 1 / Gait training / Therapeutic activities / Immunization administration, first injection",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 2117.94,
+      "ins_paid": 1372.34,
+      "adjustment": 691.52,
+      "payments": 54.08,
+      "balance": 0.0,
+      "page": "92"
+    },
+    {
+      "treatment_date": "01/13/2024",
+      "cpt_codes": [
+        "J0205",
+        "97116",
+        "97110",
+        "97150",
+        "90970",
+        "74177"
+      ],
+      "description": "Alglucerase, per 10 units / Gait training / Therapeutic exercise / Therapeutic procedure group / ESRD related services, per day / CT abdomen & pelvis with contrast",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1833.82,
+      "ins_paid": 1076.66,
+      "adjustment": 757.16,
+      "payments": null,
+      "balance": 0.0,
+      "page": "93"
+    },
+    {
+      "treatment_date": "07/22/2022",
+      "cpt_codes": [
+        "99239",
+        "45378",
+        "J1040",
+        "85025",
+        "97750"
+      ],
+      "description": "Hospital discharge day management, more than 30 min / Colonoscopy, diagnostic / Methylprednisolone acetate, 80 mg / Blood count, complete (CBC), automated / Physical performance testing",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1571.48,
+      "ins_paid": 982.03,
+      "adjustment": 557.49,
+      "payments": 31.96,
+      "balance": 0.0,
+      "page": "93"
+    },
+    {
+      "treatment_date": "08/05/2023",
+      "cpt_codes": [
+        "90791",
+        "87880",
+        "90791"
+      ],
+      "description": "Psychiatric diagnostic evaluation / Strep A test, direct / Psychiatric diagnostic evaluation",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 707.02,
+      "ins_paid": 384.79,
+      "adjustment": 271.95,
+      "payments": 50.28,
+      "balance": 0.0,
+      "page": "93"
+    },
+    {
+      "treatment_date": "08/28/2024",
+      "cpt_codes": [
+        "J9000",
+        "97022",
+        "72100",
+        "73060",
+        "A4616",
+        "J0180"
+      ],
+      "description": "Doxorubicin HCl, 10 mg / Physical therapy \u2014 whirlpool / X-ray spine, lumbosacral, 2-3 views / X-ray humerus, minimum 2 views / Tubing, oxygen, per supplier / Agalsidase beta, 1 mg",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1796.58,
+      "ins_paid": 982.38,
+      "adjustment": 814.2,
+      "payments": null,
+      "balance": 0.0,
+      "page": "94"
+    },
+    {
+      "treatment_date": "10/08/2022",
+      "cpt_codes": [
+        "99233",
+        "90834",
+        "73564",
+        "97750",
+        "85610",
+        "99211"
+      ],
+      "description": "Subsequent hospital care, level 3 / Psychotherapy, 45 min / X-ray knee, 4+ views / Physical performance testing / Prothrombin time / Office/outpatient visit, established patient, level 1",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1607.58,
+      "ins_paid": 746.09,
+      "adjustment": 861.49,
+      "payments": null,
+      "balance": 0.0,
+      "page": "94"
+    },
+    {
+      "treatment_date": "05/31/2022",
+      "cpt_codes": [
+        "J1055",
+        "99283",
+        "29881",
+        "99202",
+        "A4649",
+        "97026"
+      ],
+      "description": "Medroxyprogesterone acetate, 150 mg / Emergency dept visit, level 3 / Arthroscopy, knee, surgical with meniscectomy / Office/outpatient visit, new patient, level 2 / Surgical supply, not otherwise classified / Physical therapy \u2014 infrared",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1757.39,
+      "ins_paid": 1050.16,
+      "adjustment": 690.48,
+      "payments": 16.75,
+      "balance": 0.0,
+      "page": "94"
+    },
+    {
+      "treatment_date": "08/30/2022",
+      "cpt_codes": [
+        "J2796",
+        "J9060",
+        "80061",
+        "A4649",
+        "43239",
+        "97530"
+      ],
+      "description": "Romiplostim, 10 mcg / Cisplatin, per 10 mg / Lipid panel / Surgical supply, not otherwise classified / Upper GI endoscopy with biopsy / Therapeutic activities",
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1209.58,
+      "ins_paid": 760.29,
+      "adjustment": 430.23,
+      "payments": 19.06,
+      "balance": 0.0,
+      "page": "95"
+    }
+  ],
+  "flagged": []
+}

@@ -1,0 +1,47 @@
+{
+  "doc_id": "doc_003",
+  "meta": {
+    "doc_id": "doc_003",
+    "num_pages": 21,
+    "duration_seconds": 19.28,
+    "token_usage": {
+      "input": 38982,
+      "output": 276,
+      "total": 39258
+    },
+    "cost_usd": 0.080172
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "WILSON MEDICAL PHARMACY",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys Immunizations",
+        "SFS",
+        "Blink Health",
+        "Express Scripts",
+        "McKesson Health PBM",
+        "ScriptCycle",
+        "GoodRx",
+        "Caremark",
+        "OptumRx",
+        "Paramount Lonestar",
+        "Cigna Healthspring",
+        "Medco Health",
+        "Allwin",
+        "Argus",
+        "My Rx Card"
+      ],
+      "total_charges": 126304.01,
+      "ins_paid": 95231.08,
+      "adjustment": 31072.93,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3-18"
+    }
+  ],
+  "flagged": []
+}

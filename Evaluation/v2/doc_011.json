@@ -1,0 +1,210 @@
+{
+  "doc_id": "doc_011",
+  "meta": {
+    "doc_id": "doc_011",
+    "num_pages": 194,
+    "duration_seconds": 35.27,
+    "token_usage": {
+      "input": 261034,
+      "output": 1794,
+      "total": 262828
+    },
+    "cost_usd": 0.53642
+  },
+  "records": [
+    {
+      "treatment_date": "01/25/2023 - 01/26/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 263355.25,
+      "ins_paid": 127031.72,
+      "adjustment": 119521.47,
+      "payments": 16802.06,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "09/13/2023 - 09/19/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 387540.58,
+      "ins_paid": 186933.6,
+      "adjustment": 175881.89,
+      "payments": 24725.09,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "02/27/2023 - 03/05/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 285745.83,
+      "ins_paid": 137832.01,
+      "adjustment": 129683.24,
+      "payments": 18230.58,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "07/21/2017 - 07/28/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 322417.1,
+      "ins_paid": 155520.72,
+      "adjustment": 146326.17,
+      "payments": 20570.21,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "04/18/2023 - 04/22/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 217034.83,
+      "ins_paid": 104688.66,
+      "adjustment": 98499.35,
+      "payments": 13846.82,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "08/08/2022 - 08/11/2022",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 318322.59,
+      "ins_paid": 153545.7,
+      "adjustment": 144467.91,
+      "payments": 20308.98,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "04/28/2024 - 05/02/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 256630.78,
+      "ins_paid": 123788.11,
+      "adjustment": 116469.63,
+      "payments": 16373.04,
+      "balance": 0.0,
+      "page": "118"
+    },
+    {
+      "treatment_date": "05/23/2024 - 05/30/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 306111.17,
+      "ins_paid": 147655.41,
+      "adjustment": 138925.87,
+      "payments": 19529.89,
+      "balance": 0.0,
+      "page": "141-142"
+    },
+    {
+      "treatment_date": "12/01/2018 - 12/08/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 354058.17,
+      "ins_paid": 170783.07,
+      "adjustment": 160686.19,
+      "payments": 22588.91,
+      "balance": 0.0,
+      "page": "142-143"
+    },
+    {
+      "treatment_date": "11/13/2022 - 11/15/2022",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 345130.58,
+      "ins_paid": 166476.76,
+      "adjustment": 156634.49,
+      "payments": 22019.33,
+      "balance": 0.0,
+      "page": "143-144"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 6,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer information are not explicitly listed in this summary table\u2014insurers field left empty.",
+      "page": "118",
+      "severity": "medium"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer information are not explicitly listed in this summary table\u2014insurers field left empty.",
+      "page": "141-142",
+      "severity": "medium"
+    },
+    {
+      "row": 8,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer information are not explicitly listed in this summary table\u2014insurers field left empty.",
+      "page": "142-143",
+      "severity": "medium"
+    },
+    {
+      "row": 9,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer information are not explicitly listed in this summary table\u2014insurers field left empty.",
+      "page": "143-144",
+      "severity": "medium"
+    }
+  ]
+}

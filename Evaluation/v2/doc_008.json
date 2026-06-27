@@ -1,0 +1,213 @@
+{
+  "doc_id": "doc_008",
+  "meta": {
+    "doc_id": "doc_008",
+    "num_pages": 42,
+    "duration_seconds": 17.59,
+    "token_usage": {
+      "input": 71902,
+      "output": 1460,
+      "total": 73362
+    },
+    "cost_usd": 0.155484
+  },
+  "records": [
+    {
+      "treatment_date": "01/23/2023",
+      "cpt_codes": [
+        "73564"
+      ],
+      "description": "X-ray knee, 4+ views",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 530.79,
+      "ins_paid": 375.06,
+      "adjustment": 155.73,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "10/22/2021",
+      "cpt_codes": [
+        "73030"
+      ],
+      "description": "X-ray shoulder, minimum 2 views",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 849.66,
+      "ins_paid": 565.96,
+      "adjustment": 156.76,
+      "payments": 0.0,
+      "balance": 126.94,
+      "page": "3"
+    },
+    {
+      "treatment_date": "02/04/2023",
+      "cpt_codes": [
+        "71046"
+      ],
+      "description": "Chest X-ray, 2 views",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 150.81,
+      "ins_paid": 89.36,
+      "adjustment": 44.32,
+      "payments": 0.0,
+      "balance": 17.13,
+      "page": "3"
+    },
+    {
+      "treatment_date": "07/10/2023",
+      "cpt_codes": [
+        "71046"
+      ],
+      "description": "Chest X-ray, 2 views",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 890.56,
+      "ins_paid": 493.15,
+      "adjustment": 397.41,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "07/15/2021",
+      "cpt_codes": [
+        "73110"
+      ],
+      "description": "X-ray wrist, minimum 3 views",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 849.77,
+      "ins_paid": 519.17,
+      "adjustment": 223.78,
+      "payments": 0.0,
+      "balance": 106.82,
+      "page": "3"
+    },
+    {
+      "treatment_date": "11/30/2024",
+      "cpt_codes": [
+        "77067"
+      ],
+      "description": "Screening mammography, bilateral",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 507.46,
+      "ins_paid": 339.45,
+      "adjustment": 168.01,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "09/26/2023",
+      "cpt_codes": [
+        "72100"
+      ],
+      "description": "X-ray spine, lumbosacral, 2-3 views",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 289.1,
+      "ins_paid": 176.32,
+      "adjustment": 112.78,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/06/2024",
+      "cpt_codes": [
+        "76705"
+      ],
+      "description": "Ultrasound abdomen, limited",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 106.32,
+      "ins_paid": 53.98,
+      "adjustment": 36.7,
+      "payments": 0.0,
+      "balance": 15.64,
+      "page": "3"
+    },
+    {
+      "treatment_date": "11/13/2022",
+      "cpt_codes": [
+        "73060"
+      ],
+      "description": "X-ray humerus, minimum 2 views",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 504.7,
+      "ins_paid": 320.44,
+      "adjustment": 184.26,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "06/04/2021",
+      "cpt_codes": [
+        "72158"
+      ],
+      "description": "MRI lumbar spine without and with contrast",
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 663.56,
+      "ins_paid": 440.39,
+      "adjustment": 124.7,
+      "payments": 0.0,
+      "balance": 98.47,
+      "page": "3"
+    },
+    {
+      "treatment_date": "Account Total",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 5342.73,
+      "ins_paid": 3373.28,
+      "adjustment": 1604.45,
+      "payments": 0.0,
+      "balance": 365.0,
+      "page": "3"
+    }
+  ],
+  "flagged": []
+}

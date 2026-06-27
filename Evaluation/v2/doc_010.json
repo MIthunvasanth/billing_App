@@ -1,0 +1,279 @@
+{
+  "doc_id": "doc_010",
+  "meta": {
+    "doc_id": "doc_010",
+    "num_pages": 151,
+    "duration_seconds": 36.45,
+    "token_usage": {
+      "input": 255337,
+      "output": 2106,
+      "total": 257443
+    },
+    "cost_usd": 0.527522
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 12/31/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Lonestar",
+        "SFS",
+        "Blink Health",
+        "My Rx Card",
+        "ScriptCycle",
+        "Omnisys",
+        "Medco Health",
+        "OptumRx",
+        "Cigna",
+        "Express Scripts",
+        "Allwin",
+        "Argus",
+        "Caremark",
+        "GoodRx",
+        "McKesson Health",
+        "PBM"
+      ],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "3-17"
+    },
+    {
+      "treatment_date": "01/01/2018 - 12/31/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Lonestar",
+        "SFS",
+        "Blink Health",
+        "My Rx Card",
+        "ScriptCycle",
+        "Omnisys",
+        "Medco Health",
+        "OptumRx",
+        "Cigna",
+        "Express Scripts",
+        "Allwin",
+        "Argus",
+        "Caremark",
+        "GoodRx",
+        "McKesson Health",
+        "PBM"
+      ],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "17-33"
+    },
+    {
+      "treatment_date": "01/01/2019 - 12/31/2019",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Lonestar",
+        "SFS",
+        "Blink Health",
+        "My Rx Card",
+        "ScriptCycle",
+        "Omnisys",
+        "Medco Health",
+        "OptumRx",
+        "Cigna",
+        "Express Scripts",
+        "Allwin",
+        "Argus",
+        "Caremark",
+        "GoodRx",
+        "McKesson Health",
+        "PBM"
+      ],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "33-50"
+    },
+    {
+      "treatment_date": "01/01/2020 - 12/31/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Lonestar",
+        "SFS",
+        "Blink Health",
+        "My Rx Card",
+        "ScriptCycle",
+        "Omnisys",
+        "Medco Health",
+        "OptumRx",
+        "Cigna",
+        "Express Scripts",
+        "Allwin",
+        "Argus",
+        "Caremark",
+        "GoodRx",
+        "McKesson Health",
+        "PBM"
+      ],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "50-65"
+    },
+    {
+      "treatment_date": "01/01/2021 - 12/31/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Lonestar",
+        "SFS",
+        "Blink Health",
+        "My Rx Card",
+        "ScriptCycle",
+        "Omnisys",
+        "Medco Health",
+        "OptumRx",
+        "Cigna",
+        "Express Scripts",
+        "Allwin",
+        "Argus",
+        "Caremark",
+        "GoodRx",
+        "McKesson Health",
+        "PBM"
+      ],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "65-71"
+    },
+    {
+      "treatment_date": "04/24/2021 - 08/25/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Multiple Pharmacies",
+      "insurers": [
+        "Caremark",
+        "OptumRx",
+        "Cigna Healthspring",
+        "SFS",
+        "Medco Health",
+        "Paramount",
+        "Express Scripts"
+      ],
+      "third_parties": [
+        "Allwin (USFLU)",
+        "ScriptCycle",
+        "Argus",
+        "My Rx Card",
+        "Omnisys",
+        "Blink Health",
+        "McKesson Health PBM",
+        "GoodRx"
+      ],
+      "total_charges": 1247488.96,
+      "ins_paid": 373214.66,
+      "adjustment": null,
+      "payments": 311314.74,
+      "balance": null,
+      "page": "131"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy detail pages do not provide summary totals for each year, and detail is split across many payers/discount cards, with no explicit summary or clear financial field aggregation. Not possible to calculate logical pharmacy total for financial fields per year without error.",
+      "page": "3-17",
+      "severity": "high"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy detail pages for 2018 do not provide summary totals per year, and financial detail is split across many payers/discount cards, with no explicit summary or financial aggregation per annual block. Not possible to safely aggregate for the year.",
+      "page": "17-33",
+      "severity": "high"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy detail pages for 2019 lack summary totals and all financial fields are unresolvable for the year overall without page-by-page summing, which is not allowed by guidelines.",
+      "page": "33-50",
+      "severity": "high"
+    },
+    {
+      "row": 3,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy data for 2020 does not provide summary finance totals for gross charges, insurer paid, etc. Values cannot be defensibly aggregated by year across all roughly itemized rows.",
+      "page": "50-65",
+      "severity": "high"
+    },
+    {
+      "row": 4,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Pharmacy ledgers for 2021 do not offer annual or episode-level summary totals for financial fields. Individual transaction lines cannot be summed due to instruction constraints.",
+      "page": "65-71",
+      "severity": "high"
+    },
+    {
+      "row": 5,
+      "fields": [
+        "adjustment",
+        "balance"
+      ],
+      "reason": "The summary page does not display adjustment and balance values explicitly, and total charges are not itemized by row, only given as an aggregate. The record aggregates across multiple pharmacies and payers over a large date range. The 'balance' and 'adjustment' values cannot be reliably extracted, only grand totals provided.",
+      "page": "131",
+      "severity": "medium"
+    }
+  ]
+}

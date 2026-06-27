@@ -1,0 +1,971 @@
+{
+  "doc_id": "doc_010",
+  "meta": {
+    "doc_id": "doc_010",
+    "num_pages": 151,
+    "duration_seconds": 19.71,
+    "token_usage": {
+      "input": 302467,
+      "output": 5046,
+      "total": 307513
+    },
+    "cost_usd": 0.645302
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 09/18/2017",
+      "cpt_codes": [],
+      "description": "Pharmacy Expense Report",
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Paramount Lonestar",
+        "SFS",
+        "Blink Health",
+        "My Rx Card",
+        "ScriptCycle",
+        "Omnisys Immunizations",
+        "GoodRx",
+        "Medco Health",
+        "OptumRx",
+        "Cigna Healthspring",
+        "Express Scripts",
+        "Argus",
+        "Allwin",
+        "McKesson Health PBM",
+        "Caremark"
+      ],
+      "total_charges": 69069.22,
+      "ins_paid": 51279.66,
+      "adjustment": null,
+      "payments": 17789.56,
+      "balance": 0.0,
+      "page": "3-13"
+    },
+    {
+      "treatment_date": "09/19/2017 - 06/08/2018",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "SFS",
+        "My Rx Card",
+        "Cigna Healthspring",
+        "Caremark",
+        "Medco Health",
+        "Omnisys Immunizations",
+        "Argus",
+        "Blink Health",
+        "ScriptCycle",
+        "OptumRx",
+        "Allwin",
+        "GoodRx",
+        "Paramount Lonestar",
+        "McKesson Health PBM",
+        "Express Scripts"
+      ],
+      "total_charges": 60974.29,
+      "ins_paid": 45572.5,
+      "adjustment": null,
+      "payments": 15401.79,
+      "balance": 0.0,
+      "page": "14-24"
+    },
+    {
+      "treatment_date": "06/08/2018 - 02/21/2019",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Argus",
+        "Blink Health",
+        "OptumRx",
+        "ScriptCycle",
+        "Cigna Healthspring",
+        "Allwin",
+        "Paramount Lonestar",
+        "Express Scripts",
+        "GoodRx",
+        "Omnisys Immunizations",
+        "McKesson Health PBM",
+        "SFS",
+        "Medco Health",
+        "My Rx Card",
+        "Caremark"
+      ],
+      "total_charges": 54624.28,
+      "ins_paid": 40460.7,
+      "adjustment": null,
+      "payments": 14163.58,
+      "balance": 0.0,
+      "page": "25-35"
+    },
+    {
+      "treatment_date": "02/22/2019 - 10/16/2019",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys Immunizations",
+        "GoodRx",
+        "Blink Health",
+        "Allwin",
+        "SFS",
+        "ScriptCycle",
+        "My Rx Card",
+        "OptumRx",
+        "Express Scripts",
+        "Medco Health",
+        "McKesson Health PBM",
+        "Paramount Lonestar",
+        "Argus",
+        "Cigna Healthspring",
+        "Caremark"
+      ],
+      "total_charges": 68012.62,
+      "ins_paid": 49364.58,
+      "adjustment": null,
+      "payments": 18648.04,
+      "balance": 0.0,
+      "page": "36-46"
+    },
+    {
+      "treatment_date": "10/16/2019 - 06/18/2020",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "SFS",
+        "Allwin",
+        "GoodRx",
+        "Express Scripts",
+        "Blink Health",
+        "ScriptCycle",
+        "OptumRx",
+        "Medco Health",
+        "McKesson Health PBM",
+        "Argus",
+        "Paramount Lonestar",
+        "My Rx Card",
+        "Caremark",
+        "Cigna Healthspring",
+        "Omnisys Immunizations"
+      ],
+      "total_charges": 68849.57,
+      "ins_paid": 50277.46,
+      "adjustment": null,
+      "payments": 18572.11,
+      "balance": 0.0,
+      "page": "47-57"
+    },
+    {
+      "treatment_date": "06/18/2020 - 02/16/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card",
+        "Omnisys Immunizations",
+        "OptumRx",
+        "Blink Health",
+        "Caremark",
+        "ScriptCycle",
+        "SFS",
+        "Medco Health",
+        "McKesson Health PBM",
+        "Argus",
+        "Paramount Lonestar",
+        "Express Scripts",
+        "Cigna Healthspring",
+        "GoodRx",
+        "Allwin"
+      ],
+      "total_charges": 45836.26,
+      "ins_paid": 34059.53,
+      "adjustment": null,
+      "payments": 11776.73,
+      "balance": 0.0,
+      "page": "58-68"
+    },
+    {
+      "treatment_date": "02/18/2021 - 10/24/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [
+        "Cigna"
+      ],
+      "third_parties": [
+        "Cigna Healthspring",
+        "Caremark",
+        "SFS",
+        "Medco Health",
+        "Express Scripts",
+        "Omnisys Immunizations",
+        "OptumRx",
+        "Paramount Lonestar",
+        "Allwin",
+        "Argus",
+        "My Rx Card",
+        "ScriptCycle",
+        "GoodRx",
+        "McKesson Health PBM",
+        "Blink Health"
+      ],
+      "total_charges": 97117.77,
+      "ins_paid": 71324.95,
+      "adjustment": null,
+      "payments": 25792.82,
+      "balance": 0.0,
+      "page": "69-79"
+    },
+    {
+      "treatment_date": "10/24/2021 - 06/28/2022",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Page 80-90 Pharmacy Record",
+      "insurers": [],
+      "third_parties": [
+        "Argus",
+        "SFS",
+        "My Rx Card",
+        "Omnisys Immunizations",
+        "Caremark",
+        "Cigna Healthspring",
+        "Paramount Lonestar",
+        "Blink Health",
+        "Medco Health",
+        "McKesson Health PBM",
+        "Express Scripts",
+        "OptumRx",
+        "GoodRx",
+        "ScriptCycle",
+        "Allwin"
+      ],
+      "total_charges": 91666.82,
+      "ins_paid": 68294.96,
+      "adjustment": null,
+      "payments": 23371.86,
+      "balance": 0.0,
+      "page": "80-90"
+    },
+    {
+      "treatment_date": "06/29/2022 - 02/23/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Express Scripts",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts",
+        "SFS",
+        "Omnisys Immunizations",
+        "Cigna Healthspring",
+        "My Rx Card",
+        "Paramount Lonestar",
+        "ScriptCycle",
+        "Caremark",
+        "OptumRx",
+        "Allwin",
+        "Blink Health",
+        "GoodRx",
+        "McKesson Health PBM",
+        "Argus",
+        "Medco Health"
+      ],
+      "total_charges": 56540.48,
+      "ins_paid": 42233.93,
+      "adjustment": null,
+      "payments": 14306.55,
+      "balance": 0.0,
+      "page": "91-101"
+    },
+    {
+      "treatment_date": "02/23/2023 - 11/09/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Allwin",
+      "insurers": [],
+      "third_parties": [
+        "Allwin"
+      ],
+      "total_charges": 8092.89,
+      "ins_paid": 5907.1,
+      "adjustment": null,
+      "payments": 2185.79,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "02/27/2023 - 11/03/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys Immunizations"
+      ],
+      "total_charges": 5890.74,
+      "ins_paid": 4170.98,
+      "adjustment": null,
+      "payments": 1719.76,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/03/2023 - 10/22/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "My Rx Card",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 4596.07,
+      "ins_paid": 3440.27,
+      "adjustment": null,
+      "payments": 1155.8,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/05/2023 - 10/22/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Caremark",
+      "insurers": [],
+      "third_parties": [
+        "Caremark"
+      ],
+      "total_charges": 5838.06,
+      "ins_paid": 4156.4,
+      "adjustment": null,
+      "payments": 1681.66,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/05/2023 - 10/25/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Express Scripts",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 5019.63,
+      "ins_paid": 3840.66,
+      "adjustment": null,
+      "payments": 1178.97,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/07/2023 - 08/22/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "SFS",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 4441.11,
+      "ins_paid": 3271.34,
+      "adjustment": null,
+      "payments": 1169.77,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/13/2023 - 11/02/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Cigna Healthspring",
+      "insurers": [],
+      "third_parties": [
+        "Cigna Healthspring"
+      ],
+      "total_charges": 4867.04,
+      "ins_paid": 3573.96,
+      "adjustment": null,
+      "payments": 1293.08,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/15/2023 - 10/21/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "GoodRx",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 4860.87,
+      "ins_paid": 3564.79,
+      "adjustment": null,
+      "payments": 1296.08,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/17/2023 - 11/02/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Blink Health",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 4305.05,
+      "ins_paid": 3159.58,
+      "adjustment": null,
+      "payments": 1145.47,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/18/2023 - 10/25/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Medco Health",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 4764.6,
+      "ins_paid": 3554.08,
+      "adjustment": null,
+      "payments": 1210.52,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/27/2023 - 11/07/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "OptumRx",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx"
+      ],
+      "total_charges": 6013.39,
+      "ins_paid": 4403.95,
+      "adjustment": null,
+      "payments": 1609.44,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "03/29/2023 - 11/03/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Paramount Lonestar",
+      "insurers": [],
+      "third_parties": [
+        "Paramount Lonestar"
+      ],
+      "total_charges": 5291.13,
+      "ins_paid": 3976.88,
+      "adjustment": null,
+      "payments": 1314.25,
+      "balance": 0.0,
+      "page": "103-112"
+    },
+    {
+      "treatment_date": "04/04/2023 - 11/09/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 3060.74,
+      "ins_paid": 2148.71,
+      "adjustment": null,
+      "payments": 912.03,
+      "balance": 0.0,
+      "page": "103-112"
+    },
+    {
+      "treatment_date": "04/08/2023 - 11/01/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "ScriptCycle",
+      "insurers": [],
+      "third_parties": [
+        "ScriptCycle"
+      ],
+      "total_charges": 5594.11,
+      "ins_paid": 4330.34,
+      "adjustment": null,
+      "payments": 1263.77,
+      "balance": 0.0,
+      "page": "103-112"
+    },
+    {
+      "treatment_date": "04/13/2023 - 11/03/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "McKesson Health PBM",
+      "insurers": [],
+      "third_parties": [
+        "McKesson Health PBM"
+      ],
+      "total_charges": 4104.65,
+      "ins_paid": 2981.26,
+      "adjustment": null,
+      "payments": 1123.39,
+      "balance": 0.0,
+      "page": "103-112"
+    },
+    {
+      "treatment_date": "02/27/2023 - 11/09/2023",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Allwin",
+        "Omnisys Immunizations",
+        "My Rx Card",
+        "Caremark",
+        "Express Scripts",
+        "SFS",
+        "Cigna Healthspring",
+        "GoodRx",
+        "Blink Health",
+        "Medco Health",
+        "OptumRx",
+        "Paramount Lonestar",
+        "Argus",
+        "ScriptCycle",
+        "McKesson Health PBM"
+      ],
+      "total_charges": 73600.08,
+      "ins_paid": 53929.3,
+      "adjustment": null,
+      "payments": 19670.78,
+      "balance": 0.0,
+      "page": "102-112"
+    },
+    {
+      "treatment_date": "11/10/2023 - 07/25/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "OptumRx",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx",
+        "Cigna Healthspring",
+        "Blink Health",
+        "Medco Health",
+        "Allwin",
+        "Paramount Lonestar",
+        "Express Scripts",
+        "ScriptCycle",
+        "SFS",
+        "My Rx Card",
+        "McKesson Health PBM",
+        "GoodRx",
+        "Argus",
+        "Omnisys Immunizations",
+        "Caremark"
+      ],
+      "total_charges": 70574.84,
+      "ins_paid": 52880.66,
+      "adjustment": null,
+      "payments": 17694.18,
+      "balance": 0.0,
+      "page": "113-123"
+    },
+    {
+      "treatment_date": "07/25/2024 - 12/29/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy Record",
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "ScriptCycle",
+        "Allwin",
+        "Blink Health",
+        "McKesson Health PBM",
+        "Express Scripts",
+        "Caremark",
+        "Paramount Lonestar",
+        "Argus",
+        "GoodRx",
+        "SFS",
+        "My Rx Card",
+        "Medco Health",
+        "OptumRx",
+        "Omnisys Immunizations",
+        "Cigna Healthspring"
+      ],
+      "total_charges": 1247488.96,
+      "ins_paid": 373214.66,
+      "adjustment": null,
+      "payments": 311314.74,
+      "balance": 562959.56,
+      "page": "124-131"
+    },
+    {
+      "treatment_date": "03/24/2026 - 04/29/2026",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Radiology",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "133,136-137,139,144"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 1,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy/provider name is not shown on these pages; used generic provider label pending manual review.",
+      "page": "14-24",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "total_charges"
+      ],
+      "reason": "Aggregate pharmacy record total was computed by summing dispensing rows across pages because no summary row is present in this chunk.",
+      "page": "14-24",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "ins_paid"
+      ],
+      "reason": "Aggregate insurance-paid amount was computed by summing dispensing rows across pages because no summary row is present in this chunk.",
+      "page": "14-24",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "balance"
+      ],
+      "reason": "Balance was computed as total_charges minus ins_paid; no explicit adjustment or patient payment columns are shown in this chunk.",
+      "page": "14-24",
+      "severity": "medium"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy name/provider is not visible in this chunk; using generic pharmacy provider requires manual review.",
+      "page": "25-35",
+      "severity": "medium"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "description"
+      ],
+      "reason": "No clear human-readable document title or report header is visible in this chunk for the aggregated pharmacy record.",
+      "page": "25-35",
+      "severity": "low"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "balance"
+      ],
+      "reason": "Balance computed as total_charges minus ins_paid because no balance column is shown in this chunk.",
+      "page": "25-35",
+      "severity": "low"
+    },
+    {
+      "row": 3,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy name is not shown on these pages; provider set generically to 'Pharmacy'.",
+      "page": "36-46",
+      "severity": "medium"
+    },
+    {
+      "row": 4,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy name/provider is not shown in this page chunk; using generic provider placeholder requires manual review.",
+      "page": "47-57",
+      "severity": "medium"
+    },
+    {
+      "row": 4,
+      "fields": [
+        "description"
+      ],
+      "reason": "Used generic pharmacy document description because a specific report title/header is not visible in this page chunk.",
+      "page": "47-57",
+      "severity": "low"
+    },
+    {
+      "row": 5,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy name/provider is not shown on these pages; using generic provider placeholder requires manual review.",
+      "page": "58-68",
+      "severity": "medium"
+    },
+    {
+      "row": 5,
+      "fields": [
+        "total_charges"
+      ],
+      "reason": "Single pharmacy running-account record aggregated across all dispensing rows in this chunk; totals computed from itemized rows because no summary row is present in the provided pages.",
+      "page": "58-68",
+      "severity": "medium"
+    },
+    {
+      "row": 5,
+      "fields": [
+        "balance"
+      ],
+      "reason": "Balance computed as total_charges minus ins_paid because no adjustment, patient payment, or balance columns are shown on the provided pages.",
+      "page": "58-68",
+      "severity": "medium"
+    },
+    {
+      "row": 6,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy name/provider is not visible on these pages; record aggregated across running account but provider could only be identified generically as a pharmacy.",
+      "page": "69-79",
+      "severity": "medium"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "provider",
+        "description"
+      ],
+      "reason": "Document chunk appears to be a pharmacy running account ledger with many dispensing rows; aggregated into one pharmacy record per instructions, but no explicit pharmacy name/header is shown on these pages. Provider inferred from page/chunk context and should be manually reviewed; description not explicit on pages.",
+      "page": "80-90",
+      "severity": "medium"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "balance"
+      ],
+      "reason": "Aggregated totals were computed by summing all dispensing rows across the chunk because no summary row is shown on these pages. Balance computed as total charges minus insurer/third-party paid amounts; no separate adjustment or patient payment columns present.",
+      "page": "80-90",
+      "severity": "medium"
+    },
+    {
+      "row": 9,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 10,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 11,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 12,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 13,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 14,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 15,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 16,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 17,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 18,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 19,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 20,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 21,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 22,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 23,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Running pharmacy account appears grouped by third-party payer name rather than a dispensing pharmacy; provider identity is not clearly shown.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Document-level pharmacy provider name is not shown in this chunk; summary record uses generic provider placeholder.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "balance"
+      ],
+      "reason": "Summary record was computed by aggregating all dispensing rows in this chunk because no single summary row was visible on these pages.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 26,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy provider name is not visible on the extracted pages; summary and running account pages show dispensing rows and payer detail but no pharmacy name.",
+      "page": "124-131",
+      "severity": "medium"
+    },
+    {
+      "row": 26,
+      "fields": [
+        "balance",
+        "third_parties",
+        "ins_paid",
+        "payments"
+      ],
+      "reason": "Payment Summary shows Patient Paid, Insurance Paid, and Others (Third Parties), but no total charges breakdown by payer type beyond the grand total. Assigned 'balance' to the remaining Others amount would be inappropriate for a pharmacy account summary and requires manual review.",
+      "page": "131",
+      "severity": "high"
+    },
+    {
+      "row": 27,
+      "fields": [
+        "provider",
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Radiology reports were grouped into one imaging record for the patient, but the pages contain no billing amounts, CPT codes, or clear billing provider/facility name.",
+      "page": "133,136-137,139,144",
+      "severity": "high"
+    }
+  ]
+}

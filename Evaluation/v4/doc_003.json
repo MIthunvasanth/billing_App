@@ -1,0 +1,389 @@
+{
+  "doc_id": "doc_003",
+  "meta": {
+    "doc_id": "doc_003",
+    "num_pages": 21,
+    "duration_seconds": 24.68,
+    "token_usage": {
+      "input": 38618,
+      "output": 2663,
+      "total": 41281
+    },
+    "cost_usd": 0.09854
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Immunizations",
+        "Omnisys"
+      ],
+      "total_charges": 285.79,
+      "ins_paid": 251.64,
+      "adjustment": null,
+      "payments": 34.15,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/07/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 428.58,
+      "ins_paid": 259.94,
+      "adjustment": null,
+      "payments": 168.64,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/09/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Health PBM",
+        "McKesson"
+      ],
+      "total_charges": 425.07,
+      "ins_paid": 349.03,
+      "adjustment": null,
+      "payments": 76.04,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/10/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 399.4,
+      "ins_paid": 305.33,
+      "adjustment": null,
+      "payments": 94.07,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/12/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 396.15,
+      "ins_paid": 274.27,
+      "adjustment": null,
+      "payments": 121.88,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/12/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 362.06,
+      "ins_paid": 270.1,
+      "adjustment": null,
+      "payments": 91.96,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/17/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 8.58,
+      "ins_paid": 7.53,
+      "adjustment": null,
+      "payments": 1.05,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/20/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 163.74,
+      "ins_paid": 101.36,
+      "adjustment": null,
+      "payments": 62.38,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/20/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 490.0,
+      "ins_paid": 368.76,
+      "adjustment": null,
+      "payments": 121.24,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/20/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 110.41,
+      "ins_paid": 98.11,
+      "adjustment": null,
+      "payments": 12.3,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/21/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [
+        "Cigna Healthspring"
+      ],
+      "third_parties": [],
+      "total_charges": 434.35,
+      "ins_paid": 386.11,
+      "adjustment": null,
+      "payments": 48.24,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/22/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 370.27,
+      "ins_paid": 306.28,
+      "adjustment": null,
+      "payments": 63.99,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/24/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 340.15,
+      "ins_paid": 301.81,
+      "adjustment": null,
+      "payments": 38.34,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/24/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [
+        "Paramount Lonestar"
+      ],
+      "third_parties": [],
+      "total_charges": 453.89,
+      "ins_paid": 404.98,
+      "adjustment": null,
+      "payments": 48.91,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/25/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 400.78,
+      "ins_paid": 360.58,
+      "adjustment": null,
+      "payments": 40.2,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/27/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 56.44,
+      "ins_paid": 44.33,
+      "adjustment": null,
+      "payments": 12.11,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/27/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "ScriptCycle"
+      ],
+      "total_charges": 475.78,
+      "ins_paid": 392.72,
+      "adjustment": null,
+      "payments": 83.06,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/28/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 326.62,
+      "ins_paid": 238.67,
+      "adjustment": null,
+      "payments": 87.95,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/29/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 245.26,
+      "ins_paid": 220.09,
+      "adjustment": null,
+      "payments": 25.17,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "02/01/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 314.48,
+      "ins_paid": 255.84,
+      "adjustment": null,
+      "payments": 58.64,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "02/02/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Caremark"
+      ],
+      "total_charges": 227.81,
+      "ins_paid": 194.97,
+      "adjustment": null,
+      "payments": 32.84,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "02/04/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Immunizations",
+        "Omnisys"
+      ],
+      "total_charges": 309.52,
+      "ins_paid": 248.3,
+      "adjustment": null,
+      "payments": 61.22,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "02/05/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 134.36,
+      "ins_paid": 98.98,
+      "adjustment": null,
+      "payments": 35.38,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": "SRS Patient Profile",
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 126304.01,
+      "ins_paid": 95231.08,
+      "adjustment": null,
+      "payments": 31072.93,
+      "balance": 0.0,
+      "page": "18"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 23,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy report does not include explicit write-off or patient payment columns; fields set to null.",
+      "page": "18",
+      "severity": "low"
+    }
+  ]
+}

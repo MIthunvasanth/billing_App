@@ -1,0 +1,117 @@
+{
+  "doc_id": "doc_004",
+  "meta": {
+    "doc_id": "doc_004",
+    "num_pages": 17,
+    "duration_seconds": 6.05,
+    "token_usage": {
+      "input": 36731,
+      "output": 537,
+      "total": 37268
+    },
+    "cost_usd": 0.077758
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 07/07/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy Expense Report",
+      "provider": "Mason Care Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx",
+        "Medco Health",
+        "ScriptCycle",
+        "Paramount Lonestar",
+        "Blink Health",
+        "Express Scripts",
+        "Caremark",
+        "My Rx Card",
+        "Argus",
+        "McKesson Health PBM",
+        "OptumRx",
+        "SFS",
+        "Omnisys Immunizations",
+        "Cigna Healthspring",
+        "Allwin"
+      ],
+      "total_charges": 70731.44,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": 70731.44,
+      "page": "3-13"
+    },
+    {
+      "treatment_date": "07/08/2024 - 12/31/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Cigna Healthspring",
+        "OptumRx",
+        "Paramount Lonestar",
+        "My Rx Card",
+        "Express Scripts",
+        "Allwin",
+        "McKesson Health PBM",
+        "Omnisys Immunizations",
+        "GoodRx",
+        "Caremark",
+        "SFS",
+        "Blink Health",
+        "ScriptCycle",
+        "Argus",
+        "Medco Health"
+      ],
+      "total_charges": 123717.2,
+      "ins_paid": 36477.46,
+      "adjustment": null,
+      "payments": 31463.51,
+      "balance": null,
+      "page": "14-17"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Pharmacy running account aggregated from fill history shows charges and third-party names but no explicit payment or adjustment amounts; balance defaulted to total charges per rules.",
+      "page": "3-13",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/pharmacy name is not shown on these pages; only transaction ledger and summaries are visible.",
+      "page": "14-17",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "total_charges"
+      ],
+      "reason": "Grand Total on page 17 appears to be a summary total for the account and is used as total charges for the aggregated pharmacy record because no separate charge summary label is provided.",
+      "page": "17",
+      "severity": "medium"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "balance",
+        "adjustment"
+      ],
+      "reason": "Adjustment/write-off and remaining balance are not shown in the summary. With available totals, balance cannot be resolved without unsupported assumptions.",
+      "page": "17",
+      "severity": "medium"
+    }
+  ]
+}

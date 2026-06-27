@@ -1,0 +1,462 @@
+{
+  "doc_id": "doc_007",
+  "meta": {
+    "doc_id": "doc_007",
+    "num_pages": 153,
+    "duration_seconds": 41.8,
+    "token_usage": {
+      "input": 195321,
+      "output": 3119,
+      "total": 198440
+    },
+    "cost_usd": 0.415594
+  },
+  "records": [
+    {
+      "treatment_date": "08/01/2023",
+      "cpt_codes": [
+        "45378",
+        "J2796",
+        "95923",
+        "76700"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1603.26,
+      "ins_paid": 985.27,
+      "adjustment": 617.99,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "10/08/2021",
+      "cpt_codes": [
+        "J1040",
+        "97035",
+        "A4246",
+        "90960",
+        "99284",
+        "97010",
+        "A4616"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1747.47,
+      "ins_paid": 950.39,
+      "adjustment": 776.18,
+      "payments": null,
+      "balance": 20.9,
+      "page": "3-4"
+    },
+    {
+      "treatment_date": "10/13/2021",
+      "cpt_codes": [
+        "J1055",
+        "90472",
+        "99214",
+        "72100",
+        "90935",
+        "J9060"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1882.58,
+      "ins_paid": 844.46,
+      "adjustment": 1038.12,
+      "payments": null,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "02/04/2023",
+      "cpt_codes": [
+        "73100",
+        "99213",
+        "86592"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 982.8,
+      "ins_paid": 622.64,
+      "adjustment": 360.16,
+      "payments": null,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "04/22/2021",
+      "cpt_codes": [
+        "97140",
+        "71048",
+        "27130",
+        "Q0163",
+        "73100",
+        "99222",
+        "43239"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 2427.26,
+      "ins_paid": 1414.78,
+      "adjustment": 953.45,
+      "payments": null,
+      "balance": 59.03,
+      "page": "4-5"
+    },
+    {
+      "treatment_date": "09/29/2023",
+      "cpt_codes": [
+        "90970",
+        "73562",
+        "90960",
+        "87880",
+        "99284",
+        "90847"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1456.35,
+      "ins_paid": 864.52,
+      "adjustment": 546.26,
+      "payments": null,
+      "balance": 45.57,
+      "page": "5"
+    },
+    {
+      "treatment_date": "05/04/2022",
+      "cpt_codes": [
+        "A4600",
+        "99285",
+        "76705",
+        "99282"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1478.0,
+      "ins_paid": 653.87,
+      "adjustment": 824.13,
+      "payments": null,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "06/22/2021",
+      "cpt_codes": [
+        "99213",
+        "90834",
+        "72158",
+        "73100",
+        "93015"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1820.15,
+      "ins_paid": 983.52,
+      "adjustment": 827.04,
+      "payments": null,
+      "balance": 9.59,
+      "page": "5-6"
+    },
+    {
+      "treatment_date": "07/10/2023",
+      "cpt_codes": [
+        "A4657",
+        "76705",
+        "97035",
+        "Q4100",
+        "76705",
+        "99205"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1943.29,
+      "ins_paid": 1059.75,
+      "adjustment": 863.72,
+      "payments": null,
+      "balance": 19.82,
+      "page": "6"
+    },
+    {
+      "treatment_date": "10/13/2023",
+      "cpt_codes": [
+        "97012",
+        "97110",
+        "Q4100",
+        "71048"
+      ],
+      "description": null,
+      "provider": "SMITH MEDICAL, PC",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1251.41,
+      "ins_paid": 802.89,
+      "adjustment": 448.52,
+      "payments": null,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "06/25/2023",
+      "cpt_codes": [
+        "99231",
+        "90967"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1353.66,
+      "ins_paid": 908.2,
+      "adjustment": 397.24,
+      "payments": 48.22,
+      "balance": 0.0,
+      "page": "92"
+    },
+    {
+      "treatment_date": "05/05/2021",
+      "cpt_codes": [
+        "J2405",
+        "90935",
+        "99231",
+        "97116",
+        "97530",
+        "90471"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 2117.94,
+      "ins_paid": 1372.34,
+      "adjustment": 691.52,
+      "payments": 54.08,
+      "balance": 0.0,
+      "page": "92"
+    },
+    {
+      "treatment_date": "01/13/2024",
+      "cpt_codes": [
+        "J0205",
+        "97116",
+        "97110",
+        "97150",
+        "90970",
+        "74177"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1833.82,
+      "ins_paid": 1076.66,
+      "adjustment": 757.16,
+      "payments": null,
+      "balance": 0.0,
+      "page": "93"
+    },
+    {
+      "treatment_date": "07/22/2022",
+      "cpt_codes": [
+        "99239",
+        "45378",
+        "J1040",
+        "85025",
+        "97750"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1571.48,
+      "ins_paid": 982.03,
+      "adjustment": 557.49,
+      "payments": 31.96,
+      "balance": 0.0,
+      "page": "93"
+    },
+    {
+      "treatment_date": "08/05/2023",
+      "cpt_codes": [
+        "90791",
+        "87880",
+        "90791"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 707.02,
+      "ins_paid": 384.79,
+      "adjustment": 271.95,
+      "payments": 50.28,
+      "balance": 0.0,
+      "page": "93"
+    },
+    {
+      "treatment_date": "08/28/2024",
+      "cpt_codes": [
+        "J9000",
+        "97022",
+        "72100",
+        "73060",
+        "A4616",
+        "J0180"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1796.58,
+      "ins_paid": 982.38,
+      "adjustment": 814.2,
+      "payments": null,
+      "balance": 0.0,
+      "page": "94"
+    },
+    {
+      "treatment_date": "10/08/2022",
+      "cpt_codes": [
+        "99233",
+        "90834",
+        "73564",
+        "97750",
+        "85610",
+        "99211"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1607.58,
+      "ins_paid": 746.09,
+      "adjustment": 861.49,
+      "payments": null,
+      "balance": 0.0,
+      "page": "94"
+    },
+    {
+      "treatment_date": "05/31/2022",
+      "cpt_codes": [
+        "J1055",
+        "99283",
+        "29881",
+        "99202",
+        "A4649",
+        "97026"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1757.39,
+      "ins_paid": 1050.16,
+      "adjustment": 690.48,
+      "payments": 16.75,
+      "balance": 0.0,
+      "page": "94"
+    },
+    {
+      "treatment_date": "08/30/2022",
+      "cpt_codes": [
+        "J2796",
+        "J9060",
+        "80061",
+        "A4649",
+        "43239",
+        "97530"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1209.58,
+      "ins_paid": 760.29,
+      "adjustment": 430.23,
+      "payments": 19.06,
+      "balance": 0.0,
+      "page": "95"
+    },
+    {
+      "treatment_date": "12/31/2021",
+      "cpt_codes": [
+        "97110",
+        "99213",
+        "J2730",
+        "93015",
+        "90935",
+        "99205",
+        "76830"
+      ],
+      "description": null,
+      "provider": "Molina Healthcare of NY",
+      "insurers": [
+        "Molina Healthcare of NY"
+      ],
+      "third_parties": [],
+      "total_charges": 1647.93,
+      "ins_paid": 987.6,
+      "adjustment": 660.33,
+      "payments": null,
+      "balance": 0.0,
+      "page": "95"
+    }
+  ],
+  "flagged": []
+}

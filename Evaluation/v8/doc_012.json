@@ -1,0 +1,2034 @@
+{
+  "doc_id": "doc_012",
+  "meta": {
+    "doc_id": "doc_012",
+    "num_pages": 136,
+    "duration_seconds": 20.52,
+    "token_usage": {
+      "input": 170218,
+      "output": 12700,
+      "total": 182918
+    },
+    "cost_usd": 0.442036
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 01/30/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "Foleyfurt Dialysis Clinic",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 18331.04,
+      "ins_paid": 14129.3,
+      "adjustment": 4201.74,
+      "payments": null,
+      "balance": 0.0,
+      "page": "33"
+    },
+    {
+      "treatment_date": "01/31/2017 - 03/02/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "Foleyfurt Dialysis Clinic",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10546.42,
+      "ins_paid": 8129.03,
+      "adjustment": 2417.39,
+      "payments": null,
+      "balance": 0.0,
+      "page": "33-34"
+    },
+    {
+      "treatment_date": "03/03/2017 - 04/04/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "Foleyfurt Dialysis Clinic",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 7733.93,
+      "ins_paid": 5961.2,
+      "adjustment": 1772.73,
+      "payments": null,
+      "balance": 0.0,
+      "page": "34-35"
+    },
+    {
+      "treatment_date": "04/05/2017 - 04/07/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "Foleyfurt Dialysis Clinic",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10223.09,
+      "ins_paid": 7879.81,
+      "adjustment": 2343.28,
+      "payments": null,
+      "balance": 0.0,
+      "page": "35-36"
+    },
+    {
+      "treatment_date": "04/08/2017 - 05/03/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13290.52,
+      "ins_paid": 10244.14,
+      "adjustment": 3046.38,
+      "payments": null,
+      "balance": 0.0,
+      "page": "37"
+    },
+    {
+      "treatment_date": "05/04/2017 - 06/05/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14925.93,
+      "ins_paid": 11504.69,
+      "adjustment": 3421.24,
+      "payments": null,
+      "balance": 0.0,
+      "page": "37-38"
+    },
+    {
+      "treatment_date": "06/06/2017 - 07/04/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11691.65,
+      "ins_paid": 9011.76,
+      "adjustment": 2679.89,
+      "payments": null,
+      "balance": 0.0,
+      "page": "38-39"
+    },
+    {
+      "treatment_date": "07/05/2017 - 07/13/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15164.52,
+      "ins_paid": 11688.6,
+      "adjustment": 3475.92,
+      "payments": null,
+      "balance": 0.0,
+      "page": "39"
+    },
+    {
+      "treatment_date": "07/14/2017 - 08/12/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11820.3,
+      "ins_paid": 9110.92,
+      "adjustment": 2709.38,
+      "payments": null,
+      "balance": 0.0,
+      "page": "40"
+    },
+    {
+      "treatment_date": "08/13/2017 - 09/08/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13115.68,
+      "ins_paid": 10109.38,
+      "adjustment": 3006.3,
+      "payments": null,
+      "balance": 0.0,
+      "page": "40-41"
+    },
+    {
+      "treatment_date": "09/09/2017 - 10/09/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12177.23,
+      "ins_paid": 9386.03,
+      "adjustment": 2791.2,
+      "payments": null,
+      "balance": 0.0,
+      "page": "41-42"
+    },
+    {
+      "treatment_date": "10/10/2017 - 10/18/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14332.08,
+      "ins_paid": 11046.96,
+      "adjustment": 3285.12,
+      "payments": null,
+      "balance": 0.0,
+      "page": "42"
+    },
+    {
+      "treatment_date": "10/19/2017 - 11/15/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15176.09,
+      "ins_paid": 11697.51,
+      "adjustment": 3478.58,
+      "payments": null,
+      "balance": 0.0,
+      "page": "43"
+    },
+    {
+      "treatment_date": "11/16/2017 - 12/11/2017",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15946.74,
+      "ins_paid": 12291.52,
+      "adjustment": 3655.22,
+      "payments": null,
+      "balance": 0.0,
+      "page": "43-44"
+    },
+    {
+      "treatment_date": "12/12/2017 - 01/12/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 19153.25,
+      "ins_paid": 14763.05,
+      "adjustment": 4390.2,
+      "payments": null,
+      "balance": 0.0,
+      "page": "44-45"
+    },
+    {
+      "treatment_date": "01/13/2018 - 01/23/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 9639.89,
+      "ins_paid": 7430.29,
+      "adjustment": 2209.6,
+      "payments": null,
+      "balance": 0.0,
+      "page": "45"
+    },
+    {
+      "treatment_date": "01/24/2018 - 02/22/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12447.5,
+      "ins_paid": 9594.35,
+      "adjustment": 2853.15,
+      "payments": null,
+      "balance": 0.0,
+      "page": "46"
+    },
+    {
+      "treatment_date": "02/23/2018 - 03/23/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 16059.6,
+      "ins_paid": 12378.51,
+      "adjustment": 3681.09,
+      "payments": null,
+      "balance": 0.0,
+      "page": "46-47"
+    },
+    {
+      "treatment_date": "03/24/2018 - 04/25/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10769.1,
+      "ins_paid": 8300.67,
+      "adjustment": 2468.43,
+      "payments": null,
+      "balance": 0.0,
+      "page": "47-48"
+    },
+    {
+      "treatment_date": "04/26/2018 - 04/30/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 9391.21,
+      "ins_paid": 7238.61,
+      "adjustment": 2152.6,
+      "payments": null,
+      "balance": 0.0,
+      "page": "48-49"
+    },
+    {
+      "treatment_date": "05/01/2018 - 05/30/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 9796.9,
+      "ins_paid": 7551.31,
+      "adjustment": 2245.59,
+      "payments": null,
+      "balance": 0.0,
+      "page": "50"
+    },
+    {
+      "treatment_date": "05/31/2018 - 07/01/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 7355.14,
+      "ins_paid": 5669.24,
+      "adjustment": 1685.9,
+      "payments": null,
+      "balance": 0.0,
+      "page": "50-51"
+    },
+    {
+      "treatment_date": "07/02/2018 - 08/01/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 7212.06,
+      "ins_paid": 5558.95,
+      "adjustment": null,
+      "payments": 1653.11,
+      "balance": 0.0,
+      "page": "51"
+    },
+    {
+      "treatment_date": "08/02/2018 - 08/05/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12588.57,
+      "ins_paid": 9703.09,
+      "adjustment": 2885.48,
+      "payments": null,
+      "balance": 0.0,
+      "page": "52"
+    },
+    {
+      "treatment_date": "08/06/2018 - 09/01/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 16191.06,
+      "ins_paid": 12479.84,
+      "adjustment": 3711.22,
+      "payments": null,
+      "balance": 0.0,
+      "page": "53"
+    },
+    {
+      "treatment_date": "09/02/2018 - 09/29/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 16983.73,
+      "ins_paid": 13090.82,
+      "adjustment": 3892.91,
+      "payments": null,
+      "balance": 0.0,
+      "page": "53-54"
+    },
+    {
+      "treatment_date": "09/30/2018 - 10/26/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15713.24,
+      "ins_paid": 12111.54,
+      "adjustment": 3601.7,
+      "payments": null,
+      "balance": 0.0,
+      "page": "54-55"
+    },
+    {
+      "treatment_date": "10/27/2018 - 11/10/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11890.34,
+      "ins_paid": 9164.9,
+      "adjustment": 2725.44,
+      "payments": null,
+      "balance": 0.0,
+      "page": "55"
+    },
+    {
+      "treatment_date": "11/11/2018 - 12/07/2018",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13181.86,
+      "ins_paid": 10160.39,
+      "adjustment": 3021.47,
+      "payments": null,
+      "balance": 0.0,
+      "page": "56"
+    },
+    {
+      "treatment_date": "12/08/2018 - 01/07/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14949.4,
+      "ins_paid": 11522.78,
+      "adjustment": 3426.62,
+      "payments": null,
+      "balance": 0.0,
+      "page": "56-57"
+    },
+    {
+      "treatment_date": "01/08/2019 - 02/02/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14747.81,
+      "ins_paid": 11367.4,
+      "adjustment": 3380.41,
+      "payments": null,
+      "balance": 0.0,
+      "page": "57-58"
+    },
+    {
+      "treatment_date": "02/03/2019 - 02/15/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14283.83,
+      "ins_paid": 11009.77,
+      "adjustment": 3274.06,
+      "payments": null,
+      "balance": 0.0,
+      "page": "58-59"
+    },
+    {
+      "treatment_date": "02/16/2019 - 03/14/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13399.34,
+      "ins_paid": 10328.02,
+      "adjustment": 3071.32,
+      "payments": null,
+      "balance": 0.0,
+      "page": "60"
+    },
+    {
+      "treatment_date": "03/15/2019 - 04/11/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11890.25,
+      "ins_paid": 9164.83,
+      "adjustment": 2725.42,
+      "payments": null,
+      "balance": 0.0,
+      "page": "61"
+    },
+    {
+      "treatment_date": "04/12/2019 - 05/08/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 17424.75,
+      "ins_paid": 13430.75,
+      "adjustment": 3994.0,
+      "payments": null,
+      "balance": 0.0,
+      "page": "61-62"
+    },
+    {
+      "treatment_date": "05/09/2019 - 05/23/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14982.03,
+      "ins_paid": 11547.93,
+      "adjustment": 3434.1,
+      "payments": null,
+      "balance": 0.0,
+      "page": "62-63"
+    },
+    {
+      "treatment_date": "05/24/2019 - 06/19/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 4937.64,
+      "ins_paid": 3805.86,
+      "adjustment": 1131.78,
+      "payments": null,
+      "balance": 0.0,
+      "page": "64"
+    },
+    {
+      "treatment_date": "06/20/2019 - 07/16/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 8652.57,
+      "ins_paid": 6669.28,
+      "adjustment": 1983.29,
+      "payments": null,
+      "balance": 0.0,
+      "page": "64-65"
+    },
+    {
+      "treatment_date": "07/17/2019 - 08/13/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14288.58,
+      "ins_paid": 11013.43,
+      "adjustment": 3275.15,
+      "payments": null,
+      "balance": 0.0,
+      "page": "65-66"
+    },
+    {
+      "treatment_date": "08/14/2019 - 08/28/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 8008.38,
+      "ins_paid": 6172.74,
+      "adjustment": 1835.64,
+      "payments": null,
+      "balance": 0.0,
+      "page": "66"
+    },
+    {
+      "treatment_date": "08/29/2019 - 09/25/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 17327.05,
+      "ins_paid": 13355.44,
+      "adjustment": 3971.61,
+      "payments": null,
+      "balance": 0.0,
+      "page": "67"
+    },
+    {
+      "treatment_date": "09/26/2019 - 10/26/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 7017.84,
+      "ins_paid": 5409.25,
+      "adjustment": 1608.59,
+      "payments": null,
+      "balance": 0.0,
+      "page": "67-68"
+    },
+    {
+      "treatment_date": "10/27/2019 - 11/28/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10668.59,
+      "ins_paid": 8223.2,
+      "adjustment": 2445.39,
+      "payments": null,
+      "balance": 0.0,
+      "page": "68-69"
+    },
+    {
+      "treatment_date": "11/29/2019 - 12/03/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14162.7,
+      "ins_paid": 10916.41,
+      "adjustment": 3246.29,
+      "payments": null,
+      "balance": 0.0,
+      "page": "69-70"
+    },
+    {
+      "treatment_date": "12/04/2019 - 12/29/2019",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11619.51,
+      "ins_paid": 8956.15,
+      "adjustment": 2663.36,
+      "payments": null,
+      "balance": 0.0,
+      "page": "71"
+    },
+    {
+      "treatment_date": "12/30/2019 - 01/27/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 18974.86,
+      "ins_paid": 14625.55,
+      "adjustment": 4349.31,
+      "payments": null,
+      "balance": 0.0,
+      "page": "71-72"
+    },
+    {
+      "treatment_date": "01/28/2020 - 02/23/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15107.28,
+      "ins_paid": 11644.48,
+      "adjustment": 3462.8,
+      "payments": null,
+      "balance": 0.0,
+      "page": "72-73"
+    },
+    {
+      "treatment_date": "02/24/2020 - 03/09/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14121.12,
+      "ins_paid": 10884.36,
+      "adjustment": 3236.76,
+      "payments": null,
+      "balance": 0.0,
+      "page": "73-74"
+    },
+    {
+      "treatment_date": "03/10/2020 - 04/07/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 5321.96,
+      "ins_paid": 4102.09,
+      "adjustment": 1219.87,
+      "payments": null,
+      "balance": 0.0,
+      "page": "75"
+    },
+    {
+      "treatment_date": "04/08/2020 - 05/07/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 6640.0,
+      "ins_paid": 5118.02,
+      "adjustment": 1521.98,
+      "payments": null,
+      "balance": 0.0,
+      "page": "75-76"
+    },
+    {
+      "treatment_date": "05/08/2020 - 06/09/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12722.56,
+      "ins_paid": 9806.37,
+      "adjustment": 2916.19,
+      "payments": null,
+      "balance": 0.0,
+      "page": "76-77"
+    },
+    {
+      "treatment_date": "06/10/2020 - 06/14/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14001.35,
+      "ins_paid": 10792.04,
+      "adjustment": 3209.31,
+      "payments": null,
+      "balance": 0.0,
+      "page": "77"
+    },
+    {
+      "treatment_date": "06/15/2020 - 07/14/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12425.22,
+      "ins_paid": 9577.18,
+      "adjustment": 2848.04,
+      "payments": null,
+      "balance": 0.0,
+      "page": "78"
+    },
+    {
+      "treatment_date": "07/15/2020 - 08/09/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 8473.51,
+      "ins_paid": 6531.26,
+      "adjustment": 1942.25,
+      "payments": null,
+      "balance": 0.0,
+      "page": "78-79"
+    },
+    {
+      "treatment_date": "08/10/2020 - 09/10/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15707.15,
+      "ins_paid": 12106.85,
+      "adjustment": 3600.3,
+      "payments": null,
+      "balance": 0.0,
+      "page": "79-80"
+    },
+    {
+      "treatment_date": "09/11/2020 - 09/19/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 6372.05,
+      "ins_paid": 4911.48,
+      "adjustment": 1460.57,
+      "payments": null,
+      "balance": 0.0,
+      "page": "80"
+    },
+    {
+      "treatment_date": "09/20/2020 - 10/17/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 5875.27,
+      "ins_paid": 4528.57,
+      "adjustment": 1346.7,
+      "payments": null,
+      "balance": 0.0,
+      "page": "81"
+    },
+    {
+      "treatment_date": "10/18/2020 - 11/18/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12770.95,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "81"
+    },
+    {
+      "treatment_date": "10/22/2020 - 11/18/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12770.95,
+      "ins_paid": 9843.67,
+      "adjustment": 2927.28,
+      "payments": null,
+      "balance": 0.0,
+      "page": "82"
+    },
+    {
+      "treatment_date": "11/19/2020 - 12/18/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13443.61,
+      "ins_paid": 10362.14,
+      "adjustment": 3081.47,
+      "payments": null,
+      "balance": 0.0,
+      "page": "82-83"
+    },
+    {
+      "treatment_date": "12/19/2020 - 12/25/2020",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11427.52,
+      "ins_paid": 8808.17,
+      "adjustment": 2619.35,
+      "payments": null,
+      "balance": 0.0,
+      "page": "83"
+    },
+    {
+      "treatment_date": "12/26/2020 - 01/20/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10937.54,
+      "ins_paid": 8430.5,
+      "adjustment": 2507.04,
+      "payments": null,
+      "balance": 0.0,
+      "page": "84"
+    },
+    {
+      "treatment_date": "01/21/2021 - 02/19/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15863.86,
+      "ins_paid": 12227.64,
+      "adjustment": 3636.22,
+      "payments": null,
+      "balance": 0.0,
+      "page": "84-85"
+    },
+    {
+      "treatment_date": "02/20/2021 - 03/20/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 9753.25,
+      "ins_paid": 7517.67,
+      "adjustment": 2235.58,
+      "payments": null,
+      "balance": 0.0,
+      "page": "85-86"
+    },
+    {
+      "treatment_date": "03/21/2021 - 04/01/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15598.23,
+      "ins_paid": 12022.89,
+      "adjustment": 3575.34,
+      "payments": null,
+      "balance": 0.0,
+      "page": "86-87"
+    },
+    {
+      "treatment_date": "04/02/2021 - 05/03/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 8627.5,
+      "ins_paid": 6649.95,
+      "adjustment": 1977.55,
+      "payments": null,
+      "balance": 0.0,
+      "page": "88"
+    },
+    {
+      "treatment_date": "05/04/2021 - 06/04/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 9527.98,
+      "ins_paid": 7344.03,
+      "adjustment": 2183.95,
+      "payments": null,
+      "balance": 0.0,
+      "page": "88-89"
+    },
+    {
+      "treatment_date": "06/05/2021 - 07/04/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15261.09,
+      "ins_paid": 11763.03,
+      "adjustment": 3498.06,
+      "payments": null,
+      "balance": 0.0,
+      "page": "89-90"
+    },
+    {
+      "treatment_date": "07/05/2021 - 07/07/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15097.56,
+      "ins_paid": 11636.98,
+      "adjustment": 3460.58,
+      "payments": null,
+      "balance": 0.0,
+      "page": "90-91"
+    },
+    {
+      "treatment_date": "07/08/2021 - 08/08/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13150.1,
+      "ins_paid": 10135.91,
+      "adjustment": 3014.19,
+      "payments": null,
+      "balance": 0.0,
+      "page": "92"
+    },
+    {
+      "treatment_date": "08/09/2021 - 09/04/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10224.47,
+      "ins_paid": 7880.88,
+      "adjustment": 2343.59,
+      "payments": null,
+      "balance": 0.0,
+      "page": "92-93"
+    },
+    {
+      "treatment_date": "09/05/2021 - 10/07/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 6943.29,
+      "ins_paid": 5351.79,
+      "adjustment": 1591.5,
+      "payments": null,
+      "balance": 0.0,
+      "page": "93-94"
+    },
+    {
+      "treatment_date": "10/08/2021 - 10/12/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 17567.96,
+      "ins_paid": 13541.13,
+      "adjustment": 4026.83,
+      "payments": null,
+      "balance": 0.0,
+      "page": "94"
+    },
+    {
+      "treatment_date": "10/13/2021 - 11/10/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14274.97,
+      "ins_paid": 11002.94,
+      "adjustment": 3272.03,
+      "payments": null,
+      "balance": 0.0,
+      "page": "95"
+    },
+    {
+      "treatment_date": "11/11/2021 - 12/12/2021",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15510.78,
+      "ins_paid": 11955.49,
+      "adjustment": 3555.29,
+      "payments": null,
+      "balance": 0.0,
+      "page": "95-96"
+    },
+    {
+      "treatment_date": "12/13/2021 - 01/13/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12506.81,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "96"
+    },
+    {
+      "treatment_date": "01/14/2022 - 01/17/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15495.21,
+      "ins_paid": 11943.49,
+      "adjustment": 3551.72,
+      "payments": null,
+      "balance": 0.0,
+      "page": "97-98"
+    },
+    {
+      "treatment_date": "01/18/2022 - 02/14/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10986.7,
+      "ins_paid": 8468.39,
+      "adjustment": 2518.31,
+      "payments": null,
+      "balance": 0.0,
+      "page": "99"
+    },
+    {
+      "treatment_date": "02/15/2022 - 03/17/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10885.44,
+      "ins_paid": 8390.34,
+      "adjustment": 2495.1,
+      "payments": null,
+      "balance": 0.0,
+      "page": "99-100"
+    },
+    {
+      "treatment_date": "03/18/2022 - 04/12/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12087.12,
+      "ins_paid": 9316.58,
+      "adjustment": 2770.54,
+      "payments": null,
+      "balance": 0.0,
+      "page": "100-101"
+    },
+    {
+      "treatment_date": "04/13/2022 - 04/24/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12220.55,
+      "ins_paid": 9419.43,
+      "adjustment": 2801.12,
+      "payments": null,
+      "balance": 0.0,
+      "page": "101"
+    },
+    {
+      "treatment_date": "04/25/2022 - 05/20/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 14650.04,
+      "ins_paid": 11292.04,
+      "adjustment": 3358.0,
+      "payments": null,
+      "balance": 0.0,
+      "page": "102"
+    },
+    {
+      "treatment_date": "05/21/2022 - 06/18/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 4619.36,
+      "ins_paid": 3560.54,
+      "adjustment": 1058.82,
+      "payments": null,
+      "balance": 0.0,
+      "page": "102-103"
+    },
+    {
+      "treatment_date": "06/19/2022 - 07/14/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11801.27,
+      "ins_paid": 9096.25,
+      "adjustment": 2705.02,
+      "payments": null,
+      "balance": 0.0,
+      "page": "103-104"
+    },
+    {
+      "treatment_date": "07/15/2022 - 07/30/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10266.69,
+      "ins_paid": 7913.42,
+      "adjustment": 2353.27,
+      "payments": null,
+      "balance": 0.0,
+      "page": "104"
+    },
+    {
+      "treatment_date": "07/31/2022 - 08/26/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 16610.73,
+      "ins_paid": 12803.31,
+      "adjustment": 3807.42,
+      "payments": null,
+      "balance": 0.0,
+      "page": "105"
+    },
+    {
+      "treatment_date": "08/27/2022 - 09/28/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15600.57,
+      "ins_paid": 12024.7,
+      "adjustment": 3575.87,
+      "payments": null,
+      "balance": 0.0,
+      "page": "105-106"
+    },
+    {
+      "treatment_date": "09/29/2022 - 10/26/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12976.34,
+      "ins_paid": 10001.98,
+      "adjustment": 2974.36,
+      "payments": null,
+      "balance": 0.0,
+      "page": "106-107"
+    },
+    {
+      "treatment_date": "10/27/2022 - 11/04/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11888.27,
+      "ins_paid": 9163.31,
+      "adjustment": 2724.96,
+      "payments": null,
+      "balance": 0.0,
+      "page": "107-108"
+    },
+    {
+      "treatment_date": "11/05/2022 - 12/05/2022",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 7215.37,
+      "ins_paid": 5561.5,
+      "adjustment": 1653.87,
+      "payments": null,
+      "balance": 0.0,
+      "page": "109"
+    },
+    {
+      "treatment_date": "12/06/2022 - 01/06/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15863.39,
+      "ins_paid": 12227.27,
+      "adjustment": 3636.12,
+      "payments": null,
+      "balance": 0.0,
+      "page": "109-110"
+    },
+    {
+      "treatment_date": "01/07/2023 - 02/02/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 9997.66,
+      "ins_paid": 7706.05,
+      "adjustment": 2291.61,
+      "payments": null,
+      "balance": 0.0,
+      "page": "110-111"
+    },
+    {
+      "treatment_date": "02/03/2023 - 02/09/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 17859.63,
+      "ins_paid": 13765.95,
+      "adjustment": 4093.68,
+      "payments": null,
+      "balance": 0.0,
+      "page": "111"
+    },
+    {
+      "treatment_date": "02/10/2023 - 03/12/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 5523.31,
+      "ins_paid": 4257.29,
+      "adjustment": 1266.02,
+      "payments": null,
+      "balance": 0.0,
+      "page": "112"
+    },
+    {
+      "treatment_date": "03/13/2023 - 04/14/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11537.6,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "112"
+    },
+    {
+      "treatment_date": "03/15/2023 - 04/14/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11537.6,
+      "ins_paid": 8893.02,
+      "adjustment": 2644.58,
+      "payments": null,
+      "balance": 0.0,
+      "page": "113"
+    },
+    {
+      "treatment_date": "04/15/2023 - 05/14/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11516.95,
+      "ins_paid": 8877.1,
+      "adjustment": 2639.85,
+      "payments": null,
+      "balance": 0.0,
+      "page": "113-114"
+    },
+    {
+      "treatment_date": "05/15/2023 - 05/17/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 8057.19,
+      "ins_paid": 6210.37,
+      "adjustment": 1846.82,
+      "payments": null,
+      "balance": 0.0,
+      "page": "114"
+    },
+    {
+      "treatment_date": "05/18/2023 - 06/16/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 17368.99,
+      "ins_paid": 13387.77,
+      "adjustment": 3981.22,
+      "payments": null,
+      "balance": 0.0,
+      "page": "115"
+    },
+    {
+      "treatment_date": "06/17/2023 - 07/18/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15932.27,
+      "ins_paid": 12280.37,
+      "adjustment": 3651.9,
+      "payments": null,
+      "balance": 0.0,
+      "page": "115-116"
+    },
+    {
+      "treatment_date": "07/19/2023 - 08/19/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10938.98,
+      "ins_paid": 8431.61,
+      "adjustment": 2507.37,
+      "payments": null,
+      "balance": 0.0,
+      "page": "116-117"
+    },
+    {
+      "treatment_date": "08/20/2023 - 08/22/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 17658.59,
+      "ins_paid": 13610.99,
+      "adjustment": 4047.6,
+      "payments": null,
+      "balance": 0.0,
+      "page": "117-118"
+    },
+    {
+      "treatment_date": "08/23/2023 - 09/19/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13319.71,
+      "ins_paid": 10266.64,
+      "adjustment": 3053.07,
+      "payments": null,
+      "balance": 0.0,
+      "page": "119"
+    },
+    {
+      "treatment_date": "09/20/2023 - 10/15/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13608.0,
+      "ins_paid": 10488.85,
+      "adjustment": 3119.15,
+      "payments": null,
+      "balance": 0.0,
+      "page": "119-120"
+    },
+    {
+      "treatment_date": "10/16/2023 - 11/13/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13311.59,
+      "ins_paid": 10260.38,
+      "adjustment": 3051.21,
+      "payments": null,
+      "balance": 0.0,
+      "page": "120-121"
+    },
+    {
+      "treatment_date": "11/14/2023 - 11/27/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11303.08,
+      "ins_paid": 8712.25,
+      "adjustment": 2590.83,
+      "payments": null,
+      "balance": 0.0,
+      "page": "121-122"
+    },
+    {
+      "treatment_date": "11/28/2023 - 12/24/2023",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10856.71,
+      "ins_paid": 8368.2,
+      "adjustment": 2488.51,
+      "payments": null,
+      "balance": 0.0,
+      "page": "123"
+    },
+    {
+      "treatment_date": "12/25/2023 - 01/25/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10071.55,
+      "ins_paid": 7763.01,
+      "adjustment": 2308.54,
+      "payments": null,
+      "balance": 0.0,
+      "page": "123-124"
+    },
+    {
+      "treatment_date": "01/26/2024 - 02/23/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 7514.86,
+      "ins_paid": 5792.35,
+      "adjustment": 1722.51,
+      "payments": null,
+      "balance": 0.0,
+      "page": "124-125"
+    },
+    {
+      "treatment_date": "02/24/2024 - 03/03/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 9578.25,
+      "ins_paid": 7382.78,
+      "adjustment": 2195.47,
+      "payments": null,
+      "balance": 0.0,
+      "page": "125"
+    },
+    {
+      "treatment_date": "03/04/2024 - 04/05/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 11450.25,
+      "ins_paid": 8825.69,
+      "adjustment": 2624.56,
+      "payments": null,
+      "balance": 0.0,
+      "page": "126"
+    },
+    {
+      "treatment_date": "04/06/2024 - 05/05/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 10886.6,
+      "ins_paid": 8391.24,
+      "adjustment": 2495.36,
+      "payments": null,
+      "balance": 0.0,
+      "page": "126-127"
+    },
+    {
+      "treatment_date": "05/06/2024 - 06/05/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 8499.13,
+      "ins_paid": 6551.01,
+      "adjustment": 1948.12,
+      "payments": null,
+      "balance": 0.0,
+      "page": "127-128"
+    },
+    {
+      "treatment_date": "06/06/2024 - 06/08/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 12 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12197.67,
+      "ins_paid": 9401.79,
+      "adjustment": 2795.88,
+      "payments": null,
+      "balance": 0.0,
+      "page": "128"
+    },
+    {
+      "treatment_date": "06/09/2024 - 07/04/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 16940.15,
+      "ins_paid": 13057.23,
+      "adjustment": 3882.92,
+      "payments": null,
+      "balance": 0.0,
+      "page": "129"
+    },
+    {
+      "treatment_date": "07/05/2024 - 08/04/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 10 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13452.66,
+      "ins_paid": 10369.12,
+      "adjustment": 3083.54,
+      "payments": null,
+      "balance": 0.0,
+      "page": "130"
+    },
+    {
+      "treatment_date": "08/05/2024 - 09/02/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 8 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 15299.86,
+      "ins_paid": 11792.91,
+      "adjustment": 3506.95,
+      "payments": null,
+      "balance": 0.0,
+      "page": "130-131"
+    },
+    {
+      "treatment_date": "09/03/2024 - 09/13/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 17046.48,
+      "ins_paid": 13139.18,
+      "adjustment": 3907.3,
+      "payments": null,
+      "balance": 0.0,
+      "page": "131-132"
+    },
+    {
+      "treatment_date": "09/14/2024 - 10/14/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 11 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13309.94,
+      "ins_paid": 10259.11,
+      "adjustment": 3050.83,
+      "payments": null,
+      "balance": 0.0,
+      "page": "133"
+    },
+    {
+      "treatment_date": "10/15/2024 - 11/14/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 12023.42,
+      "ins_paid": 9267.48,
+      "adjustment": 2755.94,
+      "payments": null,
+      "balance": 0.0,
+      "page": "133-134"
+    },
+    {
+      "treatment_date": "11/15/2024 - 12/10/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 9 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 17888.85,
+      "ins_paid": 13788.47,
+      "adjustment": 4100.38,
+      "payments": null,
+      "balance": 0.0,
+      "page": "134-135"
+    },
+    {
+      "treatment_date": "12/11/2024 - 12/19/2024",
+      "cpt_codes": [],
+      "description": "Dialysis \u2014 13 treatments",
+      "provider": "FOLEYFURT DIALYSIS CLINIC",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 13202.72,
+      "ins_paid": 10176.47,
+      "adjustment": 3026.25,
+      "payments": null,
+      "balance": 0.0,
+      "page": "135-136"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 22,
+      "fields": [
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Record continues beyond provided chunk; insurance payment is shown but contractual adjustment and ending balance summary are not visible, so balance was computed from charges minus insurance paid.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 57,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Billing period begins on page 81 but payment, adjustment, and balance details continue beyond this chunk and are not visible here.",
+      "page": "81",
+      "severity": "high"
+    },
+    {
+      "row": 58,
+      "fields": [
+        "treatment_date"
+      ],
+      "reason": "Start date for this dialysis period is not shown in the provided chunk; inferred from service charge date and preceding pattern.",
+      "page": "82",
+      "severity": "medium"
+    },
+    {
+      "row": 75,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Claim/payment summary for this dialysis period continues beyond the provided chunk, so financial fields are unresolved here.",
+      "page": "96",
+      "severity": "high"
+    },
+    {
+      "row": 94,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Billing period begins on page 112, but payment and balance summary fields for this record are not present in the provided chunk and cannot be resolved from visible text.",
+      "page": "112",
+      "severity": "high"
+    },
+    {
+      "row": 95,
+      "fields": [
+        "treatment_date"
+      ],
+      "reason": "Start date for this billing period is not shown in the provided chunk; inferred from sequence as the month immediately preceding 04/15/2023 end of prior period.",
+      "page": "113",
+      "severity": "medium"
+    }
+  ]
+}

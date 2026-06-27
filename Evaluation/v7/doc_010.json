@@ -1,0 +1,348 @@
+{
+  "doc_id": "doc_010",
+  "meta": {
+    "doc_id": "doc_010",
+    "num_pages": 151,
+    "duration_seconds": 53.49,
+    "token_usage": {
+      "input": 292675,
+      "output": 25169,
+      "total": 317844
+    },
+    "cost_usd": 0.786702
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 12/29/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy Expense Report",
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Cigna",
+        "Express Scripts",
+        "SFS",
+        "Omnisys Immunizations",
+        "Cigna Healthspring",
+        "My Rx Card",
+        "Paramount Lonestar",
+        "ScriptCycle",
+        "Caremark",
+        "OptumRx",
+        "Allwin",
+        "Blink Health",
+        "GoodRx",
+        "McKesson Health PBM",
+        "Medco Health",
+        "Argus"
+      ],
+      "third_parties": [
+        "Paramount Lonestar",
+        "SFS",
+        "Blink Health",
+        "My Rx Card",
+        "ScriptCycle",
+        "Omnisys Immunizations",
+        "GoodRx",
+        "Medco Health",
+        "OptumRx",
+        "Cigna Healthspring",
+        "Express Scripts",
+        "Caremark",
+        "McKesson Health PBM",
+        "Allwin",
+        "Argus",
+        "Healthspring"
+      ],
+      "total_charges": 1428563.85,
+      "ins_paid": 509222.5,
+      "adjustment": null,
+      "payments": 356381.79,
+      "balance": 0.0,
+      "page": "3-13"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No explicit adjustment or patient payment columns are present in the document; possible that these amounts were deducted via third party/insurer, but not clearly itemized; the record may undercount net discounts or actual patient payments.",
+      "page": "3-13",
+      "severity": "medium"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy ledger shows total charges and 3rd party paid per line but omits any columns or mentions of patient payment or adjustment/write-off. It is not clear whether the remaining balance is due from patient or if there is an unshown discount/adjustment column. Manual review needed to determine patient responsibility and resolve adjustments.",
+      "page": "25-35",
+      "severity": "medium"
+    },
+    {
+      "row": 59,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name missing from document row.",
+      "page": "47",
+      "severity": "medium"
+    },
+    {
+      "row": 64,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name missing from document row.",
+      "page": "47",
+      "severity": "medium"
+    },
+    {
+      "row": 69,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name missing from document row.",
+      "page": "47",
+      "severity": "medium"
+    },
+    {
+      "row": 74,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name missing from document row.",
+      "page": "47",
+      "severity": "medium"
+    },
+    {
+      "row": 76,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name missing from document row.",
+      "page": "47",
+      "severity": "medium"
+    },
+    {
+      "row": 83,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name missing from document row.",
+      "page": "47",
+      "severity": "medium"
+    },
+    {
+      "row": 114,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-68",
+      "severity": "low"
+    },
+    {
+      "row": 115,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-68",
+      "severity": "low"
+    },
+    {
+      "row": 116,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-67",
+      "severity": "low"
+    },
+    {
+      "row": 117,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-68",
+      "severity": "low"
+    },
+    {
+      "row": 118,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-65",
+      "severity": "low"
+    },
+    {
+      "row": 119,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-68",
+      "severity": "low"
+    },
+    {
+      "row": 120,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-68",
+      "severity": "low"
+    },
+    {
+      "row": 121,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-67",
+      "severity": "low"
+    },
+    {
+      "row": 122,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-67",
+      "severity": "low"
+    },
+    {
+      "row": 123,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-68",
+      "severity": "low"
+    },
+    {
+      "row": 124,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-68",
+      "severity": "low"
+    },
+    {
+      "row": 125,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "58-68",
+      "severity": "low"
+    },
+    {
+      "row": 126,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "59-68",
+      "severity": "low"
+    },
+    {
+      "row": 127,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "60-68",
+      "severity": "low"
+    },
+    {
+      "row": 128,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "No adjustment or patient payment columns present. Balance calculated as total_charges - ins_paid; unable to verify if further adjustments or payments exist.",
+      "page": "60-68",
+      "severity": "low"
+    },
+    {
+      "row": 129,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "The financial fields (total_charges, ins_paid, adjustment, payments, balance) are not fully resolvable as the given data is itemized by fill, lacks cumulative summary or period totals, and does not provide explicit adjustment/balance columns. Each line only shows gross amount and insurance paid, with payer attributions split between insurer and third-party columns; no single period, summary, or full-record financials are present, making proper aggregation impossible without further detail or summation.",
+      "page": "69-79",
+      "severity": "high"
+    },
+    {
+      "row": 170,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Financial fields are not directly provided in the extracted pages for the pharmacy records. The table only includes 'Amount' and 'Ins Paid' columns per transaction without account-level totals, adjustments, patient payments, or balances for an aggregated period. Cannot reliably aggregate or resolve these fields without risk of re-summing and potential error.",
+      "page": "91-101",
+      "severity": "high"
+    },
+    {
+      "row": 171,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Totals for charges and payment fields are not shown in this excerpt, only itemized dispensing rows present. Aggregation cannot be performed without artificially re-summing the itemized rows, which system instructions prohibit in the absence of a summary/total row.",
+      "page": "102-112",
+      "severity": "medium"
+    },
+    {
+      "row": 204,
+      "fields": [
+        "adjustment",
+        "balance"
+      ],
+      "reason": "The document summary provides grand totals for patient paid, insurance paid, and others (third parties), but no explicit adjustment (write-off/discount) or remaining balance field is shown. There is some ambiguity in assigning total_charges due to aggregation method, and inability to directly map to 'adjustment' or 'balance'.",
+      "page": "131",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [
+        "treatment_date"
+      ],
+      "reason": "Periodic billing detected: 205 raw records merged to 23, then aggregated to 1 summary record.",
+      "page": "1",
+      "severity": "low"
+    }
+  ]
+}

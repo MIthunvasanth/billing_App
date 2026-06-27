@@ -1,0 +1,241 @@
+{
+  "doc_id": "doc_005",
+  "meta": {
+    "doc_id": "doc_005",
+    "num_pages": 44,
+    "duration_seconds": 15.72,
+    "token_usage": {
+      "input": 55235,
+      "output": 1800,
+      "total": 57035
+    },
+    "cost_usd": 0.12487
+  },
+  "records": [
+    {
+      "treatment_date": "12/22/2023 - 12/24/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 117311.71,
+      "ins_paid": 72304.29,
+      "adjustment": 45007.42,
+      "payments": null,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "05/16/2021 - 05/19/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 154571.29,
+      "ins_paid": 95268.99,
+      "adjustment": 59302.3,
+      "payments": null,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "07/02/2024 - 07/03/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 50880.83,
+      "ins_paid": 31360.06,
+      "adjustment": 19520.77,
+      "payments": null,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "11/30/2022 - 12/07/2022",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 71884.6,
+      "ins_paid": 44305.6,
+      "adjustment": 27579.0,
+      "payments": null,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "03/23/2022 - 03/27/2022",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 106273.8,
+      "ins_paid": 65501.15,
+      "adjustment": 40772.65,
+      "payments": null,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "05/18/2021 - 05/21/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 152524.06,
+      "ins_paid": 94007.19,
+      "adjustment": 58516.87,
+      "payments": null,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "09/20/2023 - 09/23/2023",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 82690.83,
+      "ins_paid": 50965.94,
+      "adjustment": 31724.89,
+      "payments": null,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "11/07/2021 - 11/08/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 78467.69,
+      "ins_paid": 48363.04,
+      "adjustment": 30104.65,
+      "payments": null,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "06/29/2022 - 07/04/2022",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 150993.34,
+      "ins_paid": 93063.74,
+      "adjustment": 57929.6,
+      "payments": null,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "09/11/2022 - 09/13/2022",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 199828.53,
+      "ins_paid": 123162.99,
+      "adjustment": 76665.54,
+      "payments": null,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "12/03/2021 - 12/04/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 87496.47,
+      "ins_paid": 53927.87,
+      "adjustment": 33568.6,
+      "payments": null,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "05/18/2021 - 05/21/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 104268.63,
+      "ins_paid": 64265.28,
+      "adjustment": 40003.35,
+      "payments": null,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "07/14/2021 - 07/15/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 64140.9,
+      "ins_paid": 39532.82,
+      "adjustment": 24608.08,
+      "payments": null,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "07/27/2021 - 07/29/2021",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DYER HEALTHCARE",
+      "insurers": [
+        "AmeriHealth"
+      ],
+      "third_parties": [],
+      "total_charges": 74524.5,
+      "ins_paid": 45932.68,
+      "adjustment": 28591.82,
+      "payments": null,
+      "balance": 0.0,
+      "page": "9"
+    }
+  ],
+  "flagged": []
+}

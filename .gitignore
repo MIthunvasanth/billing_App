@@ -25,4 +25,4 @@ out/
 # Packaged exports
 *.zip
 pdfs
-docs-test
+# docs-test

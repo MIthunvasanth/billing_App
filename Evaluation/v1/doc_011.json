@@ -1,0 +1,306 @@
+{
+  "doc_id": "doc_011",
+  "meta": {
+    "doc_id": "doc_011",
+    "num_pages": 194,
+    "duration_seconds": 44.04,
+    "token_usage": {
+      "input": 260134,
+      "output": 2640,
+      "total": 262774
+    },
+    "cost_usd": 0.541388
+  },
+  "records": [
+    {
+      "treatment_date": "01/25/2023 - 01/26/2023",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Total knee arthroplasty",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 263355.25,
+      "ins_paid": 127031.72,
+      "adjustment": 119521.47,
+      "payments": null,
+      "balance": 16802.06,
+      "page": "3"
+    },
+    {
+      "treatment_date": "09/13/2023 - 09/19/2023",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Pulmonary embolism",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 387540.58,
+      "ins_paid": 186933.6,
+      "adjustment": 175881.89,
+      "payments": null,
+      "balance": 24725.09,
+      "page": "5"
+    },
+    {
+      "treatment_date": "02/27/2023 - 03/05/2023",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Cellulitis of lower leg",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 285745.83,
+      "ins_paid": 137832.01,
+      "adjustment": 129683.24,
+      "payments": null,
+      "balance": 18230.58,
+      "page": "5"
+    },
+    {
+      "treatment_date": "07/21/2017 - 07/28/2017",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Total knee arthroplasty",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 322417.1,
+      "ins_paid": 155520.72,
+      "adjustment": 146326.17,
+      "payments": null,
+      "balance": 20570.21,
+      "page": "6"
+    },
+    {
+      "treatment_date": "04/18/2023 - 04/22/2023",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Heart failure, unspecified",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 217034.83,
+      "ins_paid": 104688.66,
+      "adjustment": 98499.35,
+      "payments": null,
+      "balance": 13846.82,
+      "page": "7"
+    },
+    {
+      "treatment_date": "08/08/2022 - 08/11/2022",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Urinary tract infection",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 318322.59,
+      "ins_paid": 153545.7,
+      "adjustment": 144467.91,
+      "payments": null,
+      "balance": 20308.98,
+      "page": "8"
+    },
+    {
+      "treatment_date": "09/24/2018 - 09/24/2018",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Multiple complex services and supplies (MRI, Pharmacy, Dialysis, ICU, Surgery, etc.)",
+      "provider": "Unknown (Hospital name not provided)",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 377828.91,
+      "ins_paid": 182249.09,
+      "adjustment": 171474.34,
+      "payments": null,
+      "balance": 24105.48,
+      "page": "74"
+    },
+    {
+      "treatment_date": "02/26/2021 - 03/05/2021",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Alcohol withdrawal syndrome",
+      "provider": "Unknown (Hospital name not provided)",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 295722.98,
+      "ins_paid": 142644.58,
+      "adjustment": 134211.27,
+      "payments": null,
+      "balance": 18867.13,
+      "page": "75"
+    },
+    {
+      "treatment_date": "06/11/2021 - 06/17/2021",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Pulmonary embolism",
+      "provider": "Unknown (Hospital name not provided)",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 323144.9,
+      "ins_paid": 155871.78,
+      "adjustment": 146656.48,
+      "payments": null,
+      "balance": 20616.64,
+      "page": "76"
+    },
+    {
+      "treatment_date": "04/05/2018 - 04/07/2018",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Schizophrenia, acute exacerbation",
+      "provider": "Unknown (Hospital name not provided)",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 340916.04,
+      "ins_paid": 164443.84,
+      "adjustment": 154721.76,
+      "payments": null,
+      "balance": 21750.44,
+      "page": "77"
+    },
+    {
+      "treatment_date": "12/17/2018 - 12/23/2018",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Stroke, ischemic",
+      "provider": "Unknown (Hospital name not provided)",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 310303.21,
+      "ins_paid": 149677.48,
+      "adjustment": 140828.39,
+      "payments": null,
+      "balance": 19797.34,
+      "page": "78"
+    },
+    {
+      "treatment_date": "03/12/2019 - 03/15/2019",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Pneumonia, unspecified organism",
+      "provider": "Unknown (Hospital name not provided)",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 338480.27,
+      "ins_paid": 163268.93,
+      "adjustment": 153616.3,
+      "payments": null,
+      "balance": 21595.04,
+      "page": "79"
+    },
+    {
+      "treatment_date": "06/18/2020 - 06/20/2020",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Acute pancreatitis",
+      "provider": "Unknown (Hospital name not provided)",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 322769.48,
+      "ins_paid": 155690.69,
+      "adjustment": 146486.1,
+      "payments": null,
+      "balance": 20592.69,
+      "page": "80"
+    },
+    {
+      "treatment_date": "03/13/2024 - 03/15/2024",
+      "cpt_codes": [],
+      "description": "Inpatient Episode: Cellulitis of lower leg",
+      "provider": "Unknown (Hospital name not provided)",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 339954.73,
+      "ins_paid": 163980.15,
+      "adjustment": 154285.47,
+      "payments": null,
+      "balance": 21689.11,
+      "page": "81"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 6,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider name and insurer information not stated in the summary; only financial totals and descriptions are present.",
+      "page": "74",
+      "severity": "medium"
+    },
+    {
+      "row": 7,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer fields are missing (hospital/practice not named).",
+      "page": "75",
+      "severity": "medium"
+    },
+    {
+      "row": 8,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer fields are missing (hospital/practice not named).",
+      "page": "76",
+      "severity": "medium"
+    },
+    {
+      "row": 9,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer fields not stated for summary inpatient episode.",
+      "page": "77",
+      "severity": "medium"
+    },
+    {
+      "row": 10,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer fields are missing for this episode summary.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 11,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurer identities not provided with summary data.",
+      "page": "79",
+      "severity": "medium"
+    },
+    {
+      "row": 12,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurers not named (aggregate episode only).",
+      "page": "80",
+      "severity": "medium"
+    },
+    {
+      "row": 13,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Provider and insurers are not listed for this summary record.",
+      "page": "81",
+      "severity": "medium"
+    }
+  ]
+}

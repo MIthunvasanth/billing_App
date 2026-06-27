@@ -1,0 +1,1491 @@
+{
+  "doc_id": "doc_009",
+  "meta": {
+    "doc_id": "doc_009",
+    "num_pages": 129,
+    "duration_seconds": 58.44,
+    "token_usage": {
+      "input": 286007,
+      "output": 10661,
+      "total": 296668
+    },
+    "cost_usd": 0.657302
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 403.09,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 106.7,
+      "balance": 296.39,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/01/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 322.87,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 100.25,
+      "balance": 222.62,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/01/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Allwin"
+      ],
+      "total_charges": 484.31,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 57.04,
+      "balance": 427.27,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/02/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 214.61,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 85.79,
+      "balance": 128.82,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/04/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 101.03,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 24.25,
+      "balance": 76.78,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/04/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 458.91,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 88.22,
+      "balance": 370.69,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/05/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 56.6,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 12.68,
+      "balance": 43.92,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/06/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Caremark"
+      ],
+      "total_charges": 405.11,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 42.69,
+      "balance": 362.42,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/08/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 354.96,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 43.94,
+      "balance": 311.02,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/08/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 331.95,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 121.29,
+      "balance": 210.66,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/09/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 471.64,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 62.71,
+      "balance": 408.93,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/09/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Benefit Plan"
+      ],
+      "total_charges": 462.73,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 83.76,
+      "balance": 378.97,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/10/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 281.41,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 78.42,
+      "balance": 202.99,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/11/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 397.08,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 75.67,
+      "balance": 321.41,
+      "page": "3"
+    },
+    {
+      "treatment_date": "01/12/2017",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 132.02,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 33.69,
+      "balance": 98.33,
+      "page": "3"
+    },
+    {
+      "treatment_date": "12/24/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Medco Health",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 359.73,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 67.3,
+      "balance": 292.43,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/24/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 286.16,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 49.49,
+      "balance": 236.67,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/25/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Blink Health",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 260.94,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 63.45,
+      "balance": 197.49,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/26/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 418.29,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 138.44,
+      "balance": 279.85,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/27/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Immunizations",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 337.01,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 126.38,
+      "balance": 210.63,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/28/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Immunizations",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 143.51,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 48.32,
+      "balance": 95.19,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/28/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 468.65,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 97.35,
+      "balance": 371.3,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/29/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "SFS",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 441.83,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 119.59,
+      "balance": 322.24,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/29/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "My Rx Card",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 326.68,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 96.0,
+      "balance": 230.68,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/29/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "ONEILL WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 261.64,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 51.98,
+      "balance": 209.66,
+      "page": "51"
+    },
+    {
+      "treatment_date": "11/06/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [
+        "Discount Program"
+      ],
+      "total_charges": 213.57,
+      "ins_paid": 166.02,
+      "adjustment": null,
+      "payments": 47.55,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/08/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 179.51,
+      "ins_paid": 145.54,
+      "adjustment": null,
+      "payments": 33.97,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/08/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 328.62,
+      "ins_paid": 217.35,
+      "adjustment": null,
+      "payments": 111.27,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/09/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 350.52,
+      "ins_paid": 211.5,
+      "adjustment": null,
+      "payments": 139.02,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/09/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 280.55,
+      "ins_paid": 201.83,
+      "adjustment": null,
+      "payments": 78.72,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/09/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [
+        "Caremark"
+      ],
+      "total_charges": 403.73,
+      "ins_paid": 338.84,
+      "adjustment": null,
+      "payments": 64.89,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 37.6,
+      "ins_paid": 24.68,
+      "adjustment": null,
+      "payments": 12.92,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 183.48,
+      "ins_paid": 133.67,
+      "adjustment": null,
+      "payments": 49.81,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 130.56,
+      "ins_paid": 112.86,
+      "adjustment": null,
+      "payments": 17.7,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 132.09,
+      "ins_paid": 117.53,
+      "adjustment": null,
+      "payments": 14.56,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 361.74,
+      "ins_paid": 263.33,
+      "adjustment": null,
+      "payments": 98.41,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/12/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 184.46,
+      "ins_paid": 139.97,
+      "adjustment": null,
+      "payments": 44.49,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/13/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 47.45,
+      "ins_paid": 35.17,
+      "adjustment": null,
+      "payments": 12.28,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/14/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 118.0,
+      "ins_paid": 95.37,
+      "adjustment": null,
+      "payments": 22.63,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/14/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [
+        "OptumRx"
+      ],
+      "total_charges": 347.14,
+      "ins_paid": 222.16,
+      "adjustment": null,
+      "payments": 124.98,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/15/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 474.93,
+      "ins_paid": 400.15,
+      "adjustment": null,
+      "payments": 74.78,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/16/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [
+        "PBM Program"
+      ],
+      "total_charges": 135.99,
+      "ins_paid": 96.53,
+      "adjustment": null,
+      "payments": 39.46,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/16/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 270.17,
+      "ins_paid": 172.75,
+      "adjustment": null,
+      "payments": 97.42,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/17/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 284.98,
+      "ins_paid": 252.7,
+      "adjustment": null,
+      "payments": 32.28,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/18/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [
+        "PBM Program"
+      ],
+      "total_charges": 219.13,
+      "ins_paid": 190.1,
+      "adjustment": null,
+      "payments": 29.03,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/18/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 49.4,
+      "ins_paid": 29.98,
+      "adjustment": null,
+      "payments": 19.42,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/19/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 21.5,
+      "ins_paid": 19.13,
+      "adjustment": null,
+      "payments": 2.37,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/19/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [
+        "Lonestar",
+        "Cigna"
+      ],
+      "third_parties": [],
+      "total_charges": 310.51,
+      "ins_paid": 259.81,
+      "adjustment": null,
+      "payments": 50.7,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/19/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [
+        "Healthspring"
+      ],
+      "third_parties": [],
+      "total_charges": 22.88,
+      "ins_paid": 17.63,
+      "adjustment": null,
+      "payments": 5.25,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/20/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 75.3,
+      "ins_paid": 50.19,
+      "adjustment": null,
+      "payments": 25.11,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/20/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 85.37,
+      "ins_paid": 64.18,
+      "adjustment": null,
+      "payments": 21.19,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/21/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 245.95,
+      "ins_paid": 215.86,
+      "adjustment": null,
+      "payments": 30.09,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/22/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts",
+        "Omnisys"
+      ],
+      "total_charges": 55.11,
+      "ins_paid": 39.84,
+      "adjustment": null,
+      "payments": 15.27,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/22/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 295.51,
+      "ins_paid": 218.18,
+      "adjustment": null,
+      "payments": 77.33,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/23/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 153.93,
+      "ins_paid": 110.19,
+      "adjustment": null,
+      "payments": 43.74,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/23/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 38.08,
+      "ins_paid": 30.03,
+      "adjustment": null,
+      "payments": 8.05,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/23/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 442.54,
+      "ins_paid": 279.41,
+      "adjustment": null,
+      "payments": 163.13,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/23/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 351.83,
+      "ins_paid": 214.21,
+      "adjustment": null,
+      "payments": 137.62,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/24/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "Discount Program"
+      ],
+      "total_charges": 115.44,
+      "ins_paid": 71.16,
+      "adjustment": null,
+      "payments": 44.28,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/24/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 222.31,
+      "ins_paid": 182.83,
+      "adjustment": null,
+      "payments": 39.48,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/24/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 446.12,
+      "ins_paid": 331.68,
+      "adjustment": null,
+      "payments": 114.44,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/24/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "Third Party Program"
+      ],
+      "total_charges": 180.3,
+      "ins_paid": 125.28,
+      "adjustment": null,
+      "payments": 55.02,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/25/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 359.71,
+      "ins_paid": 289.49,
+      "adjustment": null,
+      "payments": 70.22,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/26/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 283.98,
+      "ins_paid": 207.3,
+      "adjustment": null,
+      "payments": 76.68,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/27/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "Third Party"
+      ],
+      "total_charges": 178.93,
+      "ins_paid": 113.85,
+      "adjustment": null,
+      "payments": 65.08,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/28/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "Program"
+      ],
+      "total_charges": 143.67,
+      "ins_paid": 113.35,
+      "adjustment": null,
+      "payments": 30.32,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/28/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 59.3,
+      "ins_paid": 52.31,
+      "adjustment": null,
+      "payments": 6.99,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/28/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARY",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 316.85,
+      "ins_paid": 260.78,
+      "adjustment": null,
+      "payments": 56.07,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/29/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 226.19,
+      "ins_paid": 194.43,
+      "adjustment": null,
+      "payments": 31.76,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/29/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [
+        "Benefit Plan",
+        "Discount"
+      ],
+      "total_charges": 346.89,
+      "ins_paid": 238.24,
+      "adjustment": null,
+      "payments": 108.65,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "11/29/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARY",
+      "insurers": [],
+      "third_parties": [
+        "Discount Program"
+      ],
+      "total_charges": 462.33,
+      "ins_paid": 372.81,
+      "adjustment": null,
+      "payments": 89.52,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/01/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx"
+      ],
+      "total_charges": 151.0,
+      "ins_paid": 124.63,
+      "adjustment": null,
+      "payments": 26.37,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/01/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 35.65,
+      "ins_paid": 29.91,
+      "adjustment": null,
+      "payments": 5.74,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/01/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 327.62,
+      "ins_paid": 245.81,
+      "adjustment": null,
+      "payments": 81.81,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/02/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 353.1,
+      "ins_paid": 278.71,
+      "adjustment": null,
+      "payments": 74.39,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/02/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 237.62,
+      "ins_paid": 161.63,
+      "adjustment": null,
+      "payments": 75.99,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/02/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 266.05,
+      "ins_paid": 181.46,
+      "adjustment": null,
+      "payments": 84.59,
+      "balance": null,
+      "page": "98"
+    },
+    {
+      "treatment_date": "12/03/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 175.27,
+      "ins_paid": 130.54,
+      "adjustment": null,
+      "payments": 44.73,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/03/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [
+        "Cigna",
+        "Healthspring"
+      ],
+      "third_parties": [],
+      "total_charges": 336.38,
+      "ins_paid": 203.63,
+      "adjustment": null,
+      "payments": 132.75,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/03/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "CHRISTOPHER",
+      "insurers": [],
+      "third_parties": [
+        "Express Scripts"
+      ],
+      "total_charges": 254.22,
+      "ins_paid": 157.87,
+      "adjustment": null,
+      "payments": 96.35,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/04/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 486.6,
+      "ins_paid": 307.55,
+      "adjustment": null,
+      "payments": 179.05,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/05/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 310.43,
+      "ins_paid": 204.34,
+      "adjustment": null,
+      "payments": 106.09,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/06/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 267.93,
+      "ins_paid": 199.48,
+      "adjustment": null,
+      "payments": 68.45,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/08/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "WILLIAM",
+      "insurers": [],
+      "third_parties": [
+        "Allwin"
+      ],
+      "total_charges": 393.86,
+      "ins_paid": 248.63,
+      "adjustment": null,
+      "payments": 145.23,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/08/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 386.28,
+      "ins_paid": 253.92,
+      "adjustment": null,
+      "payments": 132.36,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/09/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 73.28,
+      "ins_paid": 61.93,
+      "adjustment": null,
+      "payments": 11.35,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/09/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "DEBORAH",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 82.33,
+      "ins_paid": 50.08,
+      "adjustment": null,
+      "payments": 32.25,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/10/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "MARY",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 161.23,
+      "ins_paid": 102.74,
+      "adjustment": null,
+      "payments": 58.49,
+      "balance": null,
+      "page": "99"
+    },
+    {
+      "treatment_date": "12/10/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "HURST",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 250.86,
+      "ins_paid": 224.16,
+      "adjustment": null,
+      "payments": 26.7,
+      "balance": null,
+      "page": "99"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "Insurer payment and adjustment values are not available on the pharmacy record; unable to attribute the copay vs. insurance vs. adjustment facts, only copay vs. charges.",
+      "page": "3",
+      "severity": "medium"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "third_parties"
+      ],
+      "reason": "Third-party label 'Allwin' included as third party payer, but its exact classification as PBM or benefit program can't be confirmed.",
+      "page": "3",
+      "severity": "low"
+    },
+    {
+      "row": 15,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 16,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 17,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 18,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 19,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 20,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 21,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 22,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 23,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurance paid or adjustment columns; only charge and copay/patient payment available.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "payments",
+        "balance"
+      ],
+      "reason": "Column mapping for insurance paid, patient payments, and balance is ambiguous as the source only provides total charges and copay, sometimes also listing third party or insurer names. Ambiguity over what part of the payment is insurer vs. third party vs. patient paid.",
+      "page": "98-99",
+      "severity": "medium"
+    }
+  ]
+}

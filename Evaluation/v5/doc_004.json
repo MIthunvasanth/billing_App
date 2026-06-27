@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_004",
+  "meta": {
+    "doc_id": "doc_004",
+    "num_pages": 17,
+    "duration_seconds": 7.69,
+    "token_usage": {
+      "input": 32480,
+      "output": 349,
+      "total": 32829
+    },
+    "cost_usd": 0.067752
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy Expense Report",
+      "provider": "Mason Care Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx",
+        "Medco Health",
+        "ScriptCycle",
+        "Paramount Lonestar",
+        "Blink Health",
+        "Express Scripts",
+        "Caremark",
+        "My Rx Card",
+        "Argus",
+        "McKesson Health PBM",
+        "OptumRx",
+        "Omnisys Immunizations",
+        "Cigna Healthspring",
+        "Allwin",
+        "SFS"
+      ],
+      "total_charges": 123717.2,
+      "ins_paid": 36477.46,
+      "adjustment": null,
+      "payments": 31463.51,
+      "balance": null,
+      "page": "3-17"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Adjustment and balance fields are not shown or directly computable from the report data; only subtotals for payments by patient, insurance, and third parties are provided.",
+      "page": "17",
+      "severity": "medium"
+    }
+  ]
+}

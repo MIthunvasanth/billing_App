@@ -1,0 +1,104 @@
+{
+  "doc_id": "doc_010",
+  "meta": {
+    "doc_id": "doc_010",
+    "num_pages": 151,
+    "duration_seconds": 23.05,
+    "token_usage": {
+      "input": 255143,
+      "output": 1013,
+      "total": 256156
+    },
+    "cost_usd": 0.51839
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 12/31/2017",
+      "cpt_codes": [],
+      "description": "Pharmacy fills for Penny Lam from Juarez Community Pharmacy",
+      "provider": "Juarez Community Pharmacy",
+      "insurers": [
+        "Paramount",
+        "SFS",
+        "Blink Health",
+        "My Rx Card",
+        "ScriptCycle",
+        "GoodRx",
+        "Medco Health",
+        "OptumRx",
+        "Cigna",
+        "Express Scripts",
+        "Caremark",
+        "Allwin",
+        "Omnisys",
+        "McKesson Health"
+      ],
+      "third_parties": [
+        "Lonestar",
+        "PBM",
+        "Immunizations"
+      ],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "3-71"
+    },
+    {
+      "treatment_date": "04/24/2021 - 08/24/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy dispenses for patient: all prescriptions and pharmaceuticals billed.",
+      "provider": "Multiple Pharmacies (incl. Caremark, OptumRx, Allwin, ScriptCycle, Cigna Healthspring, Argus, SFS, Medco Health, My Rx Card, Omnisys Immunizations, Blink Health, McKesson Health PBM, GoodRx, Paramount Lonestar, Express Scripts)",
+      "insurers": [],
+      "third_parties": [
+        "Caremark",
+        "OptumRx",
+        "Allwin (USFLU)",
+        "ScriptCycle",
+        "Cigna Healthspring",
+        "Argus",
+        "SFS",
+        "Medco Health",
+        "My Rx Card",
+        "Omnisys Immunizations",
+        "Blink Health",
+        "McKesson Health PBM",
+        "GoodRx",
+        "Paramount Lonestar",
+        "Express Scripts"
+      ],
+      "total_charges": 1247488.96,
+      "ins_paid": 373214.66,
+      "adjustment": 0.0,
+      "payments": 311314.74,
+      "balance": null,
+      "page": "131"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "No summary or aggregation of total charges or payment fields is provided for the pharmacy fills over the date range. Only line-item fills present; patient-level or period-total amounts are not shown. Cannot extract financial fields at summary or range level.",
+      "page": "3-71",
+      "severity": "high"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "balance",
+        "description"
+      ],
+      "reason": "The summary does not provide an explicit patient balance after insurance and patient/third-party payments; original billing ledgers would be needed for per-claim responsibility, here only total patient, insurer, and third-party paid amounts are tallied. Description field is generalized due to the document type.",
+      "page": "131",
+      "severity": "medium"
+    }
+  ]
+}

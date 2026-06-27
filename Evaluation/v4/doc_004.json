@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_004",
+  "meta": {
+    "doc_id": "doc_004",
+    "num_pages": 17,
+    "duration_seconds": 6.27,
+    "token_usage": {
+      "input": 32437,
+      "output": 375,
+      "total": 32812
+    },
+    "cost_usd": 0.067874
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy Expense Report",
+      "provider": "Mason Care Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx",
+        "Medco Health",
+        "ScriptCycle",
+        "Paramount Lonestar",
+        "Blink Health",
+        "Express Scripts",
+        "Caremark",
+        "My Rx Card",
+        "Argus",
+        "McKesson Health PBM",
+        "OptumRx",
+        "Omnisys Immunizations",
+        "Allwin",
+        "Cigna Healthspring",
+        "SFS"
+      ],
+      "total_charges": 123717.2,
+      "ins_paid": 36477.46,
+      "adjustment": null,
+      "payments": 31463.51,
+      "balance": null,
+      "page": "3-17"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "balance",
+        "adjustment"
+      ],
+      "reason": "Neither the final patient responsibility (balance) nor adjustments are shown directly; only patient paid, insurer paid, and third party paid are clearly itemized. Grand Total matches the sum of amounts paid, but end-of-period balance and any write-off or adjustment value are not explicit. Manual review needed.",
+      "page": "17",
+      "severity": "medium"
+    }
+  ]
+}

@@ -1,0 +1,3478 @@
+{
+  "doc_id": "doc_011",
+  "meta": {
+    "doc_id": "doc_011",
+    "num_pages": 194,
+    "duration_seconds": 32.0,
+    "token_usage": {
+      "input": 320591,
+      "output": 20631,
+      "total": 341222
+    },
+    "cost_usd": 0.80623
+  },
+  "records": [
+    {
+      "treatment_date": "01/25/2023 \u2013 01/26/2023",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 263355.25,
+      "ins_paid": 127031.72,
+      "adjustment": 119521.47,
+      "payments": 16802.06,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "09/13/2023 \u2013 09/19/2023",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 387540.58,
+      "ins_paid": 186933.6,
+      "adjustment": 175881.89,
+      "payments": 24725.09,
+      "balance": 0.0,
+      "page": "3-5"
+    },
+    {
+      "treatment_date": "02/27/2023 \u2013 03/05/2023",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 285745.83,
+      "ins_paid": 137832.01,
+      "adjustment": 129683.24,
+      "payments": 18230.58,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "07/21/2017 \u2013 07/28/2017",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 322417.1,
+      "ins_paid": 155520.72,
+      "adjustment": 146326.17,
+      "payments": 20570.21,
+      "balance": 0.0,
+      "page": "5-6"
+    },
+    {
+      "treatment_date": "04/18/2023 \u2013 04/22/2023",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 217034.83,
+      "ins_paid": 104688.66,
+      "adjustment": 98499.35,
+      "payments": 13846.82,
+      "balance": 0.0,
+      "page": "6-7"
+    },
+    {
+      "treatment_date": "08/08/2022 \u2013 08/11/2022",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 318322.59,
+      "ins_paid": 153545.7,
+      "adjustment": 144467.91,
+      "payments": 20308.98,
+      "balance": 0.0,
+      "page": "7-8"
+    },
+    {
+      "treatment_date": "10/12/2020 \u2013 10/13/2020",
+      "cpt_codes": [],
+      "description": "Hip fracture, right femur",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 402043.68,
+      "ins_paid": 193929.3,
+      "adjustment": 182463.99,
+      "payments": 25650.39,
+      "balance": 0.0,
+      "page": "8-9"
+    },
+    {
+      "treatment_date": "05/07/2022 \u2013 05/08/2022",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 300204.5,
+      "ins_paid": 144806.28,
+      "adjustment": 136245.17,
+      "payments": 19153.05,
+      "balance": 0.0,
+      "page": "9-10"
+    },
+    {
+      "treatment_date": "07/16/2017 \u2013 07/17/2017",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 306387.48,
+      "ins_paid": 147788.69,
+      "adjustment": 139051.27,
+      "payments": 19547.52,
+      "balance": 0.0,
+      "page": "10-11"
+    },
+    {
+      "treatment_date": "11/02/2019 \u2013 11/06/2019",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 211387.74,
+      "ins_paid": 101964.73,
+      "adjustment": 95936.47,
+      "payments": 13486.54,
+      "balance": 0.0,
+      "page": "11-12"
+    },
+    {
+      "treatment_date": "10/03/2020 \u2013 10/06/2020",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "South Patrickmouth General Hospital",
+      "insurers": [
+        "Medicaid"
+      ],
+      "third_parties": [],
+      "total_charges": 436006.07,
+      "ins_paid": 210311.35,
+      "adjustment": 197877.53,
+      "payments": 27817.19,
+      "balance": 0.0,
+      "page": "12-13"
+    },
+    {
+      "treatment_date": "05/09/2022 - 05/10/2022",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 273789.9,
+      "ins_paid": 132064.96,
+      "adjustment": 124257.14,
+      "payments": 17467.8,
+      "balance": 0.0,
+      "page": "14"
+    },
+    {
+      "treatment_date": "01/17/2018 - 01/24/2018",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 253564.77,
+      "ins_paid": 122309.19,
+      "adjustment": 115078.15,
+      "payments": 16177.43,
+      "balance": 0.0,
+      "page": "14-15"
+    },
+    {
+      "treatment_date": "12/29/2019 - 01/05/2020",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 337471.58,
+      "ins_paid": 162782.38,
+      "adjustment": 153158.51,
+      "payments": 21530.69,
+      "balance": 0.0,
+      "page": "15-16"
+    },
+    {
+      "treatment_date": "05/28/2024 - 06/01/2024",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 284379.34,
+      "ins_paid": 137172.87,
+      "adjustment": 129063.07,
+      "payments": 18143.4,
+      "balance": 0.0,
+      "page": "16-17"
+    },
+    {
+      "treatment_date": "06/16/2021 - 06/23/2021",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 359351.57,
+      "ins_paid": 173336.38,
+      "adjustment": 163088.56,
+      "payments": 22926.63,
+      "balance": 0.0,
+      "page": "17-18"
+    },
+    {
+      "treatment_date": "02/03/2023 - 02/09/2023",
+      "cpt_codes": [],
+      "description": "Hip fracture, right femur",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 226137.68,
+      "ins_paid": 109079.49,
+      "adjustment": 102630.61,
+      "payments": 14427.58,
+      "balance": 0.0,
+      "page": "18-19"
+    },
+    {
+      "treatment_date": "05/04/2021 - 05/08/2021",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 248883.1,
+      "ins_paid": 120050.95,
+      "adjustment": 112953.41,
+      "payments": 15878.74,
+      "balance": 0.0,
+      "page": "19-20"
+    },
+    {
+      "treatment_date": "09/21/2019 - 09/26/2019",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 394934.82,
+      "ins_paid": 190500.28,
+      "adjustment": 179237.7,
+      "payments": 25196.84,
+      "balance": 0.0,
+      "page": "20-21"
+    },
+    {
+      "treatment_date": "07/06/2018 - 07/07/2018",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 280638.21,
+      "ins_paid": 135368.3,
+      "adjustment": 127365.19,
+      "payments": 17904.72,
+      "balance": 0.0,
+      "page": "21-22"
+    },
+    {
+      "treatment_date": "09/15/2022 - 09/22/2022",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 317206.5,
+      "ins_paid": 153007.34,
+      "adjustment": 143961.39,
+      "payments": 20237.77,
+      "balance": 0.0,
+      "page": "22-23"
+    },
+    {
+      "treatment_date": "10/28/2021 - 11/03/2021",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 264366.17,
+      "ins_paid": 127519.34,
+      "adjustment": 119980.27,
+      "payments": 16866.56,
+      "balance": 0.0,
+      "page": "23"
+    },
+    {
+      "treatment_date": "07/14/2024 - 07/16/2024",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 196890.89,
+      "ins_paid": 94972.05,
+      "adjustment": 89357.2,
+      "payments": 12561.64,
+      "balance": 0.0,
+      "page": "23-24"
+    },
+    {
+      "treatment_date": "04/16/2021 - 04/23/2021",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 351524.69,
+      "ins_paid": 169561.02,
+      "adjustment": 159536.39,
+      "payments": 22427.28,
+      "balance": 0.0,
+      "page": "25-26"
+    },
+    {
+      "treatment_date": "08/21/2022 - 08/28/2022",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 403190.4,
+      "ins_paid": 194482.43,
+      "adjustment": 182984.42,
+      "payments": 25723.55,
+      "balance": 0.0,
+      "page": "26-27"
+    },
+    {
+      "treatment_date": "01/26/2023 - 02/02/2023",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 426635.92,
+      "ins_paid": 205791.58,
+      "adjustment": 193624.97,
+      "payments": 27219.37,
+      "balance": 0.0,
+      "page": "27-28"
+    },
+    {
+      "treatment_date": "03/12/2018 - 03/15/2018",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 256887.66,
+      "ins_paid": 123912.02,
+      "adjustment": 116586.21,
+      "payments": 16389.43,
+      "balance": 0.0,
+      "page": "28-29"
+    },
+    {
+      "treatment_date": "11/09/2020 - 11/15/2020",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 252985.21,
+      "ins_paid": 122029.64,
+      "adjustment": 114815.11,
+      "payments": 16140.46,
+      "balance": 0.0,
+      "page": "29-30"
+    },
+    {
+      "treatment_date": "12/13/2022 - 12/16/2022",
+      "cpt_codes": [],
+      "description": "Hip fracture, right femur",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 322903.58,
+      "ins_paid": 155755.38,
+      "adjustment": 146546.95,
+      "payments": 20601.25,
+      "balance": 0.0,
+      "page": "30-31"
+    },
+    {
+      "treatment_date": "03/22/2023 - 03/23/2023",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 349239.64,
+      "ins_paid": 168458.81,
+      "adjustment": 158499.34,
+      "payments": 22281.49,
+      "balance": 0.0,
+      "page": "31-32"
+    },
+    {
+      "treatment_date": "10/08/2021 - 10/14/2021",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 244753.44,
+      "ins_paid": 118058.97,
+      "adjustment": 111079.2,
+      "payments": 15615.27,
+      "balance": 0.0,
+      "page": "32"
+    },
+    {
+      "treatment_date": "10/24/2024 - 10/28/2024",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 394468.96,
+      "ins_paid": 190275.57,
+      "adjustment": 179026.27,
+      "payments": 25167.12,
+      "balance": 0.0,
+      "page": "32-33"
+    },
+    {
+      "treatment_date": "10/10/2024 - 10/11/2024",
+      "cpt_codes": [],
+      "description": "Acute kidney injury",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 370798.17,
+      "ins_paid": 178857.75,
+      "adjustment": 168283.5,
+      "payments": 23656.92,
+      "balance": 0.0,
+      "page": "33-34"
+    },
+    {
+      "treatment_date": "01/30/2019 - 02/03/2019",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 282371.21,
+      "ins_paid": 136204.23,
+      "adjustment": 128151.7,
+      "payments": 18015.28,
+      "balance": 0.0,
+      "page": "34-35"
+    },
+    {
+      "treatment_date": "05/11/2017 - 05/14/2017",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 310590.48,
+      "ins_paid": 149816.04,
+      "adjustment": 140958.77,
+      "payments": 19815.67,
+      "balance": 0.0,
+      "page": "36"
+    },
+    {
+      "treatment_date": "03/20/2021 - 03/24/2021",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 268491.77,
+      "ins_paid": 129509.36,
+      "adjustment": 121852.64,
+      "payments": 17129.77,
+      "balance": 0.0,
+      "page": "36-37"
+    },
+    {
+      "treatment_date": "05/17/2020 - 05/20/2020",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 406870.26,
+      "ins_paid": 196257.44,
+      "adjustment": 184654.5,
+      "payments": 25958.32,
+      "balance": 0.0,
+      "page": "37-38"
+    },
+    {
+      "treatment_date": "12/19/2022 - 12/21/2022",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 336288.51,
+      "ins_paid": 162211.71,
+      "adjustment": 152621.59,
+      "payments": 21455.21,
+      "balance": 0.0,
+      "page": "38-39"
+    },
+    {
+      "treatment_date": "08/06/2020 - 08/07/2020",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 298129.97,
+      "ins_paid": 143805.61,
+      "adjustment": 135303.67,
+      "payments": 19020.69,
+      "balance": 0.0,
+      "page": "39-40"
+    },
+    {
+      "treatment_date": "04/09/2017 - 04/13/2017",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 303148.68,
+      "ins_paid": 146226.43,
+      "adjustment": 137581.36,
+      "payments": 19340.89,
+      "balance": 0.0,
+      "page": "40-41"
+    },
+    {
+      "treatment_date": "07/25/2023 - 07/30/2023",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 371566.55,
+      "ins_paid": 179228.39,
+      "adjustment": 168632.21,
+      "payments": 23705.95,
+      "balance": 0.0,
+      "page": "41-42"
+    },
+    {
+      "treatment_date": "07/15/2019 - 07/18/2019",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 239184.28,
+      "ins_paid": 115372.64,
+      "adjustment": 108551.68,
+      "payments": 15259.96,
+      "balance": 0.0,
+      "page": "42-43"
+    },
+    {
+      "treatment_date": "07/28/2022 - 08/04/2022",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 190091.77,
+      "ins_paid": 91692.43,
+      "adjustment": 86271.49,
+      "payments": 12127.85,
+      "balance": 0.0,
+      "page": "43-44"
+    },
+    {
+      "treatment_date": "12/25/2019 - 12/27/2019",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 294656.46,
+      "ins_paid": 142130.13,
+      "adjustment": 133727.25,
+      "payments": 18799.08,
+      "balance": 0.0,
+      "page": "44-45"
+    },
+    {
+      "treatment_date": "01/01/2019 - 01/08/2019",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 211472.52,
+      "ins_paid": 102005.63,
+      "adjustment": 95974.94,
+      "payments": 13491.95,
+      "balance": 0.0,
+      "page": "45-46"
+    },
+    {
+      "treatment_date": "10/11/2023 - 10/14/2023",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 281104.86,
+      "ins_paid": 135593.4,
+      "adjustment": 127576.97,
+      "payments": 17934.49,
+      "balance": 0.0,
+      "page": "46"
+    },
+    {
+      "treatment_date": "09/10/2017 - 09/14/2017",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 220139.35,
+      "ins_paid": 106186.15,
+      "adjustment": 99908.31,
+      "payments": 14044.89,
+      "balance": 0.0,
+      "page": "47-48"
+    },
+    {
+      "treatment_date": "07/08/2022 - 07/10/2022",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 303157.11,
+      "ins_paid": 146230.49,
+      "adjustment": 137585.2,
+      "payments": 19341.42,
+      "balance": 0.0,
+      "page": "48-49"
+    },
+    {
+      "treatment_date": "08/08/2022 - 08/12/2022",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 251492.85,
+      "ins_paid": 121309.78,
+      "adjustment": 114137.83,
+      "payments": 16045.24,
+      "balance": 0.0,
+      "page": "49-50"
+    },
+    {
+      "treatment_date": "08/05/2023 - 08/11/2023",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 388757.26,
+      "ins_paid": 187520.48,
+      "adjustment": 176434.07,
+      "payments": 24802.71,
+      "balance": 0.0,
+      "page": "50-51"
+    },
+    {
+      "treatment_date": "02/23/2020 - 02/28/2020",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 208128.86,
+      "ins_paid": 100392.78,
+      "adjustment": 94457.46,
+      "payments": 13278.62,
+      "balance": 0.0,
+      "page": "51-52"
+    },
+    {
+      "treatment_date": "03/12/2019 - 03/14/2019",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 411876.7,
+      "ins_paid": 198672.34,
+      "adjustment": 186926.63,
+      "payments": 26277.73,
+      "balance": 0.0,
+      "page": "52-53"
+    },
+    {
+      "treatment_date": "12/20/2021 - 12/27/2021",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 321766.43,
+      "ins_paid": 155206.86,
+      "adjustment": 146030.87,
+      "payments": 20528.7,
+      "balance": 0.0,
+      "page": "53-54"
+    },
+    {
+      "treatment_date": "10/15/2020 - 10/16/2020",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 282145.91,
+      "ins_paid": 136095.56,
+      "adjustment": 128049.44,
+      "payments": 18000.91,
+      "balance": 0.0,
+      "page": "54-55"
+    },
+    {
+      "treatment_date": "12/10/2021 - 12/12/2021",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 332446.67,
+      "ins_paid": 160358.57,
+      "adjustment": 150878.0,
+      "payments": 21210.1,
+      "balance": 0.0,
+      "page": "55-56"
+    },
+    {
+      "treatment_date": "07/11/2019 - 07/12/2019",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 407296.42,
+      "ins_paid": 196463.0,
+      "adjustment": 184847.91,
+      "payments": 25985.51,
+      "balance": 0.0,
+      "page": "56-57"
+    },
+    {
+      "treatment_date": "01/27/2021 - 02/02/2021",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 331797.33,
+      "ins_paid": 160045.35,
+      "adjustment": 150583.31,
+      "payments": 21168.67,
+      "balance": 0.0,
+      "page": "57-58"
+    },
+    {
+      "treatment_date": "10/15/2022 - 10/16/2022",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 310963.97,
+      "ins_paid": 149996.2,
+      "adjustment": 141128.27,
+      "payments": 19839.5,
+      "balance": 0.0,
+      "page": "59"
+    },
+    {
+      "treatment_date": "05/08/2017 - 05/10/2017",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 393601.99,
+      "ins_paid": 189857.37,
+      "adjustment": 178632.81,
+      "payments": 25111.81,
+      "balance": 0.0,
+      "page": "59-60"
+    },
+    {
+      "treatment_date": "01/26/2022 - 01/31/2022",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 343860.84,
+      "ins_paid": 165864.29,
+      "adjustment": 156058.23,
+      "payments": 21938.32,
+      "balance": 0.0,
+      "page": "60-61"
+    },
+    {
+      "treatment_date": "05/01/2024 - 05/02/2024",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 349773.54,
+      "ins_paid": 168716.34,
+      "adjustment": 158741.65,
+      "payments": 22315.55,
+      "balance": 0.0,
+      "page": "61-62"
+    },
+    {
+      "treatment_date": "04/07/2017 - 04/11/2017",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 263607.14,
+      "ins_paid": 127153.22,
+      "adjustment": 119635.78,
+      "payments": 16818.14,
+      "balance": 0.0,
+      "page": "62-63"
+    },
+    {
+      "treatment_date": "03/27/2024 - 04/03/2024",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 321676.6,
+      "ins_paid": 155163.53,
+      "adjustment": 145990.1,
+      "payments": 20522.97,
+      "balance": 0.0,
+      "page": "63-64"
+    },
+    {
+      "treatment_date": "10/03/2019 - 10/08/2019",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 209060.97,
+      "ins_paid": 100842.39,
+      "adjustment": 94880.49,
+      "payments": 13338.09,
+      "balance": 0.0,
+      "page": "64-65"
+    },
+    {
+      "treatment_date": "05/05/2024 - 05/12/2024",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 389096.76,
+      "ins_paid": 187684.24,
+      "adjustment": 176588.15,
+      "payments": 24824.37,
+      "balance": 0.0,
+      "page": "65-66"
+    },
+    {
+      "treatment_date": "03/30/2021 - 04/01/2021",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 362095.41,
+      "ins_paid": 174659.9,
+      "adjustment": 164333.82,
+      "payments": 23101.69,
+      "balance": 0.0,
+      "page": "66-67"
+    },
+    {
+      "treatment_date": "02/03/2024 - 02/04/2024",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 343185.37,
+      "ins_paid": 165538.48,
+      "adjustment": 155751.66,
+      "payments": 21895.23,
+      "balance": 0.0,
+      "page": "67-68"
+    },
+    {
+      "treatment_date": "10/14/2017 - 10/20/2017",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 175042.86,
+      "ins_paid": 84433.46,
+      "adjustment": 79441.67,
+      "payments": 11167.73,
+      "balance": 0.0,
+      "page": "68-69"
+    },
+    {
+      "treatment_date": "08/14/2023 \u2013 08/21/2023",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 338905.9,
+      "ins_paid": 163474.24,
+      "adjustment": 153809.46,
+      "payments": 21622.2,
+      "balance": 0.0,
+      "page": "70"
+    },
+    {
+      "treatment_date": "09/29/2023 \u2013 10/06/2023",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 367146.88,
+      "ins_paid": 177096.52,
+      "adjustment": 166626.39,
+      "payments": 23423.97,
+      "balance": 0.0,
+      "page": "70-71"
+    },
+    {
+      "treatment_date": "03/10/2019 \u2013 03/15/2019",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 385904.85,
+      "ins_paid": 186144.59,
+      "adjustment": 175139.53,
+      "payments": 24620.73,
+      "balance": 0.0,
+      "page": "71-72"
+    },
+    {
+      "treatment_date": "11/01/2020 \u2013 11/03/2020",
+      "cpt_codes": [],
+      "description": "Hip fracture, right femur",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 204720.12,
+      "ins_paid": 98748.55,
+      "adjustment": 92910.43,
+      "payments": 13061.14,
+      "balance": 0.0,
+      "page": "72-73"
+    },
+    {
+      "treatment_date": "09/22/2018 \u2013 09/24/2018",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 377828.91,
+      "ins_paid": 182249.09,
+      "adjustment": 171474.34,
+      "payments": 24105.48,
+      "balance": 0.0,
+      "page": "73-74"
+    },
+    {
+      "treatment_date": "02/26/2021 \u2013 03/05/2021",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 295722.98,
+      "ins_paid": 142644.58,
+      "adjustment": 134211.27,
+      "payments": 18867.13,
+      "balance": 0.0,
+      "page": "74-75"
+    },
+    {
+      "treatment_date": "06/11/2021 \u2013 06/17/2021",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 323144.9,
+      "ins_paid": 155871.78,
+      "adjustment": 146656.48,
+      "payments": 20616.64,
+      "balance": 0.0,
+      "page": "75-76"
+    },
+    {
+      "treatment_date": "04/05/2018 \u2013 04/07/2018",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 340916.04,
+      "ins_paid": 164443.84,
+      "adjustment": 154721.76,
+      "payments": 21750.44,
+      "balance": 0.0,
+      "page": "76-77"
+    },
+    {
+      "treatment_date": "12/17/2018 \u2013 12/23/2018",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 310303.21,
+      "ins_paid": 149677.48,
+      "adjustment": 140828.39,
+      "payments": 19797.34,
+      "balance": 0.0,
+      "page": "77-78"
+    },
+    {
+      "treatment_date": "03/12/2019 \u2013 03/15/2019",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 338480.27,
+      "ins_paid": 163268.93,
+      "adjustment": 153616.3,
+      "payments": 21595.04,
+      "balance": 0.0,
+      "page": "78-79"
+    },
+    {
+      "treatment_date": "06/18/2020 \u2013 06/20/2020",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 322769.48,
+      "ins_paid": 155690.69,
+      "adjustment": 146486.1,
+      "payments": 20592.69,
+      "balance": 0.0,
+      "page": "79-80"
+    },
+    {
+      "treatment_date": "03/13/2024 \u2013 03/15/2024",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "80"
+    },
+    {
+      "treatment_date": "03/13/2024 - 03/15/2024",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 339954.73,
+      "ins_paid": 163980.15,
+      "adjustment": 154285.47,
+      "payments": 21689.11,
+      "balance": 0.0,
+      "page": "81"
+    },
+    {
+      "treatment_date": "06/20/2020 - 06/27/2020",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 327266.64,
+      "ins_paid": 157859.94,
+      "adjustment": 148527.09,
+      "payments": 20879.61,
+      "balance": 0.0,
+      "page": "81-82"
+    },
+    {
+      "treatment_date": "01/12/2017 - 01/13/2017",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 340931.24,
+      "ins_paid": 164451.18,
+      "adjustment": 154728.65,
+      "payments": 21751.41,
+      "balance": 0.0,
+      "page": "82-83"
+    },
+    {
+      "treatment_date": "06/17/2020 - 06/21/2020",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 486434.34,
+      "ins_paid": 234635.87,
+      "adjustment": 220763.96,
+      "payments": 31034.51,
+      "balance": 0.0,
+      "page": "83-84"
+    },
+    {
+      "treatment_date": "02/24/2019 - 02/28/2019",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 228996.57,
+      "ins_paid": 110458.51,
+      "adjustment": 103928.08,
+      "payments": 14609.98,
+      "balance": 0.0,
+      "page": "84-85"
+    },
+    {
+      "treatment_date": "02/06/2017 - 02/11/2017",
+      "cpt_codes": [],
+      "description": "Acute kidney injury",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 292085.1,
+      "ins_paid": 140889.81,
+      "adjustment": 132560.26,
+      "payments": 18635.03,
+      "balance": 0.0,
+      "page": "85-86"
+    },
+    {
+      "treatment_date": "11/26/2021 - 11/28/2021",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 421394.55,
+      "ins_paid": 203263.36,
+      "adjustment": 191246.22,
+      "payments": 26884.97,
+      "balance": 0.0,
+      "page": "86-87"
+    },
+    {
+      "treatment_date": "12/07/2021 - 12/14/2021",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 338599.48,
+      "ins_paid": 163326.43,
+      "adjustment": 153670.4,
+      "payments": 21602.65,
+      "balance": 0.0,
+      "page": "87-88"
+    },
+    {
+      "treatment_date": "12/16/2024 - 12/17/2024",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 223300.1,
+      "ins_paid": 107710.76,
+      "adjustment": 101342.79,
+      "payments": 14246.55,
+      "balance": 0.0,
+      "page": "88-89"
+    },
+    {
+      "treatment_date": "09/16/2022 - 09/20/2022",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 180122.04,
+      "ins_paid": 86883.45,
+      "adjustment": 81746.8,
+      "payments": 11491.79,
+      "balance": 0.0,
+      "page": "89-90"
+    },
+    {
+      "treatment_date": "11/20/2022 - 11/21/2022",
+      "cpt_codes": [],
+      "description": "Hip fracture, right femur",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 387778.03,
+      "ins_paid": 187048.14,
+      "adjustment": 175989.65,
+      "payments": 24740.24,
+      "balance": 0.0,
+      "page": "90-91"
+    },
+    {
+      "treatment_date": "09/16/2020 - 09/22/2020",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 206841.74,
+      "ins_paid": 99771.93,
+      "adjustment": 93873.31,
+      "payments": 13196.5,
+      "balance": 0.0,
+      "page": "91"
+    },
+    {
+      "treatment_date": "11/28/2023 - 11/30/2023",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 259812.64,
+      "ins_paid": 125322.91,
+      "adjustment": 117913.68,
+      "payments": 16576.05,
+      "balance": 0.0,
+      "page": "91"
+    },
+    {
+      "treatment_date": "09/03/2023 - 09/06/2023",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 201081.03,
+      "ins_paid": 96993.2,
+      "adjustment": 91258.86,
+      "payments": 12828.97,
+      "balance": 0.0,
+      "page": "92-93"
+    },
+    {
+      "treatment_date": "09/25/2024 - 10/01/2024",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 230465.58,
+      "ins_paid": 111167.1,
+      "adjustment": 104594.78,
+      "payments": 14703.7,
+      "balance": 0.0,
+      "page": "93-94"
+    },
+    {
+      "treatment_date": "06/18/2019 - 06/20/2019",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 376805.87,
+      "ins_paid": 181755.62,
+      "adjustment": 171010.04,
+      "payments": 24040.21,
+      "balance": 0.0,
+      "page": "94-95"
+    },
+    {
+      "treatment_date": "07/26/2019 - 08/01/2019",
+      "cpt_codes": [],
+      "description": "Schizophrenia, acute exacerbation",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 213735.05,
+      "ins_paid": 103096.98,
+      "adjustment": 97001.77,
+      "payments": 13636.3,
+      "balance": 0.0,
+      "page": "95"
+    },
+    {
+      "treatment_date": "01/15/2019 - 01/17/2019",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 226659.58,
+      "ins_paid": 109331.24,
+      "adjustment": 102867.46,
+      "payments": 14460.88,
+      "balance": 0.0,
+      "page": "96"
+    },
+    {
+      "treatment_date": "03/03/2023 - 03/06/2023",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 188686.26,
+      "ins_paid": 91014.47,
+      "adjustment": 85633.61,
+      "payments": 12038.18,
+      "balance": 0.0,
+      "page": "96-97"
+    },
+    {
+      "treatment_date": "11/30/2021 - 12/02/2021",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 278823.34,
+      "ins_paid": 134492.89,
+      "adjustment": 126541.52,
+      "payments": 17788.93,
+      "balance": 0.0,
+      "page": "97-98"
+    },
+    {
+      "treatment_date": "06/27/2021 - 07/02/2021",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 264014.19,
+      "ins_paid": 127349.56,
+      "adjustment": 119820.52,
+      "payments": 16844.11,
+      "balance": 0.0,
+      "page": "98-99"
+    },
+    {
+      "treatment_date": "06/16/2019 - 06/22/2019",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 261608.41,
+      "ins_paid": 126189.11,
+      "adjustment": 118728.68,
+      "payments": 16690.62,
+      "balance": 0.0,
+      "page": "99"
+    },
+    {
+      "treatment_date": "01/09/2024 - 01/12/2024",
+      "cpt_codes": [],
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 361278.6,
+      "ins_paid": 174265.9,
+      "adjustment": 163963.13,
+      "payments": 23049.57,
+      "balance": 0.0,
+      "page": "99-101"
+    },
+    {
+      "treatment_date": "10/25/2020 - 10/29/2020",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 378888.95,
+      "ins_paid": 182760.41,
+      "adjustment": 171955.42,
+      "payments": 24173.12,
+      "balance": 0.0,
+      "page": "101-102"
+    },
+    {
+      "treatment_date": "09/09/2021 \u2013 09/15/2021",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 279141.24,
+      "ins_paid": 134646.23,
+      "adjustment": 126685.8,
+      "payments": 17809.21,
+      "balance": 0.0,
+      "page": "103"
+    },
+    {
+      "treatment_date": "03/20/2020 \u2013 03/27/2020",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 285351.94,
+      "ins_paid": 137642.01,
+      "adjustment": 129504.48,
+      "payments": 18205.45,
+      "balance": 0.0,
+      "page": "104"
+    },
+    {
+      "treatment_date": "08/28/2017 \u2013 09/04/2017",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 261606.96,
+      "ins_paid": 126188.41,
+      "adjustment": 118728.03,
+      "payments": 16690.52,
+      "balance": 0.0,
+      "page": "104-105"
+    },
+    {
+      "treatment_date": "02/10/2023 \u2013 02/16/2023",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 265480.16,
+      "ins_paid": 128056.69,
+      "adjustment": 120485.84,
+      "payments": 16937.63,
+      "balance": 0.0,
+      "page": "105-106"
+    },
+    {
+      "treatment_date": "06/24/2018 \u2013 06/26/2018",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 224778.93,
+      "ins_paid": 108424.09,
+      "adjustment": 102013.94,
+      "payments": 14340.9,
+      "balance": 0.0,
+      "page": "106-107"
+    },
+    {
+      "treatment_date": "04/12/2021 \u2013 04/15/2021",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 434449.42,
+      "ins_paid": 209560.49,
+      "adjustment": 197171.06,
+      "payments": 27717.87,
+      "balance": 0.0,
+      "page": "107-108"
+    },
+    {
+      "treatment_date": "02/22/2023 \u2013 03/01/2023",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 300732.48,
+      "ins_paid": 145060.95,
+      "adjustment": 136484.8,
+      "payments": 19186.73,
+      "balance": 0.0,
+      "page": "108-109"
+    },
+    {
+      "treatment_date": "07/28/2021 \u2013 07/29/2021",
+      "cpt_codes": [],
+      "description": "Type 2 diabetes mellitus with ketoacidosis",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 280920.35,
+      "ins_paid": 135504.4,
+      "adjustment": 127493.23,
+      "payments": 17922.72,
+      "balance": 0.0,
+      "page": "109-110"
+    },
+    {
+      "treatment_date": "11/22/2022 \u2013 11/26/2022",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 373542.81,
+      "ins_paid": 180181.65,
+      "adjustment": 169529.13,
+      "payments": 23832.03,
+      "balance": 0.0,
+      "page": "110-111"
+    },
+    {
+      "treatment_date": "01/11/2024 \u2013 01/18/2024",
+      "cpt_codes": [],
+      "description": "Hip fracture, right femur",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 226594.8,
+      "ins_paid": 109299.99,
+      "adjustment": 102838.06,
+      "payments": 14456.75,
+      "balance": 0.0,
+      "page": "111-112"
+    },
+    {
+      "treatment_date": "02/07/2022 \u2013 02/14/2022",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 399311.33,
+      "ins_paid": 192611.32,
+      "adjustment": 181223.95,
+      "payments": 25476.06,
+      "balance": 0.0,
+      "page": "112-113"
+    },
+    {
+      "treatment_date": "04/27/2023 \u2013 05/02/2023",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 313143.24,
+      "ins_paid": 151047.39,
+      "adjustment": 142117.31,
+      "payments": 19978.54,
+      "balance": 0.0,
+      "page": "113"
+    },
+    {
+      "treatment_date": "12/15/2018 - 12/17/2018",
+      "cpt_codes": [],
+      "description": "Pulmonary embolism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 325091.32,
+      "ins_paid": 156810.65,
+      "adjustment": 147539.84,
+      "payments": 20740.83,
+      "balance": 0.0,
+      "page": "114-115"
+    },
+    {
+      "treatment_date": "09/06/2017 - 09/10/2017",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 267567.72,
+      "ins_paid": 129063.64,
+      "adjustment": 121433.26,
+      "payments": 17070.82,
+      "balance": 0.0,
+      "page": "115-116"
+    },
+    {
+      "treatment_date": "01/16/2024 - 01/21/2024",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 254751.4,
+      "ins_paid": 122881.57,
+      "adjustment": 115616.69,
+      "payments": 16253.14,
+      "balance": 0.0,
+      "page": "116-117"
+    },
+    {
+      "treatment_date": "07/17/2018 - 07/22/2018",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 351381.73,
+      "ins_paid": 169492.06,
+      "adjustment": 159471.52,
+      "payments": 22418.15,
+      "balance": 0.0,
+      "page": "117-118"
+    },
+    {
+      "treatment_date": "04/28/2024 - 05/02/2024",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 256630.78,
+      "ins_paid": 123788.11,
+      "adjustment": 116469.63,
+      "payments": 16373.04,
+      "balance": 0.0,
+      "page": "118-119"
+    },
+    {
+      "treatment_date": "10/06/2017 - 10/09/2017",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 296878.49,
+      "ins_paid": 143201.95,
+      "adjustment": 134735.69,
+      "payments": 18940.85,
+      "balance": 0.0,
+      "page": "119"
+    },
+    {
+      "treatment_date": "03/27/2020 - 03/30/2020",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 217076.01,
+      "ins_paid": 104708.52,
+      "adjustment": 98518.04,
+      "payments": 13849.45,
+      "balance": 0.0,
+      "page": "119-120"
+    },
+    {
+      "treatment_date": "08/22/2024 - 08/27/2024",
+      "cpt_codes": [],
+      "description": "Urinary tract infection",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 266120.02,
+      "ins_paid": 128365.33,
+      "adjustment": 120776.23,
+      "payments": 16978.46,
+      "balance": 0.0,
+      "page": "120-121"
+    },
+    {
+      "treatment_date": "06/14/2021 - 06/17/2021",
+      "cpt_codes": [],
+      "description": "Cellulitis of lower leg",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 275555.24,
+      "ins_paid": 132916.49,
+      "adjustment": 125058.33,
+      "payments": 17580.42,
+      "balance": 0.0,
+      "page": "121-122"
+    },
+    {
+      "treatment_date": "09/26/2021 - 10/03/2021",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 375502.03,
+      "ins_paid": 181126.7,
+      "adjustment": 170418.3,
+      "payments": 23957.03,
+      "balance": 0.0,
+      "page": "122-123"
+    },
+    {
+      "treatment_date": "03/10/2019 - 03/13/2019",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 427030.67,
+      "ins_paid": 205981.99,
+      "adjustment": 193804.12,
+      "payments": 27244.56,
+      "balance": 0.0,
+      "page": "123-124"
+    },
+    {
+      "treatment_date": "10/05/2021 - 10/11/2021",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 328671.84,
+      "ins_paid": 158537.75,
+      "adjustment": 149164.83,
+      "payments": 20969.26,
+      "balance": 0.0,
+      "page": "124-125"
+    },
+    {
+      "treatment_date": "05/12/2021 \u2013 05/13/2021",
+      "cpt_codes": [],
+      "description": "Heart failure, unspecified",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 275974.68,
+      "ins_paid": 133118.81,
+      "adjustment": 125248.69,
+      "payments": 17607.18,
+      "balance": 0.0,
+      "page": "126-127"
+    },
+    {
+      "treatment_date": "08/31/2024 \u2013 09/07/2024",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 423112.28,
+      "ins_paid": 204091.92,
+      "adjustment": 192025.8,
+      "payments": 26994.56,
+      "balance": 0.0,
+      "page": "127"
+    },
+    {
+      "treatment_date": "12/08/2019 \u2013 12/12/2019",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 193350.97,
+      "ins_paid": 93264.54,
+      "adjustment": 87750.64,
+      "payments": 12335.79,
+      "balance": 0.0,
+      "page": "127-128"
+    },
+    {
+      "treatment_date": "06/09/2020 \u2013 06/10/2020",
+      "cpt_codes": [],
+      "description": "Acute pancreatitis",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 247115.99,
+      "ins_paid": 119198.57,
+      "adjustment": 112151.42,
+      "payments": 15766.0,
+      "balance": 0.0,
+      "page": "128-129"
+    },
+    {
+      "treatment_date": "07/11/2017 \u2013 07/12/2017",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 254465.09,
+      "ins_paid": 122743.47,
+      "adjustment": 115486.75,
+      "payments": 16234.87,
+      "balance": 0.0,
+      "page": "129-130"
+    },
+    {
+      "treatment_date": "11/06/2019 \u2013 11/07/2019",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 273995.04,
+      "ins_paid": 132163.91,
+      "adjustment": 124350.25,
+      "payments": 17480.88,
+      "balance": 0.0,
+      "page": "130-131"
+    },
+    {
+      "treatment_date": "09/16/2021 \u2013 09/17/2021",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 283061.58,
+      "ins_paid": 136537.24,
+      "adjustment": 128465.01,
+      "payments": 18059.33,
+      "balance": 0.0,
+      "page": "131"
+    },
+    {
+      "treatment_date": "12/02/2017 \u2013 12/08/2017",
+      "cpt_codes": [],
+      "description": "Gastrointestinal hemorrhage",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 190936.99,
+      "ins_paid": 92100.13,
+      "adjustment": 86655.08,
+      "payments": 12181.78,
+      "balance": 0.0,
+      "page": "132-133"
+    },
+    {
+      "treatment_date": "05/29/2019 \u2013 06/05/2019",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 385889.87,
+      "ins_paid": 186137.37,
+      "adjustment": 175132.73,
+      "payments": 24619.77,
+      "balance": 0.0,
+      "page": "133-134"
+    },
+    {
+      "treatment_date": "10/05/2018 \u2013 10/08/2018",
+      "cpt_codes": [],
+      "description": "Stroke, ischemic",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 389960.22,
+      "ins_paid": 188100.73,
+      "adjustment": 176980.03,
+      "payments": 24879.46,
+      "balance": 0.0,
+      "page": "134-135"
+    },
+    {
+      "treatment_date": "05/25/2017 \u2013 06/01/2017",
+      "cpt_codes": [],
+      "description": "Alcohol withdrawal syndrome",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 343625.59,
+      "ins_paid": 165750.82,
+      "adjustment": 155951.46,
+      "payments": 21923.31,
+      "balance": 0.0,
+      "page": "135-136"
+    },
+    {
+      "treatment_date": "07/15/2022 \u2013 07/16/2022",
+      "cpt_codes": [],
+      "description": "Major depressive disorder, recurrent",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 292278.13,
+      "ins_paid": 140982.92,
+      "adjustment": 132647.87,
+      "payments": 18647.34,
+      "balance": 0.0,
+      "page": "136-137"
+    },
+    {
+      "treatment_date": "07/11/2021 - 07/12/2021",
+      "cpt_codes": [],
+      "description": "Acute myocardial infarction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 777945.8,
+      "ins_paid": 375248.99,
+      "adjustment": 353063.87,
+      "payments": 49632.94,
+      "balance": 0.0,
+      "page": "137"
+    },
+    {
+      "treatment_date": "05/02/2017 - 05/07/2017",
+      "cpt_codes": [],
+      "description": "Septicemia due to gram-negative organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 275686.09,
+      "ins_paid": 132979.61,
+      "adjustment": 125117.71,
+      "payments": 17588.77,
+      "balance": 0.0,
+      "page": "138-139"
+    },
+    {
+      "treatment_date": "11/13/2018 - 11/14/2018",
+      "cpt_codes": [],
+      "description": "Total knee arthroplasty",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 366456.47,
+      "ins_paid": 176763.49,
+      "adjustment": 166313.06,
+      "payments": 23379.92,
+      "balance": 0.0,
+      "page": "139-140"
+    },
+    {
+      "treatment_date": "04/07/2022 - 04/13/2022",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 326368.86,
+      "ins_paid": 157426.88,
+      "adjustment": 148119.65,
+      "payments": 20822.33,
+      "balance": 0.0,
+      "page": "140-141"
+    },
+    {
+      "treatment_date": "05/23/2024 - 05/30/2024",
+      "cpt_codes": [],
+      "description": "Lumbar spine fusion",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 306111.17,
+      "ins_paid": 147655.41,
+      "adjustment": 138925.87,
+      "payments": 19529.89,
+      "balance": 0.0,
+      "page": "141-142"
+    },
+    {
+      "treatment_date": "12/01/2018 - 12/08/2018",
+      "cpt_codes": [],
+      "description": "Bowel obstruction",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 354058.17,
+      "ins_paid": 170783.07,
+      "adjustment": 160686.19,
+      "payments": 22588.91,
+      "balance": 0.0,
+      "page": "142-143"
+    },
+    {
+      "treatment_date": "11/13/2022 - 11/15/2022",
+      "cpt_codes": [],
+      "description": "Pneumonia, unspecified organism",
+      "provider": "Inpatient Episode",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": 345130.58,
+      "ins_paid": 166476.76,
+      "adjustment": 156634.49,
+      "payments": 22019.33,
+      "balance": 0.0,
+      "page": "143-144"
+    },
+    {
+      "treatment_date": "03/15/2026 - 04/30/2026",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Radiology",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "146,151,153-154,158,160,162-163"
+    },
+    {
+      "treatment_date": "03/09/2026 - 05/05/2026",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Radiology",
+      "insurers": [],
+      "third_parties": [],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "166-192"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 11,
+      "fields": [
+        "provider",
+        "description",
+        "treatment_date"
+      ],
+      "reason": "Summary totals on page 14 appear to belong to the following inpatient episode header dated 01/17/2018\u201301/24/2018, but the itemized dates immediately above are 05/09/2022\u201305/10/2022, making episode boundary alignment ambiguous.",
+      "page": "14",
+      "severity": "high"
+    },
+    {
+      "row": 12,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Bowel obstruction' appears after the totals and may belong to the next episode rather than the 01/17/2018\u201301/24/2018 record.",
+      "page": "14-15",
+      "severity": "high"
+    },
+    {
+      "row": 13,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Stroke, ischemic' appears after the totals and may belong to the next episode rather than the 12/29/2019\u201301/05/2020 record.",
+      "page": "15-16",
+      "severity": "high"
+    },
+    {
+      "row": 14,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Total knee arthroplasty' appears after the totals and may belong to the next episode rather than the 05/28/2024\u201306/01/2024 record.",
+      "page": "16-17",
+      "severity": "high"
+    },
+    {
+      "row": 15,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Alcohol withdrawal syndrome' appears after the totals and may belong to the next episode rather than the 06/16/2021\u201306/23/2021 record.",
+      "page": "17-18",
+      "severity": "high"
+    },
+    {
+      "row": 16,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Hip fracture, right femur' appears after the totals and may belong to the next episode rather than the 02/03/2023\u201302/09/2023 record.",
+      "page": "18-19",
+      "severity": "high"
+    },
+    {
+      "row": 17,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Acute myocardial infarction' appears after the totals and may belong to the next episode rather than the 05/04/2021\u201305/08/2021 record.",
+      "page": "19-20",
+      "severity": "high"
+    },
+    {
+      "row": 18,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Alcohol withdrawal syndrome' appears after the totals and may belong to the next episode rather than the 09/21/2019\u201309/26/2019 record.",
+      "page": "20-21",
+      "severity": "high"
+    },
+    {
+      "row": 19,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Urinary tract infection' appears after the totals and may belong to the next episode rather than the 07/06/2018\u201307/07/2018 record.",
+      "page": "21-22",
+      "severity": "high"
+    },
+    {
+      "row": 20,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous across the page break; 'Lumbar spine fusion' appears after the totals and may belong to the next episode rather than the 09/15/2022\u201309/22/2022 record.",
+      "page": "22-23",
+      "severity": "high"
+    },
+    {
+      "row": 21,
+      "fields": [
+        "description"
+      ],
+      "reason": "Diagnosis/header association is ambiguous on the page; 'Gastrointestinal hemorrhage' may belong to the following 07/14/2024\u201307/16/2024 episode rather than the 10/28/2021\u201311/03/2021 totals above it.",
+      "page": "23",
+      "severity": "high"
+    },
+    {
+      "row": 22,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this chunk; 'Inpatient Episode' is only a document section label and may not be the actual provider.",
+      "page": "23-24",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [],
+      "reason": "This chunk begins and ends mid-document, so the first and last visible episodes may be incomplete and some totals/headers may align to preceding or following pages outside the chunk.",
+      "page": "14-24",
+      "severity": "high"
+    },
+    {
+      "row": 23,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "25-26",
+      "severity": "medium"
+    },
+    {
+      "row": 24,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "26-27",
+      "severity": "medium"
+    },
+    {
+      "row": 25,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "27-28",
+      "severity": "medium"
+    },
+    {
+      "row": 26,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "28-29",
+      "severity": "medium"
+    },
+    {
+      "row": 27,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "29-30",
+      "severity": "medium"
+    },
+    {
+      "row": 28,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "30-31",
+      "severity": "medium"
+    },
+    {
+      "row": 29,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "31-32",
+      "severity": "medium"
+    },
+    {
+      "row": 30,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "32",
+      "severity": "medium"
+    },
+    {
+      "row": 31,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "32-33",
+      "severity": "medium"
+    },
+    {
+      "row": 32,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "33-34",
+      "severity": "medium"
+    },
+    {
+      "row": 33,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in this page chunk; only the section label 'Inpatient Episode' is visible, so provider is ambiguous.",
+      "page": "34-35",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [],
+      "reason": "Page 25 begins with a continuation of a prior inpatient episode showing line items and financial totals ($208964.17 charges, $100795.70 insurance paid, $94836.56 adjustment, $13331.91 balance), but the episode header/date range/diagnosis are not present in this chunk, so that record cannot be fully emitted from these pages alone.",
+      "page": "25",
+      "severity": "high"
+    },
+    {
+      "row": null,
+      "fields": [],
+      "reason": "Page 35 begins a new inpatient episode dated 05/11/2017 - 05/14/2017 with diagnosis 'Bowel obstruction', but only partial line items are visible and no financial summary appears in this chunk, so the record is incomplete here.",
+      "page": "35",
+      "severity": "high"
+    },
+    {
+      "row": 34,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "36",
+      "severity": "medium"
+    },
+    {
+      "row": 35,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "36-37",
+      "severity": "medium"
+    },
+    {
+      "row": 36,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "37-38",
+      "severity": "medium"
+    },
+    {
+      "row": 37,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "38-39",
+      "severity": "medium"
+    },
+    {
+      "row": 38,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "39-40",
+      "severity": "medium"
+    },
+    {
+      "row": 39,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "40-41",
+      "severity": "medium"
+    },
+    {
+      "row": 40,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "41-42",
+      "severity": "medium"
+    },
+    {
+      "row": 41,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "42-43",
+      "severity": "medium"
+    },
+    {
+      "row": 42,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "43-44",
+      "severity": "medium"
+    },
+    {
+      "row": 43,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "44-45",
+      "severity": "medium"
+    },
+    {
+      "row": 44,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "45-46",
+      "severity": "medium"
+    },
+    {
+      "row": 45,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Treating facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label, not a true provider name.",
+      "page": "46",
+      "severity": "medium"
+    },
+    {
+      "row": 46,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "47-48",
+      "severity": "low"
+    },
+    {
+      "row": 47,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "48-49",
+      "severity": "low"
+    },
+    {
+      "row": 48,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "49-50",
+      "severity": "low"
+    },
+    {
+      "row": 49,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "50-51",
+      "severity": "low"
+    },
+    {
+      "row": 50,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "51-52",
+      "severity": "low"
+    },
+    {
+      "row": 51,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "52-53",
+      "severity": "low"
+    },
+    {
+      "row": 52,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "53-54",
+      "severity": "low"
+    },
+    {
+      "row": 53,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "54-55",
+      "severity": "low"
+    },
+    {
+      "row": 54,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "55-56",
+      "severity": "low"
+    },
+    {
+      "row": 55,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "56-57",
+      "severity": "low"
+    },
+    {
+      "row": 56,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not visible on these pages.",
+      "page": "57-58",
+      "severity": "low"
+    },
+    {
+      "row": null,
+      "fields": [],
+      "reason": "Page 47 begins with a prior episode's itemized lines and totals, but the episode header/date range/diagnosis are not visible in this chunk, so that summary record cannot be reliably emitted.",
+      "page": "47",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [],
+      "reason": "Page 58 begins a new inpatient episode dated 10/15/2022 - 10/16/2022, but no summary totals are visible in this chunk, so the episode record is incomplete and not emitted.",
+      "page": "58",
+      "severity": "medium"
+    },
+    {
+      "row": 57,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "59",
+      "severity": "medium"
+    },
+    {
+      "row": 58,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "59-60",
+      "severity": "medium"
+    },
+    {
+      "row": 59,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "60-61",
+      "severity": "medium"
+    },
+    {
+      "row": 60,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "61-62",
+      "severity": "medium"
+    },
+    {
+      "row": 61,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "62-63",
+      "severity": "medium"
+    },
+    {
+      "row": 62,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "63-64",
+      "severity": "medium"
+    },
+    {
+      "row": 63,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "64-65",
+      "severity": "medium"
+    },
+    {
+      "row": 64,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "65-66",
+      "severity": "medium"
+    },
+    {
+      "row": 65,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "66-67",
+      "severity": "medium"
+    },
+    {
+      "row": 66,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "67-68",
+      "severity": "medium"
+    },
+    {
+      "row": 67,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a section label, not a provider.",
+      "page": "68-69",
+      "severity": "medium"
+    },
+    {
+      "row": 68,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "70",
+      "severity": "low"
+    },
+    {
+      "row": 69,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "70-71",
+      "severity": "low"
+    },
+    {
+      "row": 70,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "71-72",
+      "severity": "low"
+    },
+    {
+      "row": 71,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "72-73",
+      "severity": "low"
+    },
+    {
+      "row": 72,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "73-74",
+      "severity": "low"
+    },
+    {
+      "row": 73,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "74-75",
+      "severity": "low"
+    },
+    {
+      "row": 74,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "75-76",
+      "severity": "low"
+    },
+    {
+      "row": 75,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "76-77",
+      "severity": "low"
+    },
+    {
+      "row": 76,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "77-78",
+      "severity": "low"
+    },
+    {
+      "row": 77,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "78-79",
+      "severity": "low"
+    },
+    {
+      "row": 78,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name not visible on this page chunk.",
+      "page": "79-80",
+      "severity": "low"
+    },
+    {
+      "row": 79,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "balance",
+        "provider"
+      ],
+      "reason": "Episode begins on page 80 but totals and provider are not visible within this chunk; financial fields unresolved from partial record.",
+      "page": "80",
+      "severity": "high"
+    },
+    {
+      "row": 80,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "81",
+      "severity": "medium"
+    },
+    {
+      "row": 81,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "81-82",
+      "severity": "medium"
+    },
+    {
+      "row": 82,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "82-83",
+      "severity": "medium"
+    },
+    {
+      "row": 83,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "83-84",
+      "severity": "medium"
+    },
+    {
+      "row": 84,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "84-85",
+      "severity": "medium"
+    },
+    {
+      "row": 85,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "85-86",
+      "severity": "medium"
+    },
+    {
+      "row": 86,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "86-87",
+      "severity": "medium"
+    },
+    {
+      "row": 87,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "87-88",
+      "severity": "medium"
+    },
+    {
+      "row": 88,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "88-89",
+      "severity": "medium"
+    },
+    {
+      "row": 89,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "89-90",
+      "severity": "medium"
+    },
+    {
+      "row": 90,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "90-91",
+      "severity": "medium"
+    },
+    {
+      "row": 91,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider/facility name is not shown in the extracted pages; 'Inpatient Episode' is a document section label, not a true provider.",
+      "page": "91",
+      "severity": "medium"
+    },
+    {
+      "row": 92,
+      "fields": [
+        "provider",
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Episode begins on page 91 but financial totals and provider are not visible in this chunk; record appears incomplete and continues beyond the provided pages.",
+      "page": "91",
+      "severity": "high"
+    },
+    {
+      "row": 93,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "92",
+      "severity": "medium"
+    },
+    {
+      "row": 94,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "92-93",
+      "severity": "medium"
+    },
+    {
+      "row": 95,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "93-94",
+      "severity": "medium"
+    },
+    {
+      "row": 96,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "94-95",
+      "severity": "medium"
+    },
+    {
+      "row": 97,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "95",
+      "severity": "medium"
+    },
+    {
+      "row": 98,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "96",
+      "severity": "medium"
+    },
+    {
+      "row": 99,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "96-97",
+      "severity": "medium"
+    },
+    {
+      "row": 100,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "97-98",
+      "severity": "medium"
+    },
+    {
+      "row": 101,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "98-99",
+      "severity": "medium"
+    },
+    {
+      "row": 102,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "99",
+      "severity": "medium"
+    },
+    {
+      "row": 103,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "99-101",
+      "severity": "medium"
+    },
+    {
+      "row": 104,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this page chunk; 'Inpatient Episode' is a document label rather than a provider.",
+      "page": "101-102",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [],
+      "reason": "Final episode beginning 07/30/2021 on page 102 continues beyond this chunk; totals and financial summary are not visible in provided pages, so no record was emitted for that incomplete episode.",
+      "page": "102",
+      "severity": "high"
+    },
+    {
+      "row": 105,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "103",
+      "severity": "medium"
+    },
+    {
+      "row": 106,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "104",
+      "severity": "medium"
+    },
+    {
+      "row": 107,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "104-105",
+      "severity": "medium"
+    },
+    {
+      "row": 108,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "105-106",
+      "severity": "medium"
+    },
+    {
+      "row": 109,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "106-107",
+      "severity": "medium"
+    },
+    {
+      "row": 110,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "107-108",
+      "severity": "medium"
+    },
+    {
+      "row": 111,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "108-109",
+      "severity": "medium"
+    },
+    {
+      "row": 112,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "109-110",
+      "severity": "medium"
+    },
+    {
+      "row": 113,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "110-111",
+      "severity": "medium"
+    },
+    {
+      "row": 114,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "111-112",
+      "severity": "medium"
+    },
+    {
+      "row": 115,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "112-113",
+      "severity": "medium"
+    },
+    {
+      "row": 116,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown; 'Inpatient Episode' is a document section label, not a provider.",
+      "page": "113",
+      "severity": "medium"
+    },
+    {
+      "row": 117,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "114-115",
+      "severity": "medium"
+    },
+    {
+      "row": 118,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "115-116",
+      "severity": "medium"
+    },
+    {
+      "row": 119,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "116-117",
+      "severity": "medium"
+    },
+    {
+      "row": 120,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "117-118",
+      "severity": "medium"
+    },
+    {
+      "row": 121,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "118-119",
+      "severity": "medium"
+    },
+    {
+      "row": 122,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "119",
+      "severity": "medium"
+    },
+    {
+      "row": 123,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "119-120",
+      "severity": "medium"
+    },
+    {
+      "row": 124,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "120-121",
+      "severity": "medium"
+    },
+    {
+      "row": 125,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "121-122",
+      "severity": "medium"
+    },
+    {
+      "row": 126,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "122-123",
+      "severity": "medium"
+    },
+    {
+      "row": 127,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "123-124",
+      "severity": "medium"
+    },
+    {
+      "row": 128,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; 'Inpatient Episode' appears to be a section label, not a true provider.",
+      "page": "124-125",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [],
+      "reason": "Page 114 begins with trailing detail and summary totals for a prior inpatient episode whose header/date range/diagnosis are not present in this chunk, so that episode was not emitted as a record.",
+      "page": "114",
+      "severity": "high"
+    },
+    {
+      "row": 129,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name is not shown in this chunk; only inpatient section formatting is visible.",
+      "page": "125",
+      "severity": "medium"
+    },
+    {
+      "row": 129,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "126-127",
+      "severity": "medium"
+    },
+    {
+      "row": 130,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "127",
+      "severity": "medium"
+    },
+    {
+      "row": 131,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "127-128",
+      "severity": "medium"
+    },
+    {
+      "row": 132,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "128-129",
+      "severity": "medium"
+    },
+    {
+      "row": 133,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "129-130",
+      "severity": "medium"
+    },
+    {
+      "row": 134,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "130-131",
+      "severity": "medium"
+    },
+    {
+      "row": 135,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "131",
+      "severity": "medium"
+    },
+    {
+      "row": 136,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "132-133",
+      "severity": "medium"
+    },
+    {
+      "row": 137,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "133-134",
+      "severity": "medium"
+    },
+    {
+      "row": 138,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "134-135",
+      "severity": "medium"
+    },
+    {
+      "row": 139,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "135-136",
+      "severity": "medium"
+    },
+    {
+      "row": 140,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "136-137",
+      "severity": "medium"
+    },
+    {
+      "row": 141,
+      "fields": [
+        "provider",
+        "insurers"
+      ],
+      "reason": "Document provides episode totals and diagnosis but no clear facility/provider name or insurer identity on these pages.",
+      "page": "137",
+      "severity": "medium"
+    },
+    {
+      "row": 142,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name not shown; 'Inpatient Episode' is a document section label rather than a true provider.",
+      "page": "138",
+      "severity": "medium"
+    },
+    {
+      "row": 143,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name not shown; 'Inpatient Episode' is a document section label rather than a true provider.",
+      "page": "138-139",
+      "severity": "medium"
+    },
+    {
+      "row": 144,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name not shown; 'Inpatient Episode' is a document section label rather than a true provider.",
+      "page": "139-140",
+      "severity": "medium"
+    },
+    {
+      "row": 145,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name not shown; 'Inpatient Episode' is a document section label rather than a true provider.",
+      "page": "140-141",
+      "severity": "medium"
+    },
+    {
+      "row": 146,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name not shown; 'Inpatient Episode' is a document section label rather than a true provider.",
+      "page": "141-142",
+      "severity": "medium"
+    },
+    {
+      "row": 147,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name not shown; 'Inpatient Episode' is a document section label rather than a true provider.",
+      "page": "142-143",
+      "severity": "medium"
+    },
+    {
+      "row": 148,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Facility/provider name not shown; 'Inpatient Episode' is a document section label rather than a true provider.",
+      "page": "143-144",
+      "severity": "medium"
+    },
+    {
+      "row": 149,
+      "fields": [
+        "provider",
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Radiology reports were grouped for the patient per imaging-record rules, but the pages contain no billing provider/facility name and no financial amounts.",
+      "page": "146,151,153-154,158,160,162-163",
+      "severity": "high"
+    },
+    {
+      "row": 150,
+      "fields": [
+        "provider",
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Imaging reports were aggregated into one patient-level record per instructions, but the document provides no billing amounts and no explicit facility name beyond generic radiology report headers.",
+      "page": "166-192",
+      "severity": "high"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "doc_003",
+  "meta": {
+    "doc_id": "doc_003",
+    "num_pages": 21,
+    "duration_seconds": 7.39,
+    "token_usage": {
+      "input": 37971,
+      "output": 443,
+      "total": 38414
+    },
+    "cost_usd": 0.079486
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy claim summary: all fills 01/04/2023 to 12/31/2024",
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys",
+        "IM Health PBM",
+        "McKesson Health PBM",
+        "SFS",
+        "Blink Health",
+        "Express Scripts",
+        "GoodRx",
+        "Caremark",
+        "OptumRx",
+        "ScriptCycle",
+        "Lonestar",
+        "Argus",
+        "My Rx Card",
+        "Medco Health",
+        "Allwin",
+        "Paramount",
+        "Cigna Healthspring"
+      ],
+      "total_charges": 126304.01,
+      "ins_paid": 95231.08,
+      "adjustment": null,
+      "payments": null,
+      "balance": 31072.93,
+      "page": "18"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "insurers"
+      ],
+      "reason": "Pharmacy summary uses third-party PBMs and discount payers; insurance columns are not broken out and no explicit insurer identity is listed.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 0,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Neither adjustment (write-off/discount) nor explicit patient payment received are shown in the summary totals, only charge, insurer/third-party payments, and remaining balance.",
+      "page": "18",
+      "severity": "medium"
+    }
+  ]
+}

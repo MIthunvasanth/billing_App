@@ -1,0 +1,611 @@
+{
+  "doc_id": "doc_006",
+  "meta": {
+    "doc_id": "doc_006",
+    "num_pages": 33,
+    "duration_seconds": 118.71,
+    "token_usage": {
+      "input": 34246,
+      "output": 4399,
+      "total": 38645
+    },
+    "cost_usd": 0.103684
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2021 - 01/27/2021",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "10 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 7595.36,
+      "ins_paid": 5697.6,
+      "adjustment": 1897.76,
+      "payments": null,
+      "balance": 0.0,
+      "page": "8-9"
+    },
+    {
+      "treatment_date": "01/28/2021 - 02/22/2021",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "9 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 5893.71,
+      "ins_paid": 4421.12,
+      "adjustment": 1472.59,
+      "payments": null,
+      "balance": 0.0,
+      "page": "9"
+    },
+    {
+      "treatment_date": "02/23/2021 - 03/20/2021",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "10 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 6585.21,
+      "ins_paid": 4939.84,
+      "adjustment": 1645.37,
+      "payments": null,
+      "balance": 0.0,
+      "page": "9-10"
+    },
+    {
+      "treatment_date": "03/21/2021 - 04/19/2021",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "13 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 5835.48,
+      "ins_paid": 4377.44,
+      "adjustment": 1458.04,
+      "payments": null,
+      "balance": 0.0,
+      "page": "10-11"
+    },
+    {
+      "treatment_date": "04/20/2021 - 05/21/2021",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "11 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 9849.79,
+      "ins_paid": 7388.74,
+      "adjustment": 2461.05,
+      "payments": null,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "05/22/2021 - 06/20/2021",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "12 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 11441.68,
+      "ins_paid": 8582.89,
+      "adjustment": 2858.79,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "06/21/2021 - 07/21/2021",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "8 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 2364.96,
+      "ins_paid": 1774.06,
+      "adjustment": 590.9,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12-13"
+    },
+    {
+      "treatment_date": "07/22/2021 - 08/16/2021",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "8 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 5023.26,
+      "ins_paid": 3768.16,
+      "adjustment": 1255.1,
+      "payments": null,
+      "balance": 0.0,
+      "page": "13"
+    },
+    {
+      "treatment_date": "08/17/2021 - 09/16/2021",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "10 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 4508.77,
+      "ins_paid": 3382.22,
+      "adjustment": 1126.55,
+      "payments": null,
+      "balance": 0.0,
+      "page": "14"
+    },
+    {
+      "treatment_date": "09/17/2021 - 10/15/2021",
+      "cpt_codes": [
+        "90935"
+      ],
+      "description": "13 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 4866.73,
+      "ins_paid": 3650.74,
+      "adjustment": 1215.99,
+      "payments": null,
+      "balance": 0.0,
+      "page": "14-15"
+    },
+    {
+      "treatment_date": "10/16/2021 - 11/16/2021",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "12 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 4787.91,
+      "ins_paid": 3591.61,
+      "adjustment": 1196.3,
+      "payments": null,
+      "balance": 0.0,
+      "page": "15"
+    },
+    {
+      "treatment_date": "11/17/2021 - 12/15/2021",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "12 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 5904.99,
+      "ins_paid": 4429.58,
+      "adjustment": 1475.41,
+      "payments": null,
+      "balance": 0.0,
+      "page": "16"
+    },
+    {
+      "treatment_date": "05/02/2022 - 05/28/2022",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "10 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 6571.49,
+      "ins_paid": 4929.55,
+      "adjustment": 1641.94,
+      "payments": null,
+      "balance": 0.0,
+      "page": "17-18"
+    },
+    {
+      "treatment_date": "05/29/2022 - 06/30/2022",
+      "cpt_codes": [
+        "90940"
+      ],
+      "description": "8 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 2875.86,
+      "ins_paid": 2157.3,
+      "adjustment": 718.56,
+      "payments": null,
+      "balance": 0.0,
+      "page": "18"
+    },
+    {
+      "treatment_date": "07/01/2022 - 08/02/2022",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "13 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 4680.14,
+      "ins_paid": 3510.77,
+      "adjustment": 1169.37,
+      "payments": null,
+      "balance": 0.0,
+      "page": "18-19"
+    },
+    {
+      "treatment_date": "08/03/2022 - 09/01/2022",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "8 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 7670.16,
+      "ins_paid": 5753.71,
+      "adjustment": 1916.45,
+      "payments": null,
+      "balance": 0.0,
+      "page": "19-20"
+    },
+    {
+      "treatment_date": "09/02/2022 - 09/29/2022",
+      "cpt_codes": [
+        "90935"
+      ],
+      "description": "11 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 6807.17,
+      "ins_paid": 5106.35,
+      "adjustment": 1700.82,
+      "payments": null,
+      "balance": 0.0,
+      "page": "20"
+    },
+    {
+      "treatment_date": "09/30/2022 - 10/31/2022",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "12 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 6310.16,
+      "ins_paid": 4733.52,
+      "adjustment": 1576.64,
+      "payments": null,
+      "balance": 0.0,
+      "page": "21"
+    },
+    {
+      "treatment_date": "11/01/2022 - 12/01/2022",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "12 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 11538.18,
+      "ins_paid": 8655.28,
+      "adjustment": 2882.9,
+      "payments": null,
+      "balance": 0.0,
+      "page": "21-22"
+    },
+    {
+      "treatment_date": "12/02/2022 - 01/03/2023",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "10 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 8683.45,
+      "ins_paid": 6513.82,
+      "adjustment": 2169.63,
+      "payments": null,
+      "balance": 0.0,
+      "page": "22"
+    },
+    {
+      "treatment_date": "01/04/2023 - 02/01/2023",
+      "cpt_codes": [
+        "90935"
+      ],
+      "description": "10 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 2412.22,
+      "ins_paid": 1809.51,
+      "adjustment": 602.71,
+      "payments": null,
+      "balance": 0.0,
+      "page": "23"
+    },
+    {
+      "treatment_date": "02/02/2023 - 02/28/2023",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "9 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 7652.48,
+      "ins_paid": 5740.45,
+      "adjustment": 1912.03,
+      "payments": null,
+      "balance": 0.0,
+      "page": "23-24"
+    },
+    {
+      "treatment_date": "03/01/2023 - 03/26/2023",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "12 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 17629.38,
+      "ins_paid": 13224.54,
+      "adjustment": 4404.84,
+      "payments": null,
+      "balance": 0.0,
+      "page": "24-25"
+    },
+    {
+      "treatment_date": "08/31/2023 - 09/30/2023",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "13 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 8329.5,
+      "ins_paid": 6248.31,
+      "adjustment": 2081.19,
+      "payments": null,
+      "balance": 0.0,
+      "page": "26-27"
+    },
+    {
+      "treatment_date": "10/01/2023 - 10/30/2023",
+      "cpt_codes": [
+        "90935"
+      ],
+      "description": "11 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 3304.87,
+      "ins_paid": 2479.12,
+      "adjustment": 825.75,
+      "payments": null,
+      "balance": 0.0,
+      "page": "27"
+    },
+    {
+      "treatment_date": "10/31/2023 - 11/28/2023",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "10 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 6644.21,
+      "ins_paid": 4984.1,
+      "adjustment": 1660.11,
+      "payments": null,
+      "balance": 0.0,
+      "page": "27-28"
+    },
+    {
+      "treatment_date": "11/29/2023 - 12/25/2023",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "12 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 6948.51,
+      "ins_paid": 5212.37,
+      "adjustment": 1736.14,
+      "payments": null,
+      "balance": 0.0,
+      "page": "28-29"
+    },
+    {
+      "treatment_date": "12/26/2023 - 01/26/2024",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "13 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 9198.61,
+      "ins_paid": 6900.27,
+      "adjustment": 2298.34,
+      "payments": null,
+      "balance": 0.0,
+      "page": "29"
+    },
+    {
+      "treatment_date": "01/27/2024 - 02/28/2024",
+      "cpt_codes": [
+        "90935"
+      ],
+      "description": "8 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 8689.65,
+      "ins_paid": 6518.47,
+      "adjustment": 2171.18,
+      "payments": null,
+      "balance": 0.0,
+      "page": "29-30"
+    },
+    {
+      "treatment_date": "02/29/2024 - 04/01/2024",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "9 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 11014.64,
+      "ins_paid": 8262.55,
+      "adjustment": 2752.09,
+      "payments": null,
+      "balance": 0.0,
+      "page": "30-31"
+    },
+    {
+      "treatment_date": "04/02/2024 - 05/03/2024",
+      "cpt_codes": [
+        "90937"
+      ],
+      "description": "10 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 4740.64,
+      "ins_paid": 3556.15,
+      "adjustment": 1184.49,
+      "payments": null,
+      "balance": 0.0,
+      "page": "31"
+    },
+    {
+      "treatment_date": "05/04/2024 - 06/03/2024",
+      "cpt_codes": [
+        "90935"
+      ],
+      "description": "8 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 7617.29,
+      "ins_paid": 5714.05,
+      "adjustment": 1903.24,
+      "payments": null,
+      "balance": 0.0,
+      "page": "32"
+    },
+    {
+      "treatment_date": "06/04/2024 - 07/05/2024",
+      "cpt_codes": [
+        "G0491"
+      ],
+      "description": "9 Treatments",
+      "provider": "Susanmouth Kidney Care Center",
+      "insurers": [
+        "CareMore Health"
+      ],
+      "third_parties": [],
+      "total_charges": 3931.89,
+      "ins_paid": 2949.48,
+      "adjustment": 982.41,
+      "payments": null,
+      "balance": 0.0,
+      "page": "32-33"
+    }
+  ],
+  "flagged": []
+}

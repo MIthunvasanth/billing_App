@@ -1,0 +1,273 @@
+{
+  "doc_id": "doc_008",
+  "meta": {
+    "doc_id": "doc_008",
+    "num_pages": 42,
+    "duration_seconds": 39.44,
+    "token_usage": {
+      "input": 72452,
+      "output": 1952,
+      "total": 74404
+    },
+    "cost_usd": 0.16052
+  },
+  "records": [
+    {
+      "treatment_date": "PAGE 3",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 5342.73,
+      "ins_paid": 3373.28,
+      "adjustment": 1604.45,
+      "payments": 365.0,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "PAGE 3",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 7766.86,
+      "ins_paid": 4658.49,
+      "adjustment": 2847.8,
+      "payments": 260.57,
+      "balance": 0.0,
+      "page": "3"
+    },
+    {
+      "treatment_date": "PAGE 3-4",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 7351.46,
+      "ins_paid": 4342.54,
+      "adjustment": 2799.07,
+      "payments": 209.85,
+      "balance": 0.0,
+      "page": "3-4"
+    },
+    {
+      "treatment_date": "PAGE 4",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 6749.4,
+      "ins_paid": 4126.34,
+      "adjustment": 2386.56,
+      "payments": 236.5,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "PAGE 4",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 3907.03,
+      "ins_paid": 2265.2,
+      "adjustment": 1620.86,
+      "payments": 20.97,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "PAGE 4",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 6972.2,
+      "ins_paid": 4437.88,
+      "adjustment": 2417.45,
+      "payments": 116.87,
+      "balance": 0.0,
+      "page": "4"
+    },
+    {
+      "treatment_date": "PAGE 4-5",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 8218.92,
+      "ins_paid": 5286.07,
+      "adjustment": 2677.81,
+      "payments": 255.04,
+      "balance": 0.0,
+      "page": "4-5"
+    },
+    {
+      "treatment_date": "PAGE 5",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 5683.58,
+      "ins_paid": 3686.91,
+      "adjustment": 1786.37,
+      "payments": 210.3,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "PAGE 5",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 7524.59,
+      "ins_paid": 4768.13,
+      "adjustment": 2591.0,
+      "payments": 165.46,
+      "balance": 0.0,
+      "page": "5"
+    },
+    {
+      "treatment_date": "PAGE 6",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 5175.81,
+      "ins_paid": 3284.13,
+      "adjustment": 1788.95,
+      "payments": 102.73,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "PAGE 6",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 6874.72,
+      "ins_paid": 4485.45,
+      "adjustment": 2339.56,
+      "payments": 49.71,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "PAGE 6-7",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 9246.87,
+      "ins_paid": 5816.55,
+      "adjustment": 3170.29,
+      "payments": 260.03,
+      "balance": 0.0,
+      "page": "6-7"
+    },
+    {
+      "treatment_date": "PAGE 7",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 6764.66,
+      "ins_paid": 4371.78,
+      "adjustment": 2266.9,
+      "payments": 125.98,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "PAGE 7",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 10334.6,
+      "ins_paid": 6176.83,
+      "adjustment": 3841.14,
+      "payments": 316.63,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "PAGE 7-8",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 7739.46,
+      "ins_paid": 4781.57,
+      "adjustment": 2752.33,
+      "payments": 205.56,
+      "balance": 0.0,
+      "page": "7-8"
+    },
+    {
+      "treatment_date": "PAGE 8",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Hudson Medical, PC",
+      "insurers": [
+        "Tricare"
+      ],
+      "third_parties": [],
+      "total_charges": 11727.38,
+      "ins_paid": 7269.09,
+      "adjustment": 3998.82,
+      "payments": 459.47,
+      "balance": 0.0,
+      "page": "8"
+    }
+  ],
+  "flagged": []
+}

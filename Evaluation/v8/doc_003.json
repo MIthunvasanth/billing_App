@@ -1,0 +1,88 @@
+{
+  "doc_id": "doc_003",
+  "meta": {
+    "doc_id": "doc_003",
+    "num_pages": 21,
+    "duration_seconds": 6.98,
+    "token_usage": {
+      "input": 44086,
+      "output": 392,
+      "total": 44478
+    },
+    "cost_usd": 0.091308
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 05/12/2024",
+      "cpt_codes": [],
+      "description": "SRS PATIENT PROFILE",
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [
+        "Cigna"
+      ],
+      "third_parties": [
+        "Omnisys Immunizations",
+        "McKesson Health PBM",
+        "SFS",
+        "Blink Health",
+        "Express Scripts",
+        "Paramount Lonestar",
+        "ScriptCycle",
+        "GoodRx",
+        "Caremark",
+        "OptumRx",
+        "Medco Health",
+        "Allwin",
+        "Argus",
+        "My Rx Card"
+      ],
+      "total_charges": 72346.56,
+      "ins_paid": 53972.03,
+      "adjustment": null,
+      "payments": 18374.53,
+      "balance": 0.0,
+      "page": "3-12"
+    },
+    {
+      "treatment_date": "05/12/2024 - 12/31/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Page 13",
+      "insurers": [],
+      "third_parties": [
+        "SFS",
+        "Cigna Healthspring",
+        "My Rx Card",
+        "Omnisys Immunizations",
+        "McKesson Health PBM",
+        "Blink Health",
+        "Express Scripts",
+        "Allwin",
+        "Medco Health",
+        "ScriptCycle",
+        "OptumRx",
+        "Argus",
+        "Paramount Lonestar",
+        "GoodRx",
+        "Caremark"
+      ],
+      "total_charges": 126304.01,
+      "ins_paid": 95231.08,
+      "adjustment": null,
+      "payments": 31072.93,
+      "balance": 0.0,
+      "page": "13-18"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 1,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Pharmacy/provider name is not visible in this chunk; extracted aggregate record from summary totals but provider cannot be confidently identified from pages 13-18 alone.",
+      "page": "13-18",
+      "severity": "medium"
+    }
+  ]
+}

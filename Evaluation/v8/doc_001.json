@@ -1,0 +1,1006 @@
+{
+  "doc_id": "doc_001",
+  "meta": {
+    "doc_id": "doc_001",
+    "num_pages": 21,
+    "duration_seconds": 24.59,
+    "token_usage": {
+      "input": 23690,
+      "output": 4357,
+      "total": 28047
+    },
+    "cost_usd": 0.082236
+  },
+  "records": [
+    {
+      "treatment_date": "10/28/2023 - 07/28/2024",
+      "cpt_codes": [
+        "90960"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 641.46,
+      "ins_paid": 424.45,
+      "adjustment": 211.54,
+      "payments": 5.47,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "12/11/2023",
+      "cpt_codes": [
+        "97535",
+        "99233"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 780.7,
+      "ins_paid": 392.79,
+      "adjustment": 387.91,
+      "payments": null,
+      "balance": 0.0,
+      "page": "6"
+    },
+    {
+      "treatment_date": "01/06/2024",
+      "cpt_codes": [
+        "99221",
+        "95921",
+        "72110",
+        "99215",
+        "99283"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 2027.91,
+      "ins_paid": 1174.65,
+      "adjustment": 831.39,
+      "payments": 21.87,
+      "balance": 0.0,
+      "page": "6-7"
+    },
+    {
+      "treatment_date": "02/27/2023",
+      "cpt_codes": [
+        "99214",
+        "45378",
+        "99281"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 686.3,
+      "ins_paid": 446.7,
+      "adjustment": 233.24,
+      "payments": 6.36,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "03/14/2024",
+      "cpt_codes": [
+        "99222",
+        "99283",
+        "87880",
+        "97032",
+        "90832"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 2389.12,
+      "ins_paid": 1372.77,
+      "adjustment": 1016.35,
+      "payments": null,
+      "balance": 0.0,
+      "page": "7"
+    },
+    {
+      "treatment_date": "09/15/2024",
+      "cpt_codes": [
+        "99203",
+        "73060",
+        "96374",
+        "99238",
+        "73562"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1153.04,
+      "ins_paid": 763.57,
+      "adjustment": 346.97,
+      "payments": 42.5,
+      "balance": 0.0,
+      "page": "7-8"
+    },
+    {
+      "treatment_date": "12/31/2024",
+      "cpt_codes": [
+        "A4627",
+        "97150"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 471.21,
+      "ins_paid": 270.7,
+      "adjustment": 200.51,
+      "payments": null,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "08/23/2023",
+      "cpt_codes": [
+        "73060"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 203.16,
+      "ins_paid": 115.78,
+      "adjustment": 87.38,
+      "payments": null,
+      "balance": 0.0,
+      "page": "8"
+    },
+    {
+      "treatment_date": "08/13/2024",
+      "cpt_codes": [
+        "99223",
+        "95923",
+        "43239",
+        "99231",
+        "93000"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1070.23,
+      "ins_paid": 505.18,
+      "adjustment": 562.51,
+      "payments": 2.54,
+      "balance": 0.0,
+      "page": "8-9"
+    },
+    {
+      "treatment_date": "04/11/2023",
+      "cpt_codes": [
+        "90658",
+        "99213",
+        "90970",
+        "90937",
+        "99282"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1691.39,
+      "ins_paid": 876.47,
+      "adjustment": 814.92,
+      "payments": null,
+      "balance": 0.0,
+      "page": "9"
+    },
+    {
+      "treatment_date": "03/04/2023",
+      "cpt_codes": [
+        "97018",
+        "71046",
+        "97110",
+        "90714",
+        "73562"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 983.6,
+      "ins_paid": 602.15,
+      "adjustment": 377.39,
+      "payments": 4.06,
+      "balance": 0.0,
+      "page": "9-10"
+    },
+    {
+      "treatment_date": "11/18/2024",
+      "cpt_codes": [
+        "99223",
+        "85027"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 624.77,
+      "ins_paid": 421.13,
+      "adjustment": 203.64,
+      "payments": null,
+      "balance": 0.0,
+      "page": "10"
+    },
+    {
+      "treatment_date": "07/10/2024",
+      "cpt_codes": [
+        "73562",
+        "73564",
+        "90832",
+        "99212"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 818.05,
+      "ins_paid": 398.37,
+      "adjustment": 419.68,
+      "payments": null,
+      "balance": 0.0,
+      "page": "10"
+    },
+    {
+      "treatment_date": "05/14/2023",
+      "cpt_codes": [
+        "99202",
+        "99282",
+        "99281"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 747.98,
+      "ins_paid": 442.53,
+      "adjustment": 305.45,
+      "payments": null,
+      "balance": 0.0,
+      "page": "10-11"
+    },
+    {
+      "treatment_date": "01/02/2024",
+      "cpt_codes": [
+        "90658"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 585.61,
+      "ins_paid": 387.86,
+      "adjustment": 179.42,
+      "payments": 18.33,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "02/27/2024",
+      "cpt_codes": [
+        "99283",
+        "72158"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 642.83,
+      "ins_paid": 326.77,
+      "adjustment": 273.89,
+      "payments": 42.17,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "08/17/2023",
+      "cpt_codes": [
+        "90963",
+        "97022"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 435.65,
+      "ins_paid": 222.19,
+      "adjustment": 205.68,
+      "payments": 7.78,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "02/09/2023",
+      "cpt_codes": [
+        "97014",
+        "99211",
+        "90935"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1120.58,
+      "ins_paid": 630.56,
+      "adjustment": 464.29,
+      "payments": 25.73,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "11/11/2024",
+      "cpt_codes": [
+        "66984"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 274.62,
+      "ins_paid": 148.53,
+      "adjustment": 126.09,
+      "payments": null,
+      "balance": 0.0,
+      "page": "11"
+    },
+    {
+      "treatment_date": "03/06/2024",
+      "cpt_codes": [
+        "76705",
+        "45378"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 435.04,
+      "ins_paid": 240.42,
+      "adjustment": 194.62,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "06/23/2023",
+      "cpt_codes": [
+        "72158",
+        "95923,59",
+        "27130",
+        "90472"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1430.62,
+      "ins_paid": 836.05,
+      "adjustment": 594.57,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "03/11/2024",
+      "cpt_codes": [
+        "95921"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 123.34,
+      "ins_paid": 69.39,
+      "adjustment": 53.95,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12"
+    },
+    {
+      "treatment_date": "11/21/2023",
+      "cpt_codes": [
+        "J2796",
+        "90963",
+        "93306",
+        "77067",
+        "88142"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1735.73,
+      "ins_paid": 923.24,
+      "adjustment": 812.49,
+      "payments": null,
+      "balance": 0.0,
+      "page": "12-13"
+    },
+    {
+      "treatment_date": "07/09/2024",
+      "cpt_codes": [
+        "90963",
+        "87880",
+        "J9035"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1202.98,
+      "ins_paid": 847.95,
+      "adjustment": 325.74,
+      "payments": 29.29,
+      "balance": 0.0,
+      "page": "13"
+    },
+    {
+      "treatment_date": "09/09/2024",
+      "cpt_codes": [
+        "99204",
+        "90935",
+        "27447",
+        "45380",
+        "95923"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 963.27,
+      "ins_paid": 607.49,
+      "adjustment": 355.78,
+      "payments": null,
+      "balance": 0.0,
+      "page": "13-14"
+    },
+    {
+      "treatment_date": "12/12/2023",
+      "cpt_codes": [
+        "95923,59",
+        "45378",
+        "99204"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 720.69,
+      "ins_paid": 369.06,
+      "adjustment": 349.11,
+      "payments": 2.52,
+      "balance": 0.0,
+      "page": "14"
+    },
+    {
+      "treatment_date": "05/10/2023",
+      "cpt_codes": [
+        "99284",
+        "90967"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 883.86,
+      "ins_paid": 651.85,
+      "adjustment": 232.01,
+      "payments": null,
+      "balance": 0.0,
+      "page": "14"
+    },
+    {
+      "treatment_date": "08/12/2024",
+      "cpt_codes": [
+        "90837",
+        "99233",
+        "97022"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1248.39,
+      "ins_paid": 774.36,
+      "adjustment": 474.03,
+      "payments": null,
+      "balance": 0.0,
+      "page": "14"
+    },
+    {
+      "treatment_date": "03/06/2024",
+      "cpt_codes": [
+        "45378"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 198.55,
+      "ins_paid": 135.58,
+      "adjustment": 62.97,
+      "payments": null,
+      "balance": 0.0,
+      "page": "14"
+    },
+    {
+      "treatment_date": "03/22/2024",
+      "cpt_codes": [
+        "93350",
+        "87880",
+        "96374",
+        "97530"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1021.46,
+      "ins_paid": 567.85,
+      "adjustment": 453.61,
+      "payments": null,
+      "balance": 0.0,
+      "page": "14-15"
+    },
+    {
+      "treatment_date": "09/05/2023",
+      "cpt_codes": [
+        "99222"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 211.83,
+      "ins_paid": 114.71,
+      "adjustment": 97.12,
+      "payments": null,
+      "balance": 0.0,
+      "page": "15"
+    },
+    {
+      "treatment_date": "01/13/2024",
+      "cpt_codes": [
+        "76830",
+        "99233",
+        "71048",
+        "90960",
+        "71048"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1367.35,
+      "ins_paid": 796.58,
+      "adjustment": 570.77,
+      "payments": null,
+      "balance": 0.0,
+      "page": "15"
+    },
+    {
+      "treatment_date": "05/10/2023",
+      "cpt_codes": [
+        "29881",
+        "95923,59",
+        "96372",
+        "97116",
+        "97110"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1921.91,
+      "ins_paid": 923.83,
+      "adjustment": 955.28,
+      "payments": 42.8,
+      "balance": 0.0,
+      "page": "15-16"
+    },
+    {
+      "treatment_date": "09/12/2024",
+      "cpt_codes": [
+        "97110",
+        "90960",
+        "99283",
+        "90658"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1035.56,
+      "ins_paid": 606.95,
+      "adjustment": 428.61,
+      "payments": null,
+      "balance": 0.0,
+      "page": "16"
+    },
+    {
+      "treatment_date": "12/24/2024",
+      "cpt_codes": [
+        "90970",
+        "99232",
+        "99215"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 917.5,
+      "ins_paid": 569.35,
+      "adjustment": 305.16,
+      "payments": 42.99,
+      "balance": 0.0,
+      "page": "16-17"
+    },
+    {
+      "treatment_date": "10/23/2023",
+      "cpt_codes": [
+        "97530",
+        "73110",
+        "97116",
+        "73564",
+        "97016"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1284.34,
+      "ins_paid": 761.39,
+      "adjustment": 522.95,
+      "payments": null,
+      "balance": 0.0,
+      "page": "17"
+    },
+    {
+      "treatment_date": "10/12/2024",
+      "cpt_codes": [
+        "80053",
+        "90834",
+        "90960",
+        "80053"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1207.39,
+      "ins_paid": 770.29,
+      "adjustment": 427.52,
+      "payments": 9.58,
+      "balance": 0.0,
+      "page": "17"
+    },
+    {
+      "treatment_date": "04/18/2024",
+      "cpt_codes": [
+        "72110",
+        "90837",
+        "99214,25",
+        "97032",
+        "99233"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1375.71,
+      "ins_paid": 616.05,
+      "adjustment": 739.37,
+      "payments": 20.29,
+      "balance": 0.0,
+      "page": "17-18"
+    },
+    {
+      "treatment_date": "03/01/2024",
+      "cpt_codes": [
+        "71048",
+        "74177",
+        "90970"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1361.26,
+      "ins_paid": 880.19,
+      "adjustment": 432.16,
+      "payments": 48.91,
+      "balance": 0.0,
+      "page": "18"
+    },
+    {
+      "treatment_date": "08/16/2024",
+      "cpt_codes": [
+        "90960",
+        "71048",
+        "90967",
+        "Q0163",
+        "97010"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 2057.24,
+      "ins_paid": 1045.1,
+      "adjustment": 963.18,
+      "payments": 48.96,
+      "balance": 0.0,
+      "page": "18-19"
+    },
+    {
+      "treatment_date": "04/13/2023",
+      "cpt_codes": [
+        "45378",
+        "73562",
+        "80061",
+        "77067"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1733.22,
+      "ins_paid": 1044.47,
+      "adjustment": 688.75,
+      "payments": null,
+      "balance": 0.0,
+      "page": "19"
+    },
+    {
+      "treatment_date": "09/24/2024",
+      "cpt_codes": [
+        "93015"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 588.09,
+      "ins_paid": 391.74,
+      "adjustment": 196.35,
+      "payments": null,
+      "balance": 0.0,
+      "page": "19"
+    },
+    {
+      "treatment_date": "06/20/2023",
+      "cpt_codes": [
+        "85610",
+        "97110",
+        "97750",
+        "97140"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1338.82,
+      "ins_paid": 710.87,
+      "adjustment": 627.95,
+      "payments": null,
+      "balance": 0.0,
+      "page": "19-20"
+    },
+    {
+      "treatment_date": "04/21/2024",
+      "cpt_codes": [
+        "76705"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 401.42,
+      "ins_paid": 220.18,
+      "adjustment": 181.24,
+      "payments": null,
+      "balance": 0.0,
+      "page": "20"
+    },
+    {
+      "treatment_date": "07/23/2023",
+      "cpt_codes": [
+        "85610",
+        "45380",
+        "99212"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1184.68,
+      "ins_paid": 745.51,
+      "adjustment": 367.46,
+      "payments": 71.71,
+      "balance": 0.0,
+      "page": "20"
+    },
+    {
+      "treatment_date": "09/13/2024",
+      "cpt_codes": [
+        "27130",
+        "90970"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 395.89,
+      "ins_paid": 240.39,
+      "adjustment": 155.5,
+      "payments": null,
+      "balance": 0.0,
+      "page": "20"
+    },
+    {
+      "treatment_date": "12/01/2023",
+      "cpt_codes": [
+        "97018",
+        "96372",
+        "95923"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1487.64,
+      "ins_paid": 714.83,
+      "adjustment": 674.19,
+      "payments": 98.62,
+      "balance": 0.0,
+      "page": "20-21"
+    },
+    {
+      "treatment_date": "07/24/2024",
+      "cpt_codes": [
+        "97022",
+        "73562",
+        "73030",
+        "97750"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 970.54,
+      "ins_paid": 581.25,
+      "adjustment": 353.94,
+      "payments": 35.35,
+      "balance": 0.0,
+      "page": "21"
+    },
+    {
+      "treatment_date": "04/30/2023",
+      "cpt_codes": [
+        "99232",
+        "A4637",
+        "97026",
+        "90714"
+      ],
+      "description": null,
+      "provider": "Newton Rehabilitation Center",
+      "insurers": [
+        "Molina Healthcare"
+      ],
+      "third_parties": [],
+      "total_charges": 1048.25,
+      "ins_paid": 728.42,
+      "adjustment": 319.83,
+      "payments": null,
+      "balance": 0.0,
+      "page": "21"
+    }
+  ],
+  "flagged": []
+}

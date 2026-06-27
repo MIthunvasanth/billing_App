@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_004",
+  "meta": {
+    "doc_id": "doc_004",
+    "num_pages": 17,
+    "duration_seconds": 7.72,
+    "token_usage": {
+      "input": 31790,
+      "output": 356,
+      "total": 32146
+    },
+    "cost_usd": 0.066428
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy prescription fills for Gregory Tate",
+      "provider": "Mason Care Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx",
+        "Medco Health",
+        "ScriptCycle",
+        "Paramount Lonestar",
+        "Blink Health",
+        "Express Scripts",
+        "Caremark",
+        "My Rx Card",
+        "Argus",
+        "McKesson Health PBM",
+        "OptumRx",
+        "SFS",
+        "Cigna Healthspring",
+        "Allwin",
+        "Omnisys Immunizations"
+      ],
+      "total_charges": 123717.2,
+      "ins_paid": 36477.46,
+      "adjustment": null,
+      "payments": 31463.51,
+      "balance": null,
+      "page": "3-17"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "adjustment",
+        "balance"
+      ],
+      "reason": "No adjustment (write-off/discount) or explicit remaining balance is shown for the pharmacy summary; the summary gives only total charges, insurance paid, third party paid, and patient paid.",
+      "page": "17",
+      "severity": "medium"
+    }
+  ]
+}

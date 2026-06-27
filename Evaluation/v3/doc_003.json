@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_003",
+  "meta": {
+    "doc_id": "doc_003",
+    "num_pages": 21,
+    "duration_seconds": 6.48,
+    "token_usage": {
+      "input": 38090,
+      "output": 357,
+      "total": 38447
+    },
+    "cost_usd": 0.079036
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Wilson Medical Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Immunizations",
+        "Blink Health",
+        "ScriptCycle",
+        "Express Scripts",
+        "McKesson Health PBM",
+        "Health PBM",
+        "OptumRx",
+        "Caremark",
+        "Cigna Healthspring",
+        "GoodRx",
+        "Lonestar",
+        "SFS",
+        "My Rx Card",
+        "Allwin (USFLU)",
+        "Medco Health",
+        "Paramount",
+        "Argus"
+      ],
+      "total_charges": 126304.01,
+      "ins_paid": 95231.08,
+      "adjustment": null,
+      "payments": 31072.93,
+      "balance": 0.0,
+      "page": "18"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Adjustment and patient payment fields are not itemized and cannot be determined separately from the summary data. The balance is derived as the remaining patient responsibility after insurer/third party credits.",
+      "page": "18",
+      "severity": "medium"
+    }
+  ]
+}

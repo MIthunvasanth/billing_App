@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_004",
+  "meta": {
+    "doc_id": "doc_004",
+    "num_pages": 17,
+    "duration_seconds": 9.66,
+    "token_usage": {
+      "input": 31887,
+      "output": 359,
+      "total": 32246
+    },
+    "cost_usd": 0.066646
+  },
+  "records": [
+    {
+      "treatment_date": "01/04/2023 - 12/31/2024",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Mason Care Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "GoodRx",
+        "Omnisys Immunizations",
+        "Argus",
+        "My Rx Card",
+        "Express Scripts",
+        "Blink Health",
+        "Caremark",
+        "Paramount Lonestar",
+        "Cigna Healthspring",
+        "ScriptCycle",
+        "OptumRx",
+        "McKesson Health PBM",
+        "Allwin USFLU)",
+        "Medco Health",
+        "SFS"
+      ],
+      "total_charges": 123717.2,
+      "ins_paid": 36477.46,
+      "adjustment": null,
+      "payments": 31463.51,
+      "balance": null,
+      "page": "3-17"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "adjustment",
+        "balance"
+      ],
+      "reason": "No explicit adjustment or remaining balance field is shown on the summary page or elsewhere in the report; only patient paid, insurance paid, and third party fields are present, making the total adjustment and current balance unresolvable.",
+      "page": "17",
+      "severity": "medium"
+    }
+  ]
+}

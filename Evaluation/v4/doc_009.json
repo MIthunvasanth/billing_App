@@ -1,0 +1,333 @@
+{
+  "doc_id": "doc_009",
+  "meta": {
+    "doc_id": "doc_009",
+    "num_pages": 129,
+    "duration_seconds": 28.13,
+    "token_usage": {
+      "input": 255904,
+      "output": 2375,
+      "total": 258279
+    },
+    "cost_usd": 0.530808
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 12/24/2020",
+      "cpt_codes": [],
+      "description": "PHARMACY PATIENT PROFILE",
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [],
+      "third_parties": [
+        "Allwin",
+        "Caremark",
+        "OptumRx",
+        "Blink Health",
+        "GoodRx",
+        "ScriptCycle",
+        "Benefit Plan",
+        "My Rx Card",
+        "Express Scripts",
+        "PBM Program",
+        "Argus",
+        "Medco Health",
+        "Omnisys Immunizations",
+        "Cigna Healthspring",
+        "Lonestar",
+        "Paramount",
+        "SFS"
+      ],
+      "total_charges": null,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": null,
+      "balance": null,
+      "page": "3-50"
+    },
+    {
+      "treatment_date": "12/24/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Medco Health",
+      "insurers": [],
+      "third_parties": [
+        "Medco Health"
+      ],
+      "total_charges": 359.73,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 67.3,
+      "balance": 292.43,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/24/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 286.16,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 49.49,
+      "balance": 236.67,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/25/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Blink Health",
+      "insurers": [],
+      "third_parties": [
+        "Blink Health"
+      ],
+      "total_charges": 260.94,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 63.45,
+      "balance": 197.49,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/26/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys"
+      ],
+      "total_charges": 418.29,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 138.44,
+      "balance": 279.85,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/27/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Immunizations",
+      "insurers": [],
+      "third_parties": [
+        "Immunizations"
+      ],
+      "total_charges": 337.01,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 126.38,
+      "balance": 210.63,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/28/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys"
+      ],
+      "total_charges": 143.51,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 48.32,
+      "balance": 95.19,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/28/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Argus",
+      "insurers": [],
+      "third_parties": [
+        "Argus"
+      ],
+      "total_charges": 468.65,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 97.35,
+      "balance": 371.3,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/29/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "SFS",
+      "insurers": [],
+      "third_parties": [
+        "SFS"
+      ],
+      "total_charges": 441.83,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 119.59,
+      "balance": 322.24,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/29/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "My Rx Card",
+      "insurers": [],
+      "third_parties": [
+        "My Rx Card"
+      ],
+      "total_charges": 326.68,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 96.0,
+      "balance": 230.68,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/29/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys"
+      ],
+      "total_charges": 261.64,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 51.98,
+      "balance": 209.66,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/29/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys"
+      ],
+      "total_charges": 19.2,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 6.79,
+      "balance": 12.41,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/30/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys"
+      ],
+      "total_charges": 39.43,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 13.14,
+      "balance": 26.29,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/31/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys"
+      ],
+      "total_charges": 282.91,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 65.71,
+      "balance": 217.2,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/31/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys"
+      ],
+      "total_charges": 51.07,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 13.13,
+      "balance": 37.94,
+      "page": "51"
+    },
+    {
+      "treatment_date": "12/31/2020",
+      "cpt_codes": [],
+      "description": null,
+      "provider": "Omnisys",
+      "insurers": [],
+      "third_parties": [
+        "Omnisys"
+      ],
+      "total_charges": 237.06,
+      "ins_paid": null,
+      "adjustment": null,
+      "payments": 46.54,
+      "balance": 190.52,
+      "page": "51"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "total_charges",
+        "ins_paid",
+        "adjustment",
+        "payments",
+        "balance"
+      ],
+      "reason": "Ledger structure lists each fill, but only copay/charge breakdown per transaction. No overall period total or explicit summary; aggregate financial fields cannot be extracted or summed for entire period. No explicit per-record insurance/third party breakdown by amount. Out of scope to sum or infer totals from 1000+ lines.",
+      "page": "3-50",
+      "severity": "high"
+    },
+    {
+      "row": 1,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurer payment or adjustment fields present. Pharmacy copay likely indicates patient out-of-pocket only; remainder may be balance, but document layout does not confirm insurer payment.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 2,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurer payment or adjustment fields present. Pharmacy copay likely indicates patient out-of-pocket only; remainder may be balance, but document layout does not confirm insurer payment.",
+      "page": "51",
+      "severity": "medium"
+    },
+    {
+      "row": 3,
+      "fields": [
+        "ins_paid",
+        "adjustment"
+      ],
+      "reason": "No explicit insurer payment or adjustment fields present. Pharmacy copay likely indicates patient out-of-pocket only; remainder may be balance, but document layout does not confirm insurer payment.",
+      "page": "51",
+      "severity": "medium"
+    }
+  ]
+}

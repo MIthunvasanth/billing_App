@@ -1,0 +1,494 @@
+{
+  "doc_id": "doc_009",
+  "meta": {
+    "doc_id": "doc_009",
+    "num_pages": 129,
+    "duration_seconds": 66.43,
+    "token_usage": {
+      "input": 324193,
+      "output": 44865,
+      "total": 369058
+    },
+    "cost_usd": 1.007306
+  },
+  "records": [
+    {
+      "treatment_date": "01/01/2017 - 12/31/2024",
+      "cpt_codes": [],
+      "description": "Pharmacy Patient Profile",
+      "provider": "Patton Compounding Pharmacy",
+      "insurers": [
+        "Cigna",
+        "Paramount",
+        "Allwin",
+        "Lonestar",
+        "Supplemental Coverage",
+        "Third Party Program",
+        "Express Scripts",
+        "Third Party",
+        "Healthspring",
+        "SFS",
+        "Argus",
+        "GoodRx",
+        "Blink Health",
+        "Omnisys Immunizations",
+        "ScriptCycle",
+        "PBM Program",
+        "Supplemental",
+        "Caremark",
+        "My Rx Card",
+        "HURST",
+        "Immunizations",
+        "Cigna Healthspring"
+      ],
+      "third_parties": [
+        "Allwin",
+        "SFS",
+        "Caremark",
+        "Blink Health",
+        "My Rx Card",
+        "Express Scripts",
+        "OptumRx",
+        "Benefit Plan",
+        "GoodRx",
+        "Medco Health",
+        "ScriptCycle",
+        "Argus",
+        "PBM Program",
+        "Paramount Lonestar",
+        "Omnisys Immunizations",
+        "Discount Program",
+        "Cigna Healthspring",
+        "Healthspring",
+        "McKesson Health PBM",
+        "Supplemental Coverage",
+        "Third Party Program",
+        "Discount",
+        "Third Party",
+        "HURST",
+        "Program",
+        "PBM",
+        "Third Party Program HURST",
+        "McKesson Health PBM HURST",
+        "PBM CHRISTOPHER",
+        "Argus Discount",
+        "PBM Program HURST"
+      ],
+      "total_charges": 1699901.27,
+      "ins_paid": 972275.83,
+      "adjustment": 314249.07,
+      "payments": 61315.16,
+      "balance": 88116.62,
+      "page": "3-10"
+    }
+  ],
+  "flagged": [
+    {
+      "row": 0,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "No explicit insurance paid, adjustment, or remaining balance columns are present in the patient profile. 3rd party payers (PBMs, discount programs, etc.) are listed, but total insurer/adjustment/balance fields are not available in the data shown. Only total charges and patient copay/payments can be summed.",
+      "page": "3-10",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Pharmacy document shows charge and copay, but does not specify insurer/third party payment breakdown; unable to compute exact insurer paid/adjustment without further information.",
+      "page": "11-12",
+      "severity": "medium"
+    },
+    {
+      "row": 35,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 36,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 37,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 38,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 39,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 40,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 41,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 42,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 43,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 44,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 45,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 46,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 47,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 48,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 49,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 50,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 51,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 52,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 53,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 54,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 55,
+      "fields": [
+        "provider"
+      ],
+      "reason": "Provider name (pharmacy) cannot be determined from this page; field left as 'Unknown Pharmacy'.",
+      "page": "18",
+      "severity": "low"
+    },
+    {
+      "row": 199,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance payment, adjustment, and final balance not provided in the document. Only charge and copay columns present.",
+      "page": "49-56",
+      "severity": "medium"
+    },
+    {
+      "row": 200,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Insurance payment, adjustment, and final balance not provided in the document. Only charge and copay columns present.",
+      "page": "49-56",
+      "severity": "medium"
+    },
+    {
+      "row": 307,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy records do not explicitly show insurer, adjustment, or patient payment amounts; only charge and copay columns are present.",
+      "page": "71-77",
+      "severity": "medium"
+    },
+    {
+      "row": 308,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy records do not explicitly show insurer, adjustment, or patient payment amounts; only charge and copay columns are present.",
+      "page": "71-77",
+      "severity": "medium"
+    },
+    {
+      "row": 309,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy records do not explicitly show insurer, adjustment, or patient payment amounts; only charge and copay columns are present.",
+      "page": "71-77",
+      "severity": "medium"
+    },
+    {
+      "row": 310,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy records do not explicitly show insurer, adjustment, or patient payment amounts; only charge and copay columns are present.",
+      "page": "71-77",
+      "severity": "medium"
+    },
+    {
+      "row": 311,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "payments"
+      ],
+      "reason": "Pharmacy records do not explicitly show insurer, adjustment, or patient payment amounts; only charge and copay columns are present.",
+      "page": "71-77",
+      "severity": "medium"
+    },
+    {
+      "row": 312,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 313,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 314,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 315,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 316,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 317,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 318,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 319,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 320,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": 321,
+      "fields": [
+        "ins_paid",
+        "adjustment",
+        "balance"
+      ],
+      "reason": "Unable to determine insurer payment, adjustments, or balance \u2014 only charge and copay shown, copay treated as payments.",
+      "page": "78",
+      "severity": "medium"
+    },
+    {
+      "row": null,
+      "fields": [
+        "treatment_date"
+      ],
+      "reason": "Periodic billing detected: 381 raw records merged to 25, then aggregated to 1 summary record.",
+      "page": "1",
+      "severity": "low"
+    }
+  ]
+}
