@@ -4,6 +4,35 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-27] — M4: Next.js frontend (6 screens, Dockerfile, docker-compose web service)
+
+### Added
+- `frontend/package.json`, `tsconfig.json`, `next.config.js` (output: standalone), `tailwind.config.ts`, `postcss.config.js`
+- `frontend/Dockerfile` — 3-stage build (deps/builder/runner); `ARG NEXT_PUBLIC_API_BASE_URL` baked at build time
+- `frontend/.env.local` — local dev points to http://localhost:8000
+- `frontend/public/robots.txt` — required for standalone COPY
+- `frontend/src/lib/auth.ts` — getToken/setToken/clearToken via localStorage
+- `frontend/src/lib/api.ts` — apiFetch with Bearer auth, 401→redirect, ApiError class; typed Job/BillingRecord/FlaggedRecord/ExtractionResult; all /jobs and /auth endpoints
+- `frontend/src/app/layout.tsx` + `globals.css` — dark bg #0F1117, system fonts, thin scrollbars
+- `frontend/src/app/page.tsx` — root redirect: token present → /dashboard, else → /auth/signin
+- `frontend/src/app/auth/signup/page.tsx` — name/email/password → POST /auth/register → /dashboard
+- `frontend/src/app/auth/signin/page.tsx` — email/password → POST /auth/login → /dashboard
+- `frontend/src/app/dashboard/page.tsx` — upload section + job list table; polls every 5s; auth guard
+- `frontend/src/app/jobs/[id]/page.tsx` — job detail: metrics card, BillingRecord table, FlaggedRecord list (severity color-coded); 404 shows "Job not found" without leaking ID; polls while processing
+
+### Changed
+- `docker-compose.yml` — added `web` service with `build.args` for NEXT_PUBLIC_API_BASE_URL (build-time embed), depends on api healthcheck
+
+### Design notes
+- Dark-neutral palette: surface #1A1D27, accent #4F9CF9, borders #2A2D3A
+- `font-mono` on all IDs, CPT codes, dollar values — data-tool aesthetic
+- Status badges: pending=gray, processing=amber, completed=green, failed=red
+- Flagged severity: low=yellow, medium=orange, high=red
+
+Files touched: `frontend/` (all new), `docker-compose.yml`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-27] — Tests: unit tests pass; conftest --base-url renamed to avoid plugin conflict
 
 ### Added

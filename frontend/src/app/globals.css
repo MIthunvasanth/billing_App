@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #0F1117;
+  color: #E8EAF0;
+}
+
+/* Thin scrollbar for data tables */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0F1117; }
+::-webkit-scrollbar-thumb { background: #2A2D3A; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3A3D4A; }
