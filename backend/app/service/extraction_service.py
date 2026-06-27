@@ -75,8 +75,10 @@ class ExtractionService(BaseService):
                 "output": output_tokens,
                 "total": input_tokens + output_tokens,
             }
-            # gpt-4o-mini pricing: $0.15/1M input tokens, $0.60/1M output tokens
-            cost_usd = (input_tokens * 0.00000015) + (output_tokens * 0.0000006)
+            # gpt-5.4-mini (classifier) + gpt-5.4 (extraction) pricing.
+            # Rates below should be verified against current OpenAI pricing at submission time.
+            # Using gpt-5.4 blended estimate: $2/1M input, $8/1M output.
+            cost_usd = (input_tokens * 0.000002) + (output_tokens * 0.000008)
 
             result_data = {
                 "records": [r.model_dump() for r in extraction_output.records],

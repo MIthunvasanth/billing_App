@@ -4,6 +4,19 @@ Newest entries at top. Updated every session per CLAUDE.md requirement.
 
 ---
 
+## [2026-06-27] — Required deliverables: AGENTS.md, README.md, docs/design.md
+
+### Added
+- `AGENTS.md` — AI agent working guide: repo layout, all run commands, two-DB-role pattern, identity propagation, worker identity, alembic rule, API envelope, critical files, do-not list
+- `docs/design.md` — Full design document: auth topology (opaque token, session table), RLS policies (4 policies, SET LOCAL via set_config true), connection pooling safety, worker two-context-manager pattern, atomic claiming (FOR UPDATE SKIP LOCKED CTE), stall recovery, accuracy analysis (doc_002/008 date range issue, doc_009/010 periodic billing aggregation), extending the design (tenant isolation, cross-tenant sharing, distributed workers)
+
+### Changed
+- `README.md` — Overwritten with ops guide: prerequisites, quick start, end-to-end flow, smoke tests, tear down, local dev, env var table, architecture notes
+
+Files touched: `AGENTS.md`, `README.md`, `docs/design.md`, `CHANGELOG.md`
+
+---
+
 ## [2026-06-27] — M4: Next.js frontend (6 screens, Dockerfile, docker-compose web service)
 
 ### Added

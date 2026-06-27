@@ -138,7 +138,7 @@ Until implemented, the large char budget is the primary safeguard. Flag document
 
 **What happens:**
 1. Take first 800 characters of each page (preview)
-2. Send all previews to a lightweight classifier agent (`gpt-4.1-mini`)
+2. Send all previews to a lightweight classifier agent (`gpt-5.4-mini`)
 3. Classifier identifies which pages are **summary/ledger pages** (compact table with many rows) vs **detail/itemized pages** (1–3 records with expanded line items)
 4. Return only the summary pages for extraction
 
@@ -172,7 +172,7 @@ def _build_chunks(pages):
 **Why chunk by characters, not page count:**
 Medical billing pages vary wildly in density — a summary page with 50 rows might be 50,000 chars; a single pharmacy record page might be 2,000 chars. Fixed page-count chunks (e.g. "3 pages") fail on dense documents. Character budget ensures each API call stays under the model's context window regardless of page density.
 
-**Token budget:** 60k tokens of page content leaves ~68k tokens for system prompt, user prompt overhead, and structured output — well within `gpt-4.1`'s context.
+**Token budget:** 60k tokens of page content leaves ~68k tokens for system prompt, user prompt overhead, and structured output — well within `gpt-5.4`'s context.
 
 ### 5b. Parallel Execution
 
@@ -188,7 +188,7 @@ chunk_results = await asyncio.gather(
 
 ### 5c. Agent Prompt Structure
 
-Each chunk is sent to `gpt-4.1` with:
+Each chunk is sent to `gpt-5.4` with:
 - **System prompt** (`extraction/system.j2`): extraction rules (field definitions, column disambiguation, CPT code handling, flagging rules)
 - **User prompt** (`extraction/user.j2`): full page text embedded inline
 
@@ -288,7 +288,7 @@ On failure (after retries exhausted):
 await job_dao.update_status(session, job_id, status="failed", error=str(exc))
 ```
 
-**Cost calculation** (gpt-4.1 pricing):
+**Cost calculation** (gpt-5.4 pricing):
 ```
 cost = (input_tokens × $0.002/1k) + (output_tokens × $0.008/1k)
 ```
@@ -322,7 +322,7 @@ RLS enforces isolation — another user's `job_id` returns the same 404 as a non
 | Parallel chunk execution with `Semaphore(4)` | Unbounded parallel or sequential | Wall-clock ≈ max(chunks); semaphore prevents 429 rate-limit errors |
 | Deterministic payments/balance fix | Prompt instruction | Model ignored prompt; code is reliable |
 | Two-phase classify → extract | Extract all pages always | Avoids detail-page noise; finds summary anywhere |
-| `gpt-4.1` (extract) + `gpt-4.1-mini` (classify) | `gpt-4o-mini` | 1M context window; better instruction following; `gpt-4o-mini` (128k) would overflow on 60k-token chunks |
+| `gpt-5.4` (extract) + `gpt-5.4-mini` (classify) | `gpt-4o-mini` | 1M context window; better instruction following; `gpt-4o-mini` (128k) would overflow on 60k-token chunks |
 | `page` field typed `str` | `int` | Accepts both `"6"` and `"6-7"` without structured-output validation failure |
 | pdfplumber | PyPDF2 | Preserves column alignment in billing tables |
 | Classification tokens counted in totals | Extraction-only token count | `cost_usd` reflects true full-pipeline spend |

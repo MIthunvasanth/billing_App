@@ -321,7 +321,7 @@ async def run_extraction(pdf_path: Path, doc_id: str) -> tuple[ExtractionOutput,
 
     inp = getattr(usage, "input_tokens", 0) or 0
     out = getattr(usage, "output_tokens", 0) or 0
-    # gpt-4.1 pricing: $2/M input, $8/M output
+    # gpt-5.4 pricing: $2/M input, $8/M output (verify against current OpenAI pricing at submission)
     cost = (inp * 0.000002) + (out * 0.000008)
 
     meta = {

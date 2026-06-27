@@ -57,7 +57,7 @@ class AgentFactory:
                 "Cover pages, signature pages, and authorization pages are NOT summary pages.\n"
                 "Return has_summary=true and ALL matching summary page numbers."
             ),
-            model="gpt-4.1-mini",
+            model="gpt-5.4-mini",
             output_type=PageClassification,
             tools=[],
         )
@@ -76,7 +76,7 @@ class AgentFactory:
         return Agent[RunContext](
             name="extraction_agent",
             instructions=instructions,
-            model="gpt-4.1",
+            model="gpt-5.4",
             output_type=ExtractionOutput,
             tools=[],
         )
